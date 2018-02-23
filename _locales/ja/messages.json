@@ -1,0 +1,32 @@
+{
+  "alePunyNotificationBody": {
+	"message": "本当にアクセスしようとしているドメイン名:\n"
+  },
+  "alePunyNotificationTitle": {
+	"message": "注意！国際化ドメインのサイトです"
+  },
+  "aleScamNotificationBody": {
+	"message": "ドメイン名:\n"
+  },
+  "aleScamNotificationTitle": {
+	"message": "詐欺の疑いのあるサイトです！"
+  },
+  "trustedTitle": {
+	"message": "信頼できるサイトです"
+  },
+  "badgeTitle": {
+	"message": "仮想通貨セーフブラウジング"
+  },
+  "extAuthor": {
+	"message": "Crypto KAERU"
+  },
+  "extDescription": {
+	"message": "仮想通貨の5000以上の詐欺サイトと紛らわしい国際化ドメイン名(Punycode)をチェックし警告します。主要な取引所はグリーンのアイコンで安全を示します。"
+  },
+  "extName": {
+	"message": "仮想通貨セーフブラウジング"
+  },
+  "labAlert": {
+	"message": "デスクトップ通知を表示する（推奨）"
+  }
+}

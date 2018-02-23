@@ -1,0 +1,48 @@
+{
+  "author": "__MSG_extAuthor__",
+  "background": {
+	"scripts": [
+	  "/js/URI.js",
+	  "/js/blacklist.js",
+	  "/js/whitelist.js",
+	  "/js/background.js"
+	]
+  },
+  "browser_action": {
+	"default_icon": "img/blue.png",
+	"default_name": "__MSG_badgeTitle__",
+	"default_popup": "ui/options.html"
+  },
+  "content_scripts": [
+	{
+	  "js": [
+		"/js/content.js"
+	  ],
+	  "matches": [
+		"http://*/*",
+		"https://*/*"
+	  ],
+	  "run_at": "document_end"
+	}
+  ],
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "icons": {
+	"128": "img/blue_128.png",
+	"16": "img/blue.png",
+	"48": "img/blue_128.png"
+  },
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "permissions": [
+	"tabs",
+	"storage",
+	"notifications",
+	"http://*/*",
+	"https://*/*"
+  ],
+  "version": "1.0",
+  "web_accessible_resources": [
+	"/js/injection.js"
+  ]
+}

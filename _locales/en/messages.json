@@ -1,0 +1,32 @@
+{
+   "alePunyNotificationBody": {
+      "message": "Decoded domain:\n"
+   },
+   "alePunyNotificationTitle": {
+      "message": "Watch out! Punycode domain"
+   },
+   "aleScamNotificationBody": {
+      "message": "Domain:\n"
+   },
+   "aleScamNotificationTitle": {
+      "message": "May be a SCAM!!"
+   },
+   "trustedTitle": {
+      "message": "Trusted site"
+   },
+   "badgeTitle": {
+      "message": "Cryptocurrency Safe Browsing"
+   },
+   "extAuthor": {
+      "message": "Crypto KAERU"
+   },
+   "extDescription": {
+      "message": "That warns its users when they visit URL addresses with Punycode sites or scam sites(over 5000 Domains)."
+   },
+   "extName": {
+      "message": "Cryptocurrency Safe Browsing"
+   },
+   "labAlert": {
+      "message": "Show alerts as a desktop notification"
+   }
+}
