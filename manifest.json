@@ -2,6 +2,7 @@
   "author": "__MSG_extAuthor__",
   "background": {
 	"scripts": [
+	  "/js/SecondLevelDomains.js",
 	  "/js/URI.js",
 	  "/js/blacklist.js",
 	  "/js/whitelist.js",
@@ -41,7 +42,7 @@
 	"http://*/*",
 	"https://*/*"
   ],
-  "version": "1.0",
+  "version": "1.0.1",
   "web_accessible_resources": [
 	"/js/injection.js"
   ]
