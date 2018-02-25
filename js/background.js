@@ -91,16 +91,37 @@ function doCheckAction(currentUrl, eventType) {
 
 chrome.extension.onRequest.addListener(function (request, sender) {
 	if (request.loaded) {
+		var tabId = sender.tab.id;
 		chrome.tabs.query({active: true}, function (tabArray) {
-			var currentURL = tabArray[0].url;
-			doCheckAction(currentURL, "onRequest");
+			tabArray.forEach(function (tab) {
+				if (tab.id === tabId) {
+					var currentURL = tab.url;
+					doCheckAction(currentURL, "onRequest");
+				}
+			});
 		});
 	}
 });
 
 chrome.tabs.onActivated.addListener(function (activeInfo) {
+	var tabId = activeInfo.tabId;
 	chrome.tabs.query({active: true}, function (tabArray) {
-		var currentURL = tabArray[0].url;
-		doCheckAction(currentURL, "onActivated");
+		tabArray.forEach(function (tab) {
+			if (tab.id === tabId) {
+				var currentURL = tab.url;
+				doCheckAction(currentURL, "onActivated");
+			}
+		});
+	});
+});
+
+chrome.windows.onFocusChanged.addListener(function (windowId) {
+	chrome.tabs.query({active: true}, function (tabs) {
+		tabs.forEach(function (tab) {
+			if (tab.windowId === windowId) {
+				var currentURL = tab.url;
+				doCheckAction(currentURL, "onActivated");
+			}
+		});
 	});
 });

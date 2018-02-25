@@ -122,5 +122,15 @@ const whiteList = [
 	"ciphrex.com",
 	"xapo.com",
 	"airbitz.co",
-	"bither.net"
+	"bither.net",
+	"mr.exchange",
+	"coinsmarkets.com",
+	"etherdelta.com",
+	"genesis-mining.com",
+	"hashflare.io",
+	"hashing24.com",
+	"hashnest.com",
+	"bitcoin.com",
+	"minergate.com",
+	"miningrigrentals.com"
 ];
