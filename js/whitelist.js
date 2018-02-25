@@ -132,5 +132,17 @@ const whiteList = [
 	"hashnest.com",
 	"bitcoin.com",
 	"minergate.com",
-	"miningrigrentals.com"
+	"miningrigrentals.com",
+	"cryptokitsune.com",
+	"ethereum.org",
+	"litecoin.org",
+	"nem.io",
+	"explorer.ournem.com",
+	"chain.nem.ninja",
+	"ripple.com",
+	"etherchain.org",
+	"etherscan.io",
+	"blocksafe.network",
+	"blocksafefoundation.com",
+	"counterparty.io"
 ];
