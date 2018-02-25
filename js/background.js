@@ -16,15 +16,11 @@ chrome.storage.sync.get("config", function (storage) {
 	}
 });
 
-function doCheckAction(currentUrl, eventType) {
+function doCheckAction(currentUrl, eventType, tabActive) {
 
 	var temp_uri = new URI(currentUrl);
 	var hostName = temp_uri.hostname();
 	var domainName = temp_uri.domain();
-
-	chrome.browserAction.setTitle({title: chrome.i18n.getMessage("badgeTitle")});
-	chrome.browserAction.setBadgeText({"text": ""});
-	chrome.browserAction.setIcon({path: "/img/blue.png"});
 
 	var punycodeStr = "xn--";
 	var check_type = "";
@@ -52,10 +48,12 @@ function doCheckAction(currentUrl, eventType) {
 				});
 			}
 
-			chrome.browserAction.setIcon({path: "/img/red.png"});
-			chrome.browserAction.setBadgeText({"text": "BAD"});
-			chrome.browserAction.setBadgeBackgroundColor({color: "red"});
-			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("aleScamNotificationTitle")});
+			if (tabActive) {
+				chrome.browserAction.setIcon({path: "/img/red.png"});
+				chrome.browserAction.setBadgeText({"text": "BAD"});
+				chrome.browserAction.setBadgeBackgroundColor({color: "red"});
+				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("aleScamNotificationTitle")});
+			}
 
 		}
 		else if (check_type === "PUNY") {
@@ -70,17 +68,28 @@ function doCheckAction(currentUrl, eventType) {
 				});
 			}
 
-			chrome.browserAction.setIcon({path: "/img/red.png"});
-			chrome.browserAction.setBadgeText({"text": "Puny"});
-			chrome.browserAction.setBadgeBackgroundColor({color: "red"});
-			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePunyNotificationTitle")});
+			if (tabActive) {
+				chrome.browserAction.setIcon({path: "/img/red.png"});
+				chrome.browserAction.setBadgeText({"text": "Puny"});
+				chrome.browserAction.setBadgeBackgroundColor({color: "red"});
+				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePunyNotificationTitle")});
+			}
 
 		}
 		else if (check_type === "WHITE") {
-			chrome.browserAction.setIcon({path: "/img/green.png"});
-			chrome.browserAction.setBadgeText({"text": "✔"});
-			chrome.browserAction.setBadgeBackgroundColor({color: "green"});
-			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("trustedTitle")});
+			if (tabActive) {
+				chrome.browserAction.setIcon({path: "/img/green.png"});
+				chrome.browserAction.setBadgeText({"text": "✔"});
+				chrome.browserAction.setBadgeBackgroundColor({color: "green"});
+				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("trustedTitle")});
+			}
+		}
+		else {
+			if (tabActive) {
+				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("badgeTitle")});
+				chrome.browserAction.setBadgeText({"text": ""});
+				chrome.browserAction.setIcon({path: "/img/blue.png"});
+			}
 		}
 
 		if (storage["config"]["cheAlert"] && eventType === "onRequest") {
@@ -92,11 +101,11 @@ function doCheckAction(currentUrl, eventType) {
 chrome.extension.onRequest.addListener(function (request, sender) {
 	if (request.loaded) {
 		var tabId = sender.tab.id;
-		chrome.tabs.query({active: true}, function (tabArray) {
+		chrome.tabs.query({}, function (tabArray) {
 			tabArray.forEach(function (tab) {
 				if (tab.id === tabId) {
 					var currentURL = tab.url;
-					doCheckAction(currentURL, "onRequest");
+					doCheckAction(currentURL, "onRequest", tab.active);
 				}
 			});
 		});
@@ -109,7 +118,7 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
 		tabArray.forEach(function (tab) {
 			if (tab.id === tabId) {
 				var currentURL = tab.url;
-				doCheckAction(currentURL, "onActivated");
+				doCheckAction(currentURL, "onActivated", tab.active);
 			}
 		});
 	});
@@ -120,7 +129,7 @@ chrome.windows.onFocusChanged.addListener(function (windowId) {
 		tabs.forEach(function (tab) {
 			if (tab.windowId === windowId) {
 				var currentURL = tab.url;
-				doCheckAction(currentURL, "onActivated");
+				doCheckAction(currentURL, "onActivated", tab.active);
 			}
 		});
 	});
