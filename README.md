@@ -5,6 +5,7 @@ https://chrome.google.com/webstore/detail/ojcedaigijomhcjlhmpbmlbamnfldmfb
 ## Badlist
 
 * [Badbitcoin.org - The Badlist](http://www.badbitcoin.org/thebadlist/index.htm)
+* [Ethereum Scam Database](https://etherscamdb.info/scams)
 
 ## Third party libraries ##
 
