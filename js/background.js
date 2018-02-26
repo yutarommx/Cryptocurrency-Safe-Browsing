@@ -27,8 +27,18 @@ function doCheckAction(currentUrl, eventType, tabActive) {
 	if (whiteList.indexOf(hostName) >= 0 || whiteList.indexOf(domainName) >= 0) {
 		check_type = "WHITE";
 	}
-	else if (badList.indexOf(hostName) >= 0 || badList.indexOf(domainName) >= 0) {
-		check_type = "SCAM";
+	else if (typeof(badList[hostName]) !== "undefined" || typeof(badList[domainName]) !== "undefined") {
+		var badSite = {};
+		if(typeof(badList[hostName]) !== "undefined"){
+			badSite = badList[hostName];
+		}else{
+			badSite = badList[domainName];
+		}
+		if(badSite.category.toUpperCase() === "PHISHING"){
+			check_type = "PHISHING";
+		}else{
+			check_type = "SCAM";
+		}
 	}
 	else if (domainName.indexOf(punycodeStr) >= 0) {
 		check_type = "PUNY";
@@ -36,7 +46,27 @@ function doCheckAction(currentUrl, eventType, tabActive) {
 
 	chrome.storage.sync.get("config", function (storage) {
 
-		if (check_type === "SCAM") {
+		if (check_type === "PHISHING") {
+
+			if (storage["config"]["cheAlert"] && eventType === "onRequest" && chrome.storage["lastDomain"] !== domainName) {
+				var textTitle = chrome.i18n.getMessage("alePhishingNotificationTitle");
+				var textBody = chrome.i18n.getMessage("alePhishingNotificationBody");
+
+				new Notification(textTitle, {
+					icon: '/img/red_48.png',
+					body: textBody + domainName
+				});
+			}
+
+			if (tabActive) {
+				chrome.browserAction.setIcon({path: "/img/red.png"});
+				chrome.browserAction.setBadgeText({"text": "BAD"});
+				chrome.browserAction.setBadgeBackgroundColor({color: "red"});
+				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePhishingNotificationTitle")});
+			}
+
+		}
+		else if (check_type === "SCAM") {
 
 			if (storage["config"]["cheAlert"] && eventType === "onRequest" && chrome.storage["lastDomain"] !== domainName) {
 				var textTitle = chrome.i18n.getMessage("aleScamNotificationTitle");

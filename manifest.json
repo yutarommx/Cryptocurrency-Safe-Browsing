@@ -42,7 +42,7 @@
 	"http://*/*",
 	"https://*/*"
   ],
-  "version": "1.0.5",
+  "version": "1.0.6",
   "web_accessible_resources": [
 	"/js/injection.js"
   ]

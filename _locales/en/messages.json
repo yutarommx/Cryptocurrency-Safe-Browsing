@@ -5,11 +5,17 @@
    "alePunyNotificationTitle": {
       "message": "Watch out! Punycode domain"
    },
+   "alePhishingNotificationBody": {
+      "message": "Don't sign up and login!\n"
+   },
+   "alePhishingNotificationTitle": {
+      "message": "Phishing site!!"
+   },
    "aleScamNotificationBody": {
-      "message": "Domain:\n"
+      "message": "Don't sign up and login!\n"
    },
    "aleScamNotificationTitle": {
-      "message": "May be a SCAM!!"
+      "message": "SCAM site!!"
    },
    "trustedTitle": {
       "message": "Trusted site"
@@ -21,7 +27,7 @@
       "message": "Crypto KAERU"
    },
    "extDescription": {
-      "message": "That warns its users when they visit URL addresses with Punycode sites or scam sites(over 8000 Domains)."
+      "message": "That warns its users when they visit URL addresses with Punycode sites or scam sites(over 2500 Domains)."
    },
    "extName": {
       "message": "Cryptocurrency Safe Browsing"
