@@ -1,12 +1,11 @@
 "use strict";
-if (chrome.storage["lastDomain"] == null) {
-	chrome.storage["lastDomain"] = "";
-}
+
+var lastTabDomains = {};
 
 chrome.storage.sync.get("config", function (storage) {
 	var dictConfig = storage["config"];
 
-	if (typeof(dictConfig) === "undefined") {
+	if (typeof dictConfig === "undefined") {
 
 		dictConfig = {};
 		dictConfig["cheAlert"] = true;
@@ -16,7 +15,7 @@ chrome.storage.sync.get("config", function (storage) {
 	}
 });
 
-function doCheckAction(currentUrl, eventType, tabActive) {
+function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 
 	var temp_uri = new URI(currentUrl);
 	var hostName = temp_uri.hostname();
@@ -27,16 +26,16 @@ function doCheckAction(currentUrl, eventType, tabActive) {
 	if (whiteList.indexOf(hostName) >= 0 || whiteList.indexOf(domainName) >= 0) {
 		check_type = "WHITE";
 	}
-	else if (typeof(badList[hostName]) !== "undefined" || typeof(badList[domainName]) !== "undefined") {
+	else if (typeof badList[hostName] !== "undefined" || typeof badList[domainName] !== "undefined") {
 		var badSite = {};
-		if(typeof(badList[hostName]) !== "undefined"){
+		if (typeof badList[hostName] !== "undefined") {
 			badSite = badList[hostName];
-		}else{
+		} else {
 			badSite = badList[domainName];
 		}
-		if(badSite.category.toUpperCase() === "PHISHING"){
+		if (badSite.category.toUpperCase() === "PHISHING") {
 			check_type = "PHISHING";
-		}else{
+		} else {
 			check_type = "SCAM";
 		}
 	}
@@ -44,86 +43,119 @@ function doCheckAction(currentUrl, eventType, tabActive) {
 		check_type = "PUNY";
 	}
 
+	chrome.notifications.getAll(function (notifications) {
+		var keys = Object.keys(notifications);
+		for (var i = 0, l = keys.length; i < l; i += 1) {
+
+			if (keys[i] !== "tabId_" + tabId) {
+				chrome.notifications.clear(keys[i]);
+			}
+			else {
+				if (lastTabDomains["tabId_" + tabId] !== hostName) {
+					chrome.notifications.clear(keys[i]);
+				}
+			}
+		}
+	});
+
 	chrome.storage.sync.get("config", function (storage) {
 
 		if (check_type === "PHISHING") {
 
-			if (storage["config"]["cheAlert"] && eventType === "onRequest" && chrome.storage["lastDomain"] !== domainName) {
+			if (storage["config"]["cheAlert"]/* && (lastTabDomains["tabId_" + tabId] == null || lastTabDomains["tabId_" + tabId] !== hostName) && eventType === "onRequest"*/) {
 				var textTitle = chrome.i18n.getMessage("alePhishingNotificationTitle");
 				var textBody = chrome.i18n.getMessage("alePhishingNotificationBody");
 
-				new Notification(textTitle, {
-					icon: '/img/red_48.png',
-					body: textBody + domainName
-				});
+				chrome.notifications.create("tabId_" + tabId, {
+						type: "basic",
+						title: textTitle,
+						iconUrl: "img/red_48.png",
+						message: textBody + domainName,
+						contextMessage: chrome.i18n.getMessage("badgeTitle"),
+						requireInteraction: true,
+						isClickable: true
+					}, function (notificationId) {
+					}
+				);
 			}
 
-			if (tabActive) {
-				chrome.browserAction.setIcon({path: "/img/red.png"});
-				chrome.browserAction.setBadgeText({"text": "BAD"});
-				chrome.browserAction.setBadgeBackgroundColor({color: "red"});
-				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePhishingNotificationTitle")});
-			}
-
+			chrome.browserAction.setIcon({path: "img/red.png"});
+			chrome.browserAction.setBadgeText({"text": "BAD"});
+			chrome.browserAction.setBadgeBackgroundColor({color: "red"});
+			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePhishingNotificationTitle")});
 		}
 		else if (check_type === "SCAM") {
 
-			if (storage["config"]["cheAlert"] && eventType === "onRequest" && chrome.storage["lastDomain"] !== domainName) {
+			if (storage["config"]["cheAlert"]/* && (lastTabDomains["tabId_" + tabId] == null || lastTabDomains["tabId_" + tabId] !== hostName) && eventType === "onRequest"*/) {
 				var textTitle = chrome.i18n.getMessage("aleScamNotificationTitle");
 				var textBody = chrome.i18n.getMessage("aleScamNotificationBody");
 
-				new Notification(textTitle, {
-					icon: '/img/red_48.png',
-					body: textBody + domainName
-				});
+				chrome.notifications.create("tabId_" + tabId, {
+						type: "basic",
+						title: textTitle,
+						iconUrl: "img/red_48.png",
+						message: textBody + domainName,
+						contextMessage: chrome.i18n.getMessage("badgeTitle"),
+						requireInteraction: true,
+						isClickable: true
+					}, function (notificationId) {
+					}
+				);
 			}
 
-			if (tabActive) {
-				chrome.browserAction.setIcon({path: "/img/red.png"});
-				chrome.browserAction.setBadgeText({"text": "BAD"});
-				chrome.browserAction.setBadgeBackgroundColor({color: "red"});
-				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("aleScamNotificationTitle")});
-			}
-
+			chrome.browserAction.setIcon({path: "img/red.png"});
+			chrome.browserAction.setBadgeText({"text": "BAD"});
+			chrome.browserAction.setBadgeBackgroundColor({color: "red"});
+			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("aleScamNotificationTitle")});
 		}
 		else if (check_type === "PUNY") {
 
-			if (storage["config"]["cheAlert"] && eventType === "onRequest" && chrome.storage["lastDomain"] !== domainName) {
+			var do_notificationFlag = false;
+			if (eventType === "onRequest") {
+				if (storage["config"]["cheAlert"] && (lastTabDomains["tabId_" + tabId] == null || lastTabDomains["tabId_" + tabId] !== hostName)) {
+					do_notificationFlag = true;
+				}
+			}
+			else if (eventType !== "onRequest" && storage["config"]["cheAlert"]) {
+				do_notificationFlag = true;
+			}
+
+			if (do_notificationFlag) {
 				var textTitle = chrome.i18n.getMessage("alePunyNotificationTitle");
 				var textBody = chrome.i18n.getMessage("alePunyNotificationBody");
 
-				new Notification(textTitle, {
-					icon: '/img/red_48.png',
-					body: textBody + domainName
-				});
+				chrome.notifications.create("tabId_" + tabId, {
+						type: "basic",
+						title: textTitle,
+						iconUrl: "img/red_48.png",
+						message: textBody + domainName,
+						contextMessage: chrome.i18n.getMessage("badgeTitle"),
+						requireInteraction: false,
+						isClickable: true
+					}, function (notificationId) {
+					}
+				);
 			}
 
-			if (tabActive) {
-				chrome.browserAction.setIcon({path: "/img/red.png"});
-				chrome.browserAction.setBadgeText({"text": "Puny"});
-				chrome.browserAction.setBadgeBackgroundColor({color: "red"});
-				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePunyNotificationTitle")});
-			}
-
+			chrome.browserAction.setIcon({path: "img/red.png"});
+			chrome.browserAction.setBadgeText({"text": "Puny"});
+			chrome.browserAction.setBadgeBackgroundColor({color: "red"});
+			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePunyNotificationTitle")});
 		}
 		else if (check_type === "WHITE") {
-			if (tabActive) {
-				chrome.browserAction.setIcon({path: "/img/green.png"});
-				chrome.browserAction.setBadgeText({"text": "✔"});
-				chrome.browserAction.setBadgeBackgroundColor({color: "green"});
-				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("trustedTitle")});
-			}
+			chrome.browserAction.setIcon({path: "img/green.png"});
+			chrome.browserAction.setBadgeText({"text": "✔"});
+			chrome.browserAction.setBadgeBackgroundColor({color: "green"});
+			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("trustedTitle")});
 		}
 		else {
-			if (tabActive) {
-				chrome.browserAction.setTitle({title: chrome.i18n.getMessage("badgeTitle")});
-				chrome.browserAction.setBadgeText({"text": ""});
-				chrome.browserAction.setIcon({path: "/img/blue.png"});
-			}
+			chrome.browserAction.setTitle({title: chrome.i18n.getMessage("badgeTitle")});
+			chrome.browserAction.setBadgeText({"text": ""});
+			chrome.browserAction.setIcon({path: "img/blue.png"});
 		}
 
-		if (storage["config"]["cheAlert"] && eventType === "onRequest") {
-			chrome.storage["lastDomain"] = domainName;
+		if (storage["config"]["cheAlert"]/* && eventType === "onRequest"*/) {
+			lastTabDomains["tabId_" + tabId] = hostName;
 		}
 	});
 }
@@ -131,11 +163,11 @@ function doCheckAction(currentUrl, eventType, tabActive) {
 chrome.extension.onRequest.addListener(function (request, sender) {
 	if (request.loaded) {
 		var tabId = sender.tab.id;
-		chrome.tabs.query({}, function (tabArray) {
+		chrome.tabs.query({active: true}, function (tabArray) {
 			tabArray.forEach(function (tab) {
 				if (tab.id === tabId) {
 					var currentURL = tab.url;
-					doCheckAction(currentURL, "onRequest", tab.active);
+					doCheckAction(currentURL, "onRequest", tab.active, tab.id);
 				}
 			});
 		});
@@ -148,19 +180,49 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
 		tabArray.forEach(function (tab) {
 			if (tab.id === tabId) {
 				var currentURL = tab.url;
-				doCheckAction(currentURL, "onActivated", tab.active);
+				doCheckAction(currentURL, "onActivated", tab.active, tab.id);
 			}
 		});
 	});
 });
 
 chrome.windows.onFocusChanged.addListener(function (windowId) {
+	//if (windowId === chrome.windows.WINDOW_ID_NONE) {
+	//clearAllNotifications();
+	//}
+	//else {
 	chrome.tabs.query({active: true}, function (tabs) {
 		tabs.forEach(function (tab) {
 			if (tab.windowId === windowId) {
 				var currentURL = tab.url;
-				doCheckAction(currentURL, "onActivated", tab.active);
+				doCheckAction(currentURL, "onActivated", tab.active, tab.id);
 			}
 		});
 	});
+	//}
 });
+
+chrome.notifications.onClicked.addListener(function (notificationId) {
+	chrome.notifications.clear(notificationId);
+});
+
+/*
+function checkBrowserFocus() {
+	chrome.windows.getCurrent(function (browser) {
+		if (!browser.focused) {
+			clearAllNotifications();
+		}
+	})
+}
+
+function clearAllNotifications() {
+	chrome.notifications.getAll(function (notifications) {
+		var keys = Object.keys(notifications);
+		for (var i = 0, l = keys.length; i < l; i += 1) {
+			chrome.notifications.clear(keys[i]);
+		}
+	});
+}
+
+window.setInterval(checkBrowserFocus, 5000);
+*/

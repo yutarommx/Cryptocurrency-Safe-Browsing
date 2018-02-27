@@ -2,11 +2,11 @@
   "author": "__MSG_extAuthor__",
   "background": {
 	"scripts": [
-	  "/js/SecondLevelDomains.js",
-	  "/js/URI.js",
-	  "/js/blacklist.js",
-	  "/js/whitelist.js",
-	  "/js/background.js"
+	  "js/SecondLevelDomains.js",
+	  "js/URI.js",
+	  "js/blacklist.js",
+	  "js/whitelist.js",
+	  "js/background.js"
 	]
   },
   "browser_action": {
@@ -17,7 +17,7 @@
   "content_scripts": [
 	{
 	  "js": [
-		"/js/content.js"
+		"js/content.js"
 	  ],
 	  "matches": [
 		"http://*/*",
@@ -42,8 +42,8 @@
 	"http://*/*",
 	"https://*/*"
   ],
-  "version": "1.0.6",
+  "version": "1.0.9",
   "web_accessible_resources": [
-	"/js/injection.js"
+	"js/injection.js"
   ]
 }
