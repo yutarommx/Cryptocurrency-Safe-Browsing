@@ -1,4 +1,10 @@
 {
+  "aleWhiteNotificationBody": {
+	"message": "本物のサイトです"
+  },
+  "aleWhiteNotificationTitle": {
+	"message": "本物です"
+  },
   "alePunyNotificationBody": {
 	"message": "本当のドメイン名:\n"
   },
@@ -33,6 +39,9 @@
 	"message": "仮想通貨詐欺サイトチェッカー"
   },
   "labAlert": {
-	"message": "デスクトップ通知を表示する（推奨）"
+	"message": "詐欺サイトを通知（推奨）"
+  },
+  "labWhiteAlert": {
+	"message": "本物のサイトを通知"
   }
 }

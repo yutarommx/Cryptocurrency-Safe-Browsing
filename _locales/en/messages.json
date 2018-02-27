@@ -1,4 +1,10 @@
 {
+   "aleWhiteNotificationBody": {
+      "message": "This is a true site"
+   },
+   "aleWhiteNotificationTitle": {
+      "message": "This is a true"
+   },
    "alePunyNotificationBody": {
       "message": "Decoded domain:\n"
    },
@@ -33,6 +39,9 @@
       "message": "Cryptocurrency Scam Site Detection"
    },
    "labAlert": {
-      "message": "Show alerts as a desktop notification"
+      "message": "Notify that it's a scam site"
+   },
+   "labWhiteAlert": {
+      "message": "Notify that it's a true site"
    }
 }
