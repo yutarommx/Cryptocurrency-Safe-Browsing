@@ -1,4 +1,4 @@
-# Cryptocurrency-Safe-Browsing
+# Cryptocurrency Scam Site Detection
 
 https://chrome.google.com/webstore/detail/ojcedaigijomhcjlhmpbmlbamnfldmfb
 

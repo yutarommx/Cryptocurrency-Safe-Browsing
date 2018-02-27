@@ -21,16 +21,16 @@
       "message": "Trusted site"
    },
    "badgeTitle": {
-      "message": "Cryptocurrency Safe Browsing"
+      "message": "Cryptocurrency Scam Site Detection"
    },
    "extAuthor": {
       "message": "Crypto KAERU"
    },
    "extDescription": {
-      "message": "That warns its users when they visit URL addresses with Punycode sites or scam sites(over 2500 Domains)."
+      "message": "That warns its users when they visit URL addresses with Punycode sites or scam phishing sites(over 2500 Domains)."
    },
    "extName": {
-      "message": "Cryptocurrency Safe Browsing"
+      "message": "Cryptocurrency Scam Site Detection"
    },
    "labAlert": {
       "message": "Show alerts as a desktop notification"
