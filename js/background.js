@@ -5,16 +5,52 @@ var lastTabDomains = {};
 chrome.storage.sync.get("config", function (storage) {
 	var dictConfig = storage["config"];
 
-	if (typeof dictConfig === "undefined" || dictConfig["cheWhiteAlert"] == null) {
+	if (typeof dictConfig === "undefined" || dictConfig["cheWhiteAlert"] == null || dictConfig["cheBlockPage"] == null) {
 
 		dictConfig = {};
 		dictConfig["cheAlert"] = true;
 		dictConfig["cheWhiteAlert"] = true;
+		dictConfig["cheBlockPage"] = true;
 
 		chrome.storage.sync.set({'config': dictConfig}, function () {
 		});
 	}
 });
+
+function easyCheckList(currentUrl) {
+	var temp_uri = new URI(currentUrl);
+	var hostName = temp_uri.hostname();
+	var domainName = temp_uri.domain();
+
+	var punycodeStr = "xn--";
+	var check_type = "";
+	var badSite = {};
+	if (typeof whiteList[hostName] !== "undefined" || typeof whiteList[domainName] !== "undefined") {
+		check_type = "WHITE";
+	}
+	else if (typeof badList[hostName] !== "undefined" || typeof badList[domainName] !== "undefined") {
+		if (typeof badList[hostName] !== "undefined") {
+			badSite = badList[hostName];
+		} else {
+			badSite = badList[domainName];
+		}
+		if (badSite.category.toUpperCase() === "PHISHING") {
+			check_type = "PHISHING";
+		} else {
+			check_type = "SCAM";
+		}
+	}
+	else if (domainName.indexOf(punycodeStr) >= 0) {
+		check_type = "PUNY";
+	}
+
+	var ret_val = {
+		type: check_type,
+		site: badSite
+	};
+
+	return ret_val;
+}
 
 function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 
@@ -24,9 +60,10 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 
 	var punycodeStr = "xn--";
 	var check_type = "";
+	var whiteSite = {};
+	var badSite = {};
 	if (typeof whiteList[hostName] !== "undefined" || typeof whiteList[domainName] !== "undefined") {
 		check_type = "WHITE";
-		var whiteSite = {};
 		if (typeof whiteList[hostName] !== "undefined") {
 			whiteSite = whiteList[hostName];
 		} else {
@@ -34,7 +71,6 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 		}
 	}
 	else if (typeof badList[hostName] !== "undefined" || typeof badList[domainName] !== "undefined") {
-		var badSite = {};
 		if (typeof badList[hostName] !== "undefined") {
 			badSite = badList[hostName];
 		} else {
@@ -77,7 +113,7 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 						type: "basic",
 						title: textTitle,
 						iconUrl: "img/red_48.png",
-						message: textBody + domainName,
+						message: textBody + hostName,
 						contextMessage: chrome.i18n.getMessage("badgeTitle"),
 						requireInteraction: true,
 						isClickable: true
@@ -101,7 +137,7 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 						type: "basic",
 						title: textTitle,
 						iconUrl: "img/red_48.png",
-						message: textBody + domainName,
+						message: textBody + hostName,
 						contextMessage: chrome.i18n.getMessage("badgeTitle"),
 						requireInteraction: true,
 						isClickable: true
@@ -176,7 +212,7 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 			chrome.browserAction.setIcon({path: "img/green.png"});
 			chrome.browserAction.setBadgeText({"text": "✔"});
 			chrome.browserAction.setBadgeBackgroundColor({color: "green"});
-			var trustedTitle = '"'+whiteSite.title+'" '+chrome.i18n.getMessage("aleWhiteNotificationTitle");
+			var trustedTitle = '"' + whiteSite.title + '" ' + chrome.i18n.getMessage("aleWhiteNotificationTitle");
 			chrome.browserAction.setTitle({title: trustedTitle});
 		}
 		else {
@@ -191,8 +227,8 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 	});
 }
 
-chrome.extension.onRequest.addListener(function (request, sender) {
-	if (request.loaded) {
+chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+	if (message.loaded) {
 		var tabId = sender.tab.id;
 		chrome.tabs.query({active: true}, function (tabArray) {
 			tabArray.forEach(function (tab) {
@@ -202,6 +238,11 @@ chrome.extension.onRequest.addListener(function (request, sender) {
 				}
 			});
 		});
+		if(message.storage["config"]["cheBlockPage"]){
+			sendResponse(easyCheckList(sender.url));
+		}else{
+			sendResponse(null);
+		}
 	}
 });
 

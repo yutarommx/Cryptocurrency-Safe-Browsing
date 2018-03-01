@@ -14518,5 +14518,90 @@ const badList = {
 		"id": 2946,
 		"url": "myenthereumwallet.com",
 		"category": "Phishing"
+	},
+	"havven.eu": {
+		"id": 2947,
+		"url": "havven.eu",
+		"category": "Phishing"
+	},
+	"havven.sale": {
+		"id": 2948,
+		"url": "havven.sale",
+		"category": "Phishing"
+	},
+	"tron-online.org": {
+		"id": 2949,
+		"url": "tron-online.org",
+		"category": "Phishing"
+	},
+	"tomo-coin.io": {
+		"id": 2950,
+		"url": "tomo-coin.io",
+		"category": "Phishing"
+	},
+	"xn--yetherwalle-iw8e1s.com": {
+		"id": 2951,
+		"url": "xn--yetherwalle-iw8e1s.com",
+		"category": "Phishing"
+	},
+	"meganfoxloveyou.com": {
+		"id": 2952,
+		"url": "meganfoxloveyou.com",
+		"category": "Phishing"
+	},
+	"jsfiddle.net": {
+		"id": 2953,
+		"url": "jsfiddle.net",
+		"category": "Phishing"
+	},
+	"metronometoken.io": {
+		"id": 2954,
+		"url": "metronometoken.io",
+		"category": "Phishing"
+	},
+	"ico-havven.org": {
+		"id": 2955,
+		"url": "ico-havven.org",
+		"category": "Phishing"
+	},
+	"tokensale-havven.in": {
+		"id": 2956,
+		"url": "tokensale-havven.in",
+		"category": "Phishing"
+	},
+	"nucelus.vision": {
+		"id": 2957,
+		"url": "nucelus.vision",
+		"category": "Phishing"
+	},
+	"havven.top": {
+		"id": 2958,
+		"url": "havven.top",
+		"category": "Phishing"
+	},
+	"havvenio.com": {
+		"id": 2959,
+		"url": "havvenio.com",
+		"category": "Phishing"
+	},
+	"havven-sale.com": {
+		"id": 2960,
+		"url": "havven-sale.com",
+		"category": "Phishing"
+	},
+	"tomocoln.io": {
+		"id": 2961,
+		"url": "tomocoln.io",
+		"category": "Phishing"
+	},
+	"masanchez.usermd.net": {
+		"id": 2962,
+		"url": "masanchez.usermd.net",
+		"category": "Phishing"
+	},
+	"dftnity.org": {
+		"id": 2963,
+		"url": "dftnity.org",
+		"category": "Phishing"
 	}
 };

@@ -1,9 +1,9 @@
 {
-   "aleWhiteNotificationBody": {
-      "message": "This is a true site"
+   "blockScamTitle": {
+      "message": "Blocked the display because there is a scam site."
    },
-   "aleWhiteNotificationTitle": {
-      "message": "This is a true"
+   "blockPhishingTitle": {
+      "message": "Blocked the display because there is a phishing site."
    },
    "alePunyNotificationBody": {
       "message": "Decoded domain:\n"
@@ -43,5 +43,8 @@
    },
    "labWhiteAlert": {
       "message": "Notify that it's a true site"
+   },
+   "labBlockPage": {
+      "message": "Block scam sites"
    }
 }

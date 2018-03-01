@@ -1,4 +1,16 @@
 {
+  "blockScamTitle": {
+	"message": "詐欺サイトの可能性があるため表示をブロックしました。"
+  },
+  "blockPhishingTitle": {
+	"message": "フィッシングサイトの可能性があるため表示をブロックしました。"
+  },
+  "aleWhiteNotificationBody": {
+	"message": "本物のサイトです"
+  },
+  "aleWhiteNotificationTitle": {
+	"message": "本物です"
+  },
   "aleWhiteNotificationBody": {
 	"message": "本物のサイトです"
   },
@@ -43,5 +55,8 @@
   },
   "labWhiteAlert": {
 	"message": "本物のサイトを通知"
+  },
+  "labBlockPage": {
+	"message": "詐欺サイトの表示をブロック"
   }
 }
