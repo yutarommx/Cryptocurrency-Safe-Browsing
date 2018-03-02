@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="bulma.css">
+    <style>
+        .section {
+            padding: 1rem 1.5rem;
+        }
+
+        .container {
+            width: 640px;
+        }
+
+        .table {
+            width: 100%;
+        }
+
+        .message-header {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: inherit;
+            border-radius: inherit;
+            color: inherit;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            line-height: 1.25;
+            padding: 0 0.75em;
+            position: relative;
+        }
+
+        .icon_url {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .icon_url .domain {
+            margin-left: 0.5em;
+        }
+
+        .field > .control {
+            margin-left: 1.5rem;
+        }
+
+    </style>
+    <script defer src="fa_all.js"></script>
+</head>
+<body>
+<div class="section">
+    <div class="container">
+
+        <div class="field">
+            <label class="label">
+                <span class="icon has-text-danger">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                __MSG_labScam__
+            </label>
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" id="cheAlert">
+                    __MSG_labNotifi__
+                </label>
+            </div>
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" id="cheBlockPage">
+                    __MSG_labBlock__
+                </label>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="field">
+            <label class="label">
+                <span class="icon has-text-danger">
+                    <i class="fas fa-globe"></i>
+                </span>
+                __MSG_labPuny__
+            </label>
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" id="chePunyAlert">
+                    __MSG_labNotifi__
+                </label>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="field">
+            <label class="label">
+                <span class="icon has-text-success">
+                    <i class="fas fa-shield-alt"></i>
+                </span>
+                __MSG_labWhite__
+            </label>
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" id="cheWhiteAlert">
+                    __MSG_labNotifi__
+                </label>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="field">
+            <label class="label">
+                <span class="icon has-text-info">
+                    <i class="fas fa-list-alt"></i>
+                </span>
+                __MSG_labManual__
+            </label>
+            <div class="field is-grouped">
+                <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="__MSG_inpDomain__" id="manual_url">
+                </p>
+                <p class="control">
+                    <a class="button is-info" id="add_manual_url">
+                        __MSG_btnAdd__
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <table class="table is-hoverable is-fullwidth" id="tbl_manual_list">
+            <tbody></tbody>
+        </table>
+
+    </div>
+</div>
+<script src="/js/jquery.js"></script>
+<script src="/js/new_options.js"></script>
+<script src="/js/localize.js"></script>
+</body>
+</html>

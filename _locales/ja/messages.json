@@ -11,12 +11,6 @@
   "aleWhiteNotificationTitle": {
 	"message": "本物です"
   },
-  "aleWhiteNotificationBody": {
-	"message": "本物のサイトです"
-  },
-  "aleWhiteNotificationTitle": {
-	"message": "本物です"
-  },
   "alePunyNotificationBody": {
 	"message": "本当のドメイン名:\n"
   },
@@ -50,13 +44,28 @@
   "extName": {
 	"message": "仮想通貨詐欺サイトチェッカー"
   },
-  "labAlert": {
-	"message": "詐欺サイトを通知（推奨）"
+  "labScam": {
+	"message": "詐欺・フィッシングサイト"
   },
-  "labWhiteAlert": {
-	"message": "本物のサイトを通知"
+  "labPuny": {
+	"message": "国際化ドメイン(Punycode)"
   },
-  "labBlockPage": {
-	"message": "詐欺サイトの表示をブロック"
+  "labWhite": {
+	"message": "本物のサイト"
+  },
+  "labManual": {
+	"message": "通知を表示しないドメイン"
+  },
+  "labNotifi": {
+	"message": "通知する"
+  },
+  "labBlock": {
+	"message": "表示をブロックする"
+  },
+  "inpDomain": {
+	"message": "ドメイン名を追加してください (例: google.com)"
+  },
+  "btnAdd": {
+	"message": "追加"
   }
 }

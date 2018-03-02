@@ -5,6 +5,12 @@
    "blockPhishingTitle": {
       "message": "Blocked the display because there is a phishing site."
    },
+   "aleWhiteNotificationBody": {
+      "message": "This is a true site."
+   },
+   "aleWhiteNotificationTitle": {
+      "message": "This is a true."
+   },
    "alePunyNotificationBody": {
       "message": "Decoded domain:\n"
    },
@@ -38,13 +44,28 @@
    "extName": {
       "message": "Cryptocurrency Scam Site Detection"
    },
-   "labAlert": {
-      "message": "Notify that it's a scam site"
+   "labScam": {
+      "message": "Scam / Phishing site"
    },
-   "labWhiteAlert": {
-      "message": "Notify that it's a true site"
+   "labPuny": {
+      "message": "Punycode Domain"
    },
-   "labBlockPage": {
-      "message": "Block scam sites"
+   "labWhite": {
+      "message": "True site"
+   },
+   "labManual": {
+      "message": "Don't show warnings on these sites"
+   },
+   "labNotifi": {
+      "message": "Enable Notification"
+   },
+   "labBlock": {
+      "message": "Block sites"
+   },
+   "inpDomain": {
+      "message": "Add domain name (E.g. google.com)"
+   },
+   "btnAdd": {
+      "message": "Add"
    }
 }
