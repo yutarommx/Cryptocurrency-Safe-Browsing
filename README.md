@@ -11,3 +11,6 @@ https://chrome.google.com/webstore/detail/ojcedaigijomhcjlhmpbmlbamnfldmfb
 
 * [URI.js](http://medialize.github.io/URI.js/) - Rodney Rehm
 * [SecondLevelDomains.js](http://medialize.github.io/URI.js/) - Rodney Rehm
+* [jQuery](https://jquery.com/)
+* [Bulma CSS framework](https://bulma.io/)
+* [Font Awesome](https://fontawesome.com)
