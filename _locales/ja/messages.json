@@ -6,7 +6,7 @@
 	"message": "フィッシングサイトの可能性があるため表示をブロックしました。"
   },
   "aleWhiteNotificationBody": {
-	"message": "本物のサイトです"
+	"message": "このサイトは本物です"
   },
   "aleWhiteNotificationTitle": {
 	"message": "本物です"

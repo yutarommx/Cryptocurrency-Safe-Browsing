@@ -1,6 +1,6 @@
 'use strict';
 
-chrome.runtime.sendMessage({loaded: true}, function (response) {
+chrome.runtime.sendMessage({loaded: "content"}, function (response) {
 	if (response != null && (response.type === "PHISHING" || response.type === "SCAM")) {
 		load_jQuery();
 		var blockTitle = "";

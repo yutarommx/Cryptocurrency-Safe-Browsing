@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="bulma.css">
+    <style>
+        .section {
+            padding: 0.6rem 1rem;
+            width: 360px;
+        }
+    </style>
+</head>
+<body>
+<div class="section">
+
+    <article class="media">
+        <div class="media-left" style="margin-right: 1.6rem;">
+            <figure class="image is-48x48" style="margin-top: 8px;">
+                <img id="img_icon" src="../img/gray_48.png" alt="Image">
+            </figure>
+        </div>
+        <div class="media-content">
+            <div class="content">
+                <p style="font-size: 0.9rem;">
+                    <strong id="msg_title"></strong>
+                    <br>
+                    <span style="font-size: 0.8rem;" id="msg_body"></span>
+                    <br>
+                    <code id="hostname"></code>
+                </p>
+            </div>
+
+            <nav>
+                <p class="subtitle level-right is-7 has-text-grey-light" style="text-align: right;">
+                    __MSG_badgeTitle__
+                </p>
+            </nav>
+
+        </div>
+    </article>
+
+</div>
+<script src="/js/jquery.js"></script>
+<script src="/js/popup.js"></script>
+<script src="/js/localize.js"></script>
+</body>
+</html>

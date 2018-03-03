@@ -14603,5 +14603,35 @@ const badList = {
 		"id": 2963,
 		"url": "dftnity.org",
 		"category": "Phishing"
+	},
+	"ethereum-promo.bitballoon.com": {
+		"id": 2964,
+		"url": "ethereum-promo.bitballoon.com",
+		"category": "Scam"
+	},
+	"polymathnetwork.org": {
+		"id": 2965,
+		"url": "polymathnetwork.org",
+		"category": "Phishing"
+	},
+	"telegramfoundation.org": {
+		"id": 2966,
+		"url": "telegramfoundation.org",
+		"category": "Phishing"
+	},
+	"callisto-airdrop.com": {
+		"id": 2967,
+		"url": "callisto-airdrop.com",
+		"category": "Phishing"
+	},
+	"xn--thabyss-u8a.com": {
+		"id": 2968,
+		"url": "xn--thabyss-u8a.com",
+		"category": "Phishing"
+	},
+	"rnyertherwallet.com": {
+		"id": 2969,
+		"url": "rnyertherwallet.com",
+		"category": "Phishing"
 	}
 };

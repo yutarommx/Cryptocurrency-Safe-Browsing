@@ -23,7 +23,7 @@ function saveConfiguration() {
 	dictConfig["manual_list"] = manual_list;
 
 	chrome.storage.sync.set({'config': dictConfig}, function () {
-		chrome.runtime.sendMessage({loaded: false, storageConfig: dictConfig}, function (response) {
+		chrome.runtime.sendMessage({loaded: "option", storageConfig: dictConfig}, function (response) {
 		});
 	});
 }

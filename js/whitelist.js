@@ -1357,5 +1357,10 @@ const whiteList = {
 	"therocktrading.com": {
 		"hostname": "therocktrading.com",
 		"title": "The Rock Trading"
+	},
+
+	"nanjcoin.com": {
+		"hostname": "nanjcoin.com",
+		"title": "NANJCOIN"
 	}
 };

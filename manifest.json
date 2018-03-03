@@ -10,9 +10,9 @@
 	]
   },
   "browser_action": {
-	"default_icon": "img/blue.png",
+	"default_icon": "img/gray.png",
 	"default_name": "__MSG_badgeTitle__",
-	"default_popup": "ui/new_options.html"
+	"default_popup": ""
   },
   "content_scripts": [
 	{
@@ -48,7 +48,7 @@
 	"http://*/*",
 	"https://*/*"
   ],
-  "version": "1.1.6",
+  "version": "1.2.0",
   "web_accessible_resources": [
 	"ui/bulma.css",
 	"img/exclamation-triangle.png"

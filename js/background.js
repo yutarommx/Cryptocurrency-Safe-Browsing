@@ -27,20 +27,31 @@ function easyCheckList(currentUrl) {
 
 	var punycodeStr = "xn--";
 	var check_type = "";
-	var badSite = {};
+	var siteInfo = {};
 	if (typeof dictConfig["manual_list"][hostName] !== "undefined" || typeof dictConfig["manual_list"][domainName] !== "undefined") {
 		check_type = "MANUAL";
+		if (typeof dictConfig["manual_list"][hostName] !== "undefined") {
+			siteInfo = dictConfig["manual_list"][hostName];
+		} else {
+			siteInfo = dictConfig["manual_list"][domainName];
+		}
 	}
 	else if (typeof whiteList[hostName] !== "undefined" || typeof whiteList[domainName] !== "undefined") {
 		check_type = "WHITE";
+		if (typeof whiteList[hostName] !== "undefined") {
+			siteInfo = whiteList[hostName];
+		} else {
+			siteInfo = whiteList[domainName];
+		}
+		siteInfo["url"] = hostName;
 	}
 	else if (typeof badList[hostName] !== "undefined" || typeof badList[domainName] !== "undefined") {
 		if (typeof badList[hostName] !== "undefined") {
-			badSite = badList[hostName];
+			siteInfo = badList[hostName];
 		} else {
-			badSite = badList[domainName];
+			siteInfo = badList[domainName];
 		}
-		if (badSite.category.toUpperCase() === "PHISHING") {
+		if (siteInfo.category.toUpperCase() === "PHISHING") {
 			check_type = "PHISHING";
 		} else {
 			check_type = "SCAM";
@@ -48,11 +59,12 @@ function easyCheckList(currentUrl) {
 	}
 	else if (domainName.indexOf(punycodeStr) >= 0) {
 		check_type = "PUNY";
+		siteInfo["url"] = domainName;
 	}
 
 	var ret_val = {
 		type: check_type,
-		site: badSite
+		site: siteInfo
 	};
 
 	return ret_val;
@@ -113,7 +125,7 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 
 	if (check_type === "PHISHING") {
 
-		if (dictConfig["cheAlert"]/* && (lastTabDomains["tabId_" + tabId] == null || lastTabDomains["tabId_" + tabId] !== domainName) && eventType === "onRequest"*/) {
+		if (dictConfig["cheAlert"]) {
 			var textTitle = chrome.i18n.getMessage("alePhishingNotificationTitle");
 			var textBody = chrome.i18n.getMessage("alePhishingNotificationBody");
 
@@ -134,10 +146,11 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 		chrome.browserAction.setBadgeText({"text": "BAD"});
 		chrome.browserAction.setBadgeBackgroundColor({color: "red"});
 		chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePhishingNotificationTitle")});
+		chrome.browserAction.setPopup({"popup": "ui/popup.html"})
 	}
 	else if (check_type === "SCAM") {
 
-		if (dictConfig["cheAlert"]/* && (lastTabDomains["tabId_" + tabId] == null || lastTabDomains["tabId_" + tabId] !== domainName) && eventType === "onRequest"*/) {
+		if (dictConfig["cheAlert"]) {
 			var textTitle = chrome.i18n.getMessage("aleScamNotificationTitle");
 			var textBody = chrome.i18n.getMessage("aleScamNotificationBody");
 
@@ -158,6 +171,7 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 		chrome.browserAction.setBadgeText({"text": "BAD"});
 		chrome.browserAction.setBadgeBackgroundColor({color: "red"});
 		chrome.browserAction.setTitle({title: chrome.i18n.getMessage("aleScamNotificationTitle")});
+		chrome.browserAction.setPopup({"popup": "ui/popup.html"})
 	}
 	else if (check_type === "PUNY") {
 
@@ -192,6 +206,7 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 		chrome.browserAction.setBadgeText({"text": "Puny"});
 		chrome.browserAction.setBadgeBackgroundColor({color: "red"});
 		chrome.browserAction.setTitle({title: chrome.i18n.getMessage("alePunyNotificationTitle")});
+		chrome.browserAction.setPopup({"popup": "ui/popup.html"})
 	}
 	else if (check_type === "WHITE") {
 
@@ -222,22 +237,24 @@ function doCheckAction(currentUrl, eventType, tabActive, tabId) {
 		chrome.browserAction.setBadgeBackgroundColor({color: "green"});
 		var trustedTitle = '"' + whiteSite.title + '" ' + chrome.i18n.getMessage("aleWhiteNotificationTitle");
 		chrome.browserAction.setTitle({title: trustedTitle});
+		chrome.browserAction.setPopup({"popup": "ui/popup.html"})
 	}
 	else {
 		chrome.browserAction.setTitle({title: chrome.i18n.getMessage("badgeTitle")});
 		chrome.browserAction.setBadgeText({"text": ""});
-		chrome.browserAction.setIcon({path: "img/blue.png"});
+		chrome.browserAction.setIcon({path: "img/gray.png"});
+		chrome.browserAction.setPopup({"popup": ""})
 	}
 
-	if (dictConfig["cheAlert"] || dictConfig["chePunyAlert"] || dictConfig["cheWhiteAlert"]/* && eventType === "onRequest"*/) {
+	if (dictConfig["cheAlert"] || dictConfig["chePunyAlert"] || dictConfig["cheWhiteAlert"]) {
 		lastTabDomains["tabId_" + tabId] = domainName;
 	}
 }
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-	if (message.loaded) {
+	if (message.loaded === "content") {
 		var tabId = sender.tab.id;
-		chrome.tabs.query({active: true}, function (tabArray) {
+		chrome.tabs.query({active: true, currentWindow: true}, function (tabArray) {
 			tabArray.forEach(function (tab) {
 				if (tab.id === tabId) {
 					var currentURL = tab.url;
@@ -250,14 +267,16 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 		} else {
 			sendResponse(null);
 		}
-	} else {
+	} else if (message.loaded === "option") {
 		dictConfig = message.storageConfig;
+	} else if (message.loaded === "popup") {
+		sendResponse(easyCheckList(message.sendUrl));
 	}
 });
 
 chrome.tabs.onActivated.addListener(function (activeInfo) {
 	var tabId = activeInfo.tabId;
-	chrome.tabs.query({active: true}, function (tabArray) {
+	chrome.tabs.query({active: true, currentWindow: true}, function (tabArray) {
 		tabArray.forEach(function (tab) {
 			if (tab.id === tabId) {
 				var currentURL = tab.url;
@@ -268,11 +287,7 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
 });
 
 chrome.windows.onFocusChanged.addListener(function (windowId) {
-	//if (windowId === chrome.windows.WINDOW_ID_NONE) {
-	//clearAllNotifications();
-	//}
-	//else {
-	chrome.tabs.query({active: true}, function (tabs) {
+	chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
 		tabs.forEach(function (tab) {
 			if (tab.windowId === windowId) {
 				var currentURL = tab.url;
@@ -280,30 +295,8 @@ chrome.windows.onFocusChanged.addListener(function (windowId) {
 			}
 		});
 	});
-	//}
 });
 
 chrome.notifications.onClicked.addListener(function (notificationId) {
 	chrome.notifications.clear(notificationId);
 });
-
-/*
-function checkBrowserFocus() {
-	chrome.windows.getCurrent(function (browser) {
-		if (!browser.focused) {
-			clearAllNotifications();
-		}
-	})
-}
-
-function clearAllNotifications() {
-	chrome.notifications.getAll(function (notifications) {
-		var keys = Object.keys(notifications);
-		for (var i = 0, l = keys.length; i < l; i += 1) {
-			chrome.notifications.clear(keys[i]);
-		}
-	});
-}
-
-window.setInterval(checkBrowserFocus, 5000);
-*/
