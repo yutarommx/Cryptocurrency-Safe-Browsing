@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	chrome.tabs.query({active: true, currentWindow: true}, function (tabArray) {
 		if (tabArray[0] != null) {
 			chrome.runtime.sendMessage({loaded: "popup", sendUrl: tabArray[0].url}, function (response) {
-				console.log(response);
 				var msg_title = "";
 				var msg_body = "";
 				var hostname = "";
