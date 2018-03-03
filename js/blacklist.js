@@ -14636,7 +14636,7 @@ const badList = {
 	},
 	"changlley.org": {
 		"id": 2970,
-		"url": "changlley.com",
+		"url": "changlley.org",
 		"category": "Phishing"
 	}
 };

@@ -54,7 +54,7 @@
 	"message": "本物のサイト"
   },
   "labManual": {
-	"message": "通知を表示しないドメイン"
+	"message": "無視するドメイン"
   },
   "labNotifi": {
 	"message": "通知する"
