@@ -14633,5 +14633,10 @@ const badList = {
 		"id": 2969,
 		"url": "rnyertherwallet.com",
 		"category": "Phishing"
+	},
+	"changlley.org": {
+		"id": 2970,
+		"url": "changlley.com",
+		"category": "Phishing"
 	}
 };
