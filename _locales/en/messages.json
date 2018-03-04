@@ -39,7 +39,7 @@
       "message": "Crypto KAERU"
    },
    "extDescription": {
-      "message": "That warns its users when they visit URL addresses with Punycode sites or scam phishing sites(over 2900 Domains)."
+      "message": "That warns its users when they visit URL addresses with Punycode sites or scam phishing sites(over 3000 Domains)."
    },
    "extName": {
       "message": "Cryptocurrency Scam Site Detection"
