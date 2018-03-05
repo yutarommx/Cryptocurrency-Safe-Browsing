@@ -73,6 +73,10 @@ const whiteList = {
 		"hostname": "yobit.net",
 		"title": "YoBit"
 	},
+	"yobit.io": {
+		"hostname": "yobit.io",
+		"title": "YoBit"
+	},
 
 	"tradesatoshi.com": {
 		"hostname": "tradesatoshi.com",
@@ -1362,5 +1366,40 @@ const whiteList = {
 	"nanjcoin.com": {
 		"hostname": "nanjcoin.com",
 		"title": "NANJCOIN"
+	},
+
+	"apisplatform.io": {
+		"hostname": "apisplatform.io",
+		"title": "APIS"
+	},
+
+	"cedex.com": {
+		"hostname": "cedex.com",
+		"title": "CEDEX"
+	},
+
+	"alismedia.jp": {
+		"hostname": "alismedia.jp",
+		"title": "ALIS"
+	},
+
+	"coinpayments.net": {
+		"hostname": "coinpayments.net",
+		"title": "CoinPayments"
+	},
+
+	"bitindia.co": {
+		"hostname": "bitindia.co",
+		"title": "Bitindia"
+	},
+
+	"tomocoin.io": {
+		"hostname": "tomocoin.io",
+		"title": "Tomocoin"
+	},
+
+	"data.eco": {
+		"hostname": "data.eco",
+		"title": "DATA"
 	}
 };

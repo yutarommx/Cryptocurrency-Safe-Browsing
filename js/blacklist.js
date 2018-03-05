@@ -1,27 +1,5387 @@
 const badList = {
-	"xn--myetherwallt-leb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-leb.com",
+	"nnyiictehervvailiat.com": {
+		"id": 2975,
+		"url": "nnyiictehervvailiat.com",
 		"category": "Phishing"
 	},
-	"myelherwallel.com": {
-		"id": 0,
-		"url": "myelherwallel.com",
+	"odachi.neocities.org": {
+		"id": 2974,
+		"url": "odachi.neocities.org",
+		"category": "Scam"
+	},
+	"bittrex-give.com": {
+		"id": 2973,
+		"url": "bittrex-give.com",
+		"category": "Scam"
+	},
+	"policypal.info": {
+		"id": 2972,
+		"url": "policypal.info",
 		"category": "Phishing"
 	},
-	"myetherwallet.cam": {
-		"id": 0,
-		"url": "myetherwallet.cam",
+	"changlley.org": {
+		"id": 2970,
+		"url": "changlley.org",
 		"category": "Phishing"
 	},
-	"coindash.ru": {
-		"id": 0,
-		"url": "coindash.ru",
+	"rnyertherwallet.com": {
+		"id": 2969,
+		"url": "rnyertherwallet.com",
 		"category": "Phishing"
 	},
-	"coin-wallet.info": {
+	"xn--thabyss-u8a.com": {
+		"id": 2968,
+		"url": "xn--thabyss-u8a.com",
+		"category": "Phishing"
+	},
+	"callisto-airdrop.com": {
+		"id": 2967,
+		"url": "callisto-airdrop.com",
+		"category": "Phishing"
+	},
+	"telegramfoundation.org": {
+		"id": 2966,
+		"url": "telegramfoundation.org",
+		"category": "Phishing"
+	},
+	"polymathnetwork.org": {
+		"id": 2965,
+		"url": "polymathnetwork.org",
+		"category": "Phishing"
+	},
+	"ethereum-promo.bitballoon.com": {
+		"id": 2964,
+		"url": "ethereum-promo.bitballoon.com",
+		"category": "Scam"
+	},
+	"dfintty.org": {
 		"id": 0,
-		"url": "coin-wallet.info",
+		"url": "dfintty.org",
+		"category": "Phishing"
+	},
+	"dftnity.org": {
+		"id": 0,
+		"url": "dftnity.org",
+		"category": "Phishing"
+	},
+	"usermd.net": {
+		"id": 0,
+		"url": "usermd.net",
+		"category": "Phishing"
+	},
+	"xn--gemn-nzab.com": {
+		"id": 0,
+		"url": "xn--gemn-nzab.com",
+		"category": "Phishing"
+	},
+	"xn--bnance-3va.com": {
+		"id": 0,
+		"url": "xn--bnance-3va.com",
+		"category": "Phishing"
+	},
+	"xn--binnce-yc8b.com": {
+		"id": 0,
+		"url": "xn--binnce-yc8b.com",
+		"category": "Phishing"
+	},
+	"xn--bnance-p9a.com": {
+		"id": 0,
+		"url": "xn--bnance-p9a.com",
+		"category": "Phishing"
+	},
+	"xn--binane-0ua.com": {
+		"id": 0,
+		"url": "xn--binane-0ua.com",
+		"category": "Phishing"
+	},
+	"binalce.com": {
+		"id": 0,
+		"url": "binalce.com",
+		"category": "Phishing"
+	},
+	"binince.com": {
+		"id": 0,
+		"url": "binince.com",
+		"category": "Phishing"
+	},
+	"xn--conbase-pza.com": {
+		"id": 0,
+		"url": "xn--conbase-pza.com",
+		"category": "Phishing"
+	},
+	"xn--conbase-sfb.com": {
+		"id": 0,
+		"url": "xn--conbase-sfb.com",
+		"category": "Phishing"
+	},
+	"xn--coinbas-xya.com": {
+		"id": 0,
+		"url": "xn--coinbas-xya.com",
+		"category": "Phishing"
+	},
+	"xn--coinbas-z8a.com": {
+		"id": 0,
+		"url": "xn--coinbas-z8a.com",
+		"category": "Phishing"
+	},
+	"xn--coinbse-9wa.com": {
+		"id": 0,
+		"url": "xn--coinbse-9wa.com",
+		"category": "Phishing"
+	},
+	"xn--coinbse-lwa.com": {
+		"id": 0,
+		"url": "xn--coinbse-lwa.com",
+		"category": "Phishing"
+	},
+	"xn--polonex-vfb.com": {
+		"id": 0,
+		"url": "xn--polonex-vfb.com",
+		"category": "Phishing"
+	},
+	"xn--ploniex-l0a.com": {
+		"id": 0,
+		"url": "xn--ploniex-l0a.com",
+		"category": "Phishing"
+	},
+	"xn--plniex-bxab.com": {
+		"id": 0,
+		"url": "xn--plniex-bxab.com",
+		"category": "Phishing"
+	},
+	"xn--havvn-9za.io": {
+		"id": 0,
+		"url": "xn--havvn-9za.io",
+		"category": "Phishing"
+	},
+	"havvenio.com": {
+		"id": 2959,
+		"url": "havvenio.com",
+		"category": "Phishing"
+	},
+	"nucelus.vision": {
+		"id": 2957,
+		"url": "nucelus.vision",
+		"category": "Phishing"
+	},
+	"metronometoken.io": {
+		"id": 2954,
+		"url": "metronometoken.io",
+		"category": "Phishing"
+	},
+	"meganfoxloveyou.com": {
+		"id": 2952,
+		"url": "meganfoxloveyou.com",
+		"category": "Phishing"
+	},
+	"xn--yetherwalle-iw8e1s.com": {
+		"id": 2951,
+		"url": "xn--yetherwalle-iw8e1s.com",
+		"category": "Phishing"
+	},
+	"tron-online.org": {
+		"id": 2949,
+		"url": "tron-online.org",
+		"category": "Scam"
+	},
+	"myenthereumwallet.com": {
+		"id": 2946,
+		"url": "myenthereumwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet-team.com": {
+		"id": 2945,
+		"url": "myetherwallet-team.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.usermd.net": {
+		"id": 2944,
+		"url": "myetherwallet.usermd.net",
+		"category": "Phishing"
+	},
+	"xn--yetherwalle-tv8ezt.com": {
+		"id": 2943,
+		"url": "xn--yetherwalle-tv8ezt.com",
+		"category": "Phishing"
+	},
+	"xn--coindek-873c.com": {
+		"id": 2942,
+		"url": "xn--coindek-873c.com",
+		"category": "Phishing"
+	},
+	"dflinity.org": {
+		"id": 0,
+		"url": "dflinity.org",
+		"category": "Phishing"
+	},
+	"ipsx.promo": {
+		"id": 2940,
+		"url": "ipsx.promo",
+		"category": "Phishing"
+	},
+	"havven-sale.com": {
+		"id": 2960,
+		"url": "havven-sale.com",
+		"category": "Phishing"
+	},
+	"tokensale-adhive.com": {
+		"id": 2939,
+		"url": "tokensale-adhive.com",
+		"category": "Phishing"
+	},
+	"ataritoken.ltd": {
+		"id": 2933,
+		"url": "ataritoken.ltd",
+		"category": "Phishing"
+	},
+	"transfer-address-confirmation.droppages.com": {
+		"id": 2932,
+		"url": "transfer-address-confirmation.droppages.com",
+		"category": "Scam"
+	},
+	"droppages.com": {
+		"id": 0,
+		"url": "droppages.com",
+		"category": "Phishing"
+	},
+	"dfinlty.org": {
+		"id": 0,
+		"url": "dfinlty.org",
+		"category": "Phishing"
+	},
+	"poloniex.work": {
+		"id": 0,
+		"url": "poloniex.work",
+		"category": "Phishing"
+	},
+	"tokensale-havven.in": {
+		"id": 2956,
+		"url": "tokensale-havven.in",
+		"category": "Phishing"
+	},
+	"ico-havven.org": {
+		"id": 2955,
+		"url": "ico-havven.org",
+		"category": "Phishing"
+	},
+	"secure.poloniex.work": {
+		"id": 2930,
+		"url": "secure.poloniex.work",
+		"category": "Phishing"
+	},
+	"vechain-foundation.org": {
+		"id": 2929,
+		"url": "vechain-foundation.org",
+		"category": "Phishing"
+	},
+	"telegram.tokyo": {
+		"id": 0,
+		"url": "telegram.tokyo",
+		"category": "Phishing"
+	},
+	"forkdelta.io": {
+		"id": 2926,
+		"url": "forkdelta.io",
+		"category": "Phishing"
+	},
+	"ton-sale.com": {
+		"id": 2927,
+		"url": "ton-sale.com",
+		"category": "Phishing"
+	},
+	"ico-telegram.online": {
+		"id": 2923,
+		"url": "ico-telegram.online",
+		"category": "Phishing"
+	},
+	"telegramtoken.io": {
+		"id": 2922,
+		"url": "telegramtoken.io",
+		"category": "Phishing"
+	},
+	"gonetwork-airdrop.co": {
+		"id": 2921,
+		"url": "gonetwork-airdrop.co",
+		"category": "Phishing"
+	},
+	"secure-transaction-confirmation.droppages.com": {
+		"id": 2920,
+		"url": "secure-transaction-confirmation.droppages.com",
+		"category": "Scam"
+	},
+	"neonexchanges.org": {
+		"id": 2919,
+		"url": "neonexchanges.org",
+		"category": "Scam"
+	},
+	"eth-transact.secure.droppages.com": {
+		"id": 2918,
+		"url": "eth-transact.secure.droppages.com",
+		"category": "Scam"
+	},
+	"6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com": {
+		"id": 2917,
+		"url": "6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com",
+		"category": "Scam"
+	},
+	"akasha-world.com": {
+		"id": 2916,
+		"url": "akasha-world.com",
+		"category": "Scam"
+	},
+	"address-transfer-confirmation.droppages.com": {
+		"id": 2915,
+		"url": "address-transfer-confirmation.droppages.com",
+		"category": "Scam"
+	},
+	"b5z.net": {
+		"id": 0,
+		"url": "b5z.net",
+		"category": "Phishing"
+	},
+	"p.b5z.net": {
+		"id": 0,
+		"url": "p.b5z.net",
+		"category": "Phishing"
+	},
+	"tokensale.xn--havve-7l1b.com": {
+		"id": 2936,
+		"url": "tokensale.xn--havve-7l1b.com",
+		"category": "Phishing"
+	},
+	"xn--coindes-bx3c.com": {
+		"id": 0,
+		"url": "xn--coindes-bx3c.com",
+		"category": "Phishing"
+	},
+	"xn--coindek-s73c.com": {
+		"id": 2914,
+		"url": "xn--coindek-s73c.com",
+		"category": "Phishing"
+	},
+	"locaeltherum.com": {
+		"id": 2910,
+		"url": "locaeltherum.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.tokenimport.com": {
+		"id": 2909,
+		"url": "myetherwallet.tokenimport.com",
+		"category": "Phishing"
+	},
+	"tokenimport.com": {
+		"id": 0,
+		"url": "tokenimport.com",
+		"category": "Phishing"
+	},
+	"leadscoin.network": {
+		"id": 0,
+		"url": "leadscoin.network",
+		"category": "Phishing"
+	},
+	"localethereom.com": {
+		"id": 2908,
+		"url": "localethereom.com",
+		"category": "Phishing"
+	},
+	"havvens.win": {
+		"id": 2937,
+		"url": "havvens.win",
+		"category": "Phishing"
+	},
+	"xn--metherwalle-jb9ejq.com": {
+		"id": 2913,
+		"url": "xn--metherwalle-jb9ejq.com",
+		"category": "Phishing"
+	},
+	"xn--myetheralle-jb9exm.com": {
+		"id": 2907,
+		"url": "xn--myetheralle-jb9exm.com",
+		"category": "Phishing"
+	},
+	"tefood.me": {
+		"id": 0,
+		"url": "tefood.me",
+		"category": "Phishing"
+	},
+	"havventoken.com": {
+		"id": 2925,
+		"url": "havventoken.com",
+		"category": "Phishing"
+	},
+	"havven.cc": {
+		"id": 2924,
+		"url": "havven.cc",
+		"category": "Phishing"
+	},
+	"havven.eu": {
+		"id": 2947,
+		"url": "havven.eu",
+		"category": "Phishing"
+	},
+	"havven.top": {
+		"id": 2958,
+		"url": "havven.top",
+		"category": "Phishing"
+	},
+	"mywalletether.com": {
+		"id": 0,
+		"url": "mywalletether.com",
+		"category": "Phishing"
+	},
+	"myetherwallett.site": {
+		"id": 2899,
+		"url": "myetherwallett.site",
+		"category": "Phishing"
+	},
+	"xn--myethewalle-w48erh.com": {
+		"id": 2898,
+		"url": "xn--myethewalle-w48erh.com",
+		"category": "Phishing"
+	},
+	"el-petro-coin.com": {
+		"id": 2897,
+		"url": "el-petro-coin.com",
+		"category": "Phishing"
+	},
+	"xn--yeterwallet-bm8eym.com": {
+		"id": 2896,
+		"url": "xn--yeterwallet-bm8eym.com",
+		"category": "Phishing"
+	},
+	"sale-orchid.com": {
+		"id": 2895,
+		"url": "sale-orchid.com",
+		"category": "Phishing"
+	},
+	"electrify-asia.info": {
+		"id": 2894,
+		"url": "electrify-asia.info",
+		"category": "Phishing"
+	},
+	"tron-foundation.org": {
+		"id": 2893,
+		"url": "tron-foundation.org",
+		"category": "Phishing"
+	},
+	"dflnlty.org": {
+		"id": 0,
+		"url": "dflnlty.org",
+		"category": "Phishing"
+	},
+	"polyswarm.tech": {
+		"id": 2891,
+		"url": "polyswarm.tech",
+		"category": "Phishing"
+	},
+	"tokensale.polyswarm.tech": {
+		"id": 0,
+		"url": "tokensale.polyswarm.tech",
+		"category": "Phishing"
+	},
+	"polyswarm.ru": {
+		"id": 2890,
+		"url": "polyswarm.ru",
+		"category": "Phishing"
+	},
+	"dock.click": {
+		"id": 2888,
+		"url": "dock.click",
+		"category": "Phishing"
+	},
+	"leadcoins.network": {
+		"id": 2912,
+		"url": "leadcoins.network",
+		"category": "Phishing"
+	},
+	"dock-tokensale.eu": {
+		"id": 2889,
+		"url": "dock-tokensale.eu",
+		"category": "Phishing"
+	},
+	"polyswarm.pw": {
+		"id": 2887,
+		"url": "polyswarm.pw",
+		"category": "Phishing"
+	},
+	"dock-io.org": {
+		"id": 2886,
+		"url": "dock-io.org",
+		"category": "Phishing"
+	},
+	"heavven.io": {
+		"id": 2938,
+		"url": "heavven.io",
+		"category": "Phishing"
+	},
+	"havven.live": {
+		"id": 2903,
+		"url": "havven.live",
+		"category": "Phishing"
+	},
+	"havven.sale": {
+		"id": 2948,
+		"url": "havven.sale",
+		"category": "Phishing"
+	},
+	"havven.info": {
+		"id": 2904,
+		"url": "havven.info",
+		"category": "Phishing"
+	},
+	"dock.network": {
+		"id": 2885,
+		"url": "dock.network",
+		"category": "Phishing"
+	},
+	"blocklancer.me": {
+		"id": 2883,
+		"url": "blocklancer.me",
+		"category": "Phishing"
+	},
+	"tokensale-havven.io": {
+		"id": 0,
+		"url": "tokensale-havven.io",
+		"category": "Phishing"
+	},
+	"havven.pro": {
+		"id": 2905,
+		"url": "havven.pro",
+		"category": "Phishing"
+	},
+	"tokentelegram.com": {
+		"id": 2882,
+		"url": "tokentelegram.com",
+		"category": "Phishing"
+	},
+	"ico-telegram.me": {
+		"id": 0,
+		"url": "ico-telegram.me",
+		"category": "Phishing"
+	},
+	"myetherzero.com": {
+		"id": 2881,
+		"url": "myetherzero.com",
+		"category": "Phishing"
+	},
+	"seele-token.pro": {
+		"id": 2880,
+		"url": "seele-token.pro",
+		"category": "Phishing"
+	},
+	"tokensale-havven.com": {
+		"id": 2906,
+		"url": "tokensale-havven.com",
+		"category": "Phishing"
+	},
+	"polyswarm.in": {
+		"id": 2879,
+		"url": "polyswarm.in",
+		"category": "Phishing"
+	},
+	"sale-dock.com": {
+		"id": 2878,
+		"url": "sale-dock.com",
+		"category": "Phishing"
+	},
+	"polyswarm.co": {
+		"id": 2877,
+		"url": "polyswarm.co",
+		"category": "Phishing"
+	},
+	"polyswarm.bid": {
+		"id": 2876,
+		"url": "polyswarm.bid",
+		"category": "Phishing"
+	},
+	"ton.fund": {
+		"id": 2875,
+		"url": "ton.fund",
+		"category": "Phishing"
+	},
+	"forkdeita.github.io": {
+		"id": 2874,
+		"url": "forkdeita.github.io",
+		"category": "Phishing"
+	},
+	"xn--binnce-5nf.com": {
+		"id": 2871,
+		"url": "xn--binnce-5nf.com",
+		"category": "Phishing"
+	},
+	"xn--biace-4l1bb.com": {
+		"id": 2872,
+		"url": "xn--biace-4l1bb.com",
+		"category": "Phishing"
+	},
+	"jiocoins.io": {
+		"id": 2867,
+		"url": "jiocoins.io",
+		"category": "Scam"
+	},
+	"xn--polonx-0va26t.com": {
+		"id": 2866,
+		"url": "xn--polonx-0va26t.com",
+		"category": "Phishing"
+	},
+	"myetlherewallet.org": {
+		"id": 2865,
+		"url": "myetlherewallet.org",
+		"category": "Phishing"
+	},
+	"myeithereiuwallet.com": {
+		"id": 2864,
+		"url": "myeithereiuwallet.com",
+		"category": "Phishing"
+	},
+	"fin-trux.com": {
+		"id": 2863,
+		"url": "fin-trux.com",
+		"category": "Phishing"
+	},
+	"finetrux.com": {
+		"id": 2862,
+		"url": "finetrux.com",
+		"category": "Phishing"
+	},
+	"telcoin.pro": {
+		"id": 2861,
+		"url": "telcoin.pro",
+		"category": "Phishing"
+	},
+	"xn--es-8bb.com": {
+		"id": 2859,
+		"url": "xn--es-8bb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherallt-pl9elw.com": {
+		"id": 2860,
+		"url": "xn--myetherallt-pl9elw.com",
+		"category": "Phishing"
+	},
+	"ico-dock.org": {
+		"id": 2858,
+		"url": "ico-dock.org",
+		"category": "Phishing"
+	},
+	"dock.io-bonus.online": {
+		"id": 2857,
+		"url": "dock.io-bonus.online",
+		"category": "Phishing"
+	},
+	"docks.site": {
+		"id": 2856,
+		"url": "docks.site",
+		"category": "Phishing"
+	},
+	"dock-ico.pro": {
+		"id": 2855,
+		"url": "dock-ico.pro",
+		"category": "Phishing"
+	},
+	"dock-ico.eu": {
+		"id": 2854,
+		"url": "dock-ico.eu",
+		"category": "Phishing"
+	},
+	"dock.su": {
+		"id": 2853,
+		"url": "dock.su",
+		"category": "Phishing"
+	},
+	"tokensale-dock.io": {
+		"id": 2851,
+		"url": "tokensale-dock.io",
+		"category": "Phishing"
+	},
+	"dock-ico.site": {
+		"id": 2850,
+		"url": "dock-ico.site",
+		"category": "Phishing"
+	},
+	"openplatform.tech": {
+		"id": 2847,
+		"url": "openplatform.tech",
+		"category": "Phishing"
+	},
+	"rightmesh.in": {
+		"id": 2846,
+		"url": "rightmesh.in",
+		"category": "Phishing"
+	},
+	"waxtoken.in": {
+		"id": 2845,
+		"url": "waxtoken.in",
+		"category": "Phishing"
+	},
+	"metamaskgiveaway.xyz": {
+		"id": 2848,
+		"url": "metamaskgiveaway.xyz",
+		"category": "Phishing"
+	},
+	"nebulastoken.in": {
+		"id": 2844,
+		"url": "nebulastoken.in",
+		"category": "Phishing"
+	},
+	"vechain-foundation.com": {
+		"id": 2843,
+		"url": "vechain-foundation.com",
+		"category": "Phishing"
+	},
+	"icotoken-current.top": {
+		"id": 2841,
+		"url": "icotoken-current.top",
+		"category": "Phishing"
+	},
+	"xn--myethrwalle-jb9e19a.com": {
+		"id": 2840,
+		"url": "xn--myethrwalle-jb9e19a.com",
+		"category": "Phishing"
+	},
+	"xn--myetheralle-7b9ezl.com": {
+		"id": 2839,
+		"url": "xn--myetheralle-7b9ezl.com",
+		"category": "Phishing"
+	},
+	"iconfoundation.co": {
+		"id": 2838,
+		"url": "iconfoundation.co",
+		"category": "Phishing"
+	},
+	"fundrequest.info": {
+		"id": 2837,
+		"url": "fundrequest.info",
+		"category": "Phishing"
+	},
+	"xn--myetherwale-os8e7x.com": {
+		"id": 2836,
+		"url": "xn--myetherwale-os8e7x.com",
+		"category": "Phishing"
+	},
+	"remme-ico.eu": {
+		"id": 2835,
+		"url": "remme-ico.eu",
+		"category": "Phishing"
+	},
+	"gonetwork.live": {
+		"id": 2834,
+		"url": "gonetwork.live",
+		"category": "Phishing"
+	},
+	"token.gonetwork.pro": {
+		"id": 2833,
+		"url": "token.gonetwork.pro",
+		"category": "Phishing"
+	},
+	"gonetwork.pro": {
+		"id": 0,
+		"url": "gonetwork.pro",
+		"category": "Phishing"
+	},
+	"gonetwork.eu": {
+		"id": 2832,
+		"url": "gonetwork.eu",
+		"category": "Phishing"
+	},
+	"nucleus-vision.cc": {
+		"id": 2831,
+		"url": "nucleus-vision.cc",
+		"category": "Phishing"
+	},
+	"jibreltoken.in": {
+		"id": 2830,
+		"url": "jibreltoken.in",
+		"category": "Phishing"
+	},
+	"dock.so": {
+		"id": 2849,
+		"url": "dock.so",
+		"category": "Phishing"
+	},
+	"dock.promo": {
+		"id": 2852,
+		"url": "dock.promo",
+		"category": "Phishing"
+	},
+	"xn--mycrypt-r0a.com": {
+		"id": 0,
+		"url": "xn--mycrypt-r0a.com",
+		"category": "Phishing"
+	},
+	"xn--mycrypt-g1a.com": {
+		"id": 0,
+		"url": "xn--mycrypt-g1a.com",
+		"category": "Phishing"
+	},
+	"xn--mycrpto-y2a.com": {
+		"id": 0,
+		"url": "xn--mycrpto-y2a.com",
+		"category": "Phishing"
+	},
+	"ethexploit.org": {
+		"id": 2827,
+		"url": "ethexploit.org",
+		"category": "Scam"
+	},
+	"remme.in": {
+		"id": 0,
+		"url": "remme.in",
+		"category": "Phishing"
+	},
+	"remme.ws": {
+		"id": 0,
+		"url": "remme.ws",
+		"category": "Phishing"
+	},
+	"remme.com.ng": {
+		"id": 0,
+		"url": "remme.com.ng",
+		"category": "Phishing"
+	},
+	"nyeitthervvallet.com": {
+		"id": 2824,
+		"url": "nyeitthervvallet.com",
+		"category": "Phishing"
+	},
+	"xn--myeerhwailet-ooc.com": {
+		"id": 2825,
+		"url": "xn--myeerhwailet-ooc.com",
+		"category": "Phishing"
+	},
+	"myeterhwaliot.com": {
+		"id": 2826,
+		"url": "myeterhwaliot.com",
+		"category": "Phishing"
+	},
+	"remme.live": {
+		"id": 2842,
+		"url": "remme.live",
+		"category": "Phishing"
+	},
+	"xn--yethewalle-to2exkhi.com": {
+		"id": 2823,
+		"url": "xn--yethewalle-to2exkhi.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.custom-token.com": {
+		"id": 2822,
+		"url": "myetherwallet.custom-token.com",
+		"category": "Phishing"
+	},
+	"custom-token.com": {
+		"id": 0,
+		"url": "custom-token.com",
+		"category": "Phishing"
+	},
+	"sale-earn.com": {
+		"id": 2821,
+		"url": "sale-earn.com",
+		"category": "Phishing"
+	},
+	"bankera.live": {
+		"id": 2818,
+		"url": "bankera.live",
+		"category": "Phishing"
+	},
+	"originprotocol.io": {
+		"id": 2817,
+		"url": "originprotocol.io",
+		"category": "Phishing"
+	},
+	"trx.foundation": {
+		"id": 2815,
+		"url": "trx.foundation",
+		"category": "Phishing"
+	},
+	"tokensale.adhive.net": {
+		"id": 0,
+		"url": "tokensale.adhive.net",
+		"category": "Phishing"
+	},
+	"adhive.net": {
+		"id": 2814,
+		"url": "adhive.net",
+		"category": "Phishing"
+	},
+	"decentral.market": {
+		"id": 2813,
+		"url": "decentral.market",
+		"category": "Phishing"
+	},
+	"cryptoexploite.com": {
+		"id": 2812,
+		"url": "cryptoexploite.com",
+		"category": "Scam"
+	},
+	"blockclain.net": {
+		"id": 0,
+		"url": "blockclain.net",
+		"category": "Phishing"
+	},
+	"xn--blckchin-5za9o.info": {
+		"id": 0,
+		"url": "xn--blckchin-5za9o.info",
+		"category": "Phishing"
+	},
+	"xn--blkhain-m0a4pb.info": {
+		"id": 0,
+		"url": "xn--blkhain-m0a4pb.info",
+		"category": "Phishing"
+	},
+	"xn--blocchal-gmb8m.info": {
+		"id": 0,
+		"url": "xn--blocchal-gmb8m.info",
+		"category": "Phishing"
+	},
+	"xn--blocchaln-orb.info": {
+		"id": 0,
+		"url": "xn--blocchaln-orb.info",
+		"category": "Phishing"
+	},
+	"xn--blocchan-gmb7c.info": {
+		"id": 0,
+		"url": "xn--blocchan-gmb7c.info",
+		"category": "Phishing"
+	},
+	"xn--blockaden-lsen-5pb.com": {
+		"id": 0,
+		"url": "xn--blockaden-lsen-5pb.com",
+		"category": "Phishing"
+	},
+	"xn--blockchai-3vb.info": {
+		"id": 0,
+		"url": "xn--blockchai-3vb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchai-jvb.info": {
+		"id": 0,
+		"url": "xn--blockchai-jvb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchal-3vb.info": {
+		"id": 0,
+		"url": "xn--blockchal-3vb.info",
+		"category": "Phishing"
+	},
+	"xn--blockcham-ipb.info": {
+		"id": 0,
+		"url": "xn--blockcham-ipb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchan-2pb.com": {
+		"id": 0,
+		"url": "xn--blockchan-2pb.com",
+		"category": "Phishing"
+	},
+	"xn--blockchan-75a.com": {
+		"id": 0,
+		"url": "xn--blockchan-75a.com",
+		"category": "Phishing"
+	},
+	"xn--blockchan-7sb.info": {
+		"id": 0,
+		"url": "xn--blockchan-7sb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchan-d5a.net": {
+		"id": 0,
+		"url": "xn--blockchan-d5a.net",
+		"category": "Phishing"
+	},
+	"xn--blockchan-dob.info": {
+		"id": 0,
+		"url": "xn--blockchan-dob.info",
+		"category": "Phishing"
+	},
+	"xn--blockchan-ipb.com": {
+		"id": 0,
+		"url": "xn--blockchan-ipb.com",
+		"category": "Phishing"
+	},
+	"xn--blockchan-ipb.info": {
+		"id": 0,
+		"url": "xn--blockchan-ipb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchan-nk7d.com": {
+		"id": 0,
+		"url": "xn--blockchan-nk7d.com",
+		"category": "Phishing"
+	},
+	"xn--blockchan-xub.info": {
+		"id": 0,
+		"url": "xn--blockchan-xub.info",
+		"category": "Phishing"
+	},
+	"xn--blockchann-4ub.com": {
+		"id": 0,
+		"url": "xn--blockchann-4ub.com",
+		"category": "Phishing"
+	},
+	"xn--blockchi-n7a50e.info": {
+		"id": 0,
+		"url": "xn--blockchi-n7a50e.info",
+		"category": "Phishing"
+	},
+	"xn--blockchi-o8a54d.info": {
+		"id": 0,
+		"url": "xn--blockchi-o8a54d.info",
+		"category": "Phishing"
+	},
+	"xn--blockchi-p99co8a.com": {
+		"id": 0,
+		"url": "xn--blockchi-p99co8a.com",
+		"category": "Phishing"
+	},
+	"xn--blockchim-hdb.info": {
+		"id": 0,
+		"url": "xn--blockchim-hdb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-1xb.info": {
+		"id": 0,
+		"url": "xn--blockchin-1xb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-61a.info": {
+		"id": 0,
+		"url": "xn--blockchin-61a.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-61a.net": {
+		"id": 0,
+		"url": "xn--blockchin-61a.net",
+		"category": "Phishing"
+	},
+	"xn--blockchin-6ib.info": {
+		"id": 0,
+		"url": "xn--blockchin-6ib.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-ccb.info": {
+		"id": 0,
+		"url": "xn--blockchin-ccb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-h4a.com": {
+		"id": 0,
+		"url": "xn--blockchin-h4a.com",
+		"category": "Phishing"
+	},
+	"xn--blockchin-h4a.info": {
+		"id": 0,
+		"url": "xn--blockchin-h4a.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-hdb.info": {
+		"id": 0,
+		"url": "xn--blockchin-hdb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-hhb.info": {
+		"id": 0,
+		"url": "xn--blockchin-hhb.info",
+		"category": "Phishing"
+	},
+	"xn--blockchin-mib.net": {
+		"id": 0,
+		"url": "xn--blockchin-mib.net",
+		"category": "Phishing"
+	},
+	"xn--blockchin-wcb.com": {
+		"id": 0,
+		"url": "xn--blockchin-wcb.com",
+		"category": "Phishing"
+	},
+	"xn--blockchn-fza4j.com": {
+		"id": 0,
+		"url": "xn--blockchn-fza4j.com",
+		"category": "Phishing"
+	},
+	"xn--blockchn-fza4j.info": {
+		"id": 0,
+		"url": "xn--blockchn-fza4j.info",
+		"category": "Phishing"
+	},
+	"xn--blockchn-n7a43b.info": {
+		"id": 0,
+		"url": "xn--blockchn-n7a43b.info",
+		"category": "Phishing"
+	},
+	"xn--blockchn-p0a.info": {
+		"id": 0,
+		"url": "xn--blockchn-p0a.info",
+		"category": "Phishing"
+	},
+	"xn--blockchn-tx0d4p.com": {
+		"id": 0,
+		"url": "xn--blockchn-tx0d4p.com",
+		"category": "Phishing"
+	},
+	"xn--blockclai-3vb.info": {
+		"id": 0,
+		"url": "xn--blockclai-3vb.info",
+		"category": "Phishing"
+	},
+	"xn--blockclin-hdb.com": {
+		"id": 0,
+		"url": "xn--blockclin-hdb.com",
+		"category": "Phishing"
+	},
+	"xn--blockclin-hdb.info": {
+		"id": 0,
+		"url": "xn--blockclin-hdb.info",
+		"category": "Phishing"
+	},
+	"xn--blockclin-hdb.org": {
+		"id": 0,
+		"url": "xn--blockclin-hdb.org",
+		"category": "Phishing"
+	},
+	"xn--blockflte-kirchrode-w6b.de": {
+		"id": 0,
+		"url": "xn--blockflte-kirchrode-w6b.de",
+		"category": "Phishing"
+	},
+	"xn--blockfltenquartett-windspiel-81c.de": {
+		"id": 0,
+		"url": "xn--blockfltenquartett-windspiel-81c.de",
+		"category": "Phishing"
+	},
+	"xn--blockhai-obb78c.info": {
+		"id": 0,
+		"url": "xn--blockhai-obb78c.info",
+		"category": "Phishing"
+	},
+	"xn--blockhain-4eb.com": {
+		"id": 0,
+		"url": "xn--blockhain-4eb.com",
+		"category": "Phishing"
+	},
+	"xn--blockhain-pfb.com": {
+		"id": 0,
+		"url": "xn--blockhain-pfb.com",
+		"category": "Phishing"
+	},
+	"xn--blockhain-pfb.info": {
+		"id": 0,
+		"url": "xn--blockhain-pfb.info",
+		"category": "Phishing"
+	},
+	"xn--blockhain-zdb.info": {
+		"id": 0,
+		"url": "xn--blockhain-zdb.info",
+		"category": "Phishing"
+	},
+	"xn--blockhan-obb65a.info": {
+		"id": 0,
+		"url": "xn--blockhan-obb65a.info",
+		"category": "Phishing"
+	},
+	"xn--blockhas-d6a.com": {
+		"id": 0,
+		"url": "xn--blockhas-d6a.com",
+		"category": "Phishing"
+	},
+	"xn--blockwallt-j7a.com": {
+		"id": 0,
+		"url": "xn--blockwallt-j7a.com",
+		"category": "Phishing"
+	},
+	"xn--blokchai-fqb.info": {
+		"id": 0,
+		"url": "xn--blokchai-fqb.info",
+		"category": "Phishing"
+	},
+	"xn--blokchain-nfb.info": {
+		"id": 0,
+		"url": "xn--blokchain-nfb.info",
+		"category": "Phishing"
+	},
+	"xn--blokhain-28ab.info": {
+		"id": 0,
+		"url": "xn--blokhain-28ab.info",
+		"category": "Phishing"
+	},
+	"xn--bockclnain-eyb.info": {
+		"id": 0,
+		"url": "xn--bockclnain-eyb.info",
+		"category": "Phishing"
+	},
+	"xn--mymoeo-zt7bzf.com": {
+		"id": 0,
+		"url": "xn--mymoeo-zt7bzf.com",
+		"category": "Phishing"
+	},
+	"xn--mymoer-nqc1368c.com": {
+		"id": 0,
+		"url": "xn--mymoer-nqc1368c.com",
+		"category": "Phishing"
+	},
+	"xn--mymoero-c13c.com": {
+		"id": 0,
+		"url": "xn--mymoero-c13c.com",
+		"category": "Phishing"
+	},
+	"xn--mymoero-s13c.com": {
+		"id": 0,
+		"url": "xn--mymoero-s13c.com",
+		"category": "Phishing"
+	},
+	"xn--mymoneo-f63c.com": {
+		"id": 0,
+		"url": "xn--mymoneo-f63c.com",
+		"category": "Phishing"
+	},
+	"xn--mymoneo-v63c.com": {
+		"id": 0,
+		"url": "xn--mymoneo-v63c.com",
+		"category": "Phishing"
+	},
+	"xn--mymoneo-y53c.com": {
+		"id": 0,
+		"url": "xn--mymoneo-y53c.com",
+		"category": "Phishing"
+	},
+	"xn--mymoner-j0a.com": {
+		"id": 0,
+		"url": "xn--mymoner-j0a.com",
+		"category": "Phishing"
+	},
+	"xn--mymoner-j5b.com": {
+		"id": 0,
+		"url": "xn--mymoner-j5b.com",
+		"category": "Phishing"
+	},
+	"xn--mymoner-r0a.com": {
+		"id": 0,
+		"url": "xn--mymoner-r0a.com",
+		"category": "Phishing"
+	},
+	"xn--mymoner-z0a.com": {
+		"id": 0,
+		"url": "xn--mymoner-z0a.com",
+		"category": "Phishing"
+	},
+	"xn--mymoner-z2c.com": {
+		"id": 0,
+		"url": "xn--mymoner-z2c.com",
+		"category": "Phishing"
+	},
+	"xn--mymonro-fya.com": {
+		"id": 0,
+		"url": "xn--mymonro-fya.com",
+		"category": "Phishing"
+	},
+	"xn--mymonro-x8a.com": {
+		"id": 0,
+		"url": "xn--mymonro-x8a.com",
+		"category": "Phishing"
+	},
+	"xn--myetheallet-l58emu.com": {
+		"id": 0,
+		"url": "xn--myetheallet-l58emu.com",
+		"category": "Phishing"
+	},
+	"xn--myetheraet-9k2ea77h.com": {
+		"id": 0,
+		"url": "xn--myetheraet-9k2ea77h.com",
+		"category": "Phishing"
+	},
+	"xn--myetheralet-ms8e21b.com": {
+		"id": 0,
+		"url": "xn--myetheralet-ms8e21b.com",
+		"category": "Phishing"
+	},
+	"xn--myetheralle-7b9exm.com": {
+		"id": 0,
+		"url": "xn--myetheralle-7b9exm.com",
+		"category": "Phishing"
+	},
+	"xn--myetherallet-5s5f.com": {
+		"id": 0,
+		"url": "xn--myetherallet-5s5f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherallet-fs5f.com": {
+		"id": 0,
+		"url": "xn--myetherallet-fs5f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherewalle-1t1g.com": {
+		"id": 0,
+		"url": "xn--myetherewalle-1t1g.com",
+		"category": "Phishing"
+	},
+	"xn--myetherllet-pl9e6k.com": {
+		"id": 0,
+		"url": "xn--myetherllet-pl9e6k.com",
+		"category": "Phishing"
+	},
+	"xn--myethervvalle-8vc.com": {
+		"id": 0,
+		"url": "xn--myethervvalle-8vc.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwaet-61ea.com": {
+		"id": 0,
+		"url": "xn--myetherwaet-61ea.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwaet-8eda.com": {
+		"id": 0,
+		"url": "xn--myetherwaet-8eda.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwaet-ns8ea.com": {
+		"id": 0,
+		"url": "xn--myetherwaet-ns8ea.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwale-ns8e8x.com": {
+		"id": 0,
+		"url": "xn--myetherwale-ns8e8x.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-0fb.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-0fb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-0z4f.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-0z4f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-814f.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-814f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-d9b.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-d9b.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-h14f.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-h14f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-9me.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-9me.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-ek5f.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-ek5f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-fqc.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-fqc.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-opc.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-opc.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-q05f.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-q05f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-wob.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-wob.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllt-r7a0i.com": {
+		"id": 0,
+		"url": "xn--myetherwllt-r7a0i.com",
+		"category": "Phishing"
+	},
+	"xn--myethewaliet-9d5f.com": {
+		"id": 0,
+		"url": "xn--myethewaliet-9d5f.com",
+		"category": "Phishing"
+	},
+	"xn--myethewalle-3ic0947g.com": {
+		"id": 0,
+		"url": "xn--myethewalle-3ic0947g.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-0e5f.com": {
+		"id": 0,
+		"url": "xn--myethewallet-0e5f.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-1kc.com": {
+		"id": 0,
+		"url": "xn--myethewallet-1kc.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-bkc.com": {
+		"id": 0,
+		"url": "xn--myethewallet-bkc.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-vof.com": {
+		"id": 0,
+		"url": "xn--myethewallet-vof.com",
+		"category": "Phishing"
+	},
+	"xn--myethewalliet-nm1g.com": {
+		"id": 0,
+		"url": "xn--myethewalliet-nm1g.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallt-kbb3019g.com": {
+		"id": 0,
+		"url": "xn--myethewallt-kbb3019g.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallt-w48ew7b.com": {
+		"id": 0,
+		"url": "xn--myethewallt-w48ew7b.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwalet-6qb6408g.com": {
+		"id": 0,
+		"url": "xn--myethrwalet-6qb6408g.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwalet-ms8e83d.com": {
+		"id": 0,
+		"url": "xn--myethrwalet-ms8e83d.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-1db.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-1db.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-29af.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-29af.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-29as.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-29as.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwllet-q7a31e.com": {
+		"id": 0,
+		"url": "xn--myethrwllet-q7a31e.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwllet-r8a3c.com": {
+		"id": 0,
+		"url": "xn--myethrwllet-r8a3c.com",
+		"category": "Phishing"
+	},
+	"fintrux.eu": {
+		"id": 2808,
+		"url": "fintrux.eu",
+		"category": "Phishing"
+	},
+	"refereum-ico.eu": {
+		"id": 2807,
+		"url": "refereum-ico.eu",
+		"category": "Phishing"
+	},
+	"arcblock-ico.org": {
+		"id": 0,
+		"url": "arcblock-ico.org",
+		"category": "Phishing"
+	},
+	"xn--fuson-1sa.org": {
+		"id": 2810,
+		"url": "xn--fuson-1sa.org",
+		"category": "Phishing"
+	},
+	"refereum-token.com": {
+		"id": 2806,
+		"url": "refereum-token.com",
+		"category": "Phishing"
+	},
+	"fintrux.co": {
+		"id": 2805,
+		"url": "fintrux.co",
+		"category": "Phishing"
+	},
+	"ico-ton.org": {
+		"id": 2805,
+		"url": "ico-ton.org",
+		"category": "Phishing"
+	},
+	"xn--mytherwallt-cbbv.com": {
+		"id": 2798,
+		"url": "xn--mytherwallt-cbbv.com",
+		"category": "Phishing"
+	},
+	"xmoneta.co": {
+		"id": 2804,
+		"url": "xmoneta.co",
+		"category": "Phishing"
+	},
+	"data-wallet.co": {
+		"id": 2803,
+		"url": "data-wallet.co",
+		"category": "Phishing"
+	},
+	"tokensale.data-wallet.co": {
+		"id": 0,
+		"url": "tokensale.data-wallet.co",
+		"category": "Phishing"
+	},
+	"xn--myeerhwallot-ooc.com": {
+		"id": 2802,
+		"url": "xn--myeerhwallot-ooc.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwalet-cm8epi.com": {
+		"id": 2801,
+		"url": "xn--myeterwalet-cm8epi.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwalle-cm8ev6a.com": {
+		"id": 2800,
+		"url": "xn--myeterwalle-cm8ev6a.com",
+		"category": "Phishing"
+	},
+	"rnyetherumwallet.com": {
+		"id": 2797,
+		"url": "rnyetherumwallet.com",
+		"category": "Phishing"
+	},
+	"republic-protocol.net": {
+		"id": 2796,
+		"url": "republic-protocol.net",
+		"category": "Phishing"
+	},
+	"nyeihitervvallatt.com": {
+		"id": 2795,
+		"url": "nyeihitervvallatt.com",
+		"category": "Phishing"
+	},
+	"arcblock.eu": {
+		"id": 2794,
+		"url": "arcblock.eu",
+		"category": "Phishing"
+	},
+	"republicprotocol.eu": {
+		"id": 2793,
+		"url": "republicprotocol.eu",
+		"category": "Phishing"
+	},
+	"tokensale-fusion.com": {
+		"id": 2811,
+		"url": "tokensale-fusion.com",
+		"category": "Phishing"
+	},
+	"myetherwalletjoin.com": {
+		"id": 2792,
+		"url": "myetherwalletjoin.com",
+		"category": "Phishing"
+	},
+	"medicalchian.com": {
+		"id": 2790,
+		"url": "medicalchian.com",
+		"category": "Phishing"
+	},
+	"myeahteirwaliet.com": {
+		"id": 2789,
+		"url": "myeahteirwaliet.com",
+		"category": "Phishing"
+	},
+	"myenhtersvvailct.com": {
+		"id": 2788,
+		"url": "myenhtersvvailct.com",
+		"category": "Phishing"
+	},
+	"trinity-token.com": {
+		"id": 2785,
+		"url": "trinity-token.com",
+		"category": "Phishing"
+	},
+	"xn--eo-yzs.com": {
+		"id": 2786,
+		"url": "xn--eo-yzs.com",
+		"category": "Phishing"
+	},
+	"zilliqa.in": {
+		"id": 2787,
+		"url": "zilliqa.in",
+		"category": "Phishing"
+	},
+	"sparc.pro": {
+		"id": 0,
+		"url": "sparc.pro",
+		"category": "Phishing"
+	},
+	"myetherwallet.import-tokens.com": {
+		"id": 2782,
+		"url": "myetherwallet.import-tokens.com",
+		"category": "Phishing"
+	},
+	"token-gram.org": {
+		"id": 2781,
+		"url": "token-gram.org",
+		"category": "Phishing"
+	},
+	"xn--shapshift-e4a.com": {
+		"id": 2774,
+		"url": "xn--shapshift-e4a.com",
+		"category": "Phishing"
+	},
+	"xn--shapshift-y4a.com": {
+		"id": 2775,
+		"url": "xn--shapshift-y4a.com",
+		"category": "Phishing"
+	},
+	"xn--shpeshift-c2a.com": {
+		"id": 2776,
+		"url": "xn--shpeshift-c2a.com",
+		"category": "Phishing"
+	},
+	"xn--shpeshift-r1a.com": {
+		"id": 2777,
+		"url": "xn--shpeshift-r1a.com",
+		"category": "Phishing"
+	},
+	"xn--shapshift-o4a.com": {
+		"id": 2778,
+		"url": "xn--shapshift-o4a.com",
+		"category": "Phishing"
+	},
+	"xn--shpeshift-w2a.com": {
+		"id": 2779,
+		"url": "xn--shpeshift-w2a.com",
+		"category": "Phishing"
+	},
+	"xn--shapeshft-w5a.com": {
+		"id": 2780,
+		"url": "xn--shapeshft-w5a.com",
+		"category": "Phishing"
+	},
+	"tokensale-fusion.org": {
+		"id": 2809,
+		"url": "tokensale-fusion.org",
+		"category": "Phishing"
+	},
+	"fusion-ico.com": {
+		"id": 2791,
+		"url": "fusion-ico.com",
+		"category": "Phishing"
+	},
+	"beetolen.com": {
+		"id": 2772,
+		"url": "beetolen.com",
+		"category": "Phishing"
+	},
+	"tokencrowdsale.online": {
+		"id": 0,
+		"url": "tokencrowdsale.online",
+		"category": "Phishing"
+	},
+	"fusion.tokencrowdsale.online": {
+		"id": 2816,
+		"url": "fusion.tokencrowdsale.online",
+		"category": "Phishing"
+	},
+	"beetokem.com": {
+		"id": 2773,
+		"url": "beetokem.com",
+		"category": "Phishing"
+	},
+	"block.chaiins.in": {
+		"id": 2771,
+		"url": "block.chaiins.in",
+		"category": "Phishing"
+	},
+	"origintrail.in": {
+		"id": 2770,
+		"url": "origintrail.in",
+		"category": "Phishing"
+	},
+	"bit-z.ru": {
+		"id": 0,
+		"url": "bit-z.ru",
+		"category": "Phishing"
+	},
+	"xn--myetherallet-nu5f.com": {
+		"id": 2769,
+		"url": "xn--myetherallet-nu5f.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwalet-3qb08c.com": {
+		"id": 2762,
+		"url": "xn--mytherwalet-3qb08c.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwllet-cm8et1d.com": {
+		"id": 2763,
+		"url": "xn--myeterwllet-cm8et1d.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwllet-q7a01e.com": {
+		"id": 2764,
+		"url": "xn--mytherwllet-q7a01e.com",
+		"category": "Phishing"
+	},
+	"xn--biance-xt7b.com": {
+		"id": 2765,
+		"url": "xn--biance-xt7b.com",
+		"category": "Phishing"
+	},
+	"xn--bnance-wic.com": {
+		"id": 2766,
+		"url": "xn--bnance-wic.com",
+		"category": "Phishing"
+	},
+	"xn--biance-jeb.com": {
+		"id": 2767,
+		"url": "xn--biance-jeb.com",
+		"category": "Phishing"
+	},
+	"xn--bttrx-9za8334c.com": {
+		"id": 2768,
+		"url": "xn--bttrx-9za8334c.com",
+		"category": "Phishing"
+	},
+	"wwwkodakcoin.com": {
+		"id": 2761,
+		"url": "wwwkodakcoin.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.uk.com": {
+		"id": 0,
+		"url": "myetherwallet.uk.com",
+		"category": "Phishing"
+	},
+	"kodakone.cc": {
+		"id": 0,
+		"url": "kodakone.cc",
+		"category": "Phishing"
+	},
+	"nyeihitervvallet.com": {
+		"id": 0,
+		"url": "nyeihitervvallet.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwalet-cm8eoi.com": {
+		"id": 0,
+		"url": "xn--myeterwalet-cm8eoi.com",
+		"category": "Phishing"
+	},
+	"nucleus.foundation": {
+		"id": 0,
+		"url": "nucleus.foundation",
+		"category": "Phishing"
+	},
+	"beetoken-ico.com": {
+		"id": 0,
+		"url": "beetoken-ico.com",
+		"category": "Phishing"
+	},
+	"data-token.com": {
+		"id": 0,
+		"url": "data-token.com",
+		"category": "Phishing"
+	},
+	"tron-labs.com": {
+		"id": 0,
+		"url": "tron-labs.com",
+		"category": "Phishing"
+	},
+	"ocoin.tech": {
+		"id": 0,
+		"url": "ocoin.tech",
+		"category": "Phishing"
+	},
+	"aionfoundation.com": {
+		"id": 0,
+		"url": "aionfoundation.com",
+		"category": "Phishing"
+	},
+	"ico-telegram.org": {
+		"id": 0,
+		"url": "ico-telegram.org",
+		"category": "Phishing"
+	},
+	"nyeihitervvallat.com": {
+		"id": 0,
+		"url": "nyeihitervvallat.com",
+		"category": "Phishing"
+	},
+	"telegramcoin.us": {
+		"id": 0,
+		"url": "telegramcoin.us",
+		"category": "Phishing"
+	},
+	"daddi.cloud": {
+		"id": 0,
+		"url": "daddi.cloud",
+		"category": "Phishing"
+	},
+	"daditoken.com": {
+		"id": 0,
+		"url": "daditoken.com",
+		"category": "Phishing"
+	},
+	"blockarray.org": {
+		"id": 0,
+		"url": "blockarray.org",
+		"category": "Phishing"
+	},
+	"dadi-cloud.net": {
+		"id": 0,
+		"url": "dadi-cloud.net",
+		"category": "Phishing"
+	},
+	"wanchainfunding.org": {
+		"id": 0,
+		"url": "wanchainfunding.org",
+		"category": "Phishing"
+	},
+	"ico-telegram.io": {
+		"id": 0,
+		"url": "ico-telegram.io",
+		"category": "Phishing"
+	},
+	"iconfoundation.site": {
+		"id": 0,
+		"url": "iconfoundation.site",
+		"category": "Phishing"
+	},
+	"iost.co": {
+		"id": 0,
+		"url": "iost.co",
+		"category": "Phishing"
+	},
+	"beetoken-ico.eu": {
+		"id": 0,
+		"url": "beetoken-ico.eu",
+		"category": "Phishing"
+	},
+	"cindicator.network": {
+		"id": 0,
+		"url": "cindicator.network",
+		"category": "Phishing"
+	},
+	"wanchainetwork.org": {
+		"id": 0,
+		"url": "wanchainetwork.org",
+		"category": "Phishing"
+	},
+	"wamchain.org": {
+		"id": 0,
+		"url": "wamchain.org",
+		"category": "Phishing"
+	},
+	"wanchainltd.org": {
+		"id": 0,
+		"url": "wanchainltd.org",
+		"category": "Phishing"
+	},
+	"wanchainalliance.org": {
+		"id": 0,
+		"url": "wanchainalliance.org",
+		"category": "Phishing"
+	},
+	"nucleus-vision.net": {
+		"id": 0,
+		"url": "nucleus-vision.net",
+		"category": "Phishing"
+	},
+	"ledgerwallet.by": {
+		"id": 0,
+		"url": "ledgerwallet.by",
+		"category": "Phishing"
+	},
+	"nucleuss.vision": {
+		"id": 0,
+		"url": "nucleuss.vision",
+		"category": "Phishing"
+	},
+	"myenhterswailct.com": {
+		"id": 0,
+		"url": "myenhterswailct.com",
+		"category": "Phishing"
+	},
+	"cobin-hood.com": {
+		"id": 0,
+		"url": "cobin-hood.com",
+		"category": "Phishing"
+	},
+	"wanchainfoundation.org": {
+		"id": 0,
+		"url": "wanchainfoundation.org",
+		"category": "Phishing"
+	},
+	"xn--polniex-ex4c.com": {
+		"id": 0,
+		"url": "xn--polniex-ex4c.com",
+		"category": "Phishing"
+	},
+	"xn--polniex-s1a.com": {
+		"id": 0,
+		"url": "xn--polniex-s1a.com",
+		"category": "Phishing"
+	},
+	"xn--polonex-ieb.com": {
+		"id": 0,
+		"url": "xn--polonex-ieb.com",
+		"category": "Phishing"
+	},
+	"xn--polonex-sza.com": {
+		"id": 0,
+		"url": "xn--polonex-sza.com",
+		"category": "Phishing"
+	},
+	"xn--polonex-zw4c.com": {
+		"id": 0,
+		"url": "xn--polonex-zw4c.com",
+		"category": "Phishing"
+	},
+	"xn--polonix-ws4c.com": {
+		"id": 0,
+		"url": "xn--polonix-ws4c.com",
+		"category": "Phishing"
+	},
+	"xn--polonix-y8a.com": {
+		"id": 0,
+		"url": "xn--polonix-y8a.com",
+		"category": "Phishing"
+	},
+	"xn--pooniex-ojb.com": {
+		"id": 0,
+		"url": "xn--pooniex-ojb.com",
+		"category": "Phishing"
+	},
+	"gramico.info": {
+		"id": 0,
+		"url": "gramico.info",
+		"category": "Phishing"
+	},
+	"dimnsions.network": {
+		"id": 0,
+		"url": "dimnsions.network",
+		"category": "Phishing"
+	},
+	"www-gemini.com": {
+		"id": 0,
+		"url": "www-gemini.com",
+		"category": "Phishing"
+	},
+	"login-kucoin.net": {
+		"id": 0,
+		"url": "login-kucoin.net",
+		"category": "Phishing"
+	},
+	"venchain.foundation": {
+		"id": 0,
+		"url": "venchain.foundation",
+		"category": "Phishing"
+	},
+	"grampreico.com": {
+		"id": 0,
+		"url": "grampreico.com",
+		"category": "Phishing"
+	},
+	"tgram.cc": {
+		"id": 0,
+		"url": "tgram.cc",
+		"category": "Phishing"
+	},
+	"ton-gramico.com": {
+		"id": 0,
+		"url": "ton-gramico.com",
+		"category": "Phishing"
+	},
+	"wwwpaywithink.com": {
+		"id": 0,
+		"url": "wwwpaywithink.com",
+		"category": "Phishing"
+	},
+	"coniomi.com": {
+		"id": 0,
+		"url": "coniomi.com",
+		"category": "Phishing"
+	},
+	"paywithnk.com": {
+		"id": 0,
+		"url": "paywithnk.com",
+		"category": "Phishing"
+	},
+	"paywithlnk.com": {
+		"id": 0,
+		"url": "paywithlnk.com",
+		"category": "Phishing"
+	},
+	"iluminatto.com.br": {
+		"id": 0,
+		"url": "iluminatto.com.br",
+		"category": "Phishing"
+	},
+	"pundix.eu": {
+		"id": 0,
+		"url": "pundix.eu",
+		"category": "Phishing"
+	},
+	"xn--bttrx-esay.com": {
+		"id": 0,
+		"url": "xn--bttrx-esay.com",
+		"category": "Phishing"
+	},
+	"xn--bttrex-w8a.com": {
+		"id": 0,
+		"url": "xn--bttrex-w8a.com",
+		"category": "Phishing"
+	},
+	"xn--bnance-bwa.com": {
+		"id": 0,
+		"url": "xn--bnance-bwa.com",
+		"category": "Phishing"
+	},
+	"xn--shpeshift-11a.com": {
+		"id": 0,
+		"url": "xn--shpeshift-11a.com",
+		"category": "Phishing"
+	},
+	"xn--shapeshif-ts6d.com": {
+		"id": 0,
+		"url": "xn--shapeshif-ts6d.com",
+		"category": "Phishing"
+	},
+	"xn--shapshift-yf7d.com": {
+		"id": 0,
+		"url": "xn--shapshift-yf7d.com",
+		"category": "Phishing"
+	},
+	"wwwbluzelle.com": {
+		"id": 0,
+		"url": "wwwbluzelle.com",
+		"category": "Phishing"
+	},
+	"bluzelie.com": {
+		"id": 0,
+		"url": "bluzelie.com",
+		"category": "Phishing"
+	},
+	"nucleus-vision.org": {
+		"id": 0,
+		"url": "nucleus-vision.org",
+		"category": "Phishing"
+	},
+	"omisegonetwork.site": {
+		"id": 0,
+		"url": "omisegonetwork.site",
+		"category": "Phishing"
+	},
+	"etlherzero.com": {
+		"id": 0,
+		"url": "etlherzero.com",
+		"category": "Phishing"
+	},
+	"etlherdelta.com": {
+		"id": 0,
+		"url": "etlherdelta.com",
+		"category": "Phishing"
+	},
+	"xn--condesk-0ya.com": {
+		"id": 0,
+		"url": "xn--condesk-0ya.com",
+		"category": "Phishing"
+	},
+	"xn--condesk-sfb.com": {
+		"id": 0,
+		"url": "xn--condesk-sfb.com",
+		"category": "Phishing"
+	},
+	"xn--coindsk-vs4c.com": {
+		"id": 0,
+		"url": "xn--coindsk-vs4c.com",
+		"category": "Phishing"
+	},
+	"iexecplatform.com": {
+		"id": 0,
+		"url": "iexecplatform.com",
+		"category": "Phishing"
+	},
+	"tongramico.com": {
+		"id": 0,
+		"url": "tongramico.com",
+		"category": "Phishing"
+	},
+	"nucleus-vision.eu": {
+		"id": 0,
+		"url": "nucleus-vision.eu",
+		"category": "Phishing"
+	},
+	"intchain.network": {
+		"id": 0,
+		"url": "intchain.network",
+		"category": "Phishing"
+	},
+	"wanchain.cloud": {
+		"id": 0,
+		"url": "wanchain.cloud",
+		"category": "Phishing"
+	},
+	"bluzelle-ico.com": {
+		"id": 0,
+		"url": "bluzelle-ico.com",
+		"category": "Phishing"
+	},
+	"ethzero-wallet.com": {
+		"id": 0,
+		"url": "ethzero-wallet.com",
+		"category": "Phishing"
+	},
+	"xn--metherwalle-jb9et7d.com": {
+		"id": 0,
+		"url": "xn--metherwalle-jb9et7d.com",
+		"category": "Phishing"
+	},
+	"xn--coinesk-jo3c.com": {
+		"id": 0,
+		"url": "xn--coinesk-jo3c.com",
+		"category": "Phishing"
+	},
+	"venchainfoundation.com": {
+		"id": 0,
+		"url": "venchainfoundation.com",
+		"category": "Phishing"
+	},
+	"myenhtersvvailot.com": {
+		"id": 0,
+		"url": "myenhtersvvailot.com",
+		"category": "Phishing"
+	},
+	"ether-zero.net": {
+		"id": 0,
+		"url": "ether-zero.net",
+		"category": "Phishing"
+	},
+	"ins.foundation": {
+		"id": 0,
+		"url": "ins.foundation",
+		"category": "Phishing"
+	},
+	"nastoken.org": {
+		"id": 0,
+		"url": "nastoken.org",
+		"category": "Phishing"
+	},
+	"telcointoken.com": {
+		"id": 0,
+		"url": "telcointoken.com",
+		"category": "Phishing"
+	},
+	"ether0.org": {
+		"id": 0,
+		"url": "ether0.org",
+		"category": "Phishing"
+	},
+	"eterzero.org": {
+		"id": 0,
+		"url": "eterzero.org",
+		"category": "Phishing"
+	},
+	"bluzelle-ico.eu": {
+		"id": 0,
+		"url": "bluzelle-ico.eu",
+		"category": "Phishing"
+	},
+	"bleuzelle.com": {
+		"id": 0,
+		"url": "bleuzelle.com",
+		"category": "Phishing"
+	},
+	"appcoinstoken.org": {
+		"id": 0,
+		"url": "appcoinstoken.org",
+		"category": "Phishing"
+	},
+	"xn--quanstamp-8s6d.com": {
+		"id": 0,
+		"url": "xn--quanstamp-8s6d.com",
+		"category": "Phishing"
+	},
+	"myehntersvvailct.com": {
+		"id": 0,
+		"url": "myehntersvvailct.com",
+		"category": "Phishing"
+	},
+	"myeherwalllet.com": {
+		"id": 0,
+		"url": "myeherwalllet.com",
+		"category": "Phishing"
+	},
+	"ico-bluzelle.com": {
+		"id": 0,
+		"url": "ico-bluzelle.com",
+		"category": "Phishing"
+	},
+	"bluzelle.im": {
+		"id": 0,
+		"url": "bluzelle.im",
+		"category": "Phishing"
+	},
+	"bluzelle.one": {
+		"id": 0,
+		"url": "bluzelle.one",
+		"category": "Phishing"
+	},
+	"bluzele.sale": {
+		"id": 0,
+		"url": "bluzele.sale",
+		"category": "Phishing"
+	},
+	"bluzele.co": {
+		"id": 0,
+		"url": "bluzele.co",
+		"category": "Phishing"
+	},
+	"sether.ws": {
+		"id": 0,
+		"url": "sether.ws",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-6gf.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-6gf.com",
+		"category": "Phishing"
+	},
+	"xn--rnyethewaliet-om1g.com": {
+		"id": 0,
+		"url": "xn--rnyethewaliet-om1g.com",
+		"category": "Phishing"
+	},
+	"rnyethervailet.com": {
+		"id": 0,
+		"url": "rnyethervailet.com",
+		"category": "Phishing"
+	},
+	"mvetherwaliet.com": {
+		"id": 0,
+		"url": "mvetherwaliet.com",
+		"category": "Phishing"
+	},
+	"rnyetherwailet.com": {
+		"id": 0,
+		"url": "rnyetherwailet.com",
+		"category": "Phishing"
+	},
+	"myethervaliet.com": {
+		"id": 0,
+		"url": "myethervaliet.com",
+		"category": "Phishing"
+	},
+	"rnyethervaliet.com": {
+		"id": 0,
+		"url": "rnyethervaliet.com",
+		"category": "Phishing"
+	},
+	"mvetherwalilet.com": {
+		"id": 0,
+		"url": "mvetherwalilet.com",
+		"category": "Phishing"
+	},
+	"xn--myethewalie-3ic0947g.com": {
+		"id": 0,
+		"url": "xn--myethewalie-3ic0947g.com",
+		"category": "Phishing"
+	},
+	"xn--mthrwallet-z6ac3y.com": {
+		"id": 0,
+		"url": "xn--mthrwallet-z6ac3y.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwalie-vici.com": {
+		"id": 0,
+		"url": "xn--myeherwalie-vici.com",
+		"category": "Phishing"
+	},
+	"xn--myethervvalie-8vc.com": {
+		"id": 0,
+		"url": "xn--myethervvalie-8vc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-06acf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-06acf.com",
+		"category": "Phishing"
+	},
+	"xn--mtherwallet-y9a6y.com": {
+		"id": 0,
+		"url": "xn--mtherwallet-y9a6y.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.applytoken.tk": {
+		"id": 0,
+		"url": "myetherwallet.applytoken.tk",
+		"category": "Phishing"
+	},
+	"ethereum-zero.com": {
+		"id": 0,
+		"url": "ethereum-zero.com",
+		"category": "Phishing"
+	},
+	"quanstamptoken.tk": {
+		"id": 0,
+		"url": "quanstamptoken.tk",
+		"category": "Phishing"
+	},
+	"bluzelle.network": {
+		"id": 0,
+		"url": "bluzelle.network",
+		"category": "Phishing"
+	},
+	"ether-wallet.org": {
+		"id": 0,
+		"url": "ether-wallet.org",
+		"category": "Phishing"
+	},
+	"tron-wallet.info": {
+		"id": 0,
+		"url": "tron-wallet.info",
+		"category": "Phishing"
+	},
+	"appcoinsproject.com": {
+		"id": 0,
+		"url": "appcoinsproject.com",
+		"category": "Phishing"
+	},
+	"vechain.foundation": {
+		"id": 0,
+		"url": "vechain.foundation",
+		"category": "Phishing"
+	},
+	"tronlab.site": {
+		"id": 0,
+		"url": "tronlab.site",
+		"category": "Phishing"
+	},
+	"tronlabs.network": {
+		"id": 0,
+		"url": "tronlabs.network",
+		"category": "Phishing"
+	},
+	"bluzelle.cc": {
+		"id": 0,
+		"url": "bluzelle.cc",
+		"category": "Phishing"
+	},
+	"ethblender.com": {
+		"id": 0,
+		"url": "ethblender.com",
+		"category": "Phishing"
+	},
+	"ethpaperwallet.net": {
+		"id": 0,
+		"url": "ethpaperwallet.net",
+		"category": "Phishing"
+	},
+	"waltontoken.org": {
+		"id": 0,
+		"url": "waltontoken.org",
+		"category": "Phishing"
+	},
+	"icoselfkey.org": {
+		"id": 0,
+		"url": "icoselfkey.org",
+		"category": "Phishing"
+	},
+	"etherzeroclaim.com": {
+		"id": 0,
+		"url": "etherzeroclaim.com",
+		"category": "Phishing"
+	},
+	"etherzero.promo": {
+		"id": 0,
+		"url": "etherzero.promo",
+		"category": "Phishing"
+	},
+	"bluzelle.pro": {
+		"id": 0,
+		"url": "bluzelle.pro",
+		"category": "Phishing"
+	},
+	"token-selfkey.org": {
+		"id": 0,
+		"url": "token-selfkey.org",
+		"category": "Phishing"
+	},
+	"xn--etherdlta-0f7d.com": {
+		"id": 0,
+		"url": "xn--etherdlta-0f7d.com",
+		"category": "Phishing"
+	},
+	"sether.in": {
+		"id": 0,
+		"url": "sether.in",
+		"category": "Phishing"
+	},
+	"xn--ttrex-ysa9423c.com": {
+		"id": 0,
+		"url": "xn--ttrex-ysa9423c.com",
+		"category": "Phishing"
+	},
+	"bluzelle.eu": {
+		"id": 0,
+		"url": "bluzelle.eu",
+		"category": "Phishing"
+	},
+	"bluzelle.site": {
+		"id": 0,
+		"url": "bluzelle.site",
+		"category": "Phishing"
+	},
+	"gifto.tech": {
+		"id": 0,
+		"url": "gifto.tech",
+		"category": "Phishing"
+	},
+	"xn--os-g7s.com": {
+		"id": 0,
+		"url": "xn--os-g7s.com",
+		"category": "Phishing"
+	},
+	"selfkey.co": {
+		"id": 0,
+		"url": "selfkey.co",
+		"category": "Phishing"
+	},
+	"xn--myeherwalet-ns8exy.com": {
+		"id": 0,
+		"url": "xn--myeherwalet-ns8exy.com",
+		"category": "Phishing"
+	},
+	"xn--coinelegraph-wk5f.com": {
+		"id": 0,
+		"url": "xn--coinelegraph-wk5f.com",
+		"category": "Phishing"
+	},
+	"dai-stablecoin.com": {
+		"id": 0,
+		"url": "dai-stablecoin.com",
+		"category": "Phishing"
+	},
+	"eos-token.org": {
+		"id": 0,
+		"url": "eos-token.org",
+		"category": "Phishing"
+	},
+	"venchain.org": {
+		"id": 0,
+		"url": "venchain.org",
+		"category": "Phishing"
+	},
+	"gatcoins.io": {
+		"id": 0,
+		"url": "gatcoins.io",
+		"category": "Phishing"
+	},
+	"deepbrainchain.co": {
+		"id": 0,
+		"url": "deepbrainchain.co",
+		"category": "Phishing"
+	},
+	"myetherwalililet.info": {
+		"id": 0,
+		"url": "myetherwalililet.info",
+		"category": "Phishing"
+	},
+	"myehvterwallet.com": {
+		"id": 0,
+		"url": "myehvterwallet.com",
+		"category": "Phishing"
+	},
+	"myehterumswallet.com": {
+		"id": 0,
+		"url": "myehterumswallet.com",
+		"category": "Phishing"
+	},
+	"nucleusico.com": {
+		"id": 0,
+		"url": "nucleusico.com",
+		"category": "Phishing"
+	},
+	"tronlab.tech": {
+		"id": 0,
+		"url": "tronlab.tech",
+		"category": "Phishing"
+	},
+	"0x-project.com": {
+		"id": 0,
+		"url": "0x-project.com",
+		"category": "Phishing"
+	},
+	"gift-token-events.mywebcommunity.org": {
+		"id": 0,
+		"url": "gift-token-events.mywebcommunity.org",
+		"category": "Phishing"
+	},
+	"funfairtoken.org": {
+		"id": 0,
+		"url": "funfairtoken.org",
+		"category": "Phishing"
+	},
+	"breadtokenapp.com": {
+		"id": 0,
+		"url": "breadtokenapp.com",
+		"category": "Phishing"
+	},
+	"cloudpetstore.com": {
+		"id": 0,
+		"url": "cloudpetstore.com",
+		"category": "Phishing"
+	},
+	"myethwalilet.com": {
+		"id": 0,
+		"url": "myethwalilet.com",
+		"category": "Phishing"
+	},
+	"selfkeys.org": {
+		"id": 0,
+		"url": "selfkeys.org",
+		"category": "Phishing"
+	},
+	"wallet-ethereum.com": {
+		"id": 0,
+		"url": "wallet-ethereum.com",
+		"category": "Phishing"
+	},
+	"xn--methrwallt-26ar0z.com": {
+		"id": 0,
+		"url": "xn--methrwallt-26ar0z.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwllet-r8a0c.com": {
+		"id": 0,
+		"url": "xn--mytherwllet-r8a0c.com",
+		"category": "Phishing"
+	},
+	"bluzelle.promo": {
+		"id": 0,
+		"url": "bluzelle.promo",
+		"category": "Phishing"
+	},
+	"tokensale.bluzelle.promo": {
+		"id": 0,
+		"url": "tokensale.bluzelle.promo",
+		"category": "Phishing"
+	},
+	"cedarlake.org": {
+		"id": 0,
+		"url": "cedarlake.org",
+		"category": "Phishing"
+	},
+	"marketingleads4u.com": {
+		"id": 0,
+		"url": "marketingleads4u.com",
+		"category": "Phishing"
+	},
+	"cashaa.co": {
+		"id": 0,
+		"url": "cashaa.co",
+		"category": "Phishing"
+	},
+	"xn--inance-hrb.com": {
+		"id": 0,
+		"url": "xn--inance-hrb.com",
+		"category": "Phishing"
+	},
+	"wanchain.tech": {
+		"id": 0,
+		"url": "wanchain.tech",
+		"category": "Phishing"
+	},
+	"zenprolocol.com": {
+		"id": 0,
+		"url": "zenprolocol.com",
+		"category": "Phishing"
+	},
+	"ethscan.io": {
+		"id": 0,
+		"url": "ethscan.io",
+		"category": "Phishing"
+	},
+	"etherscan.in": {
+		"id": 0,
+		"url": "etherscan.in",
+		"category": "Phishing"
+	},
+	"props-project.com": {
+		"id": 0,
+		"url": "props-project.com",
+		"category": "Phishing"
+	},
+	"zilliaq.com": {
+		"id": 0,
+		"url": "zilliaq.com",
+		"category": "Phishing"
+	},
+	"reqestnetwork.com": {
+		"id": 0,
+		"url": "reqestnetwork.com",
+		"category": "Phishing"
+	},
+	"etherdelta.pw": {
+		"id": 0,
+		"url": "etherdelta.pw",
+		"category": "Phishing"
+	},
+	"ethereum-giveaway.org": {
+		"id": 0,
+		"url": "ethereum-giveaway.org",
+		"category": "Phishing"
+	},
+	"mysimpletoken.org": {
+		"id": 0,
+		"url": "mysimpletoken.org",
+		"category": "Phishing"
+	},
+	"binancc.com": {
+		"id": 0,
+		"url": "binancc.com",
+		"category": "Phishing"
+	},
+	"blnance.org": {
+		"id": 0,
+		"url": "blnance.org",
+		"category": "Phishing"
+	},
+	"elherdelta.io": {
+		"id": 0,
+		"url": "elherdelta.io",
+		"category": "Phishing"
+	},
+	"xn--hapeshit-ez9c2y.com": {
+		"id": 0,
+		"url": "xn--hapeshit-ez9c2y.com",
+		"category": "Phishing"
+	},
+	"tenxwallet.co": {
+		"id": 0,
+		"url": "tenxwallet.co",
+		"category": "Phishing"
+	},
+	"singularitynet.info": {
+		"id": 0,
+		"url": "singularitynet.info",
+		"category": "Phishing"
+	},
+	"mytlherwaliet.info": {
+		"id": 0,
+		"url": "mytlherwaliet.info",
+		"category": "Phishing"
+	},
+	"iconmainnet.ml": {
+		"id": 0,
+		"url": "iconmainnet.ml",
+		"category": "Phishing"
+	},
+	"tokenselfkey.org": {
+		"id": 0,
+		"url": "tokenselfkey.org",
+		"category": "Phishing"
+	},
+	"xn--myetewallet-cm8e5y.com": {
+		"id": 0,
+		"url": "xn--myetewallet-cm8e5y.com",
+		"category": "Phishing"
+	},
+	"envione.org": {
+		"id": 0,
+		"url": "envione.org",
+		"category": "Phishing"
+	},
+	"myetherwalletet.com": {
+		"id": 0,
+		"url": "myetherwalletet.com",
+		"category": "Phishing"
+	},
+	"claimbcd.com": {
+		"id": 0,
+		"url": "claimbcd.com",
+		"category": "Phishing"
+	},
+	"ripiocreditnetwork.in": {
+		"id": 0,
+		"url": "ripiocreditnetwork.in",
+		"category": "Phishing"
+	},
+	"xn--yeterwallet-ml8euo.com": {
+		"id": 0,
+		"url": "xn--yeterwallet-ml8euo.com",
+		"category": "Phishing"
+	},
+	"ethclassicwallet.info": {
+		"id": 0,
+		"url": "ethclassicwallet.info",
+		"category": "Phishing"
+	},
+	"myltherwallet.ru.com": {
+		"id": 0,
+		"url": "myltherwallet.ru.com",
+		"category": "Phishing"
+	},
+	"etherdella.com": {
+		"id": 0,
+		"url": "etherdella.com",
+		"category": "Phishing"
+	},
+	"xn--yeterwallet-bm8ewn.com": {
+		"id": 0,
+		"url": "xn--yeterwallet-bm8ewn.com",
+		"category": "Phishing"
+	},
+	"singularty.net": {
+		"id": 0,
+		"url": "singularty.net",
+		"category": "Phishing"
+	},
+	"cloudkitties.co": {
+		"id": 0,
+		"url": "cloudkitties.co",
+		"category": "Phishing"
+	},
+	"iconfoundation.io": {
+		"id": 0,
+		"url": "iconfoundation.io",
+		"category": "Phishing"
+	},
+	"kittystat.com": {
+		"id": 0,
+		"url": "kittystat.com",
+		"category": "Phishing"
+	},
+	"gatscoin.io": {
+		"id": 0,
+		"url": "gatscoin.io",
+		"category": "Phishing"
+	},
+	"singularitynet.in": {
+		"id": 0,
+		"url": "singularitynet.in",
+		"category": "Phishing"
+	},
+	"sale.canay.io": {
+		"id": 0,
+		"url": "sale.canay.io",
+		"category": "Phishing"
+	},
+	"canay.io": {
+		"id": 0,
+		"url": "canay.io",
+		"category": "Phishing"
+	},
+	"wabicoin.co": {
+		"id": 0,
+		"url": "wabicoin.co",
+		"category": "Phishing"
+	},
+	"envion.top": {
+		"id": 0,
+		"url": "envion.top",
+		"category": "Phishing"
+	},
+	"sirinslabs.com": {
+		"id": 0,
+		"url": "sirinslabs.com",
+		"category": "Phishing"
+	},
+	"tronlab.co": {
+		"id": 0,
+		"url": "tronlab.co",
+		"category": "Phishing"
+	},
+	"paxful.com.ng": {
+		"id": 0,
+		"url": "paxful.com.ng",
+		"category": "Phishing"
+	},
+	"changellyli.com": {
+		"id": 0,
+		"url": "changellyli.com",
+		"category": "Phishing"
+	},
+	"ethereum-code.com": {
+		"id": 0,
+		"url": "ethereum-code.com",
+		"category": "Phishing"
+	},
+	"xn--plonex-6va6c.com": {
+		"id": 0,
+		"url": "xn--plonex-6va6c.com",
+		"category": "Phishing"
+	},
+	"envion.co": {
+		"id": 0,
+		"url": "envion.co",
+		"category": "Phishing"
+	},
+	"envion.cc": {
+		"id": 0,
+		"url": "envion.cc",
+		"category": "Phishing"
+	},
+	"envion.site": {
+		"id": 0,
+		"url": "envion.site",
+		"category": "Phishing"
+	},
+	"ethereumchain.info": {
+		"id": 0,
+		"url": "ethereumchain.info",
+		"category": "Phishing"
+	},
+	"xn--envon-1sa.org": {
+		"id": 0,
+		"url": "xn--envon-1sa.org",
+		"category": "Phishing"
+	},
+	"xn--btstamp-rfb.net": {
+		"id": 0,
+		"url": "xn--btstamp-rfb.net",
+		"category": "Phishing"
+	},
+	"envlon.org": {
+		"id": 0,
+		"url": "envlon.org",
+		"category": "Phishing"
+	},
+	"envion-ico.org": {
+		"id": 0,
+		"url": "envion-ico.org",
+		"category": "Phishing"
+	},
+	"spectivvr.org": {
+		"id": 0,
+		"url": "spectivvr.org",
+		"category": "Phishing"
+	},
+	"sirinlbs.com": {
+		"id": 0,
+		"url": "sirinlbs.com",
+		"category": "Phishing"
+	},
+	"ethereumdoubler.life": {
+		"id": 0,
+		"url": "ethereumdoubler.life",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-fnb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-fnb.com",
+		"category": "Phishing"
+	},
+	"sirin-labs.com": {
+		"id": 0,
+		"url": "sirin-labs.com",
+		"category": "Phishing"
+	},
+	"sirin-labs.org": {
+		"id": 0,
+		"url": "sirin-labs.org",
+		"category": "Phishing"
+	},
+	"envion.one": {
+		"id": 0,
+		"url": "envion.one",
+		"category": "Phishing"
+	},
+	"envion.live": {
+		"id": 0,
+		"url": "envion.live",
+		"category": "Phishing"
+	},
+	"propsproject.org": {
+		"id": 0,
+		"url": "propsproject.org",
+		"category": "Phishing"
+	},
+	"propsprojects.com": {
+		"id": 0,
+		"url": "propsprojects.com",
+		"category": "Phishing"
+	},
+	"decentralland.org": {
+		"id": 0,
+		"url": "decentralland.org",
+		"category": "Phishing"
+	},
+	"xn--metherwalet-ns8ep4b.com": {
+		"id": 0,
+		"url": "xn--metherwalet-ns8ep4b.com",
+		"category": "Phishing"
+	},
+	"redpulsetoken.co": {
+		"id": 0,
+		"url": "redpulsetoken.co",
+		"category": "Phishing"
+	},
+	"propsproject.tech": {
+		"id": 0,
+		"url": "propsproject.tech",
+		"category": "Phishing"
+	},
+	"xn--myeterwalet-nl8emj.com": {
+		"id": 0,
+		"url": "xn--myeterwalet-nl8emj.com",
+		"category": "Phishing"
+	},
+	"powrerledger.com": {
+		"id": 0,
+		"url": "powrerledger.com",
+		"category": "Phishing"
+	},
+	"cryptokitties.com": {
+		"id": 0,
+		"url": "cryptokitties.com",
+		"category": "Phishing"
+	},
+	"sirinlabs.pro": {
+		"id": 0,
+		"url": "sirinlabs.pro",
+		"category": "Phishing"
+	},
+	"sirinlabs.co": {
+		"id": 0,
+		"url": "sirinlabs.co",
+		"category": "Phishing"
+	},
+	"sirnlabs.com": {
+		"id": 0,
+		"url": "sirnlabs.com",
+		"category": "Phishing"
+	},
+	"superbitcoin-blockchain.info": {
+		"id": 0,
+		"url": "superbitcoin-blockchain.info",
+		"category": "Phishing"
+	},
+	"hellobloom.me": {
+		"id": 0,
+		"url": "hellobloom.me",
+		"category": "Phishing"
+	},
+	"mobus.network": {
+		"id": 0,
+		"url": "mobus.network",
+		"category": "Phishing"
+	},
+	"powrrledger.com": {
+		"id": 0,
+		"url": "powrrledger.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwalet-ms8eyy.com": {
+		"id": 0,
+		"url": "xn--myeherwalet-ms8eyy.com",
+		"category": "Phishing"
+	},
+	"qlink-ico.com": {
+		"id": 0,
+		"url": "qlink-ico.com",
+		"category": "Phishing"
+	},
+	"gatcoin.in": {
+		"id": 0,
+		"url": "gatcoin.in",
+		"category": "Phishing"
+	},
+	"tokensale.gamefllp.com": {
+		"id": 0,
+		"url": "tokensale.gamefllp.com",
+		"category": "Phishing"
+	},
+	"gamefllp.com": {
+		"id": 0,
+		"url": "gamefllp.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwalle-vici.com": {
+		"id": 0,
+		"url": "xn--myeherwalle-vici.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-39b.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-39b.com",
+		"category": "Phishing"
+	},
+	"xn--polonex-ffb.com": {
+		"id": 0,
+		"url": "xn--polonex-ffb.com",
+		"category": "Phishing"
+	},
+	"xn--birex-leba.com": {
+		"id": 0,
+		"url": "xn--birex-leba.com",
+		"category": "Phishing"
+	},
+	"raiden-network.org": {
+		"id": 0,
+		"url": "raiden-network.org",
+		"category": "Phishing"
+	},
+	"sirintabs.com": {
+		"id": 0,
+		"url": "sirintabs.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallt-79a30a.com": {
+		"id": 0,
+		"url": "xn--metherwallt-79a30a.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwllet-2kb3p.com": {
+		"id": 0,
+		"url": "xn--myethrwllet-2kb3p.com",
+		"category": "Phishing"
+	},
+	"myethlerwallet.eu": {
+		"id": 0,
+		"url": "myethlerwallet.eu",
+		"category": "Phishing"
+	},
+	"xn--btrex-b4a.com": {
+		"id": 0,
+		"url": "xn--btrex-b4a.com",
+		"category": "Phishing"
+	},
+	"powerrledger.com": {
+		"id": 0,
+		"url": "powerrledger.com",
+		"category": "Phishing"
+	},
+	"xn--cointeegraph-wz4f.com": {
+		"id": 0,
+		"url": "xn--cointeegraph-wz4f.com",
+		"category": "Phishing"
+	},
+	"myerherwalet.com": {
+		"id": 0,
+		"url": "myerherwalet.com",
+		"category": "Phishing"
+	},
+	"qauntstanp.com": {
+		"id": 0,
+		"url": "qauntstanp.com",
+		"category": "Phishing"
+	},
+	"myetherermwallet.com": {
+		"id": 0,
+		"url": "myetherermwallet.com",
+		"category": "Phishing"
+	},
+	"xn--myethewalet-ns8eqq.com": {
+		"id": 0,
+		"url": "xn--myethewalet-ns8eqq.com",
+		"category": "Phishing"
+	},
+	"xn--nvion-hza.org": {
+		"id": 0,
+		"url": "xn--nvion-hza.org",
+		"category": "Phishing"
+	},
+	"nnyetherwallelt.ru.com": {
+		"id": 0,
+		"url": "nnyetherwallelt.ru.com",
+		"category": "Phishing"
+	},
+	"ico-wacoin.com": {
+		"id": 0,
+		"url": "ico-wacoin.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwalet-nl8enj.com": {
+		"id": 0,
+		"url": "xn--myeterwalet-nl8enj.com",
+		"category": "Phishing"
+	},
+	"bitcoinsilver.io": {
+		"id": 0,
+		"url": "bitcoinsilver.io",
+		"category": "Phishing"
+	},
+	"t0zero.com": {
+		"id": 0,
+		"url": "t0zero.com",
+		"category": "Phishing"
+	},
+	"tokensale.gizer.in": {
+		"id": 0,
+		"url": "tokensale.gizer.in",
+		"category": "Phishing"
+	},
+	"gizer.in": {
+		"id": 0,
+		"url": "gizer.in",
+		"category": "Phishing"
+	},
+	"wabitoken.com": {
+		"id": 0,
+		"url": "wabitoken.com",
+		"category": "Phishing"
+	},
+	"gladius.ws": {
+		"id": 0,
+		"url": "gladius.ws",
+		"category": "Phishing"
+	},
+	"xn--metherwallt-8bb4w.com": {
+		"id": 0,
+		"url": "xn--metherwallt-8bb4w.com",
+		"category": "Phishing"
+	},
+	"quanttstamp.com": {
+		"id": 0,
+		"url": "quanttstamp.com",
+		"category": "Phishing"
+	},
+	"gladius.im": {
+		"id": 0,
+		"url": "gladius.im",
+		"category": "Phishing"
+	},
+	"ethereumstorage.net": {
+		"id": 0,
+		"url": "ethereumstorage.net",
+		"category": "Phishing"
+	},
+	"powerledgerr.com": {
+		"id": 0,
+		"url": "powerledgerr.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallet-4j5f.com": {
+		"id": 0,
+		"url": "xn--myeherwallet-4j5f.com",
+		"category": "Phishing"
+	},
+	"quamtstamp.com": {
+		"id": 0,
+		"url": "quamtstamp.com",
+		"category": "Phishing"
+	},
+	"quntstamp.com": {
+		"id": 0,
+		"url": "quntstamp.com",
+		"category": "Phishing"
+	},
+	"xn--changely-j59c.com": {
+		"id": 0,
+		"url": "xn--changely-j59c.com",
+		"category": "Phishing"
+	},
+	"shapeshlft.com": {
+		"id": 0,
+		"url": "shapeshlft.com",
+		"category": "Phishing"
+	},
+	"coinbasenews.co.uk": {
+		"id": 0,
+		"url": "coinbasenews.co.uk",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-hmb.com": {
+		"id": 0,
+		"url": "xn--metherwallet-hmb.com",
+		"category": "Phishing"
+	},
+	"envoin.org": {
+		"id": 0,
+		"url": "envoin.org",
+		"category": "Phishing"
+	},
+	"powerledger.com": {
+		"id": 0,
+		"url": "powerledger.com",
+		"category": "Phishing"
+	},
+	"bitstannp.net": {
+		"id": 0,
+		"url": "bitstannp.net",
+		"category": "Phishing"
+	},
+	"xn--myetherallet-4k5fwn.com": {
+		"id": 0,
+		"url": "xn--myetherallet-4k5fwn.com",
+		"category": "Phishing"
+	},
+	"xn--coinbas-pya.com": {
+		"id": 0,
+		"url": "xn--coinbas-pya.com",
+		"category": "Phishing"
+	},
+	"requestt.network": {
+		"id": 0,
+		"url": "requestt.network",
+		"category": "Phishing"
+	},
+	"oracls.network": {
+		"id": 0,
+		"url": "oracls.network",
+		"category": "Phishing"
+	},
+	"sirinlabs.website": {
+		"id": 0,
+		"url": "sirinlabs.website",
+		"category": "Phishing"
+	},
+	"powrledger.io": {
+		"id": 0,
+		"url": "powrledger.io",
+		"category": "Phishing"
+	},
+	"slackconfirm.com": {
+		"id": 0,
+		"url": "slackconfirm.com",
+		"category": "Phishing"
+	},
+	"shape-shift.io": {
+		"id": 0,
+		"url": "shape-shift.io",
+		"category": "Phishing"
+	},
+	"oracles-network.org": {
+		"id": 0,
+		"url": "oracles-network.org",
+		"category": "Phishing"
+	},
+	"xn--myeherwalle-zb9eia.com": {
+		"id": 0,
+		"url": "xn--myeherwalle-zb9eia.com",
+		"category": "Phishing"
+	},
+	"blockstack.one": {
+		"id": 0,
+		"url": "blockstack.one",
+		"category": "Phishing"
+	},
+	"urtust.io": {
+		"id": 0,
+		"url": "urtust.io",
+		"category": "Phishing"
+	},
+	"bittrex.one": {
+		"id": 0,
+		"url": "bittrex.one",
+		"category": "Phishing"
+	},
+	"t0-ico.com": {
+		"id": 0,
+		"url": "t0-ico.com",
+		"category": "Phishing"
+	},
+	"xn--cinbase-90a.com": {
+		"id": 0,
+		"url": "xn--cinbase-90a.com",
+		"category": "Phishing"
+	},
+	"xn--metherwalet-ns8ez1g.com": {
+		"id": 0,
+		"url": "xn--metherwalet-ns8ez1g.com",
+		"category": "Phishing"
+	},
+	"tzero-ico.com": {
+		"id": 0,
+		"url": "tzero-ico.com",
+		"category": "Phishing"
+	},
+	"tzero.su": {
+		"id": 0,
+		"url": "tzero.su",
+		"category": "Phishing"
+	},
+	"tzero.website": {
+		"id": 0,
+		"url": "tzero.website",
+		"category": "Phishing"
+	},
+	"blockstack.network": {
+		"id": 0,
+		"url": "blockstack.network",
+		"category": "Phishing"
+	},
+	"ico-tzero.com": {
+		"id": 0,
+		"url": "ico-tzero.com",
+		"category": "Phishing"
+	},
+	"spectre.site": {
+		"id": 0,
+		"url": "spectre.site",
+		"category": "Phishing"
+	},
+	"tzero.pw": {
+		"id": 0,
+		"url": "tzero.pw",
+		"category": "Phishing"
+	},
+	"spectre-ai.net": {
+		"id": 0,
+		"url": "spectre-ai.net",
+		"category": "Phishing"
+	},
+	"xn--waxtokn-y8a.com": {
+		"id": 0,
+		"url": "xn--waxtokn-y8a.com",
+		"category": "Phishing"
+	},
+	"dmarket.pro": {
+		"id": 0,
+		"url": "dmarket.pro",
+		"category": "Phishing"
+	},
+	"bittrex.com11648724328774.cf": {
+		"id": 0,
+		"url": "bittrex.com11648724328774.cf",
+		"category": "Phishing"
+	},
+	"bittrex.com1987465798.ga": {
+		"id": 0,
+		"url": "bittrex.com1987465798.ga",
+		"category": "Phishing"
+	},
+	"autcus.org": {
+		"id": 0,
+		"url": "autcus.org",
+		"category": "Phishing"
+	},
+	"t-zero.org": {
+		"id": 0,
+		"url": "t-zero.org",
+		"category": "Phishing"
+	},
+	"xn--zero-zxb.com": {
+		"id": 0,
+		"url": "xn--zero-zxb.com",
+		"category": "Phishing"
+	},
+	"myetherwalletfork.com": {
+		"id": 0,
+		"url": "myetherwalletfork.com",
+		"category": "Phishing"
+	},
+	"blokclbain.info": {
+		"id": 0,
+		"url": "blokclbain.info",
+		"category": "Phishing"
+	},
+	"datum.sale": {
+		"id": 0,
+		"url": "datum.sale",
+		"category": "Phishing"
+	},
+	"spectre-ai.org": {
+		"id": 0,
+		"url": "spectre-ai.org",
+		"category": "Phishing"
+	},
+	"powerledgr.com": {
+		"id": 0,
+		"url": "powerledgr.com",
+		"category": "Phishing"
+	},
+	"simpletoken.live": {
+		"id": 0,
+		"url": "simpletoken.live",
+		"category": "Phishing"
+	},
+	"sale.simpletoken.live": {
+		"id": 0,
+		"url": "sale.simpletoken.live",
+		"category": "Phishing"
+	},
+	"qauntstamp.com": {
+		"id": 0,
+		"url": "qauntstamp.com",
+		"category": "Phishing"
+	},
+	"raiden-network.com": {
+		"id": 0,
+		"url": "raiden-network.com",
+		"category": "Phishing"
+	},
+	"metalpayme.com": {
+		"id": 0,
+		"url": "metalpayme.com",
+		"category": "Phishing"
+	},
+	"quantstamp-ico.com": {
+		"id": 0,
+		"url": "quantstamp-ico.com",
+		"category": "Phishing"
+	},
+	"myetherwailetclient.com": {
+		"id": 0,
+		"url": "myetherwailetclient.com",
+		"category": "Phishing"
+	},
+	"biockchain.biz": {
+		"id": 0,
+		"url": "biockchain.biz",
+		"category": "Phishing"
+	},
+	"wallets-blockchain.com": {
+		"id": 0,
+		"url": "wallets-blockchain.com",
+		"category": "Phishing"
+	},
+	"golemairdrop.com": {
+		"id": 0,
+		"url": "golemairdrop.com",
+		"category": "Phishing"
+	},
+	"omisegoairdrop.net": {
+		"id": 0,
+		"url": "omisegoairdrop.net",
+		"category": "Phishing"
+	},
+	"blodkchainwallet.info": {
+		"id": 0,
+		"url": "blodkchainwallet.info",
+		"category": "Phishing"
+	},
+	"walton-chain.org": {
+		"id": 0,
+		"url": "walton-chain.org",
+		"category": "Phishing"
+	},
+	"elite888-ico.com": {
+		"id": 0,
+		"url": "elite888-ico.com",
+		"category": "Phishing"
+	},
+	"bitflyerjp.com": {
+		"id": 0,
+		"url": "bitflyerjp.com",
+		"category": "Phishing"
+	},
+	"chainlinksmartcontract.com": {
+		"id": 0,
+		"url": "chainlinksmartcontract.com",
+		"category": "Phishing"
+	},
+	"stormtoken.eu": {
+		"id": 0,
+		"url": "stormtoken.eu",
+		"category": "Phishing"
+	},
+	"omise-go.tech": {
+		"id": 0,
+		"url": "omise-go.tech",
+		"category": "Phishing"
+	},
+	"saltending.com": {
+		"id": 0,
+		"url": "saltending.com",
+		"category": "Phishing"
+	},
+	"stormltoken.com": {
+		"id": 0,
+		"url": "stormltoken.com",
+		"category": "Phishing"
+	},
+	"xn--quanttamp-42b.com": {
+		"id": 0,
+		"url": "xn--quanttamp-42b.com",
+		"category": "Phishing"
+	},
+	"stormtoken.co": {
+		"id": 0,
+		"url": "stormtoken.co",
+		"category": "Phishing"
+	},
+	"storntoken.com": {
+		"id": 0,
+		"url": "storntoken.com",
+		"category": "Phishing"
+	},
+	"stromtoken.com": {
+		"id": 0,
+		"url": "stromtoken.com",
+		"category": "Phishing"
+	},
+	"storm-token.com": {
+		"id": 0,
+		"url": "storm-token.com",
+		"category": "Phishing"
+	},
+	"stormtokens.io": {
+		"id": 0,
+		"url": "stormtokens.io",
+		"category": "Phishing"
+	},
+	"ether-delta.com": {
+		"id": 0,
+		"url": "ether-delta.com",
+		"category": "Phishing"
+	},
+	"ethconnect.live": {
+		"id": 0,
+		"url": "ethconnect.live",
+		"category": "Phishing"
+	},
+	"ethconnect.trade": {
+		"id": 0,
+		"url": "ethconnect.trade",
+		"category": "Phishing"
+	},
+	"xn--bttrex-3va.net": {
+		"id": 0,
+		"url": "xn--bttrex-3va.net",
+		"category": "Phishing"
+	},
+	"quantstamp.com.co": {
+		"id": 0,
+		"url": "quantstamp.com.co",
+		"category": "Phishing"
+	},
+	"wancha.in": {
+		"id": 0,
+		"url": "wancha.in",
+		"category": "Phishing"
+	},
+	"augur-network.com": {
+		"id": 0,
+		"url": "augur-network.com",
+		"category": "Phishing"
+	},
+	"quantstamp.com.ua": {
+		"id": 0,
+		"url": "quantstamp.com.ua",
+		"category": "Phishing"
+	},
+	"myetherwalletmew.com": {
+		"id": 0,
+		"url": "myetherwalletmew.com",
+		"category": "Phishing"
+	},
+	"myetherumwalletts.com": {
+		"id": 0,
+		"url": "myetherumwalletts.com",
+		"category": "Phishing"
+	},
+	"xn--quanstamp-tmd.com": {
+		"id": 0,
+		"url": "xn--quanstamp-tmd.com",
+		"category": "Phishing"
+	},
+	"quantsstamps.com": {
+		"id": 0,
+		"url": "quantsstamps.com",
+		"category": "Phishing"
+	},
+	"changellyl.net": {
+		"id": 0,
+		"url": "changellyl.net",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-1fb.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-1fb.com",
+		"category": "Phishing"
+	},
+	"myethereumwallets.com": {
+		"id": 0,
+		"url": "myethereumwallets.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-e9b.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-e9b.com",
+		"category": "Phishing"
+	},
+	"quantslamp.com": {
+		"id": 0,
+		"url": "quantslamp.com",
+		"category": "Phishing"
+	},
+	"metelpay.com": {
+		"id": 0,
+		"url": "metelpay.com",
+		"category": "Phishing"
+	},
+	"xn--eterdelta-m75d.com": {
+		"id": 0,
+		"url": "xn--eterdelta-m75d.com",
+		"category": "Phishing"
+	},
+	"linksmartcontract.com": {
+		"id": 0,
+		"url": "linksmartcontract.com",
+		"category": "Phishing"
+	},
+	"myetherwalletaccess.com": {
+		"id": 0,
+		"url": "myetherwalletaccess.com",
+		"category": "Phishing"
+	},
+	"myetherwalletcheck.com": {
+		"id": 0,
+		"url": "myetherwalletcheck.com",
+		"category": "Phishing"
+	},
+	"myetherwalletcheck.info": {
+		"id": 0,
+		"url": "myetherwalletcheck.info",
+		"category": "Phishing"
+	},
+	"myetherwalletconf.com": {
+		"id": 0,
+		"url": "myetherwalletconf.com",
+		"category": "Phishing"
+	},
+	"myetherwalleteal.com": {
+		"id": 0,
+		"url": "myetherwalleteal.com",
+		"category": "Phishing"
+	},
+	"myetherwalletec.com": {
+		"id": 0,
+		"url": "myetherwalletec.com",
+		"category": "Phishing"
+	},
+	"myetherwalletgeth.com": {
+		"id": 0,
+		"url": "myetherwalletgeth.com",
+		"category": "Phishing"
+	},
+	"myetherwalletmetamask.com": {
+		"id": 0,
+		"url": "myetherwalletmetamask.com",
+		"category": "Phishing"
+	},
+	"myetherwalletmm.com": {
+		"id": 0,
+		"url": "myetherwalletmm.com",
+		"category": "Phishing"
+	},
+	"myetherwalletmy.com": {
+		"id": 0,
+		"url": "myetherwalletmy.com",
+		"category": "Phishing"
+	},
+	"myetherwalletnh.com": {
+		"id": 0,
+		"url": "myetherwalletnh.com",
+		"category": "Phishing"
+	},
+	"myetherwalletnod.com": {
+		"id": 0,
+		"url": "myetherwalletnod.com",
+		"category": "Phishing"
+	},
+	"myetherwalletrr.com": {
+		"id": 0,
+		"url": "myetherwalletrr.com",
+		"category": "Phishing"
+	},
+	"myetherwalletrty.com": {
+		"id": 0,
+		"url": "myetherwalletrty.com",
+		"category": "Phishing"
+	},
+	"myetherwalletsec.com": {
+		"id": 0,
+		"url": "myetherwalletsec.com",
+		"category": "Phishing"
+	},
+	"myetherwalletsecure.com": {
+		"id": 0,
+		"url": "myetherwalletsecure.com",
+		"category": "Phishing"
+	},
+	"myetherwalletutc.com": {
+		"id": 0,
+		"url": "myetherwalletutc.com",
+		"category": "Phishing"
+	},
+	"myetherwalletver.info": {
+		"id": 0,
+		"url": "myetherwalletver.info",
+		"category": "Phishing"
+	},
+	"myetherwalletview.com": {
+		"id": 0,
+		"url": "myetherwalletview.com",
+		"category": "Phishing"
+	},
+	"myetherwalletview.info": {
+		"id": 0,
+		"url": "myetherwalletview.info",
+		"category": "Phishing"
+	},
+	"myetherwalletvrf.com": {
+		"id": 0,
+		"url": "myetherwalletvrf.com",
+		"category": "Phishing"
+	},
+	"myetherwalletmist.com": {
+		"id": 0,
+		"url": "myetherwalletmist.com",
+		"category": "Phishing"
+	},
+	"myetherwalletext.com": {
+		"id": 0,
+		"url": "myetherwalletext.com",
+		"category": "Phishing"
+	},
+	"myetherwalletjson.com": {
+		"id": 0,
+		"url": "myetherwalletjson.com",
+		"category": "Phishing"
+	},
+	"mettalpay.com": {
+		"id": 0,
+		"url": "mettalpay.com",
+		"category": "Phishing"
+	},
+	"bricklblock.io": {
+		"id": 0,
+		"url": "bricklblock.io",
+		"category": "Phishing"
+	},
+	"bittrexy.com": {
+		"id": 0,
+		"url": "bittrexy.com",
+		"category": "Phishing"
+	},
+	"utrust.so": {
+		"id": 0,
+		"url": "utrust.so",
+		"category": "Phishing"
+	},
+	"myethierwallet.org": {
+		"id": 0,
+		"url": "myethierwallet.org",
+		"category": "Phishing"
+	},
+	"metallpay.com": {
+		"id": 0,
+		"url": "metallpay.com",
+		"category": "Phishing"
+	},
+	"kraken-wallet.com": {
+		"id": 0,
+		"url": "kraken-wallet.com",
+		"category": "Phishing"
+	},
+	"dmarkt.io": {
+		"id": 0,
+		"url": "dmarkt.io",
+		"category": "Phishing"
+	},
+	"etherdeltla.com": {
+		"id": 0,
+		"url": "etherdeltla.com",
+		"category": "Phishing"
+	},
+	"unlversa.io": {
+		"id": 0,
+		"url": "unlversa.io",
+		"category": "Phishing"
+	},
+	"universa.sale": {
+		"id": 0,
+		"url": "universa.sale",
+		"category": "Phishing"
+	},
+	"mercuryprotocol.live": {
+		"id": 0,
+		"url": "mercuryprotocol.live",
+		"category": "Phishing"
+	},
+	"ripiocredlt.network": {
+		"id": 0,
+		"url": "ripiocredlt.network",
+		"category": "Phishing"
+	},
+	"myetlherwa11et.com": {
+		"id": 0,
+		"url": "myetlherwa11et.com",
+		"category": "Phishing"
+	},
+	"dentacoin.in": {
+		"id": 0,
+		"url": "dentacoin.in",
+		"category": "Phishing"
+	},
+	"rdrtg.com": {
+		"id": 0,
+		"url": "rdrtg.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.rdrgh.com": {
+		"id": 0,
+		"url": "myetherwallet.com.rdrgh.com",
+		"category": "Phishing"
+	},
+	"rdrgh.com": {
+		"id": 0,
+		"url": "rdrgh.com",
+		"category": "Phishing"
+	},
+	"ripiocreditnetwork.co": {
+		"id": 0,
+		"url": "ripiocreditnetwork.co",
+		"category": "Phishing"
+	},
+	"riaden.network": {
+		"id": 0,
+		"url": "riaden.network",
+		"category": "Phishing"
+	},
+	"hydrominer.biz": {
+		"id": 0,
+		"url": "hydrominer.biz",
+		"category": "Phishing"
+	},
+	"rdrblock.com": {
+		"id": 0,
+		"url": "rdrblock.com",
+		"category": "Phishing"
+	},
+	"reqest.network": {
+		"id": 0,
+		"url": "reqest.network",
+		"category": "Phishing"
+	},
+	"senstoken.com": {
+		"id": 0,
+		"url": "senstoken.com",
+		"category": "Phishing"
+	},
+	"myetherwallat.services": {
+		"id": 0,
+		"url": "myetherwallat.services",
+		"category": "Phishing"
+	},
+	"ripiocredit.net": {
+		"id": 0,
+		"url": "ripiocredit.net",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-c06f.com": {
+		"id": 0,
+		"url": "xn--metherwallet-c06f.com",
+		"category": "Phishing"
+	},
+	"ico.ripiocredits.com": {
+		"id": 0,
+		"url": "ico.ripiocredits.com",
+		"category": "Phishing"
+	},
+	"ripiocredits.com": {
+		"id": 0,
+		"url": "ripiocredits.com",
+		"category": "Phishing"
+	},
+	"raidens.network": {
+		"id": 0,
+		"url": "raidens.network",
+		"category": "Phishing"
+	},
+	"artoken.co": {
+		"id": 0,
+		"url": "artoken.co",
+		"category": "Phishing"
+	},
+	"myetherwalletlgn.com": {
+		"id": 0,
+		"url": "myetherwalletlgn.com",
+		"category": "Phishing"
+	},
+	"etherblog.click": {
+		"id": 0,
+		"url": "etherblog.click",
+		"category": "Phishing"
+	},
+	"stormtoken.site": {
+		"id": 0,
+		"url": "stormtoken.site",
+		"category": "Phishing"
+	},
+	"httpmyetherwallet.com": {
+		"id": 0,
+		"url": "httpmyetherwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwalletverify.com": {
+		"id": 0,
+		"url": "myetherwalletverify.com",
+		"category": "Phishing"
+	},
+	"byzantiumfork.com": {
+		"id": 0,
+		"url": "byzantiumfork.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.byzantiumfork.com": {
+		"id": 0,
+		"url": "myetherwallet.com.byzantiumfork.com",
+		"category": "Phishing"
+	},
+	"www-myethervvallet.com": {
+		"id": 0,
+		"url": "www-myethervvallet.com",
+		"category": "Phishing"
+	},
+	"ether24.info": {
+		"id": 0,
+		"url": "ether24.info",
+		"category": "Phishing"
+	},
+	"block-v.io": {
+		"id": 0,
+		"url": "block-v.io",
+		"category": "Phishing"
+	},
+	"bittrex.cash": {
+		"id": 0,
+		"url": "bittrex.cash",
+		"category": "Phishing"
+	},
+	"shapishift.io": {
+		"id": 0,
+		"url": "shapishift.io",
+		"category": "Phishing"
+	},
+	"ripiocerdit.network": {
+		"id": 0,
+		"url": "ripiocerdit.network",
+		"category": "Phishing"
+	},
+	"rnyetherwa11et.com": {
+		"id": 0,
+		"url": "rnyetherwa11et.com",
+		"category": "Phishing"
+	},
+	"claimether.com": {
+		"id": 0,
+		"url": "claimether.com",
+		"category": "Phishing"
+	},
+	"enigmatokensale.com": {
+		"id": 0,
+		"url": "enigmatokensale.com",
+		"category": "Phishing"
+	},
+	"ethereum-org.com": {
+		"id": 0,
+		"url": "ethereum-org.com",
+		"category": "Phishing"
+	},
+	"mvetnerwallet.com": {
+		"id": 0,
+		"url": "mvetnerwallet.com",
+		"category": "Phishing"
+	},
+	"myctherwallet.com": {
+		"id": 0,
+		"url": "myctherwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwaltet.com": {
+		"id": 0,
+		"url": "myetherwaltet.com",
+		"category": "Phishing"
+	},
+	"myetherwatlet.com": {
+		"id": 0,
+		"url": "myetherwatlet.com",
+		"category": "Phishing"
+	},
+	"privatix.me": {
+		"id": 0,
+		"url": "privatix.me",
+		"category": "Phishing"
+	},
+	"myetherwalletcnf.com": {
+		"id": 0,
+		"url": "myetherwalletcnf.com",
+		"category": "Phishing"
+	},
+	"myetherwalletver.com": {
+		"id": 0,
+		"url": "myetherwalletver.com",
+		"category": "Phishing"
+	},
+	"privatix.top": {
+		"id": 0,
+		"url": "privatix.top",
+		"category": "Phishing"
+	},
+	"privatix.pro": {
+		"id": 0,
+		"url": "privatix.pro",
+		"category": "Phishing"
+	},
+	"privatex.io": {
+		"id": 0,
+		"url": "privatex.io",
+		"category": "Phishing"
+	},
+	"stormtoken.cc": {
+		"id": 0,
+		"url": "stormtoken.cc",
+		"category": "Phishing"
+	},
+	"raiden.online": {
+		"id": 0,
+		"url": "raiden.online",
+		"category": "Phishing"
+	},
+	"stormstoken.com": {
+		"id": 0,
+		"url": "stormstoken.com",
+		"category": "Phishing"
+	},
+	"myetereumwallet.com": {
+		"id": 0,
+		"url": "myetereumwallet.com",
+		"category": "Phishing"
+	},
+	"stormtokens.net": {
+		"id": 0,
+		"url": "stormtokens.net",
+		"category": "Phishing"
+	},
+	"myetherwalletconf.info": {
+		"id": 0,
+		"url": "myetherwalletconf.info",
+		"category": "Phishing"
+	},
+	"storrntoken.com": {
+		"id": 0,
+		"url": "storrntoken.com",
+		"category": "Phishing"
+	},
+	"worldofbattles.io": {
+		"id": 0,
+		"url": "worldofbattles.io",
+		"category": "Phishing"
+	},
+	"ico.worldofbattles.io": {
+		"id": 0,
+		"url": "ico.worldofbattles.io",
+		"category": "Phishing"
+	},
+	"privatix.live": {
+		"id": 0,
+		"url": "privatix.live",
+		"category": "Phishing"
+	},
+	"riden.network": {
+		"id": 0,
+		"url": "riden.network",
+		"category": "Phishing"
+	},
+	"raidan.network": {
+		"id": 0,
+		"url": "raidan.network",
+		"category": "Phishing"
+	},
+	"ralden.network": {
+		"id": 0,
+		"url": "ralden.network",
+		"category": "Phishing"
+	},
+	"mymyetherwallet.com": {
+		"id": 0,
+		"url": "mymyetherwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallets.net": {
+		"id": 0,
+		"url": "myetherwallets.net",
+		"category": "Phishing"
+	},
+	"myetherwalletverify.info": {
+		"id": 0,
+		"url": "myetherwalletverify.info",
+		"category": "Phishing"
+	},
+	"stormxtoken.com": {
+		"id": 0,
+		"url": "stormxtoken.com",
+		"category": "Phishing"
+	},
+	"myethereum-wallet.com": {
+		"id": 0,
+		"url": "myethereum-wallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet-forkprep.pagedemo.co": {
+		"id": 0,
+		"url": "myetherwallet-forkprep.pagedemo.co",
+		"category": "Phishing"
+	},
+	"myetnerwailet.com": {
+		"id": 0,
+		"url": "myetnerwailet.com",
+		"category": "Phishing"
+	},
+	"www-mvetherwallet.com": {
+		"id": 0,
+		"url": "www-mvetherwallet.com",
+		"category": "Phishing"
+	},
+	"etheirdelta.com": {
+		"id": 0,
+		"url": "etheirdelta.com",
+		"category": "Phishing"
+	},
+	"myetherwalletiu.com": {
+		"id": 0,
+		"url": "myetherwalletiu.com",
+		"category": "Phishing"
+	},
+	"myetherwaiiett.com": {
+		"id": 0,
+		"url": "myetherwaiiett.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwalet-cbb87i.com": {
+		"id": 0,
+		"url": "xn--mytherwalet-cbb87i.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-ivb.co": {
+		"id": 0,
+		"url": "xn--myethrwallet-ivb.co",
+		"category": "Phishing"
+	},
+	"xn--myeterwallet-f1b.com": {
+		"id": 0,
+		"url": "xn--myeterwallet-f1b.com",
+		"category": "Phishing"
+	},
+	"myehterwaliet.com": {
+		"id": 0,
+		"url": "myehterwaliet.com",
+		"category": "Phishing"
+	},
+	"omegaone.co": {
+		"id": 0,
+		"url": "omegaone.co",
+		"category": "Phishing"
+	},
+	"myetherwaiietw.com": {
+		"id": 0,
+		"url": "myetherwaiietw.com",
+		"category": "Phishing"
+	},
+	"slack.com.ru": {
+		"id": 0,
+		"url": "slack.com.ru",
+		"category": "Phishing"
+	},
+	"polkodot.network": {
+		"id": 0,
+		"url": "polkodot.network",
+		"category": "Phishing"
+	},
+	"request-network.net": {
+		"id": 0,
+		"url": "request-network.net",
+		"category": "Phishing"
+	},
+	"requestnetwork.live": {
+		"id": 0,
+		"url": "requestnetwork.live",
+		"category": "Phishing"
+	},
+	"binancie.com": {
+		"id": 0,
+		"url": "binancie.com",
+		"category": "Phishing"
+	},
+	"first-eth.info": {
+		"id": 0,
+		"url": "first-eth.info",
+		"category": "Phishing"
+	},
+	"myewerthwalliet.com": {
+		"id": 0,
+		"url": "myewerthwalliet.com",
+		"category": "Phishing"
+	},
+	"enjincoin.pw": {
+		"id": 0,
+		"url": "enjincoin.pw",
+		"category": "Phishing"
+	},
+	"xn--bitrex-k17b.com": {
+		"id": 0,
+		"url": "xn--bitrex-k17b.com",
+		"category": "Phishing"
+	},
+	"alrswap.io": {
+		"id": 0,
+		"url": "alrswap.io",
+		"category": "Phishing"
+	},
+	"www-request.network": {
+		"id": 0,
+		"url": "www-request.network",
+		"category": "Phishing"
+	},
+	"myetnenwallet.com": {
+		"id": 0,
+		"url": "myetnenwallet.com",
+		"category": "Phishing"
+	},
+	"www-enigma.co": {
+		"id": 0,
+		"url": "www-enigma.co",
+		"category": "Phishing"
+	},
+	"cryptoinsidenews.com": {
+		"id": 0,
+		"url": "cryptoinsidenews.com",
+		"category": "Phishing"
+	},
+	"air-swap.tech": {
+		"id": 0,
+		"url": "air-swap.tech",
+		"category": "Phishing"
+	},
+	"launch.airswap.cc": {
+		"id": 0,
+		"url": "launch.airswap.cc",
+		"category": "Phishing"
+	},
+	"airswap.cc": {
+		"id": 0,
+		"url": "airswap.cc",
+		"category": "Phishing"
+	},
+	"airswaptoken.com": {
+		"id": 0,
+		"url": "airswaptoken.com",
+		"category": "Phishing"
+	},
+	"launch.airswap.in": {
+		"id": 0,
+		"url": "launch.airswap.in",
+		"category": "Phishing"
+	},
+	"airswap.in": {
+		"id": 0,
+		"url": "airswap.in",
+		"category": "Phishing"
+	},
+	"security-steemit.com.mx": {
+		"id": 0,
+		"url": "security-steemit.com.mx",
+		"category": "Phishing"
+	},
+	"blockchalnwallet.com": {
+		"id": 0,
+		"url": "blockchalnwallet.com",
+		"category": "Phishing"
+	},
+	"blodkchainwallet.com": {
+		"id": 0,
+		"url": "blodkchainwallet.com",
+		"category": "Phishing"
+	},
+	"blodkchaln.com": {
+		"id": 0,
+		"url": "blodkchaln.com",
+		"category": "Phishing"
+	},
+	"myethereumwaiiet.com": {
+		"id": 0,
+		"url": "myethereumwaiiet.com",
+		"category": "Phishing"
+	},
+	"myethereumwaliet.com": {
+		"id": 0,
+		"url": "myethereumwaliet.com",
+		"category": "Phishing"
+	},
+	"myethereumwalilet.com": {
+		"id": 0,
+		"url": "myethereumwalilet.com",
+		"category": "Phishing"
+	},
+	"myetherswailet.com": {
+		"id": 0,
+		"url": "myetherswailet.com",
+		"category": "Phishing"
+	},
+	"myetherswaliet.com": {
+		"id": 0,
+		"url": "myetherswaliet.com",
+		"category": "Phishing"
+	},
+	"myetherswalilet.com": {
+		"id": 0,
+		"url": "myetherswalilet.com",
+		"category": "Phishing"
+	},
+	"myetherwalilett.com": {
+		"id": 0,
+		"url": "myetherwalilett.com",
+		"category": "Phishing"
+	},
+	"myetherwalletl.com": {
+		"id": 0,
+		"url": "myetherwalletl.com",
+		"category": "Phishing"
+	},
+	"myetherwalletww.com": {
+		"id": 0,
+		"url": "myetherwalletww.com",
+		"category": "Phishing"
+	},
+	"myethereunwallet.com": {
+		"id": 0,
+		"url": "myethereunwallet.com",
+		"category": "Phishing"
+	},
+	"myethereumwallct.com": {
+		"id": 0,
+		"url": "myethereumwallct.com",
+		"category": "Phishing"
+	},
+	"myetherwaiieti.com": {
+		"id": 0,
+		"url": "myetherwaiieti.com",
+		"category": "Phishing"
+	},
+	"myetherwaiiete.com": {
+		"id": 0,
+		"url": "myetherwaiiete.com",
+		"category": "Phishing"
+	},
+	"upfirng.com": {
+		"id": 0,
+		"url": "upfirng.com",
+		"category": "Phishing"
+	},
+	"paypie.net": {
+		"id": 0,
+		"url": "paypie.net",
+		"category": "Phishing"
+	},
+	"paypie.tech": {
+		"id": 0,
+		"url": "paypie.tech",
+		"category": "Phishing"
+	},
+	"soam.co": {
+		"id": 0,
+		"url": "soam.co",
+		"category": "Phishing"
+	},
+	"myetherwaiict.com": {
+		"id": 0,
+		"url": "myetherwaiict.com",
+		"category": "Phishing"
+	},
+	"numerai-token.com": {
+		"id": 0,
+		"url": "numerai-token.com",
+		"category": "Phishing"
+	},
+	"www-bankera.com": {
+		"id": 0,
+		"url": "www-bankera.com",
+		"category": "Phishing"
+	},
+	"vvanchain.org": {
+		"id": 0,
+		"url": "vvanchain.org",
+		"category": "Phishing"
+	},
+	"omisegoairdrop.com": {
+		"id": 0,
+		"url": "omisegoairdrop.com",
+		"category": "Phishing"
+	},
+	"xn--enjncoin-41a.io": {
+		"id": 0,
+		"url": "xn--enjncoin-41a.io",
+		"category": "Phishing"
+	},
+	"suncontract.su": {
+		"id": 0,
+		"url": "suncontract.su",
+		"category": "Phishing"
+	},
+	"myetherwaiietr.com": {
+		"id": 0,
+		"url": "myetherwaiietr.com",
+		"category": "Phishing"
+	},
+	"shapeshiff.io": {
+		"id": 0,
+		"url": "shapeshiff.io",
+		"category": "Phishing"
+	},
+	"warchain.org": {
+		"id": 0,
+		"url": "warchain.org",
+		"category": "Phishing"
+	},
+	"myethwallett.com": {
+		"id": 0,
+		"url": "myethwallett.com",
+		"category": "Phishing"
+	},
+	"myethervvaliet.com": {
+		"id": 0,
+		"url": "myethervvaliet.com",
+		"category": "Phishing"
+	},
+	"wanchains.org": {
+		"id": 0,
+		"url": "wanchains.org",
+		"category": "Phishing"
+	},
+	"etherparty.in": {
+		"id": 0,
+		"url": "etherparty.in",
+		"category": "Phishing"
+	},
+	"enjincoin.me": {
+		"id": 0,
+		"url": "enjincoin.me",
+		"category": "Phishing"
+	},
+	"etiam.io": {
+		"id": 0,
+		"url": "etiam.io",
+		"category": "Phishing"
+	},
+	"invest.smartlands.tech": {
+		"id": 0,
+		"url": "invest.smartlands.tech",
+		"category": "Phishing"
+	},
+	"smartlands.tech": {
+		"id": 0,
+		"url": "smartlands.tech",
+		"category": "Phishing"
+	},
+	"enijncoin.io": {
+		"id": 0,
+		"url": "enijncoin.io",
+		"category": "Phishing"
+	},
+	"wanchain.network": {
+		"id": 0,
+		"url": "wanchain.network",
+		"category": "Phishing"
+	},
+	"nimiq.su": {
+		"id": 0,
+		"url": "nimiq.su",
+		"category": "Phishing"
+	},
+	"enjincoin.sale": {
+		"id": 0,
+		"url": "enjincoin.sale",
+		"category": "Phishing"
+	},
+	"tenxwallet.io": {
+		"id": 0,
+		"url": "tenxwallet.io",
+		"category": "Phishing"
+	},
+	"golem-network.net": {
+		"id": 0,
+		"url": "golem-network.net",
+		"category": "Phishing"
+	},
+	"myyethwallet.ml": {
+		"id": 0,
+		"url": "myyethwallet.ml",
+		"category": "Phishing"
+	},
+	"mywetherwailiet.com": {
+		"id": 0,
+		"url": "mywetherwailiet.com",
+		"category": "Phishing"
+	},
+	"omg-omise.com": {
+		"id": 0,
+		"url": "omg-omise.com",
+		"category": "Phishing"
+	},
+	"district0x.tech": {
+		"id": 0,
+		"url": "district0x.tech",
+		"category": "Phishing"
+	},
+	"centra-token.com": {
+		"id": 0,
+		"url": "centra-token.com",
+		"category": "Phishing"
+	},
+	"etherdetla.com": {
+		"id": 0,
+		"url": "etherdetla.com",
+		"category": "Phishing"
+	},
+	"etnerparty.io": {
+		"id": 0,
+		"url": "etnerparty.io",
+		"category": "Phishing"
+	},
+	"etherdelta.su": {
+		"id": 0,
+		"url": "etherdelta.su",
+		"category": "Phishing"
+	},
+	"myetherwallett.neocities.org": {
+		"id": 0,
+		"url": "myetherwallett.neocities.org",
+		"category": "Phishing"
+	},
+	"myetherwallet-secure.com": {
+		"id": 0,
+		"url": "myetherwallet-secure.com",
+		"category": "Phishing"
+	},
+	"myethereumwalletntw.info": {
+		"id": 0,
+		"url": "myethereumwalletntw.info",
+		"category": "Phishing"
+	},
+	"real-markets.io": {
+		"id": 0,
+		"url": "real-markets.io",
+		"category": "Phishing"
+	},
+	"wallet-ethereum.org": {
+		"id": 0,
+		"url": "wallet-ethereum.org",
+		"category": "Phishing"
+	},
+	"request-network.com": {
+		"id": 0,
+		"url": "request-network.com",
+		"category": "Phishing"
+	},
+	"shapeshifth.io": {
+		"id": 0,
+		"url": "shapeshifth.io",
+		"category": "Phishing"
+	},
+	"shiapeshift.in": {
+		"id": 0,
+		"url": "shiapeshift.in",
+		"category": "Phishing"
+	},
+	"coin.red-puise.com": {
+		"id": 0,
+		"url": "coin.red-puise.com",
+		"category": "Phishing"
+	},
+	"ibittreix.com": {
+		"id": 0,
+		"url": "ibittreix.com",
+		"category": "Phishing"
+	},
+	"coinkbase.com": {
+		"id": 0,
+		"url": "coinkbase.com",
+		"category": "Phishing"
+	},
+	"cindicator.pro": {
+		"id": 0,
+		"url": "cindicator.pro",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.ailogin.me": {
+		"id": 0,
+		"url": "myetherwallet.com.ailogin.me",
+		"category": "Phishing"
+	},
+	"eventchain.co": {
+		"id": 0,
+		"url": "eventchain.co",
+		"category": "Phishing"
+	},
+	"kinkik.in": {
+		"id": 0,
+		"url": "kinkik.in",
+		"category": "Phishing"
+	},
+	"myetherumwalletview.com": {
+		"id": 0,
+		"url": "myetherumwalletview.com",
+		"category": "Phishing"
+	},
+	"protostokenhub.com": {
+		"id": 0,
+		"url": "protostokenhub.com",
+		"category": "Phishing"
+	},
+	"coinrbase.com": {
+		"id": 0,
+		"url": "coinrbase.com",
+		"category": "Phishing"
+	},
+	"myetherwalletlogin.com": {
+		"id": 0,
+		"url": "myetherwalletlogin.com",
+		"category": "Phishing"
+	},
+	"omisegotoken.com": {
+		"id": 0,
+		"url": "omisegotoken.com",
+		"category": "Phishing"
+	},
+	"myethereumwalletntw.com": {
+		"id": 0,
+		"url": "myethereumwalletntw.com",
+		"category": "Phishing"
+	},
+	"reall.markets": {
+		"id": 0,
+		"url": "reall.markets",
+		"category": "Phishing"
+	},
+	"cobinhood.org": {
+		"id": 0,
+		"url": "cobinhood.org",
+		"category": "Phishing"
+	},
+	"cobinhood.io": {
+		"id": 0,
+		"url": "cobinhood.io",
+		"category": "Phishing"
+	},
+	"happy-coin.org": {
+		"id": 0,
+		"url": "happy-coin.org",
+		"category": "Phishing"
+	},
+	"bitfinex.com.co": {
+		"id": 0,
+		"url": "bitfinex.com.co",
+		"category": "Phishing"
+	},
+	"bitfienex.com": {
+		"id": 0,
+		"url": "bitfienex.com",
+		"category": "Phishing"
+	},
+	"iconn.foundation": {
+		"id": 0,
+		"url": "iconn.foundation",
+		"category": "Phishing"
+	},
+	"centra.vip": {
+		"id": 0,
+		"url": "centra.vip",
+		"category": "Phishing"
+	},
+	"smartcontract.live": {
+		"id": 0,
+		"url": "smartcontract.live",
+		"category": "Phishing"
+	},
+	"icon.community": {
+		"id": 0,
+		"url": "icon.community",
+		"category": "Phishing"
+	},
+	"air-token.com": {
+		"id": 0,
+		"url": "air-token.com",
+		"category": "Phishing"
+	},
+	"centra.credit": {
+		"id": 0,
+		"url": "centra.credit",
+		"category": "Phishing"
+	},
+	"myetherwallet-singin.com": {
+		"id": 0,
+		"url": "myetherwallet-singin.com",
+		"category": "Phishing"
+	},
+	"smartcontractlink.com": {
+		"id": 0,
+		"url": "smartcontractlink.com",
+		"category": "Phishing"
+	},
+	"shapesshift.io": {
+		"id": 0,
+		"url": "shapesshift.io",
+		"category": "Phishing"
+	},
+	"0xtoken.io": {
+		"id": 0,
+		"url": "0xtoken.io",
+		"category": "Phishing"
+	},
+	"augurproject.co": {
+		"id": 0,
+		"url": "augurproject.co",
+		"category": "Phishing"
+	},
+	"ethereumus.one": {
+		"id": 0,
+		"url": "ethereumus.one",
+		"category": "Phishing"
+	},
+	"myetherumwalet.com": {
+		"id": 0,
+		"url": "myetherumwalet.com",
+		"category": "Phishing"
+	},
+	"myetherwalletsignin.com": {
+		"id": 0,
+		"url": "myetherwalletsignin.com",
+		"category": "Phishing"
+	},
+	"change-bank.org": {
+		"id": 0,
+		"url": "change-bank.org",
+		"category": "Phishing"
+	},
+	"charge-bank.com": {
+		"id": 0,
+		"url": "charge-bank.com",
+		"category": "Phishing"
+	},
+	"myetherwalletsingin.com": {
+		"id": 0,
+		"url": "myetherwalletsingin.com",
+		"category": "Phishing"
+	},
+	"myetherwalletcontract.com": {
+		"id": 0,
+		"url": "myetherwalletcontract.com",
+		"category": "Phishing"
+	},
+	"change-bank.io": {
+		"id": 0,
+		"url": "change-bank.io",
+		"category": "Phishing"
+	},
+	"chainlink.tech": {
+		"id": 0,
+		"url": "chainlink.tech",
+		"category": "Phishing"
+	},
+	"myetherwallet-confirm.com": {
+		"id": 0,
+		"url": "myetherwallet-confirm.com",
+		"category": "Phishing"
+	},
+	"tokensale.kybernet.network": {
+		"id": 0,
+		"url": "tokensale.kybernet.network",
+		"category": "Phishing"
+	},
+	"kybernet.network": {
+		"id": 0,
+		"url": "kybernet.network",
+		"category": "Phishing"
+	},
+	"kyberr.network": {
+		"id": 0,
+		"url": "kyberr.network",
+		"category": "Phishing"
+	},
+	"kybernetwork.io": {
+		"id": 0,
+		"url": "kybernetwork.io",
+		"category": "Phishing"
+	},
+	"myetherwalletconfirm.com": {
+		"id": 0,
+		"url": "myetherwalletconfirm.com",
+		"category": "Phishing"
+	},
+	"kvnuke.github.io": {
+		"id": 0,
+		"url": "kvnuke.github.io",
+		"category": "Phishing"
+	},
+	"kin.kikpro.co": {
+		"id": 0,
+		"url": "kin.kikpro.co",
+		"category": "Phishing"
+	},
+	"myethereumwallet.co.uk": {
+		"id": 0,
+		"url": "myethereumwallet.co.uk",
+		"category": "Phishing"
+	},
+	"tokensale-kyber.network": {
+		"id": 0,
+		"url": "tokensale-kyber.network",
+		"category": "Phishing"
+	},
+	"kyber-network.co": {
+		"id": 0,
+		"url": "kyber-network.co",
+		"category": "Phishing"
+	},
+	"tokensale.kyber-network.co": {
+		"id": 0,
+		"url": "tokensale.kyber-network.co",
+		"category": "Phishing"
+	},
+	"pyro0.github.io": {
+		"id": 0,
+		"url": "pyro0.github.io",
+		"category": "Phishing"
+	},
+	"tokensale.kyber.digital": {
+		"id": 0,
+		"url": "tokensale.kyber.digital",
+		"category": "Phishing"
+	},
+	"kyber.digital": {
+		"id": 0,
+		"url": "kyber.digital",
+		"category": "Phishing"
+	},
+	"omise-go.me": {
+		"id": 0,
+		"url": "omise-go.me",
+		"category": "Phishing"
+	},
+	"my.etherwallet.com.de": {
+		"id": 0,
+		"url": "my.etherwallet.com.de",
+		"category": "Phishing"
+	},
+	"bepartof.change-bank.co": {
+		"id": 0,
+		"url": "bepartof.change-bank.co",
+		"category": "Phishing"
+	},
+	"change-bank.co": {
+		"id": 0,
+		"url": "change-bank.co",
+		"category": "Phishing"
+	},
+	"enigma-tokens.co": {
+		"id": 0,
+		"url": "enigma-tokens.co",
+		"category": "Phishing"
+	},
+	"coinbase.com.eslogin.co": {
+		"id": 0,
+		"url": "coinbase.com.eslogin.co",
+		"category": "Phishing"
+	},
+	"xn--bittrx-mva.com": {
+		"id": 0,
+		"url": "xn--bittrx-mva.com",
+		"category": "Phishing"
+	},
+	"ethrdelta.github.io": {
+		"id": 0,
+		"url": "ethrdelta.github.io",
+		"category": "Phishing"
+	},
+	"etherdellta.com": {
+		"id": 0,
+		"url": "etherdellta.com",
+		"category": "Phishing"
+	},
+	"ico-nexus.social": {
+		"id": 0,
+		"url": "ico-nexus.social",
+		"category": "Phishing"
+	},
+	"red-pulse.tech": {
+		"id": 0,
+		"url": "red-pulse.tech",
+		"category": "Phishing"
+	},
+	"bitj0b.io": {
+		"id": 0,
+		"url": "bitj0b.io",
+		"category": "Phishing"
+	},
+	"xn--bttrex-bwa.com": {
+		"id": 0,
+		"url": "xn--bttrex-bwa.com",
+		"category": "Phishing"
+	},
+	"kin-klk.com": {
+		"id": 0,
+		"url": "kin-klk.com",
+		"category": "Phishing"
+	},
+	"kin-crowdsale.com": {
+		"id": 0,
+		"url": "kin-crowdsale.com",
+		"category": "Phishing"
+	},
+	"ethedelta.com": {
+		"id": 0,
+		"url": "ethedelta.com",
+		"category": "Phishing"
+	},
+	"coindash.su": {
+		"id": 0,
+		"url": "coindash.su",
+		"category": "Phishing"
+	},
+	"myethwallet.co.uk": {
+		"id": 0,
+		"url": "myethwallet.co.uk",
+		"category": "Phishing"
+	},
+	"swarm.credit": {
+		"id": 0,
+		"url": "swarm.credit",
+		"category": "Phishing"
+	},
+	"myethereumwallet.uk": {
+		"id": 0,
+		"url": "myethereumwallet.uk",
+		"category": "Phishing"
+	},
+	"iconexu.social": {
+		"id": 0,
+		"url": "iconexu.social",
+		"category": "Phishing"
+	},
+	"wanchain.co": {
+		"id": 0,
+		"url": "wanchain.co",
+		"category": "Phishing"
+	},
+	"enigrna.co": {
+		"id": 0,
+		"url": "enigrna.co",
+		"category": "Phishing"
+	},
+	"linknetwork.co": {
+		"id": 0,
+		"url": "linknetwork.co",
+		"category": "Phishing"
+	},
+	"qtum-token.com": {
+		"id": 0,
+		"url": "qtum-token.com",
+		"category": "Phishing"
+	},
+	"omisego.com.co": {
+		"id": 0,
+		"url": "omisego.com.co",
+		"category": "Phishing"
+	},
+	"rivetzintl.org": {
+		"id": 0,
+		"url": "rivetzintl.org",
+		"category": "Phishing"
+	},
+	"etherdelta.one": {
+		"id": 0,
+		"url": "etherdelta.one",
+		"category": "Phishing"
+	},
+	"the-ether.pro": {
+		"id": 0,
+		"url": "the-ether.pro",
+		"category": "Phishing"
+	},
+	"etherdelta.gitnub.io": {
+		"id": 0,
+		"url": "etherdelta.gitnub.io",
+		"category": "Phishing"
+	},
+	"kirkik.com": {
+		"id": 0,
+		"url": "kirkik.com",
+		"category": "Phishing"
+	},
+	"monetha.ltd": {
+		"id": 0,
+		"url": "monetha.ltd",
+		"category": "Phishing"
+	},
+	"vlberate.io": {
+		"id": 0,
+		"url": "vlberate.io",
+		"category": "Phishing"
+	},
+	"ethereumwallet-kr.info": {
+		"id": 0,
+		"url": "ethereumwallet-kr.info",
+		"category": "Phishing"
+	},
+	"omise-go.org": {
+		"id": 0,
+		"url": "omise-go.org",
+		"category": "Phishing"
+	},
+	"iconexus.social": {
+		"id": 0,
+		"url": "iconexus.social",
+		"category": "Phishing"
+	},
+	"bittirrex.com": {
+		"id": 0,
+		"url": "bittirrex.com",
+		"category": "Phishing"
+	},
+	"aventus.pro": {
+		"id": 0,
+		"url": "aventus.pro",
+		"category": "Phishing"
+	},
+	"atlant.solutions": {
+		"id": 0,
+		"url": "atlant.solutions",
+		"category": "Phishing"
+	},
+	"aventus.group": {
+		"id": 0,
+		"url": "aventus.group",
+		"category": "Phishing"
+	},
+	"metamak.io": {
+		"id": 0,
+		"url": "metamak.io",
+		"category": "Phishing"
+	},
+	"omise.com.co": {
+		"id": 0,
+		"url": "omise.com.co",
+		"category": "Phishing"
+	},
+	"herotokens.io": {
+		"id": 0,
+		"url": "herotokens.io",
+		"category": "Phishing"
+	},
+	"starbase.pro": {
+		"id": 0,
+		"url": "starbase.pro",
+		"category": "Phishing"
+	},
+	"etherdelta.githulb.io": {
+		"id": 0,
+		"url": "etherdelta.githulb.io",
+		"category": "Phishing"
+	},
+	"herotoken.co": {
+		"id": 0,
+		"url": "herotoken.co",
+		"category": "Phishing"
+	},
+	"kinico.net": {
+		"id": 0,
+		"url": "kinico.net",
+		"category": "Phishing"
+	},
+	"dmarket.ltd": {
+		"id": 0,
+		"url": "dmarket.ltd",
+		"category": "Phishing"
+	},
+	"etherdelta.gilthub.io": {
+		"id": 0,
+		"url": "etherdelta.gilthub.io",
+		"category": "Phishing"
+	},
+	"golem-network.com": {
+		"id": 0,
+		"url": "golem-network.com",
+		"category": "Phishing"
+	},
+	"etnerscan.io": {
+		"id": 0,
+		"url": "etnerscan.io",
+		"category": "Phishing"
+	},
+	"bllttriex.com": {
+		"id": 0,
+		"url": "bllttriex.com",
+		"category": "Phishing"
+	},
+	"monetha.me": {
+		"id": 0,
+		"url": "monetha.me",
+		"category": "Phishing"
+	},
+	"monetha.co": {
+		"id": 0,
+		"url": "monetha.co",
+		"category": "Phishing"
+	},
+	"monetha-crowdsale.com": {
+		"id": 0,
+		"url": "monetha-crowdsale.com",
+		"category": "Phishing"
+	},
+	"starbase.tech": {
+		"id": 0,
+		"url": "starbase.tech",
+		"category": "Phishing"
+	},
+	"aventus-crowdsale.com": {
+		"id": 0,
+		"url": "aventus-crowdsale.com",
+		"category": "Phishing"
+	},
+	"shapeshift.pro": {
+		"id": 0,
+		"url": "shapeshift.pro",
+		"category": "Phishing"
+	},
+	"bllttrex.com": {
+		"id": 0,
+		"url": "bllttrex.com",
+		"category": "Phishing"
+	},
+	"kickico.co": {
+		"id": 0,
+		"url": "kickico.co",
+		"category": "Phishing"
+	},
+	"statustoken.im": {
+		"id": 0,
+		"url": "statustoken.im",
+		"category": "Phishing"
+	},
+	"bilttrex.com": {
+		"id": 0,
+		"url": "bilttrex.com",
+		"category": "Phishing"
+	},
+	"tenxpay.io": {
+		"id": 0,
+		"url": "tenxpay.io",
+		"category": "Phishing"
+	},
+	"bittrex.ltd": {
+		"id": 0,
+		"url": "bittrex.ltd",
+		"category": "Phishing"
+	},
+	"metalpay.im": {
+		"id": 0,
+		"url": "metalpay.im",
+		"category": "Phishing"
+	},
+	"aragon.im": {
+		"id": 0,
+		"url": "aragon.im",
+		"category": "Phishing"
+	},
+	"coindash.tech": {
+		"id": 0,
+		"url": "coindash.tech",
+		"category": "Phishing"
+	},
+	"decentraland.tech": {
+		"id": 0,
+		"url": "decentraland.tech",
+		"category": "Phishing"
+	},
+	"decentraland.pro": {
+		"id": 0,
+		"url": "decentraland.pro",
+		"category": "Phishing"
+	},
+	"status-token.com": {
+		"id": 0,
+		"url": "status-token.com",
+		"category": "Phishing"
+	},
+	"bittrex.cam": {
+		"id": 0,
+		"url": "bittrex.cam",
+		"category": "Phishing"
+	},
+	"enigmatoken.com": {
+		"id": 0,
+		"url": "enigmatoken.com",
+		"category": "Phishing"
+	},
+	"unocoin.company": {
+		"id": 0,
+		"url": "unocoin.company",
+		"category": "Phishing"
+	},
+	"unocoin.fund": {
+		"id": 0,
+		"url": "unocoin.fund",
+		"category": "Phishing"
+	},
+	"0xproject.io": {
+		"id": 0,
+		"url": "0xproject.io",
+		"category": "Phishing"
+	},
+	"0xtoken.com": {
+		"id": 0,
+		"url": "0xtoken.com",
+		"category": "Phishing"
+	},
+	"numerai.tech": {
+		"id": 0,
+		"url": "numerai.tech",
+		"category": "Phishing"
+	},
+	"decentraiand.org": {
+		"id": 0,
+		"url": "decentraiand.org",
+		"category": "Phishing"
+	},
+	"blockcrein.info": {
+		"id": 0,
+		"url": "blockcrein.info",
+		"category": "Phishing"
+	},
+	"blockchealn.info": {
+		"id": 0,
+		"url": "blockchealn.info",
+		"category": "Phishing"
+	},
+	"bllookchain.info": {
+		"id": 0,
+		"url": "bllookchain.info",
+		"category": "Phishing"
+	},
+	"blockcbhain.info": {
+		"id": 0,
+		"url": "blockcbhain.info",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.ethpromonodes.com": {
+		"id": 0,
+		"url": "myetherwallet.com.ethpromonodes.com",
+		"category": "Phishing"
+	},
+	"mettamask.io": {
+		"id": 0,
+		"url": "mettamask.io",
+		"category": "Phishing"
+	},
+	"tokenswap.org": {
+		"id": 0,
+		"url": "tokenswap.org",
+		"category": "Phishing"
+	},
+	"netherum.com": {
+		"id": 0,
+		"url": "netherum.com",
+		"category": "Phishing"
+	},
+	"etherexx.org": {
+		"id": 0,
+		"url": "etherexx.org",
+		"category": "Phishing"
+	},
+	"etherume.io": {
+		"id": 0,
+		"url": "etherume.io",
+		"category": "Phishing"
+	},
+	"ethereum.plus": {
+		"id": 0,
+		"url": "ethereum.plus",
+		"category": "Phishing"
+	},
+	"ehtereum.org": {
+		"id": 0,
+		"url": "ehtereum.org",
+		"category": "Phishing"
+	},
+	"etereurm.org": {
+		"id": 0,
+		"url": "etereurm.org",
+		"category": "Phishing"
+	},
+	"etheream.com": {
+		"id": 0,
+		"url": "etheream.com",
+		"category": "Phishing"
+	},
+	"ethererum.org": {
+		"id": 0,
+		"url": "ethererum.org",
+		"category": "Phishing"
+	},
+	"ethereum.io": {
+		"id": 0,
+		"url": "ethereum.io",
+		"category": "Phishing"
+	},
+	"etherdelta-glthub.com": {
+		"id": 0,
+		"url": "etherdelta-glthub.com",
+		"category": "Phishing"
+	},
+	"cryptoalliance.herokuapp.com": {
+		"id": 0,
+		"url": "cryptoalliance.herokuapp.com",
+		"category": "Phishing"
+	},
+	"bitspark2.com": {
+		"id": 0,
+		"url": "bitspark2.com",
+		"category": "Phishing"
+	},
+	"indorsetoken.com": {
+		"id": 0,
+		"url": "indorsetoken.com",
+		"category": "Phishing"
+	},
+	"iconexus.tk": {
+		"id": 0,
+		"url": "iconexus.tk",
+		"category": "Phishing"
+	},
+	"iconexus.ml": {
+		"id": 0,
+		"url": "iconexus.ml",
+		"category": "Phishing"
+	},
+	"iconexus.ga": {
+		"id": 0,
+		"url": "iconexus.ga",
+		"category": "Phishing"
+	},
+	"iconexus.cf": {
+		"id": 0,
+		"url": "iconexus.cf",
+		"category": "Phishing"
+	},
+	"etherwallet.online": {
+		"id": 0,
+		"url": "etherwallet.online",
+		"category": "Phishing"
+	},
+	"wallet-ethereum.net": {
+		"id": 0,
+		"url": "wallet-ethereum.net",
+		"category": "Phishing"
+	},
+	"bitsdigit.com": {
+		"id": 0,
+		"url": "bitsdigit.com",
 		"category": "Phishing"
 	},
 	"etherswap.org": {
@@ -29,99 +5389,94 @@ const badList = {
 		"url": "etherswap.org",
 		"category": "Phishing"
 	},
-	"xn--mytherwallet-fvb.com": {
+	"eos.ac": {
 		"id": 0,
-		"url": "xn--mytherwallet-fvb.com",
+		"url": "eos.ac",
 		"category": "Phishing"
 	},
-	"myetherwallet.top": {
+	"uasfwallet.com": {
 		"id": 0,
-		"url": "myetherwallet.top",
+		"url": "uasfwallet.com",
 		"category": "Phishing"
 	},
-	"mvetherwallet.com": {
-		"id": 9,
-		"url": "mvetherwallet.com",
-		"category": "Phishing"
-	},
-	"my-etherwallet.com": {
-		"id": 10,
-		"url": "my-etherwallet.com",
-		"category": "Phishing"
-	},
-	"myethewallet.net": {
-		"id": 11,
-		"url": "myethewallet.net",
-		"category": "Phishing"
-	},
-	"my-ether-wallet.com": {
-		"id": 12,
-		"url": "my-ether-wallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.am": {
+	"ziber.io": {
 		"id": 0,
-		"url": "myetherwallet.com.am",
+		"url": "ziber.io",
 		"category": "Phishing"
 	},
-	"myetherwallet.com.gl": {
+	"multiply-ethereum.info": {
 		"id": 0,
-		"url": "myetherwallet.com.gl",
+		"url": "multiply-ethereum.info",
 		"category": "Phishing"
 	},
-	"myelherwallet.com": {
+	"bittrex.comze.com": {
 		"id": 0,
-		"url": "myelherwallet.com",
+		"url": "bittrex.comze.com",
 		"category": "Phishing"
 	},
-	"my-etherwallet.ch": {
-		"id": 16,
-		"url": "my-etherwallet.ch",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.ht": {
+	"karbon.vacau.com": {
 		"id": 0,
-		"url": "myetherwallet.com.ht",
+		"url": "karbon.vacau.com",
 		"category": "Phishing"
 	},
-	"myetherwallet.ac": {
-		"id": 602,
-		"url": "myetherwallet.ac",
-		"category": "Phishing"
-	},
-	"my-etherwallet.in": {
-		"id": 19,
-		"url": "my-etherwallet.in",
-		"category": "Phishing"
-	},
-	"myetherwallewt.com": {
-		"id": 20,
-		"url": "myetherwallewt.com",
-		"category": "Phishing"
-	},
-	"coindash.ml": {
+	"etherdelta.gitlhub.io": {
 		"id": 0,
-		"url": "coindash.ml",
+		"url": "etherdelta.gitlhub.io",
 		"category": "Phishing"
 	},
-	"myethwallet.net": {
-		"id": 22,
-		"url": "myethwallet.net",
-		"category": "Phishing"
-	},
-	"myetherwaliiet.com": {
-		"id": 23,
-		"url": "myetherwaliiet.com",
-		"category": "Phishing"
-	},
-	"my-ethwallet.com": {
+	"etherdelta.glthub.io": {
 		"id": 0,
-		"url": "my-ethwallet.com",
+		"url": "etherdelta.glthub.io",
 		"category": "Phishing"
 	},
-	"myetherwallel.com": {
+	"digitaldevelopersfund.vacau.com": {
 		"id": 0,
-		"url": "myetherwallel.com",
+		"url": "digitaldevelopersfund.vacau.com",
+		"category": "Phishing"
+	},
+	"district-0x.io": {
+		"id": 0,
+		"url": "district-0x.io",
+		"category": "Phishing"
+	},
+	"coin-dash.com": {
+		"id": 0,
+		"url": "coin-dash.com",
+		"category": "Phishing"
+	},
+	"coindash.ru": {
+		"id": 0,
+		"url": "coindash.ru",
+		"category": "Phishing"
+	},
+	"district0x.net": {
+		"id": 0,
+		"url": "district0x.net",
+		"category": "Phishing"
+	},
+	"aragonproject.io": {
+		"id": 0,
+		"url": "aragonproject.io",
+		"category": "Phishing"
+	},
+	"coin-wallet.info": {
+		"id": 0,
+		"url": "coin-wallet.info",
+		"category": "Phishing"
+	},
+	"coinswallet.info": {
+		"id": 0,
+		"url": "coinswallet.info",
+		"category": "Phishing"
+	},
+	"contribute-status.im": {
+		"id": 0,
+		"url": "contribute-status.im",
+		"category": "Phishing"
+	},
+	"ether-api.com": {
+		"id": 0,
+		"url": "ether-api.com",
 		"category": "Phishing"
 	},
 	"ether-wall.com": {
@@ -129,9 +5484,609 @@ const badList = {
 		"url": "ether-wall.com",
 		"category": "Phishing"
 	},
+	"mycoinwallet.net": {
+		"id": 0,
+		"url": "mycoinwallet.net",
+		"category": "Phishing"
+	},
+	"ethereumchamber.com": {
+		"id": 0,
+		"url": "ethereumchamber.com",
+		"category": "Phishing"
+	},
+	"ethereumchamber.net": {
+		"id": 0,
+		"url": "ethereumchamber.net",
+		"category": "Phishing"
+	},
+	"ethereumchest.com": {
+		"id": 0,
+		"url": "ethereumchest.com",
+		"category": "Phishing"
+	},
+	"ethewallet.com": {
+		"id": 0,
+		"url": "ethewallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.vc": {
+		"id": 0,
+		"url": "myetherwallet.com.vc",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.pe": {
+		"id": 0,
+		"url": "myetherwallet.com.pe",
+		"category": "Phishing"
+	},
+	"myetherwallet.us.com": {
+		"id": 0,
+		"url": "myetherwallet.us.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.u0387831.cp.regruhosting.ru": {
+		"id": 0,
+		"url": "myetherwallet.com.u0387831.cp.regruhosting.ru",
+		"category": "Phishing"
+	},
+	"myethereumwallet.su": {
+		"id": 0,
+		"url": "myethereumwallet.su",
+		"category": "Phishing"
+	},
+	"myetherweb.com.de": {
+		"id": 0,
+		"url": "myetherweb.com.de",
+		"category": "Phishing"
+	},
+	"myetherieumwallet.com": {
+		"id": 0,
+		"url": "myetherieumwallet.com",
+		"category": "Phishing"
+	},
+	"myetehrwallet.com": {
+		"id": 0,
+		"url": "myetehrwallet.com",
+		"category": "Phishing"
+	},
+	"myeterwalet.com": {
+		"id": 0,
+		"url": "myeterwalet.com",
+		"category": "Phishing"
+	},
+	"myetherwaiiet.com": {
+		"id": 0,
+		"url": "myetherwaiiet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.info": {
+		"id": 0,
+		"url": "myetherwallet.info",
+		"category": "Phishing"
+	},
+	"myetherwallet.ch": {
+		"id": 0,
+		"url": "myetherwallet.ch",
+		"category": "Phishing"
+	},
+	"myetherwallet.om": {
+		"id": 0,
+		"url": "myetherwallet.om",
+		"category": "Phishing"
+	},
+	"myethervallet.com": {
+		"id": 0,
+		"url": "myethervallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.cm": {
+		"id": 0,
+		"url": "myetherwallet.com.cm",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.co": {
+		"id": 0,
+		"url": "myetherwallet.com.co",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.de": {
+		"id": 0,
+		"url": "myetherwallet.com.de",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.gl": {
+		"id": 0,
+		"url": "myetherwallet.com.gl",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.im": {
+		"id": 0,
+		"url": "myetherwallet.com.im",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.ua": {
+		"id": 0,
+		"url": "myetherwallet.com.ua",
+		"category": "Phishing"
+	},
+	"secure-myetherwallet.com": {
+		"id": 0,
+		"url": "secure-myetherwallet.com",
+		"category": "Phishing"
+	},
+	"update-myetherwallet.com": {
+		"id": 0,
+		"url": "update-myetherwallet.com",
+		"category": "Phishing"
+	},
+	"wwwmyetherwallet.com": {
+		"id": 0,
+		"url": "wwwmyetherwallet.com",
+		"category": "Phishing"
+	},
+	"myeatherwallet.com": {
+		"id": 0,
+		"url": "myeatherwallet.com",
+		"category": "Phishing"
+	},
+	"myetharwallet.com": {
+		"id": 0,
+		"url": "myetharwallet.com",
+		"category": "Phishing"
+	},
+	"myelherwallel.com": {
+		"id": 0,
+		"url": "myelherwallel.com",
+		"category": "Phishing"
+	},
+	"myetherwaillet.com": {
+		"id": 0,
+		"url": "myetherwaillet.com",
+		"category": "Phishing"
+	},
+	"myetherwaliet.com": {
+		"id": 0,
+		"url": "myetherwaliet.com",
+		"category": "Phishing"
+	},
+	"myetherwallel.com": {
+		"id": 0,
+		"url": "myetherwallel.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.cam": {
+		"id": 0,
+		"url": "myetherwallet.cam",
+		"category": "Phishing"
+	},
+	"myetherwallet.cc": {
+		"id": 0,
+		"url": "myetherwallet.cc",
+		"category": "Phishing"
+	},
+	"myetherwallet.co": {
+		"id": 0,
+		"url": "myetherwallet.co",
+		"category": "Phishing"
+	},
+	"myetherwallet.cm": {
+		"id": 0,
+		"url": "myetherwallet.cm",
+		"category": "Phishing"
+	},
+	"myetherwallet.cz": {
+		"id": 0,
+		"url": "myetherwallet.cz",
+		"category": "Phishing"
+	},
+	"myetherwallet.org": {
+		"id": 0,
+		"url": "myetherwallet.org",
+		"category": "Phishing"
+	},
+	"myetherwallet.tech": {
+		"id": 0,
+		"url": "myetherwallet.tech",
+		"category": "Phishing"
+	},
+	"myetherwallet.top": {
+		"id": 0,
+		"url": "myetherwallet.top",
+		"category": "Phishing"
+	},
+	"myetherwallet.net": {
+		"id": 0,
+		"url": "myetherwallet.net",
+		"category": "Phishing"
+	},
+	"myetherwallet.ru.com": {
+		"id": 0,
+		"url": "myetherwallet.ru.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.ru": {
+		"id": 0,
+		"url": "myetherwallet.com.ru",
+		"category": "Phishing"
+	},
+	"metherwallet.com": {
+		"id": 0,
+		"url": "metherwallet.com",
+		"category": "Phishing"
+	},
+	"myetrerwallet.com": {
+		"id": 0,
+		"url": "myetrerwallet.com",
+		"category": "Phishing"
+	},
+	"myetlerwallet.com": {
+		"id": 0,
+		"url": "myetlerwallet.com",
+		"category": "Phishing"
+	},
+	"myethterwallet.com": {
+		"id": 0,
+		"url": "myethterwallet.com",
+		"category": "Phishing"
+	},
+	"myethwallet.io": {
+		"id": 0,
+		"url": "myethwallet.io",
+		"category": "Phishing"
+	},
+	"myethterwallet.co": {
+		"id": 0,
+		"url": "myethterwallet.co",
+		"category": "Phishing"
+	},
+	"myehterwallet.co": {
+		"id": 0,
+		"url": "myehterwallet.co",
+		"category": "Phishing"
+	},
+	"myaetherwallet.com": {
+		"id": 0,
+		"url": "myaetherwallet.com",
+		"category": "Phishing"
+	},
+	"myetthterwallet.com": {
+		"id": 0,
+		"url": "myetthterwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.one": {
+		"id": 0,
+		"url": "myetherwallet.one",
+		"category": "Phishing"
+	},
+	"myelterwallet.com": {
+		"id": 0,
+		"url": "myelterwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.gdn": {
+		"id": 0,
+		"url": "myetherwallet.gdn",
+		"category": "Phishing"
+	},
+	"myetherwallt.com": {
+		"id": 0,
+		"url": "myetherwallt.com",
+		"category": "Phishing"
+	},
+	"myeterwallet.com": {
+		"id": 0,
+		"url": "myeterwallet.com",
+		"category": "Phishing"
+	},
+	"myeteherwallet.com": {
+		"id": 0,
+		"url": "myeteherwallet.com",
+		"category": "Phishing"
+	},
+	"myethearwailet.com": {
+		"id": 0,
+		"url": "myethearwailet.com",
+		"category": "Phishing"
+	},
+	"myetherwallelt.com": {
+		"id": 0,
+		"url": "myetherwallelt.com",
+		"category": "Phishing"
+	},
+	"myetherwallett.com": {
+		"id": 0,
+		"url": "myetherwallett.com",
+		"category": "Phishing"
+	},
+	"etherwallet.org": {
+		"id": 0,
+		"url": "etherwallet.org",
+		"category": "Phishing"
+	},
+	"myetherewallet.com": {
+		"id": 0,
+		"url": "myetherewallet.com",
+		"category": "Phishing"
+	},
+	"myeherwallet.com": {
+		"id": 0,
+		"url": "myeherwallet.com",
+		"category": "Phishing"
+	},
+	"myethcrwallet.com": {
+		"id": 0,
+		"url": "myethcrwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.link": {
+		"id": 0,
+		"url": "myetherwallet.link",
+		"category": "Phishing"
+	},
+	"myetherwallets.com": {
+		"id": 0,
+		"url": "myetherwallets.com",
+		"category": "Phishing"
+	},
+	"myethearwaillet.com": {
+		"id": 0,
+		"url": "myethearwaillet.com",
+		"category": "Phishing"
+	},
+	"myethearwallet.com": {
+		"id": 0,
+		"url": "myethearwallet.com",
+		"category": "Phishing"
+	},
+	"myetherawllet.com": {
+		"id": 0,
+		"url": "myetherawllet.com",
+		"category": "Phishing"
+	},
+	"myethereallet.com": {
+		"id": 0,
+		"url": "myethereallet.com",
+		"category": "Phishing"
+	},
+	"myetherswallet.com": {
+		"id": 0,
+		"url": "myetherswallet.com",
+		"category": "Phishing"
+	},
+	"myetherwalet.com": {
+		"id": 0,
+		"url": "myetherwalet.com",
+		"category": "Phishing"
+	},
+	"myetherwaller.com": {
+		"id": 0,
+		"url": "myetherwaller.com",
+		"category": "Phishing"
+	},
+	"myetherwalliet.com": {
+		"id": 0,
+		"url": "myetherwalliet.com",
+		"category": "Phishing"
+	},
+	"myetherwllet.com": {
+		"id": 0,
+		"url": "myetherwllet.com",
+		"category": "Phishing"
+	},
+	"etherwallet.io": {
+		"id": 0,
+		"url": "etherwallet.io",
+		"category": "Phishing"
+	},
+	"myetherwallet.ca": {
+		"id": 0,
+		"url": "myetherwallet.ca",
+		"category": "Phishing"
+	},
+	"myetherwallet.me": {
+		"id": 0,
+		"url": "myetherwallet.me",
+		"category": "Phishing"
+	},
+	"myetherwallet.ru": {
+		"id": 0,
+		"url": "myetherwallet.ru",
+		"category": "Phishing"
+	},
+	"myetherwallet.xyz": {
+		"id": 0,
+		"url": "myetherwallet.xyz",
+		"category": "Phishing"
+	},
+	"myetherwallte.com": {
+		"id": 0,
+		"url": "myetherwallte.com",
+		"category": "Phishing"
+	},
+	"myethirwallet.com": {
+		"id": 0,
+		"url": "myethirwallet.com",
+		"category": "Phishing"
+	},
+	"myethrewallet.com": {
+		"id": 0,
+		"url": "myethrewallet.com",
+		"category": "Phishing"
+	},
+	"etherwallet.net": {
+		"id": 0,
+		"url": "etherwallet.net",
+		"category": "Phishing"
+	},
+	"maetherwallet.com": {
+		"id": 0,
+		"url": "maetherwallet.com",
+		"category": "Phishing"
+	},
+	"meyetherwallet.com": {
+		"id": 0,
+		"url": "meyetherwallet.com",
+		"category": "Phishing"
+	},
+	"my.ether-wallet.pw": {
+		"id": 0,
+		"url": "my.ether-wallet.pw",
+		"category": "Phishing"
+	},
+	"myehterwallet.com": {
+		"id": 0,
+		"url": "myehterwallet.com",
+		"category": "Phishing"
+	},
+	"myeitherwallet.com": {
+		"id": 0,
+		"url": "myeitherwallet.com",
+		"category": "Phishing"
+	},
+	"myelherwallet.com": {
+		"id": 0,
+		"url": "myelherwallet.com",
+		"category": "Phishing"
+	},
+	"myeltherwallet.com": {
+		"id": 0,
+		"url": "myeltherwallet.com",
+		"category": "Phishing"
+	},
+	"myerherwallet.com": {
+		"id": 0,
+		"url": "myerherwallet.com",
+		"category": "Phishing"
+	},
+	"myethearwalet.com": {
+		"id": 0,
+		"url": "myethearwalet.com",
+		"category": "Phishing"
+	},
+	"myetherewalle.com": {
+		"id": 0,
+		"url": "myetherewalle.com",
+		"category": "Phishing"
+	},
 	"myethervvallet.com": {
 		"id": 0,
 		"url": "myethervvallet.com",
+		"category": "Phishing"
+	},
+	"myetherwallent.com": {
+		"id": 0,
+		"url": "myetherwallent.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.fm": {
+		"id": 0,
+		"url": "myetherwallet.fm",
+		"category": "Phishing"
+	},
+	"myetherwalllet.com": {
+		"id": 0,
+		"url": "myetherwalllet.com",
+		"category": "Phishing"
+	},
+	"myetherwalltet.com": {
+		"id": 0,
+		"url": "myetherwalltet.com",
+		"category": "Phishing"
+	},
+	"myetherwollet.com": {
+		"id": 0,
+		"url": "myetherwollet.com",
+		"category": "Phishing"
+	},
+	"myetlherwalet.com": {
+		"id": 0,
+		"url": "myetlherwalet.com",
+		"category": "Phishing"
+	},
+	"myetlherwallet.com": {
+		"id": 0,
+		"url": "myetlherwallet.com",
+		"category": "Phishing"
+	},
+	"rnyetherwallet.com": {
+		"id": 0,
+		"url": "rnyetherwallet.com",
+		"category": "Phishing"
+	},
+	"etherclassicwallet.com": {
+		"id": 0,
+		"url": "etherclassicwallet.com",
+		"category": "Phishing"
+	},
+	"omg-omise.co": {
+		"id": 0,
+		"url": "omg-omise.co",
+		"category": "Phishing"
+	},
+	"omise-go.com": {
+		"id": 0,
+		"url": "omise-go.com",
+		"category": "Phishing"
+	},
+	"omise-go.net": {
+		"id": 0,
+		"url": "omise-go.net",
+		"category": "Phishing"
+	},
+	"omise-omg.com": {
+		"id": 0,
+		"url": "omise-omg.com",
+		"category": "Phishing"
+	},
+	"omise-go.io": {
+		"id": 0,
+		"url": "omise-go.io",
+		"category": "Phishing"
+	},
+	"tenx-tech.com": {
+		"id": 0,
+		"url": "tenx-tech.com",
+		"category": "Phishing"
+	},
+	"bitclaive.com": {
+		"id": 0,
+		"url": "bitclaive.com",
+		"category": "Phishing"
+	},
+	"tokensale-tenx.tech": {
+		"id": 0,
+		"url": "tokensale-tenx.tech",
+		"category": "Phishing"
+	},
+	"ubiqcoin.org": {
+		"id": 0,
+		"url": "ubiqcoin.org",
+		"category": "Phishing"
+	},
+	"metamask.com": {
+		"id": 0,
+		"url": "metamask.com",
+		"category": "Phishing"
+	},
+	"ethtrade.io": {
+		"id": 0,
+		"url": "ethtrade.io",
+		"category": "Phishing"
+	},
+	"myetcwallet.com": {
+		"id": 0,
+		"url": "myetcwallet.com",
+		"category": "Phishing"
+	},
+	"account-kigo.net": {
+		"id": 0,
+		"url": "account-kigo.net",
+		"category": "Phishing"
+	},
+	"bitcoin-wallet.net": {
+		"id": 0,
+		"url": "bitcoin-wallet.net",
 		"category": "Phishing"
 	},
 	"blocklichan.info": {
@@ -144,104 +6099,9 @@ const badList = {
 		"url": "bloclkicihan.info",
 		"category": "Phishing"
 	},
-	"district-0x.io": {
+	"coindash.ml": {
 		"id": 0,
-		"url": "district-0x.io",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.ua": {
-		"id": 0,
-		"url": "myetherwallet.com.ua",
-		"category": "Phishing"
-	},
-	"myetherwalliet.com": {
-		"id": 0,
-		"url": "myetherwalliet.com",
-		"category": "Phishing"
-	},
-	"bitcoin-wallet.net": {
-		"id": 0,
-		"url": "bitcoin-wallet.net",
-		"category": "Phishing"
-	},
-	"ethereum-wallet.net": {
-		"id": 0,
-		"url": "ethereum-wallet.net",
-		"category": "Phishing"
-	},
-	"www.ethereum-wallet.info": {
-		"id": 36,
-		"url": "www.ethereum-wallet.info",
-		"category": "Phishing"
-	},
-	"www.ether-wallet.net": {
-		"id": 38,
-		"url": "www.ether-wallet.net",
-		"category": "Phishing"
-	},
-	"myetherwallaet.com": {
-		"id": 39,
-		"url": "myetherwallaet.com",
-		"category": "Phishing"
-	},
-	"district0x.net": {
-		"id": 0,
-		"url": "district0x.net",
-		"category": "Phishing"
-	},
-	"secure-myetherwallet.com": {
-		"id": 0,
-		"url": "secure-myetherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.biz": {
-		"id": 43,
-		"url": "myetherwallet.biz",
-		"category": "Phishing"
-	},
-	"myetherwallet.cc": {
-		"id": 0,
-		"url": "myetherwallet.cc",
-		"category": "Phishing"
-	},
-	"myetherwallet.su": {
-		"id": 45,
-		"url": "myetherwallet.su",
-		"category": "Phishing"
-	},
-	"myetherwallet.xyz": {
-		"id": 0,
-		"url": "myetherwallet.xyz",
-		"category": "Phishing"
-	},
-	"contribute-status.im": {
-		"id": 0,
-		"url": "contribute-status.im",
-		"category": "Phishing"
-	},
-	"myethetrwallet.com": {
-		"id": 48,
-		"url": "myethetrwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwaallet.com": {
-		"id": 49,
-		"url": "myetherwaallet.com",
-		"category": "Phishing"
-	},
-	"myethsrwallet.com": {
-		"id": 50,
-		"url": "myethsrwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwalle3t.com": {
-		"id": 51,
-		"url": "myetherwalle3t.com",
-		"category": "Phishing"
-	},
-	"account-kigo.net": {
-		"id": 0,
-		"url": "account-kigo.net",
+		"url": "coindash.ml",
 		"category": "Phishing"
 	},
 	"eos-bonus.com": {
@@ -252,6 +6112,26 @@ const badList = {
 	"eos-io.info": {
 		"id": 0,
 		"url": "eos-io.info",
+		"category": "Phishing"
+	},
+	"ether-wallet.net": {
+		"id": 0,
+		"url": "ether-wallet.net",
+		"category": "Phishing"
+	},
+	"ethereum-wallet.info": {
+		"id": 0,
+		"url": "ethereum-wallet.info",
+		"category": "Phishing"
+	},
+	"ethereum-wallet.net": {
+		"id": 0,
+		"url": "ethereum-wallet.net",
+		"category": "Phishing"
+	},
+	"ethereumchest.net": {
+		"id": 0,
+		"url": "ethereumchest.net",
 		"category": "Phishing"
 	},
 	"reservations-kigo.net": {
@@ -289,199 +6169,19 @@ const badList = {
 		"url": "software-lodgix.com",
 		"category": "Phishing"
 	},
-	"aragonproject.io": {
-		"id": 0,
-		"url": "aragonproject.io",
-		"category": "Phishing"
-	},
-	"etherclassicwallet.com": {
-		"id": 0,
-		"url": "etherclassicwallet.com",
-		"category": "Phishing"
-	},
-	"myetcwallet.com": {
-		"id": 0,
-		"url": "myetcwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.cz": {
-		"id": 0,
-		"url": "myetherwallet.cz",
-		"category": "Phishing"
-	},
-	"myetherwa.llet.com": {
-		"id": 67,
-		"url": "myetherwa.llet.com",
-		"category": "Phishing"
-	},
-	"ether-api.com": {
-		"id": 0,
-		"url": "ether-api.com",
-		"category": "Phishing"
-	},
-	"ethereumchamber.com": {
-		"id": 0,
-		"url": "ethereumchamber.com",
-		"category": "Phishing"
-	},
-	"ethereumchamber.net": {
-		"id": 0,
-		"url": "ethereumchamber.net",
-		"category": "Phishing"
-	},
-	"ethereumchest.com": {
-		"id": 0,
-		"url": "ethereumchest.com",
-		"category": "Phishing"
-	},
-	"ethereumchest.net": {
-		"id": 0,
-		"url": "ethereumchest.net",
-		"category": "Phishing"
-	},
-	"myetherieumwallet.com": {
-		"id": 0,
-		"url": "myetherieumwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.ca": {
-		"id": 0,
-		"url": "myetherwallet.ca",
-		"category": "Phishing"
-	},
-	"myetherwallet.co": {
-		"id": 0,
-		"url": "myetherwallet.co",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.co": {
-		"id": 0,
-		"url": "myetherwallet.com.co",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.de": {
-		"id": 0,
-		"url": "myetherwallet.com.de",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.im": {
-		"id": 0,
-		"url": "myetherwallet.com.im",
-		"category": "Phishing"
-	},
-	"myetherwallet.info": {
-		"id": 0,
-		"url": "myetherwallet.info",
-		"category": "Phishing"
-	},
-	"myetherwallet.us": {
-		"id": 81,
-		"url": "myetherwallet.us",
-		"category": "Phishing"
-	},
-	"myetherwallet5.com": {
-		"id": 82,
-		"url": "myetherwallet5.com",
-		"category": "Phishing"
-	},
-	"myetherwalleyt.com": {
-		"id": 83,
-		"url": "myetherwalleyt.com",
-		"category": "Phishing"
-	},
 	"unhackableetherwallets.com": {
 		"id": 0,
 		"url": "unhackableetherwallets.com",
 		"category": "Phishing"
 	},
-	"update-myetherwallet.com": {
+	"www-myetherwallet.com": {
 		"id": 0,
-		"url": "update-myetherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwaillet.com": {
-		"id": 0,
-		"url": "myetherwaillet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.ch": {
-		"id": 0,
-		"url": "myetherwallet.ch",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.cm": {
-		"id": 0,
-		"url": "myetherwallet.com.cm",
-		"category": "Phishing"
-	},
-	"myetherwallet.im": {
-		"id": 89,
-		"url": "myetherwallet.im",
-		"category": "Phishing"
-	},
-	"myetherwallet.tech": {
-		"id": 0,
-		"url": "myetherwallet.tech",
-		"category": "Phishing"
-	},
-	"myetherwallet.me": {
-		"id": 0,
-		"url": "myetherwallet.me",
-		"category": "Phishing"
-	},
-	"myetherwallet.nl": {
-		"id": 92,
-		"url": "myetherwallet.nl",
-		"category": "Phishing"
-	},
-	"omg-omise.co": {
-		"id": 0,
-		"url": "omg-omise.co",
-		"category": "Phishing"
-	},
-	"tenx-tech.com": {
-		"id": 0,
-		"url": "tenx-tech.com",
-		"category": "Phishing"
-	},
-	"tokensale-tenx.tech": {
-		"id": 0,
-		"url": "tokensale-tenx.tech",
-		"category": "Phishing"
-	},
-	"ubiqcoin.org": {
-		"id": 0,
-		"url": "ubiqcoin.org",
+		"url": "www-myetherwallet.com",
 		"category": "Phishing"
 	},
 	"etherwallet.co.za": {
 		"id": 0,
 		"url": "etherwallet.co.za",
-		"category": "Phishing"
-	},
-	"etherwallet.it": {
-		"id": 100,
-		"url": "etherwallet.it",
-		"category": "Phishing"
-	},
-	"etherwallet.ml": {
-		"id": 101,
-		"url": "etherwallet.ml",
-		"category": "Phishing"
-	},
-	"etherwallet.online": {
-		"id": 0,
-		"url": "etherwallet.online",
-		"category": "Phishing"
-	},
-	"etherwallet.shop": {
-		"id": 103,
-		"url": "etherwallet.shop",
-		"category": "Phishing"
-	},
-	"etherwallet.world": {
-		"id": 104,
-		"url": "etherwallet.world",
 		"category": "Phishing"
 	},
 	"etherwalletchain.com": {
@@ -499,6 +6199,946 @@ const badList = {
 		"url": "etherwallets.nl",
 		"category": "Phishing"
 	},
+	"my-ethwallet.com": {
+		"id": 0,
+		"url": "my-ethwallet.com",
+		"category": "Phishing"
+	},
+	"my.ether-wallet.co": {
+		"id": 0,
+		"url": "my.ether-wallet.co",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.am": {
+		"id": 0,
+		"url": "myetherwallet.com.am",
+		"category": "Phishing"
+	},
+	"myetherwallet.com.ht": {
+		"id": 0,
+		"url": "myetherwallet.com.ht",
+		"category": "Phishing"
+	},
+	"myetherwalletcom.com": {
+		"id": 0,
+		"url": "myetherwalletcom.com",
+		"category": "Phishing"
+	},
+	"myehterwailet.com": {
+		"id": 0,
+		"url": "myehterwailet.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-xoc.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-xoc.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-44i.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-44i.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalle-xhk.com": {
+		"id": 0,
+		"url": "xn--myetherwalle-xhk.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-cfb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-cfb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-6tb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-6tb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-xub.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-xub.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-ovb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-ovb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-fwb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-fwb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-5wb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-5wb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-jzi.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-jzi.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-2ck.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-2ck.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-lok.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-lok.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-lsl.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-lsl.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-ce6f.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-ce6f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-mcc.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-mcc.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-xhf.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-xhf.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-lcc.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-lcc.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwaet-15ba.com": {
+		"id": 0,
+		"url": "xn--myetherwaet-15ba.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwalet-whf.com": {
+		"id": 0,
+		"url": "xn--myetherwalet-whf.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwaet-v2ea.com": {
+		"id": 0,
+		"url": "xn--myetherwaet-v2ea.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-59a.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-59a.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-jbb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-jbb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-wbb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-wbb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-9bb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-9bb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-ncb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-ncb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-0cb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-0cb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-5nb.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-5nb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-ktd.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-ktd.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-mre.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-mre.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-76e.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-76e.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-o0l.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-o0l.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwllet-c45f.com": {
+		"id": 0,
+		"url": "xn--myetherwllet-c45f.com",
+		"category": "Phishing"
+	},
+	"xn--myetherallet-ejn.com": {
+		"id": 0,
+		"url": "xn--myetherallet-ejn.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-4nf.com": {
+		"id": 0,
+		"url": "xn--myethewallet-4nf.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-iof.com": {
+		"id": 0,
+		"url": "xn--myethewallet-iof.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-mpf.com": {
+		"id": 0,
+		"url": "xn--myethewallet-mpf.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-6bk.com": {
+		"id": 0,
+		"url": "xn--myethewallet-6bk.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallet-i31f.com": {
+		"id": 0,
+		"url": "xn--myethewallet-i31f.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-feb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-feb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-fbbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-fbbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-seb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-seb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-rbbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-rbbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-5eb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-5eb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-3bbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-3bbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-0tb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-0tb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-tpbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-tpbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-rub.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-rub.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-iqbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-iqbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-ivb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-ivb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-6qbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-6qbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-8vb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-8vb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-vrbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-vrbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-zwb.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-zwb.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-ksbf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-ksbf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-dzi.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-dzi.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-wbif.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-wbif.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-wck.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-wck.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-skjf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-skjf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-fok.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-fok.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-fvjf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-fvjf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-fsl.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-fsl.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-fwkf.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-fwkf.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallet-5d6f.com": {
+		"id": 0,
+		"url": "xn--myethrwallet-5d6f.com",
+		"category": "Phishing"
+	},
+	"xn--myethrwallt-319ef.com": {
+		"id": 0,
+		"url": "xn--myethrwallt-319ef.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwallet-ufk.com": {
+		"id": 0,
+		"url": "xn--myeterwallet-ufk.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwallet-nrl.com": {
+		"id": 0,
+		"url": "xn--myeterwallet-nrl.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwallet-von.com": {
+		"id": 0,
+		"url": "xn--myeterwallet-von.com",
+		"category": "Phishing"
+	},
+	"xn--myeterwallet-jl6c.com": {
+		"id": 0,
+		"url": "xn--myeterwallet-jl6c.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallet-ooc.com": {
+		"id": 0,
+		"url": "xn--myeherwallet-ooc.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwalle-6hci.com": {
+		"id": 0,
+		"url": "xn--myeherwalle-6hci.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallet-v4i.com": {
+		"id": 0,
+		"url": "xn--myeherwallet-v4i.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwalle-zgii.com": {
+		"id": 0,
+		"url": "xn--myeherwalle-zgii.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallet-ohk.com": {
+		"id": 0,
+		"url": "xn--myeherwallet-ohk.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwalle-6oji.com": {
+		"id": 0,
+		"url": "xn--myeherwalle-6oji.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-ceb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-ceb.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-cbbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-cbbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-c7acf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-c7acf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-peb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-peb.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-obbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-obbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-n7acf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-n7acf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-2eb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-2eb.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-0bbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-0bbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-y7acf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-y7acf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-xtb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-xtb.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-qpbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-qpbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-jlbcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-jlbcf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-oub.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-oub.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-fqbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-fqbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-5lbcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-5lbcf.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-3qbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-3qbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-smbcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-smbcf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-5vb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-5vb.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-srbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-srbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-fnbcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-fnbcf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-wwb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-wwb.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-hsbc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-hsbc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-1nbcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-1nbcf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-9yi.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-9yi.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-tbic.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-tbic.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-dnhcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-dnhcf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-tck.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-tck.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-pkjc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-pkjc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-lsicf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-lsicf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-cok.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-cok.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-cvjc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-cvjc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-c2icf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-c2icf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-csl.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-csl.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-cwkc.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-cwkc.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-c0jcf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-c0jcf.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-2d6f.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-2d6f.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallet-019ec.com": {
+		"id": 0,
+		"url": "xn--mythrwallet-019ec.com",
+		"category": "Phishing"
+	},
+	"xn--mythrwallt-yq3ecf.com": {
+		"id": 0,
+		"url": "xn--mythrwallt-yq3ecf.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-qlb.com": {
+		"id": 0,
+		"url": "xn--metherwallet-qlb.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-1uf.com": {
+		"id": 0,
+		"url": "xn--metherwallet-1uf.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-iyi.com": {
+		"id": 0,
+		"url": "xn--metherwallet-iyi.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-zhk.com": {
+		"id": 0,
+		"url": "xn--metherwallet-zhk.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-3ml.com": {
+		"id": 0,
+		"url": "xn--metherwallet-3ml.com",
+		"category": "Phishing"
+	},
+	"xn--mytherwallet-fvb.com": {
+		"id": 0,
+		"url": "xn--mytherwallet-fvb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-7db.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-7db.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-leb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-leb.com",
+		"category": "Phishing"
+	},
+	"xn--myetherwallt-yeb.com": {
+		"id": 0,
+		"url": "xn--myetherwallt-yeb.com",
+		"category": "Phishing"
+	},
+	"xn--yetherwallet-vjf.com": {
+		"id": 0,
+		"url": "xn--yetherwallet-vjf.com",
+		"category": "Phishing"
+	},
+	"xn--yetherwallet-dfk.com": {
+		"id": 0,
+		"url": "xn--yetherwallet-dfk.com",
+		"category": "Phishing"
+	},
+	"xn--yetherwallet-1t1f.com": {
+		"id": 0,
+		"url": "xn--yetherwallet-1t1f.com",
+		"category": "Phishing"
+	},
+	"xn--yetherwallet-634f.com": {
+		"id": 0,
+		"url": "xn--yetherwallet-634f.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallet-fpc.com": {
+		"id": 0,
+		"url": "xn--myeherwallet-fpc.com",
+		"category": "Phishing"
+	},
+	"xn--myethewallt-crb.com": {
+		"id": 0,
+		"url": "xn--myethewallt-crb.com",
+		"category": "Phishing"
+	},
+	"xn--metherwallet-1vc.com": {
+		"id": 0,
+		"url": "xn--metherwallet-1vc.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallt-kbb8039g.com": {
+		"id": 0,
+		"url": "xn--myeherwallt-kbb8039g.com",
+		"category": "Phishing"
+	},
+	"xn--myeherwallet-vk5f.com": {
+		"id": 0,
+		"url": "xn--myeherwallet-vk5f.com",
+		"category": "Phishing"
+	},
+	"xn--yethewallet-iw8ejl.com": {
+		"id": 0,
+		"url": "xn--yethewallet-iw8ejl.com",
+		"category": "Phishing"
+	},
+	"xn--bittrx-th8b.com": {
+		"id": 0,
+		"url": "xn--bittrx-th8b.com",
+		"category": "Phishing"
+	},
+	"xn--polniex-n0a.com": {
+		"id": 0,
+		"url": "xn--polniex-n0a.com",
+		"category": "Phishing"
+	},
+	"thekey.vin": {
+		"id": 0,
+		"url": "thekey.vin",
+		"category": "Phishing"
+	},
+	"thekey-vip.com": {
+		"id": 0,
+		"url": "thekey-vip.com",
+		"category": "Phishing"
+	},
+	"digitexftures.com": {
+		"id": 0,
+		"url": "digitexftures.com",
+		"category": "Phishing"
+	},
+	"ethzero-wallet.org": {
+		"id": 0,
+		"url": "ethzero-wallet.org",
+		"category": "Phishing"
+	},
+	"zeepln.io": {
+		"id": 0,
+		"url": "zeepln.io",
+		"category": "Phishing"
+	},
+	"wepowers.network": {
+		"id": 0,
+		"url": "wepowers.network",
+		"category": "Phishing"
+	},
+	"wepower.vision": {
+		"id": 0,
+		"url": "wepower.vision",
+		"category": "Phishing"
+	},
+	"seele.promo": {
+		"id": 0,
+		"url": "seele.promo",
+		"category": "Phishing"
+	},
+	"seele-ico.eu": {
+		"id": 0,
+		"url": "seele-ico.eu",
+		"category": "Phishing"
+	},
+	"seele-ico.pro": {
+		"id": 0,
+		"url": "seele-ico.pro",
+		"category": "Phishing"
+	},
+	"syncfab.tech": {
+		"id": 0,
+		"url": "syncfab.tech",
+		"category": "Phishing"
+	},
+	"tokensale.syncfab.tech": {
+		"id": 0,
+		"url": "tokensale.syncfab.tech",
+		"category": "Phishing"
+	},
+	"havven.promo": {
+		"id": 2900,
+		"url": "havven.promo",
+		"category": "Phishing"
+	},
+	"havven-ico.com": {
+		"id": 2901,
+		"url": "havven-ico.com",
+		"category": "Phishing"
+	},
+	"havven-ico.eu": {
+		"id": 2902,
+		"url": "havven-ico.eu",
+		"category": "Phishing"
+	},
+	"hawen.io": {
+		"id": 2934,
+		"url": "hawen.io",
+		"category": "Phishing"
+	},
+	"havven.xyz": {
+		"id": 2935,
+		"url": "havven.xyz",
+		"category": "Phishing"
+	},
+	"tomo-coin.io": {
+		"id": 0,
+		"url": "tomo-coin.io",
+		"category": "Phishing"
+	},
+	"tomocoln.io": {
+		"id": 0,
+		"url": "tomocoln.io",
+		"category": "Phishing"
+	},
+	"docai.science": {
+		"id": 2971,
+		"url": "docai.science",
+		"category": "Phishing"
+	},
+	"mvetherwallet.com": {
+		"id": 9,
+		"url": "mvetherwallet.com",
+		"category": "Phishing"
+	},
+	"my-etherwallet.com": {
+		"id": 10,
+		"url": "my-etherwallet.com",
+		"category": "Phishing"
+	},
+	"myethewallet.net": {
+		"id": 11,
+		"url": "myethewallet.net",
+		"category": "Phishing"
+	},
+	"my-ether-wallet.com": {
+		"id": 12,
+		"url": "my-ether-wallet.com",
+		"category": "Phishing"
+	},
+	"my-etherwallet.ch": {
+		"id": 16,
+		"url": "my-etherwallet.ch",
+		"category": "Phishing"
+	},
+	"myetherwallet.ac": {
+		"id": 602,
+		"url": "myetherwallet.ac",
+		"category": "Phishing"
+	},
+	"my-etherwallet.in": {
+		"id": 19,
+		"url": "my-etherwallet.in",
+		"category": "Phishing"
+	},
+	"myetherwallewt.com": {
+		"id": 20,
+		"url": "myetherwallewt.com",
+		"category": "Phishing"
+	},
+	"myethwallet.net": {
+		"id": 22,
+		"url": "myethwallet.net",
+		"category": "Phishing"
+	},
+	"myetherwaliiet.com": {
+		"id": 23,
+		"url": "myetherwaliiet.com",
+		"category": "Phishing"
+	},
+	"www.ethereum-wallet.info": {
+		"id": 36,
+		"url": "www.ethereum-wallet.info",
+		"category": "Phishing"
+	},
+	"www.ether-wallet.net": {
+		"id": 38,
+		"url": "www.ether-wallet.net",
+		"category": "Phishing"
+	},
+	"myetherwallaet.com": {
+		"id": 39,
+		"url": "myetherwallaet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.biz": {
+		"id": 43,
+		"url": "myetherwallet.biz",
+		"category": "Phishing"
+	},
+	"myetherwallet.su": {
+		"id": 45,
+		"url": "myetherwallet.su",
+		"category": "Phishing"
+	},
+	"myethetrwallet.com": {
+		"id": 48,
+		"url": "myethetrwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwaallet.com": {
+		"id": 49,
+		"url": "myetherwaallet.com",
+		"category": "Phishing"
+	},
+	"myethsrwallet.com": {
+		"id": 50,
+		"url": "myethsrwallet.com",
+		"category": "Phishing"
+	},
+	"myetherwalle3t.com": {
+		"id": 51,
+		"url": "myetherwalle3t.com",
+		"category": "Phishing"
+	},
+	"myetherwa.llet.com": {
+		"id": 67,
+		"url": "myetherwa.llet.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.us": {
+		"id": 81,
+		"url": "myetherwallet.us",
+		"category": "Phishing"
+	},
+	"myetherwallet5.com": {
+		"id": 82,
+		"url": "myetherwallet5.com",
+		"category": "Phishing"
+	},
+	"myetherwalleyt.com": {
+		"id": 83,
+		"url": "myetherwalleyt.com",
+		"category": "Phishing"
+	},
+	"myetherwallet.im": {
+		"id": 89,
+		"url": "myetherwallet.im",
+		"category": "Phishing"
+	},
+	"myetherwallet.nl": {
+		"id": 92,
+		"url": "myetherwallet.nl",
+		"category": "Phishing"
+	},
+	"etherwallet.it": {
+		"id": 100,
+		"url": "etherwallet.it",
+		"category": "Phishing"
+	},
+	"etherwallet.ml": {
+		"id": 101,
+		"url": "etherwallet.ml",
+		"category": "Phishing"
+	},
+	"etherwallet.shop": {
+		"id": 103,
+		"url": "etherwallet.shop",
+		"category": "Phishing"
+	},
+	"etherwallet.world": {
+		"id": 104,
+		"url": "etherwallet.world",
+		"category": "Phishing"
+	},
 	"m.yetherwallet.com": {
 		"id": 108,
 		"url": "m.yetherwallet.com",
@@ -509,19 +7149,9 @@ const badList = {
 		"url": "myet.herwallet.com",
 		"category": "Phishing"
 	},
-	"myetherewallet.com": {
-		"id": 0,
-		"url": "myetherewallet.com",
-		"category": "Phishing"
-	},
 	"myetherwailet.com": {
 		"id": 112,
 		"url": "myetherwailet.com",
-		"category": "Phishing"
-	},
-	"myetherwaiiet.com": {
-		"id": 0,
-		"url": "myetherwaiiet.com",
 		"category": "Phishing"
 	},
 	"myethrwallet.com": {
@@ -559,39 +7189,14 @@ const badList = {
 		"url": "mietherwallet.com",
 		"category": "Phishing"
 	},
-	"myetherwalet.com": {
-		"id": 0,
-		"url": "myetherwalet.com",
-		"category": "Phishing"
-	},
 	"myether-wallet.com": {
 		"id": 122,
 		"url": "myether-wallet.com",
 		"category": "Phishing"
 	},
-	"myetherwallets.com": {
-		"id": 0,
-		"url": "myetherwallets.com",
-		"category": "Phishing"
-	},
-	"myetherswallet.com": {
-		"id": 0,
-		"url": "myetherswallet.com",
-		"category": "Phishing"
-	},
 	"my.etherwallet.com": {
 		"id": 125,
 		"url": "my.etherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwalllet.com": {
-		"id": 0,
-		"url": "myetherwalllet.com",
-		"category": "Phishing"
-	},
-	"myetherwaller.com": {
-		"id": 0,
-		"url": "myetherwaller.com",
 		"category": "Phishing"
 	},
 	"mtetherwallet.com": {
@@ -604,39 +7209,14 @@ const badList = {
 		"url": "myethewallet.com",
 		"category": "Phishing"
 	},
-	"myetherwallte.com": {
-		"id": 0,
-		"url": "myetherwallte.com",
-		"category": "Phishing"
-	},
-	"myethrewallet.com": {
-		"id": 0,
-		"url": "myethrewallet.com",
-		"category": "Phishing"
-	},
 	"myetherwalelt.com": {
 		"id": 133,
 		"url": "myetherwalelt.com",
 		"category": "Phishing"
 	},
-	"myetherwallt.com": {
-		"id": 0,
-		"url": "myetherwallt.com",
-		"category": "Phishing"
-	},
-	"myetherwllet.com": {
-		"id": 0,
-		"url": "myetherwllet.com",
-		"category": "Phishing"
-	},
 	"myetherwal.let.com": {
 		"id": 136,
 		"url": "myetherwal.let.com",
-		"category": "Phishing"
-	},
-	"myetherwollet.com": {
-		"id": 0,
-		"url": "myetherwollet.com",
 		"category": "Phishing"
 	},
 	"myetherwellet.com": {
@@ -647,16 +7227,6 @@ const badList = {
 	"myethe.rwallet.com": {
 		"id": 139,
 		"url": "myethe.rwallet.com",
-		"category": "Phishing"
-	},
-	"myeherwallet.com": {
-		"id": 0,
-		"url": "myeherwallet.com",
-		"category": "Phishing"
-	},
-	"myethereallet.com": {
-		"id": 0,
-		"url": "myethereallet.com",
 		"category": "Phishing"
 	},
 	"myetherw.allet.com": {
@@ -829,49 +7399,9 @@ const badList = {
 		"url": "nyetherwallet.com",
 		"category": "Phishing"
 	},
-	"myetherawllet.com": {
-		"id": 0,
-		"url": "myetherawllet.com",
-		"category": "Phishing"
-	},
-	"metherwallet.com": {
-		"id": 0,
-		"url": "metherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwaliet.com": {
-		"id": 0,
-		"url": "myetherwaliet.com",
-		"category": "Phishing"
-	},
-	"myerherwallet.com": {
-		"id": 0,
-		"url": "myerherwallet.com",
-		"category": "Phishing"
-	},
-	"myetehrwallet.com": {
-		"id": 0,
-		"url": "myetehrwallet.com",
-		"category": "Phishing"
-	},
-	"myeterwallet.com": {
-		"id": 0,
-		"url": "myeterwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallett.com": {
-		"id": 0,
-		"url": "myetherwallett.com",
-		"category": "Phishing"
-	},
 	"myethetwallet.com": {
 		"id": 183,
 		"url": "myethetwallet.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-yeb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-yeb.com",
 		"category": "Phishing"
 	},
 	"mydetherwallet.com": {
@@ -1609,34 +8139,9 @@ const badList = {
 		"url": "myuetherwallet.com",
 		"category": "Phishing"
 	},
-	"xn--mythrwallt-y7acf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-y7acf.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-srbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-srbc.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-cok.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-cok.com",
-		"category": "Phishing"
-	},
 	"myetherwa11et.com": {
 		"id": 339,
 		"url": "myetherwa11et.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-5eb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-5eb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-xhf.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-xhf.com",
 		"category": "Phishing"
 	},
 	"myetherwullet.com": {
@@ -1644,19 +8149,9 @@ const badList = {
 		"url": "myetherwullet.com",
 		"category": "Phishing"
 	},
-	"xn--myethewallet-mpf.com": {
-		"id": 0,
-		"url": "xn--myethewallet-mpf.com",
-		"category": "Phishing"
-	},
 	"myethorwallet.com": {
 		"id": 344,
 		"url": "myethorwallet.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwallet-ufk.com": {
-		"id": 0,
-		"url": "xn--myeterwallet-ufk.com",
 		"category": "Phishing"
 	},
 	"myitherwallet.com": {
@@ -1694,11 +8189,6 @@ const badList = {
 		"url": "m9etherwallet.com",
 		"category": "Phishing"
 	},
-	"maetherwallet.com": {
-		"id": 0,
-		"url": "maetherwallet.com",
-		"category": "Phishing"
-	},
 	"mayetherwallet.com": {
 		"id": 354,
 		"url": "mayetherwallet.com",
@@ -1729,11 +8219,6 @@ const badList = {
 		"url": "mxyetherwallet.com",
 		"category": "Phishing"
 	},
-	"myaetherwallet.com": {
-		"id": 0,
-		"url": "myaetherwallet.com",
-		"category": "Phishing"
-	},
 	"myatherwallet.com": {
 		"id": 361,
 		"url": "myatherwallet.com",
@@ -1759,11 +8244,6 @@ const badList = {
 		"url": "myedherwallet.com",
 		"category": "Phishing"
 	},
-	"myehterwallet.com": {
-		"id": 0,
-		"url": "myehterwallet.com",
-		"category": "Phishing"
-	},
 	"myepherwallet.com": {
 		"id": 367,
 		"url": "myepherwallet.com",
@@ -1782,11 +8262,6 @@ const badList = {
 	"myeth.erwallet.com": {
 		"id": 370,
 		"url": "myeth.erwallet.com",
-		"category": "Phishing"
-	},
-	"myetharwallet.com": {
-		"id": 0,
-		"url": "myetharwallet.com",
 		"category": "Phishing"
 	},
 	"myethe-rwallet.com": {
@@ -1827,11 +8302,6 @@ const badList = {
 	"myetheruallet.com": {
 		"id": 379,
 		"url": "myetheruallet.com",
-		"category": "Phishing"
-	},
-	"myethervallet.com": {
-		"id": 0,
-		"url": "myethervallet.com",
 		"category": "Phishing"
 	},
 	"myetherw-allet.com": {
@@ -1934,321 +8404,6 @@ const badList = {
 		"url": "myetherwallep.com",
 		"category": "Phishing"
 	},
-	"xn--myetherwalle-xoc.com": {
-		"id": 0,
-		"url": "xn--myetherwalle-xoc.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-xub.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-xub.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-5wb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-5wb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-cfb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-cfb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-ovb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-ovb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-fwb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-fwb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-6tb.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-6tb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-ce6f.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-ce6f.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-mcc.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-mcc.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-lcc.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-lcc.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwaet-15ba.com": {
-		"id": 0,
-		"url": "xn--myetherwaet-15ba.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-jbb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-jbb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-5nb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-5nb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-wbb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-wbb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-ktd.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-ktd.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-0cb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-0cb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-ncb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-ncb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-9bb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-9bb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-mre.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-mre.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-c45f.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-c45f.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-feb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-feb.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-fbbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-fbbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-rub.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-rub.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-iqbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-iqbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-seb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-seb.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-rbbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-rbbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-zwb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-zwb.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-ksbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-ksbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-3bbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-3bbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-ivb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-ivb.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-6qbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-6qbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-8vb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-8vb.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-vrbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-vrbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-0tb.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-0tb.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-tpbf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-tpbf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-5d6f.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-5d6f.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-319ef.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-319ef.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwallet-ooc.com": {
-		"id": 0,
-		"url": "xn--myeherwallet-ooc.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalle-6hci.com": {
-		"id": 0,
-		"url": "xn--myeherwalle-6hci.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-ceb.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-ceb.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-cbbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-cbbc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-c7acf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-c7acf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-oub.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-oub.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-fqbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-fqbc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-5lbcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-5lbcf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-peb.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-peb.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-obbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-obbc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-n7acf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-n7acf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-wwb.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-wwb.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-1nbcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-1nbcf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-2eb.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-2eb.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-3qbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-3qbc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-smbcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-smbcf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-5vb.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-5vb.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-fnbcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-fnbcf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-xtb.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-xtb.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-qpbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-qpbc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-jlbcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-jlbcf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-2d6f.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-2d6f.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-019ec.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-019ec.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-yq3ecf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-yq3ecf.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-qlb.com": {
-		"id": 0,
-		"url": "xn--metherwallet-qlb.com",
-		"category": "Phishing"
-	},
-	"xn--yetherwallet-634f.com": {
-		"id": 0,
-		"url": "xn--yetherwallet-634f.com",
-		"category": "Phishing"
-	},
 	"myetherwalleta.com": {
 		"id": 465,
 		"url": "myetherwalleta.com",
@@ -2282,11 +8437,6 @@ const badList = {
 	"myetherwalletk.com": {
 		"id": 471,
 		"url": "myetherwalletk.com",
-		"category": "Phishing"
-	},
-	"myetherwalletl.com": {
-		"id": 0,
-		"url": "myetherwalletl.com",
 		"category": "Phishing"
 	},
 	"myetherwalletm.com": {
@@ -2359,16 +8509,6 @@ const badList = {
 		"url": "myetherwallezt.com",
 		"category": "Phishing"
 	},
-	"xn--myetherwalle-44i.com": {
-		"id": 0,
-		"url": "xn--myetherwalle-44i.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalle-xhk.com": {
-		"id": 0,
-		"url": "xn--myetherwalle-xhk.com",
-		"category": "Phishing"
-	},
 	"myetherwallgt.com": {
 		"id": 489,
 		"url": "myetherwallgt.com",
@@ -2409,26 +8549,6 @@ const badList = {
 		"url": "myetherwallzt.com",
 		"category": "Phishing"
 	},
-	"xn--myetherwallt-jzi.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-jzi.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-2ck.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-2ck.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-lok.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-lok.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-lsl.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-lsl.com",
-		"category": "Phishing"
-	},
 	"myetherwalmlet.com": {
 		"id": 501,
 		"url": "myetherwalmlet.com",
@@ -2437,16 +8557,6 @@ const badList = {
 	"myetherwalnet.com": {
 		"id": 502,
 		"url": "myetherwalnet.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-whf.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-whf.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwaet-v2ea.com": {
-		"id": 0,
-		"url": "xn--myetherwaet-v2ea.com",
 		"category": "Phishing"
 	},
 	"myetherwamllet.com": {
@@ -2462,11 +8572,6 @@ const badList = {
 	"myetherwayllet.com": {
 		"id": 507,
 		"url": "myetherwayllet.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-76e.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-76e.com",
 		"category": "Phishing"
 	},
 	"myetherwcllet.com": {
@@ -2489,11 +8594,6 @@ const badList = {
 		"url": "myetherwyllet.com",
 		"category": "Phishing"
 	},
-	"xn--myetherwllet-o0l.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-o0l.com",
-		"category": "Phishing"
-	},
 	"myetherxallet.com": {
 		"id": 514,
 		"url": "myetherxallet.com",
@@ -2502,21 +8602,6 @@ const badList = {
 	"myetherxwallet.com": {
 		"id": 515,
 		"url": "myetherxwallet.com",
-		"category": "Phishing"
-	},
-	"xn--myetherallet-ejn.com": {
-		"id": 0,
-		"url": "xn--myetherallet-ejn.com",
-		"category": "Phishing"
-	},
-	"xn--myethewallet-4nf.com": {
-		"id": 0,
-		"url": "xn--myethewallet-4nf.com",
-		"category": "Phishing"
-	},
-	"xn--myethewallet-iof.com": {
-		"id": 0,
-		"url": "xn--myethewallet-iof.com",
 		"category": "Phishing"
 	},
 	"myetheswallet.com": {
@@ -2539,24 +8624,9 @@ const badList = {
 		"url": "myethezwallet.com",
 		"category": "Phishing"
 	},
-	"xn--myethewallet-i31f.com": {
-		"id": 0,
-		"url": "xn--myethewallet-i31f.com",
-		"category": "Phishing"
-	},
-	"xn--myethewallet-6bk.com": {
-		"id": 0,
-		"url": "xn--myethewallet-6bk.com",
-		"category": "Phishing"
-	},
 	"myethgrwallet.com": {
 		"id": 525,
 		"url": "myethgrwallet.com",
-		"category": "Phishing"
-	},
-	"myethirwallet.com": {
-		"id": 0,
-		"url": "myethirwallet.com",
 		"category": "Phishing"
 	},
 	"myethmrwallet.com": {
@@ -2579,46 +8649,6 @@ const badList = {
 		"url": "myethzrwallet.com",
 		"category": "Phishing"
 	},
-	"xn--myethrwallet-dzi.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-dzi.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-wbif.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-wbif.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-wck.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-wck.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-skjf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-skjf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-fok.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-fok.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-fvjf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-fvjf.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-fsl.com": {
-		"id": 0,
-		"url": "xn--myethrwallet-fsl.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallt-fwkf.com": {
-		"id": 0,
-		"url": "xn--myethrwallt-fwkf.com",
-		"category": "Phishing"
-	},
 	"myetierwallet.com": {
 		"id": 539,
 		"url": "myetierwallet.com",
@@ -2627,16 +8657,6 @@ const badList = {
 	"myetiherwallet.com": {
 		"id": 540,
 		"url": "myetiherwallet.com",
-		"category": "Phishing"
-	},
-	"myetlerwallet.com": {
-		"id": 0,
-		"url": "myetlerwallet.com",
-		"category": "Phishing"
-	},
-	"myetlherwallet.com": {
-		"id": 0,
-		"url": "myetlherwallet.com",
 		"category": "Phishing"
 	},
 	"myetxerwallet.com": {
@@ -2652,21 +8672,6 @@ const badList = {
 	"myetzherwallet.com": {
 		"id": 545,
 		"url": "myetzherwallet.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwallet-nrl.com": {
-		"id": 0,
-		"url": "xn--myeterwallet-nrl.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwallet-von.com": {
-		"id": 0,
-		"url": "xn--myeterwallet-von.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwallet-jl6c.com": {
-		"id": 0,
-		"url": "xn--myeterwallet-jl6c.com",
 		"category": "Phishing"
 	},
 	"myeuherwallet.com": {
@@ -2687,26 +8692,6 @@ const badList = {
 	"myeztherwallet.com": {
 		"id": 552,
 		"url": "myeztherwallet.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwallet-v4i.com": {
-		"id": 0,
-		"url": "xn--myeherwallet-v4i.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalle-zgii.com": {
-		"id": 0,
-		"url": "xn--myeherwalle-zgii.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwallet-ohk.com": {
-		"id": 0,
-		"url": "xn--myeherwallet-ohk.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalle-6oji.com": {
-		"id": 0,
-		"url": "xn--myeherwalle-6oji.com",
 		"category": "Phishing"
 	},
 	"mygtherwallet.com": {
@@ -2739,86 +8724,6 @@ const badList = {
 		"url": "myztherwallet.com",
 		"category": "Phishing"
 	},
-	"xn--mytherwallet-9yi.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-9yi.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-tbic.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-tbic.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-dnhcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-dnhcf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-tck.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-tck.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-pkjc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-pkjc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-lsicf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-lsicf.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-cvjc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-cvjc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-c2icf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-c2icf.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallet-csl.com": {
-		"id": 0,
-		"url": "xn--mytherwallet-csl.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-cwkc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-cwkc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-c0jcf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-c0jcf.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-1uf.com": {
-		"id": 0,
-		"url": "xn--metherwallet-1uf.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-zhk.com": {
-		"id": 0,
-		"url": "xn--metherwallet-zhk.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-3ml.com": {
-		"id": 0,
-		"url": "xn--metherwallet-3ml.com",
-		"category": "Phishing"
-	},
-	"xn--yetherwallet-1t1f.com": {
-		"id": 0,
-		"url": "xn--yetherwallet-1t1f.com",
-		"category": "Phishing"
-	},
-	"xn--yetherwallet-vjf.com": {
-		"id": 0,
-		"url": "xn--yetherwallet-vjf.com",
-		"category": "Phishing"
-	},
 	"nnyetherwallet.com": {
 		"id": 579,
 		"url": "nnyetherwallet.com",
@@ -2834,39 +8739,9 @@ const badList = {
 		"url": "pyetherwallet.com",
 		"category": "Phishing"
 	},
-	"rnyetherwallet.com": {
-		"id": 0,
-		"url": "rnyetherwallet.com",
-		"category": "Phishing"
-	},
 	"rryetherwallet.com": {
 		"id": 583,
 		"url": "rryetherwallet.com",
-		"category": "Phishing"
-	},
-	"xn--yetherwallet-dfk.com": {
-		"id": 0,
-		"url": "xn--yetherwallet-dfk.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-iyi.com": {
-		"id": 0,
-		"url": "xn--metherwallet-iyi.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-59a.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-59a.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-hsbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-hsbc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallet-0bbc.com": {
-		"id": 0,
-		"url": "xn--mythrwallet-0bbc.com",
 		"category": "Phishing"
 	},
 	"mjyetherwallet.com": {
@@ -4204,11 +10079,6 @@ const badList = {
 		"url": "myetherwallet.clubmed",
 		"category": "Phishing"
 	},
-	"myetherwallet.cm": {
-		"id": 0,
-		"url": "myetherwallet.cm",
-		"category": "Phishing"
-	},
 	"myetherwallet.cn": {
 		"id": 859,
 		"url": "myetherwallet.cn",
@@ -5104,11 +10974,6 @@ const badList = {
 		"url": "myetherwallet.fly",
 		"category": "Phishing"
 	},
-	"myetherwallet.fm": {
-		"id": 0,
-		"url": "myetherwallet.fm",
-		"category": "Phishing"
-	},
 	"myetherwallet.fo": {
 		"id": 1039,
 		"url": "myetherwallet.fo",
@@ -5297,11 +11162,6 @@ const badList = {
 	"myetherwallet.gd": {
 		"id": 1076,
 		"url": "myetherwallet.gd",
-		"category": "Phishing"
-	},
-	"myetherwallet.gdn": {
-		"id": 0,
-		"url": "myetherwallet.gdn",
 		"category": "Phishing"
 	},
 	"myetherwallet.ge": {
@@ -6534,11 +12394,6 @@ const badList = {
 		"url": "myetherwallet.linde",
 		"category": "Phishing"
 	},
-	"myetherwallet.link": {
-		"id": 0,
-		"url": "myetherwallet.link",
-		"category": "Phishing"
-	},
 	"myetherwallet.lipsy": {
 		"id": 1325,
 		"url": "myetherwallet.lipsy",
@@ -7174,11 +13029,6 @@ const badList = {
 		"url": "myetherwallet.nec",
 		"category": "Phishing"
 	},
-	"myetherwallet.net": {
-		"id": 0,
-		"url": "myetherwallet.net",
-		"category": "Phishing"
-	},
 	"myetherwallet.netbank": {
 		"id": 1453,
 		"url": "myetherwallet.netbank",
@@ -7409,19 +13259,9 @@ const badList = {
 		"url": "myetherwallet.ollo",
 		"category": "Phishing"
 	},
-	"myetherwallet.om": {
-		"id": 0,
-		"url": "myetherwallet.om",
-		"category": "Phishing"
-	},
 	"myetherwallet.omega": {
 		"id": 1500,
 		"url": "myetherwallet.omega",
-		"category": "Phishing"
-	},
-	"myetherwallet.one": {
-		"id": 0,
-		"url": "myetherwallet.one",
 		"category": "Phishing"
 	},
 	"myetherwallet.ong": {
@@ -7462,11 +13302,6 @@ const badList = {
 	"myetherwallet.orange": {
 		"id": 1509,
 		"url": "myetherwallet.orange",
-		"category": "Phishing"
-	},
-	"myetherwallet.org": {
-		"id": 0,
-		"url": "myetherwallet.org",
 		"category": "Phishing"
 	},
 	"myetherwallet.organic": {
@@ -8112,11 +13947,6 @@ const badList = {
 	"myetherwallet.rsvp": {
 		"id": 1639,
 		"url": "myetherwallet.rsvp",
-		"category": "Phishing"
-	},
-	"myetherwallet.ru": {
-		"id": 0,
-		"url": "myetherwallet.ru",
 		"category": "Phishing"
 	},
 	"myetherwallet.rugby": {
@@ -10524,34 +16354,9 @@ const badList = {
 		"url": "myetherwallet.zuerich",
 		"category": "Phishing"
 	},
-	"myetherwalletcom.com": {
-		"id": 0,
-		"url": "myetherwalletcom.com",
-		"category": "Phishing"
-	},
-	"myetherweb.com.de": {
-		"id": 0,
-		"url": "myetherweb.com.de",
-		"category": "Phishing"
-	},
 	"wwmyetherwallet.com": {
 		"id": 2125,
 		"url": "wwmyetherwallet.com",
-		"category": "Phishing"
-	},
-	"www-myetherwallet.com": {
-		"id": 0,
-		"url": "www-myetherwallet.com",
-		"category": "Phishing"
-	},
-	"wwwmyetherwallet.com": {
-		"id": 0,
-		"url": "wwwmyetherwallet.com",
-		"category": "Phishing"
-	},
-	"my.ether-wallet.co": {
-		"id": 0,
-		"url": "my.ether-wallet.co",
 		"category": "Phishing"
 	},
 	"ethermixer.com": {
@@ -10559,24 +16364,9 @@ const badList = {
 		"url": "ethermixer.com",
 		"category": "Scam"
 	},
-	"indorsetoken.com": {
-		"id": 0,
-		"url": "indorsetoken.com",
-		"category": "Phishing"
-	},
-	"ziber.io": {
-		"id": 0,
-		"url": "ziber.io",
-		"category": "Phishing"
-	},
 	"ethpromonodes.com": {
 		"id": 2133,
 		"url": "ethpromonodes.com",
-		"category": "Phishing"
-	},
-	"myethcrwallet.com": {
-		"id": 0,
-		"url": "myethcrwallet.com",
 		"category": "Phishing"
 	},
 	"omisego.com": {
@@ -10584,69 +16374,9 @@ const badList = {
 		"url": "omisego.com",
 		"category": "Phishing"
 	},
-	"numerai.tech": {
-		"id": 0,
-		"url": "numerai.tech",
-		"category": "Phishing"
-	},
 	"omisego.net": {
 		"id": 2137,
 		"url": "omisego.net",
-		"category": "Phishing"
-	},
-	"unocoin.company": {
-		"id": 0,
-		"url": "unocoin.company",
-		"category": "Phishing"
-	},
-	"unocoin.fund": {
-		"id": 0,
-		"url": "unocoin.fund",
-		"category": "Phishing"
-	},
-	"etherdelta-glthub.com": {
-		"id": 0,
-		"url": "etherdelta-glthub.com",
-		"category": "Phishing"
-	},
-	"bittrex.cam": {
-		"id": 0,
-		"url": "bittrex.cam",
-		"category": "Phishing"
-	},
-	"myetrerwallet.com": {
-		"id": 0,
-		"url": "myetrerwallet.com",
-		"category": "Phishing"
-	},
-	"decentraland.pro": {
-		"id": 0,
-		"url": "decentraland.pro",
-		"category": "Phishing"
-	},
-	"status-token.com": {
-		"id": 0,
-		"url": "status-token.com",
-		"category": "Phishing"
-	},
-	"myetthterwallet.com": {
-		"id": 0,
-		"url": "myetthterwallet.com",
-		"category": "Phishing"
-	},
-	"enigmatoken.com": {
-		"id": 0,
-		"url": "enigmatoken.com",
-		"category": "Phishing"
-	},
-	"decentraland.tech": {
-		"id": 0,
-		"url": "decentraland.tech",
-		"category": "Phishing"
-	},
-	"myethterwallet.com": {
-		"id": 0,
-		"url": "myethterwallet.com",
 		"category": "Phishing"
 	},
 	"substratum.io": {
@@ -10654,94 +16384,9 @@ const badList = {
 		"url": "substratum.io",
 		"category": "Scam"
 	},
-	"omise-omg.com": {
-		"id": 0,
-		"url": "omise-omg.com",
-		"category": "Phishing"
-	},
-	"myethwallet.io": {
-		"id": 0,
-		"url": "myethwallet.io",
-		"category": "Phishing"
-	},
-	"tenxpay.io": {
-		"id": 0,
-		"url": "tenxpay.io",
-		"category": "Phishing"
-	},
-	"wallet-ethereum.net": {
-		"id": 0,
-		"url": "wallet-ethereum.net",
-		"category": "Phishing"
-	},
 	"www.myehterwallet.co": {
 		"id": 2154,
 		"url": "www.myehterwallet.co",
-		"category": "Phishing"
-	},
-	"statustoken.im": {
-		"id": 0,
-		"url": "statustoken.im",
-		"category": "Phishing"
-	},
-	"aragon.im": {
-		"id": 0,
-		"url": "aragon.im",
-		"category": "Phishing"
-	},
-	"bittrex.ltd": {
-		"id": 0,
-		"url": "bittrex.ltd",
-		"category": "Phishing"
-	},
-	"kickico.co": {
-		"id": 0,
-		"url": "kickico.co",
-		"category": "Phishing"
-	},
-	"bllttrex.com": {
-		"id": 0,
-		"url": "bllttrex.com",
-		"category": "Phishing"
-	},
-	"starbase.tech": {
-		"id": 0,
-		"url": "starbase.tech",
-		"category": "Phishing"
-	},
-	"monetha-crowdsale.com": {
-		"id": 0,
-		"url": "monetha-crowdsale.com",
-		"category": "Phishing"
-	},
-	"monetha.co": {
-		"id": 0,
-		"url": "monetha.co",
-		"category": "Phishing"
-	},
-	"omise-go.io": {
-		"id": 0,
-		"url": "omise-go.io",
-		"category": "Phishing"
-	},
-	"shapeshift.pro": {
-		"id": 0,
-		"url": "shapeshift.pro",
-		"category": "Phishing"
-	},
-	"monetha.me": {
-		"id": 0,
-		"url": "monetha.me",
-		"category": "Phishing"
-	},
-	"bllttriex.com": {
-		"id": 0,
-		"url": "bllttriex.com",
-		"category": "Phishing"
-	},
-	"etnerscan.io": {
-		"id": 0,
-		"url": "etnerscan.io",
 		"category": "Phishing"
 	},
 	"www.golem-network.com": {
@@ -10749,219 +16394,14 @@ const badList = {
 		"url": "www.golem-network.com",
 		"category": "Phishing"
 	},
-	"etherdelta.gilthub.io": {
-		"id": 0,
-		"url": "etherdelta.gilthub.io",
-		"category": "Phishing"
-	},
-	"dmarket.ltd": {
-		"id": 0,
-		"url": "dmarket.ltd",
-		"category": "Phishing"
-	},
-	"kinico.net": {
-		"id": 0,
-		"url": "kinico.net",
-		"category": "Phishing"
-	},
-	"herotoken.co": {
-		"id": 0,
-		"url": "herotoken.co",
-		"category": "Phishing"
-	},
-	"etherdelta.githulb.io": {
-		"id": 0,
-		"url": "etherdelta.githulb.io",
-		"category": "Phishing"
-	},
-	"starbase.pro": {
-		"id": 0,
-		"url": "starbase.pro",
-		"category": "Phishing"
-	},
-	"herotokens.io": {
-		"id": 0,
-		"url": "herotokens.io",
-		"category": "Phishing"
-	},
-	"omise.com.co": {
-		"id": 0,
-		"url": "omise.com.co",
-		"category": "Phishing"
-	},
-	"myelterwallet.com": {
-		"id": 0,
-		"url": "myelterwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwaltet.com": {
-		"id": 0,
-		"url": "myetherwaltet.com",
-		"category": "Phishing"
-	},
-	"aventus.group": {
-		"id": 0,
-		"url": "aventus.group",
-		"category": "Phishing"
-	},
-	"atlant.solutions": {
-		"id": 0,
-		"url": "atlant.solutions",
-		"category": "Phishing"
-	},
-	"iconexus.social": {
-		"id": 0,
-		"url": "iconexus.social",
-		"category": "Phishing"
-	},
-	"omise-go.org": {
-		"id": 0,
-		"url": "omise-go.org",
-		"category": "Phishing"
-	},
-	"ethereumwallet-kr.info": {
-		"id": 0,
-		"url": "ethereumwallet-kr.info",
-		"category": "Phishing"
-	},
-	"vlberate.io": {
-		"id": 0,
-		"url": "vlberate.io",
-		"category": "Phishing"
-	},
-	"monetha.ltd": {
-		"id": 0,
-		"url": "monetha.ltd",
-		"category": "Phishing"
-	},
-	"kirkik.com": {
-		"id": 0,
-		"url": "kirkik.com",
-		"category": "Phishing"
-	},
-	"etherdelta.gitnub.io": {
-		"id": 0,
-		"url": "etherdelta.gitnub.io",
-		"category": "Phishing"
-	},
 	"www.the-ether.pro": {
 		"id": 2189,
 		"url": "www.the-ether.pro",
 		"category": "Scam"
 	},
-	"etherdelta.one": {
-		"id": 0,
-		"url": "etherdelta.one",
-		"category": "Phishing"
-	},
-	"rivetzintl.org": {
-		"id": 0,
-		"url": "rivetzintl.org",
-		"category": "Phishing"
-	},
-	"omisego.com.co": {
-		"id": 0,
-		"url": "omisego.com.co",
-		"category": "Phishing"
-	},
-	"qtum-token.com": {
-		"id": 0,
-		"url": "qtum-token.com",
-		"category": "Phishing"
-	},
-	"linknetwork.co": {
-		"id": 0,
-		"url": "linknetwork.co",
-		"category": "Phishing"
-	},
-	"myethereumwallet.uk": {
-		"id": 0,
-		"url": "myethereumwallet.uk",
-		"category": "Phishing"
-	},
-	"myethwallet.co.uk": {
-		"id": 0,
-		"url": "myethwallet.co.uk",
-		"category": "Phishing"
-	},
 	"myelherwatlet.com": {
 		"id": 2197,
 		"url": "myelherwatlet.com",
-		"category": "Phishing"
-	},
-	"coindash.su": {
-		"id": 0,
-		"url": "coindash.su",
-		"category": "Phishing"
-	},
-	"iconexu.social": {
-		"id": 0,
-		"url": "iconexu.social",
-		"category": "Phishing"
-	},
-	"wanchain.co": {
-		"id": 0,
-		"url": "wanchain.co",
-		"category": "Phishing"
-	},
-	"enigrna.co": {
-		"id": 0,
-		"url": "enigrna.co",
-		"category": "Phishing"
-	},
-	"ethedelta.com": {
-		"id": 0,
-		"url": "ethedelta.com",
-		"category": "Phishing"
-	},
-	"kin-crowdsale.com": {
-		"id": 0,
-		"url": "kin-crowdsale.com",
-		"category": "Phishing"
-	},
-	"kin-klk.com": {
-		"id": 0,
-		"url": "kin-klk.com",
-		"category": "Phishing"
-	},
-	"xn--bttrex-bwa.com": {
-		"id": 0,
-		"url": "xn--bttrex-bwa.com",
-		"category": "Phishing"
-	},
-	"bitj0b.io": {
-		"id": 0,
-		"url": "bitj0b.io",
-		"category": "Phishing"
-	},
-	"red-pulse.tech": {
-		"id": 0,
-		"url": "red-pulse.tech",
-		"category": "Phishing"
-	},
-	"ico-nexus.social": {
-		"id": 0,
-		"url": "ico-nexus.social",
-		"category": "Phishing"
-	},
-	"ethrdelta.github.io": {
-		"id": 0,
-		"url": "ethrdelta.github.io",
-		"category": "Phishing"
-	},
-	"etherdellta.com": {
-		"id": 0,
-		"url": "etherdellta.com",
-		"category": "Phishing"
-	},
-	"xn--bittrx-mva.com": {
-		"id": 0,
-		"url": "xn--bittrx-mva.com",
-		"category": "Phishing"
-	},
-	"coinbase.com.eslogin.co": {
-		"id": 0,
-		"url": "coinbase.com.eslogin.co",
 		"category": "Phishing"
 	},
 	"myetherwallct.com": {
@@ -10989,109 +16429,9 @@ const badList = {
 		"url": "my.ethervvallet.eu",
 		"category": "Phishing"
 	},
-	"enigma-tokens.co": {
-		"id": 0,
-		"url": "enigma-tokens.co",
-		"category": "Phishing"
-	},
-	"change-bank.co": {
-		"id": 0,
-		"url": "change-bank.co",
-		"category": "Phishing"
-	},
-	"omise-go.me": {
-		"id": 0,
-		"url": "omise-go.me",
-		"category": "Phishing"
-	},
-	"tokensale.kyber.digital": {
-		"id": 0,
-		"url": "tokensale.kyber.digital",
-		"category": "Phishing"
-	},
-	"pyro0.github.io": {
-		"id": 0,
-		"url": "pyro0.github.io",
-		"category": "Phishing"
-	},
-	"kyber-network.co": {
-		"id": 0,
-		"url": "kyber-network.co",
-		"category": "Phishing"
-	},
-	"tokensale-kyber.network": {
-		"id": 0,
-		"url": "tokensale-kyber.network",
-		"category": "Phishing"
-	},
 	"my.ethervvallet.com": {
 		"id": 2225,
 		"url": "my.ethervvallet.com",
-		"category": "Phishing"
-	},
-	"kin.kikpro.co": {
-		"id": 0,
-		"url": "kin.kikpro.co",
-		"category": "Phishing"
-	},
-	"kvnuke.github.io": {
-		"id": 0,
-		"url": "kvnuke.github.io",
-		"category": "Phishing"
-	},
-	"myetherwalletconfirm.com": {
-		"id": 0,
-		"url": "myetherwalletconfirm.com",
-		"category": "Phishing"
-	},
-	"myetherwallet-confirm.com": {
-		"id": 0,
-		"url": "myetherwallet-confirm.com",
-		"category": "Phishing"
-	},
-	"kybernet.network": {
-		"id": 0,
-		"url": "kybernet.network",
-		"category": "Phishing"
-	},
-	"change-bank.io": {
-		"id": 0,
-		"url": "change-bank.io",
-		"category": "Phishing"
-	},
-	"chainlink.tech": {
-		"id": 0,
-		"url": "chainlink.tech",
-		"category": "Phishing"
-	},
-	"myetherwalletcontract.com": {
-		"id": 0,
-		"url": "myetherwalletcontract.com",
-		"category": "Phishing"
-	},
-	"myetherwalletsingin.com": {
-		"id": 0,
-		"url": "myetherwalletsingin.com",
-		"category": "Phishing"
-	},
-	"charge-bank.com": {
-		"id": 0,
-		"url": "charge-bank.com",
-		"category": "Phishing"
-	},
-	"change-bank.org": {
-		"id": 0,
-		"url": "change-bank.org",
-		"category": "Phishing"
-	},
-	"0xtoken.io": {
-		"id": 0,
-		"url": "0xtoken.io",
-		"category": "Phishing"
-	},
-	"shapesshift.io": {
-		"id": 0,
-		"url": "shapesshift.io",
 		"category": "Phishing"
 	},
 	"myetheriwallet.com": {
@@ -11104,71 +16444,6 @@ const badList = {
 		"url": "myetherwiallet.com",
 		"category": "Phishing"
 	},
-	"smartcontractlink.com": {
-		"id": 0,
-		"url": "smartcontractlink.com",
-		"category": "Phishing"
-	},
-	"myetherwallet-singin.com": {
-		"id": 0,
-		"url": "myetherwallet-singin.com",
-		"category": "Phishing"
-	},
-	"centra.credit": {
-		"id": 0,
-		"url": "centra.credit",
-		"category": "Phishing"
-	},
-	"air-token.com": {
-		"id": 0,
-		"url": "air-token.com",
-		"category": "Phishing"
-	},
-	"icon.community": {
-		"id": 0,
-		"url": "icon.community",
-		"category": "Phishing"
-	},
-	"smartcontract.live": {
-		"id": 0,
-		"url": "smartcontract.live",
-		"category": "Phishing"
-	},
-	"centra.vip": {
-		"id": 0,
-		"url": "centra.vip",
-		"category": "Phishing"
-	},
-	"iconn.foundation": {
-		"id": 0,
-		"url": "iconn.foundation",
-		"category": "Phishing"
-	},
-	"bitfienex.com": {
-		"id": 0,
-		"url": "bitfienex.com",
-		"category": "Phishing"
-	},
-	"bitfinex.com.co": {
-		"id": 0,
-		"url": "bitfinex.com.co",
-		"category": "Phishing"
-	},
-	"happy-coin.org": {
-		"id": 0,
-		"url": "happy-coin.org",
-		"category": "Phishing"
-	},
-	"cobinhood.org": {
-		"id": 0,
-		"url": "cobinhood.org",
-		"category": "Phishing"
-	},
-	"reall.markets": {
-		"id": 0,
-		"url": "reall.markets",
-		"category": "Phishing"
-	},
 	"myetherwalletws.com": {
 		"id": 2255,
 		"url": "myetherwalletws.com",
@@ -11179,69 +16454,14 @@ const badList = {
 		"url": "myetherwalletntw.com",
 		"category": "Phishing"
 	},
-	"myethereumwalletntw.com": {
-		"id": 0,
-		"url": "myethereumwalletntw.com",
-		"category": "Phishing"
-	},
-	"omisegotoken.com": {
-		"id": 0,
-		"url": "omisegotoken.com",
-		"category": "Phishing"
-	},
-	"myetherwalletlogin.com": {
-		"id": 0,
-		"url": "myetherwalletlogin.com",
-		"category": "Phishing"
-	},
-	"coinrbase.com": {
-		"id": 0,
-		"url": "coinrbase.com",
-		"category": "Phishing"
-	},
-	"myetherumwalletview.com": {
-		"id": 0,
-		"url": "myetherumwalletview.com",
-		"category": "Phishing"
-	},
-	"kinkik.in": {
-		"id": 0,
-		"url": "kinkik.in",
-		"category": "Phishing"
-	},
-	"eventchain.co": {
-		"id": 0,
-		"url": "eventchain.co",
-		"category": "Phishing"
-	},
 	"myetherwallets.co": {
 		"id": 2264,
 		"url": "myetherwallets.co",
 		"category": "Phishing"
 	},
-	"protostokenhub.com": {
-		"id": 0,
-		"url": "protostokenhub.com",
-		"category": "Phishing"
-	},
-	"ethewallet.com": {
-		"id": 0,
-		"url": "ethewallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.vc": {
-		"id": 0,
-		"url": "myetherwallet.com.vc",
-		"category": "Phishing"
-	},
 	"mmyetherwallets.info": {
 		"id": 2268,
 		"url": "mmyetherwallets.info",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.ailogin.me": {
-		"id": 0,
-		"url": "myetherwallet.com.ailogin.me",
 		"category": "Phishing"
 	},
 	"myetherwallets.cc": {
@@ -11254,59 +16474,9 @@ const badList = {
 		"url": "myetherwallets.us",
 		"category": "Phishing"
 	},
-	"myetherwalletsignin.com": {
-		"id": 0,
-		"url": "myetherwalletsignin.com",
-		"category": "Phishing"
-	},
-	"cindicator.pro": {
-		"id": 0,
-		"url": "cindicator.pro",
-		"category": "Phishing"
-	},
-	"coinkbase.com": {
-		"id": 0,
-		"url": "coinkbase.com",
-		"category": "Phishing"
-	},
-	"ibittreix.com": {
-		"id": 0,
-		"url": "ibittreix.com",
-		"category": "Phishing"
-	},
-	"shapeshifth.io": {
-		"id": 0,
-		"url": "shapeshifth.io",
-		"category": "Phishing"
-	},
-	"shiapeshift.in": {
-		"id": 0,
-		"url": "shiapeshift.in",
-		"category": "Phishing"
-	},
-	"wallet-ethereum.org": {
-		"id": 0,
-		"url": "wallet-ethereum.org",
-		"category": "Phishing"
-	},
-	"request-network.com": {
-		"id": 0,
-		"url": "request-network.com",
-		"category": "Phishing"
-	},
-	"real-markets.io": {
-		"id": 0,
-		"url": "real-markets.io",
-		"category": "Phishing"
-	},
 	"myelheriwallet.com": {
 		"id": 2283,
 		"url": "myelheriwallet.com",
-		"category": "Phishing"
-	},
-	"myetherermwallet.com": {
-		"id": 0,
-		"url": "myetherermwallet.com",
 		"category": "Phishing"
 	},
 	"myethwallct.com": {
@@ -11317,11 +16487,6 @@ const badList = {
 	"myetheremwallet.com": {
 		"id": 2286,
 		"url": "myetheremwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet-secure.com": {
-		"id": 0,
-		"url": "myetherwallet-secure.com",
 		"category": "Phishing"
 	},
 	"myetherwalletto.com": {
@@ -11339,69 +16504,9 @@ const badList = {
 		"url": "miyetherwallet.com",
 		"category": "Phishing"
 	},
-	"myetherwallett.neocities.org": {
-		"id": 0,
-		"url": "myetherwallett.neocities.org",
-		"category": "Phishing"
-	},
-	"cobinhood.io": {
-		"id": 0,
-		"url": "cobinhood.io",
-		"category": "Phishing"
-	},
-	"etherdelta.su": {
-		"id": 0,
-		"url": "etherdelta.su",
-		"category": "Phishing"
-	},
-	"etnerparty.io": {
-		"id": 0,
-		"url": "etnerparty.io",
-		"category": "Phishing"
-	},
-	"etherdetla.com": {
-		"id": 0,
-		"url": "etherdetla.com",
-		"category": "Phishing"
-	},
-	"centra-token.com": {
-		"id": 0,
-		"url": "centra-token.com",
-		"category": "Phishing"
-	},
 	"myetherwalletie.com": {
 		"id": 2297,
 		"url": "myetherwalletie.com",
-		"category": "Phishing"
-	},
-	"district0x.tech": {
-		"id": 0,
-		"url": "district0x.tech",
-		"category": "Phishing"
-	},
-	"mywetherwailiet.com": {
-		"id": 0,
-		"url": "mywetherwailiet.com",
-		"category": "Phishing"
-	},
-	"myyethwallet.ml": {
-		"id": 0,
-		"url": "myyethwallet.ml",
-		"category": "Phishing"
-	},
-	"golem-network.net": {
-		"id": 0,
-		"url": "golem-network.net",
-		"category": "Phishing"
-	},
-	"tenxwallet.io": {
-		"id": 0,
-		"url": "tenxwallet.io",
-		"category": "Phishing"
-	},
-	"enjincoin.sale": {
-		"id": 0,
-		"url": "enjincoin.sale",
 		"category": "Phishing"
 	},
 	"myetherwlallet.com": {
@@ -11414,51 +16519,6 @@ const badList = {
 		"url": "myetherwalletiy.com",
 		"category": "Phishing"
 	},
-	"wanchain.network": {
-		"id": 0,
-		"url": "wanchain.network",
-		"category": "Phishing"
-	},
-	"enijncoin.io": {
-		"id": 0,
-		"url": "enijncoin.io",
-		"category": "Phishing"
-	},
-	"smartlands.tech": {
-		"id": 0,
-		"url": "smartlands.tech",
-		"category": "Phishing"
-	},
-	"etiam.io": {
-		"id": 0,
-		"url": "etiam.io",
-		"category": "Phishing"
-	},
-	"enjincoin.me": {
-		"id": 0,
-		"url": "enjincoin.me",
-		"category": "Phishing"
-	},
-	"etherparty.in": {
-		"id": 0,
-		"url": "etherparty.in",
-		"category": "Phishing"
-	},
-	"wanchains.org": {
-		"id": 0,
-		"url": "wanchains.org",
-		"category": "Phishing"
-	},
-	"warchain.org": {
-		"id": 0,
-		"url": "warchain.org",
-		"category": "Phishing"
-	},
-	"shapeshiff.io": {
-		"id": 0,
-		"url": "shapeshiff.io",
-		"category": "Phishing"
-	},
 	"myetherwalletip.com": {
 		"id": 2315,
 		"url": "myetherwalletip.com",
@@ -11469,384 +16529,9 @@ const badList = {
 		"url": "myetherwallcti.com",
 		"category": "Phishing"
 	},
-	"myethereumwallet.su": {
-		"id": 0,
-		"url": "myethereumwallet.su",
-		"category": "Phishing"
-	},
-	"xn--enjncoin-41a.io": {
-		"id": 0,
-		"url": "xn--enjncoin-41a.io",
-		"category": "Phishing"
-	},
-	"omisegoairdrop.com": {
-		"id": 0,
-		"url": "omisegoairdrop.com",
-		"category": "Phishing"
-	},
-	"vvanchain.org": {
-		"id": 0,
-		"url": "vvanchain.org",
-		"category": "Phishing"
-	},
-	"numerai-token.com": {
-		"id": 0,
-		"url": "numerai-token.com",
-		"category": "Phishing"
-	},
-	"soam.co": {
-		"id": 0,
-		"url": "soam.co",
-		"category": "Phishing"
-	},
-	"paypie.net": {
-		"id": 0,
-		"url": "paypie.net",
-		"category": "Phishing"
-	},
-	"paypie.tech": {
-		"id": 0,
-		"url": "paypie.tech",
-		"category": "Phishing"
-	},
-	"upfirng.com": {
-		"id": 0,
-		"url": "upfirng.com",
-		"category": "Phishing"
-	},
-	"myethereumwallct.com": {
-		"id": 0,
-		"url": "myethereumwallct.com",
-		"category": "Phishing"
-	},
-	"myetherwalletww.com": {
-		"id": 0,
-		"url": "myetherwalletww.com",
-		"category": "Phishing"
-	},
-	"myethereunwallet.com": {
-		"id": 0,
-		"url": "myethereunwallet.com",
-		"category": "Phishing"
-	},
-	"myethereumwaliet.com": {
-		"id": 0,
-		"url": "myethereumwaliet.com",
-		"category": "Phishing"
-	},
-	"security-steemit.com.mx": {
-		"id": 0,
-		"url": "security-steemit.com.mx",
-		"category": "Phishing"
-	},
-	"cryptoinsidenews.com": {
-		"id": 0,
-		"url": "cryptoinsidenews.com",
-		"category": "Phishing"
-	},
-	"www-enigma.co": {
-		"id": 0,
-		"url": "www-enigma.co",
-		"category": "Phishing"
-	},
-	"www-request.network": {
-		"id": 0,
-		"url": "www-request.network",
-		"category": "Phishing"
-	},
-	"airswaptoken.com": {
-		"id": 0,
-		"url": "airswaptoken.com",
-		"category": "Phishing"
-	},
-	"airswap.cc": {
-		"id": 0,
-		"url": "airswap.cc",
-		"category": "Phishing"
-	},
-	"airswap.in": {
-		"id": 0,
-		"url": "airswap.in",
-		"category": "Phishing"
-	},
-	"alrswap.io": {
-		"id": 0,
-		"url": "alrswap.io",
-		"category": "Phishing"
-	},
-	"myetnenwallet.com": {
-		"id": 0,
-		"url": "myetnenwallet.com",
-		"category": "Phishing"
-	},
-	"xn--bitrex-k17b.com": {
-		"id": 0,
-		"url": "xn--bitrex-k17b.com",
-		"category": "Phishing"
-	},
-	"myehterwailet.com": {
-		"id": 0,
-		"url": "myehterwailet.com",
-		"category": "Phishing"
-	},
-	"enjincoin.pw": {
-		"id": 0,
-		"url": "enjincoin.pw",
-		"category": "Phishing"
-	},
-	"myewerthwalliet.com": {
-		"id": 0,
-		"url": "myewerthwalliet.com",
-		"category": "Phishing"
-	},
-	"first-eth.info": {
-		"id": 0,
-		"url": "first-eth.info",
-		"category": "Phishing"
-	},
-	"binancie.com": {
-		"id": 0,
-		"url": "binancie.com",
-		"category": "Phishing"
-	},
-	"requestnetwork.live": {
-		"id": 0,
-		"url": "requestnetwork.live",
-		"category": "Phishing"
-	},
-	"request-network.net": {
-		"id": 0,
-		"url": "request-network.net",
-		"category": "Phishing"
-	},
-	"polkodot.network": {
-		"id": 0,
-		"url": "polkodot.network",
-		"category": "Phishing"
-	},
-	"slack.com.ru": {
-		"id": 0,
-		"url": "slack.com.ru",
-		"category": "Phishing"
-	},
-	"omegaone.co": {
-		"id": 0,
-		"url": "omegaone.co",
-		"category": "Phishing"
-	},
-	"myehterwaliet.com": {
-		"id": 0,
-		"url": "myehterwaliet.com",
-		"category": "Phishing"
-	},
-	"myetherwaiiett.com": {
-		"id": 0,
-		"url": "myetherwaiiett.com",
-		"category": "Phishing"
-	},
-	"myetherwalletiu.com": {
-		"id": 0,
-		"url": "myetherwalletiu.com",
-		"category": "Phishing"
-	},
-	"etheirdelta.com": {
-		"id": 0,
-		"url": "etheirdelta.com",
-		"category": "Phishing"
-	},
-	"www-mvetherwallet.com": {
-		"id": 0,
-		"url": "www-mvetherwallet.com",
-		"category": "Phishing"
-	},
-	"myetnerwailet.com": {
-		"id": 0,
-		"url": "myetnerwailet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet-forkprep.pagedemo.co": {
-		"id": 0,
-		"url": "myetherwallet-forkprep.pagedemo.co",
-		"category": "Phishing"
-	},
-	"myethereum-wallet.com": {
-		"id": 0,
-		"url": "myethereum-wallet.com",
-		"category": "Phishing"
-	},
-	"worldofbattles.io": {
-		"id": 0,
-		"url": "worldofbattles.io",
-		"category": "Phishing"
-	},
-	"stormxtoken.com": {
-		"id": 0,
-		"url": "stormxtoken.com",
-		"category": "Phishing"
-	},
-	"myetherwalletverify.info": {
-		"id": 0,
-		"url": "myetherwalletverify.info",
-		"category": "Phishing"
-	},
-	"ralden.network": {
-		"id": 0,
-		"url": "ralden.network",
-		"category": "Phishing"
-	},
-	"raidan.network": {
-		"id": 0,
-		"url": "raidan.network",
-		"category": "Phishing"
-	},
-	"riden.network": {
-		"id": 0,
-		"url": "riden.network",
-		"category": "Phishing"
-	},
-	"privatix.live": {
-		"id": 0,
-		"url": "privatix.live",
-		"category": "Phishing"
-	},
 	"rnyetherwallet.pw": {
 		"id": 2365,
 		"url": "rnyetherwallet.pw",
-		"category": "Phishing"
-	},
-	"storrntoken.com": {
-		"id": 0,
-		"url": "storrntoken.com",
-		"category": "Phishing"
-	},
-	"stormtokens.net": {
-		"id": 0,
-		"url": "stormtokens.net",
-		"category": "Phishing"
-	},
-	"myetereumwallet.com": {
-		"id": 0,
-		"url": "myetereumwallet.com",
-		"category": "Phishing"
-	},
-	"stormstoken.com": {
-		"id": 0,
-		"url": "stormstoken.com",
-		"category": "Phishing"
-	},
-	"privatix.pro": {
-		"id": 0,
-		"url": "privatix.pro",
-		"category": "Phishing"
-	},
-	"raiden.online": {
-		"id": 0,
-		"url": "raiden.online",
-		"category": "Phishing"
-	},
-	"stormtoken.cc": {
-		"id": 0,
-		"url": "stormtoken.cc",
-		"category": "Phishing"
-	},
-	"privatix.top": {
-		"id": 0,
-		"url": "privatix.top",
-		"category": "Phishing"
-	},
-	"privatix.me": {
-		"id": 0,
-		"url": "privatix.me",
-		"category": "Phishing"
-	},
-	"block-v.io": {
-		"id": 0,
-		"url": "block-v.io",
-		"category": "Phishing"
-	},
-	"ether24.info": {
-		"id": 0,
-		"url": "ether24.info",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.byzantiumfork.com": {
-		"id": 0,
-		"url": "myetherwallet.com.byzantiumfork.com",
-		"category": "Phishing"
-	},
-	"stormtoken.site": {
-		"id": 0,
-		"url": "stormtoken.site",
-		"category": "Phishing"
-	},
-	"artoken.co": {
-		"id": 0,
-		"url": "artoken.co",
-		"category": "Phishing"
-	},
-	"raidens.network": {
-		"id": 0,
-		"url": "raidens.network",
-		"category": "Phishing"
-	},
-	"ripiocerdit.network": {
-		"id": 0,
-		"url": "ripiocerdit.network",
-		"category": "Phishing"
-	},
-	"shapishift.io": {
-		"id": 0,
-		"url": "shapishift.io",
-		"category": "Phishing"
-	},
-	"bittrex.cash": {
-		"id": 0,
-		"url": "bittrex.cash",
-		"category": "Phishing"
-	},
-	"ico.ripiocredits.com": {
-		"id": 0,
-		"url": "ico.ripiocredits.com",
-		"category": "Phishing"
-	},
-	"ripiocredit.net": {
-		"id": 0,
-		"url": "ripiocredit.net",
-		"category": "Phishing"
-	},
-	"myetherwallat.services": {
-		"id": 0,
-		"url": "myetherwallat.services",
-		"category": "Phishing"
-	},
-	"senstoken.com": {
-		"id": 0,
-		"url": "senstoken.com",
-		"category": "Phishing"
-	},
-	"reqest.network": {
-		"id": 0,
-		"url": "reqest.network",
-		"category": "Phishing"
-	},
-	"riaden.network": {
-		"id": 0,
-		"url": "riaden.network",
-		"category": "Phishing"
-	},
-	"ripiocreditnetwork.co": {
-		"id": 0,
-		"url": "ripiocreditnetwork.co",
-		"category": "Phishing"
-	},
-	"xn--myeherwallet-vk5f.com": {
-		"id": 0,
-		"url": "xn--myeherwallet-vk5f.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwallt-kbb8039g.com": {
-		"id": 0,
-		"url": "xn--myeherwallt-kbb8039g.com",
 		"category": "Phishing"
 	},
 	"mycthewallet.com": {
@@ -11854,399 +16539,9 @@ const badList = {
 		"url": "mycthewallet.com",
 		"category": "Phishing"
 	},
-	"xn--yethewallet-iw8ejl.com": {
-		"id": 0,
-		"url": "xn--yethewallet-iw8ejl.com",
-		"category": "Phishing"
-	},
-	"dentacoin.in": {
-		"id": 0,
-		"url": "dentacoin.in",
-		"category": "Phishing"
-	},
-	"myetlherwa11et.com": {
-		"id": 0,
-		"url": "myetlherwa11et.com",
-		"category": "Phishing"
-	},
-	"ripiocredlt.network": {
-		"id": 0,
-		"url": "ripiocredlt.network",
-		"category": "Phishing"
-	},
-	"universa.sale": {
-		"id": 0,
-		"url": "universa.sale",
-		"category": "Phishing"
-	},
 	"myethwalet.com": {
 		"id": 2399,
 		"url": "myethwalet.com",
-		"category": "Phishing"
-	},
-	"unlversa.io": {
-		"id": 0,
-		"url": "unlversa.io",
-		"category": "Phishing"
-	},
-	"etherdeltla.com": {
-		"id": 0,
-		"url": "etherdeltla.com",
-		"category": "Phishing"
-	},
-	"dmarkt.io": {
-		"id": 0,
-		"url": "dmarkt.io",
-		"category": "Phishing"
-	},
-	"kraken-wallet.com": {
-		"id": 0,
-		"url": "kraken-wallet.com",
-		"category": "Phishing"
-	},
-	"metallpay.com": {
-		"id": 0,
-		"url": "metallpay.com",
-		"category": "Phishing"
-	},
-	"myethierwallet.org": {
-		"id": 0,
-		"url": "myethierwallet.org",
-		"category": "Phishing"
-	},
-	"utrust.so": {
-		"id": 0,
-		"url": "utrust.so",
-		"category": "Phishing"
-	},
-	"bittrexy.com": {
-		"id": 0,
-		"url": "bittrexy.com",
-		"category": "Phishing"
-	},
-	"mettalpay.com": {
-		"id": 0,
-		"url": "mettalpay.com",
-		"category": "Phishing"
-	},
-	"myetherwalletjson.com": {
-		"id": 0,
-		"url": "myetherwalletjson.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-1vc.com": {
-		"id": 0,
-		"url": "xn--metherwallet-1vc.com",
-		"category": "Phishing"
-	},
-	"myetherwalletext.com": {
-		"id": 0,
-		"url": "myetherwalletext.com",
-		"category": "Phishing"
-	},
-	"myetherwalletmist.com": {
-		"id": 0,
-		"url": "myetherwalletmist.com",
-		"category": "Phishing"
-	},
-	"linksmartcontract.com": {
-		"id": 0,
-		"url": "linksmartcontract.com",
-		"category": "Phishing"
-	},
-	"xn--eterdelta-m75d.com": {
-		"id": 0,
-		"url": "xn--eterdelta-m75d.com",
-		"category": "Phishing"
-	},
-	"metelpay.com": {
-		"id": 0,
-		"url": "metelpay.com",
-		"category": "Phishing"
-	},
-	"quantslamp.com": {
-		"id": 0,
-		"url": "quantslamp.com",
-		"category": "Phishing"
-	},
-	"myethereumwallets.com": {
-		"id": 0,
-		"url": "myethereumwallets.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-1fb.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-1fb.com",
-		"category": "Phishing"
-	},
-	"changellyl.net": {
-		"id": 0,
-		"url": "changellyl.net",
-		"category": "Phishing"
-	},
-	"quantsstamps.com": {
-		"id": 0,
-		"url": "quantsstamps.com",
-		"category": "Phishing"
-	},
-	"xn--quanstamp-tmd.com": {
-		"id": 0,
-		"url": "xn--quanstamp-tmd.com",
-		"category": "Phishing"
-	},
-	"myetherumwalletts.com": {
-		"id": 0,
-		"url": "myetherumwalletts.com",
-		"category": "Phishing"
-	},
-	"myetherwalletmew.com": {
-		"id": 0,
-		"url": "myetherwalletmew.com",
-		"category": "Phishing"
-	},
-	"quantstamp.com.ua": {
-		"id": 0,
-		"url": "quantstamp.com.ua",
-		"category": "Phishing"
-	},
-	"augur-network.com": {
-		"id": 0,
-		"url": "augur-network.com",
-		"category": "Phishing"
-	},
-	"quantstamp.com.co": {
-		"id": 0,
-		"url": "quantstamp.com.co",
-		"category": "Phishing"
-	},
-	"xn--bttrex-3va.net": {
-		"id": 0,
-		"url": "xn--bttrex-3va.net",
-		"category": "Phishing"
-	},
-	"ethconnect.trade": {
-		"id": 0,
-		"url": "ethconnect.trade",
-		"category": "Phishing"
-	},
-	"ethconnect.live": {
-		"id": 0,
-		"url": "ethconnect.live",
-		"category": "Phishing"
-	},
-	"ether-delta.com": {
-		"id": 0,
-		"url": "ether-delta.com",
-		"category": "Phishing"
-	},
-	"wancha.in": {
-		"id": 0,
-		"url": "wancha.in",
-		"category": "Phishing"
-	},
-	"stormtokens.io": {
-		"id": 0,
-		"url": "stormtokens.io",
-		"category": "Phishing"
-	},
-	"storm-token.com": {
-		"id": 0,
-		"url": "storm-token.com",
-		"category": "Phishing"
-	},
-	"stromtoken.com": {
-		"id": 0,
-		"url": "stromtoken.com",
-		"category": "Phishing"
-	},
-	"storntoken.com": {
-		"id": 0,
-		"url": "storntoken.com",
-		"category": "Phishing"
-	},
-	"stormtoken.co": {
-		"id": 0,
-		"url": "stormtoken.co",
-		"category": "Phishing"
-	},
-	"xn--quanttamp-42b.com": {
-		"id": 0,
-		"url": "xn--quanttamp-42b.com",
-		"category": "Phishing"
-	},
-	"stormltoken.com": {
-		"id": 0,
-		"url": "stormltoken.com",
-		"category": "Phishing"
-	},
-	"saltending.com": {
-		"id": 0,
-		"url": "saltending.com",
-		"category": "Phishing"
-	},
-	"omise-go.tech": {
-		"id": 0,
-		"url": "omise-go.tech",
-		"category": "Phishing"
-	},
-	"stormtoken.eu": {
-		"id": 0,
-		"url": "stormtoken.eu",
-		"category": "Phishing"
-	},
-	"chainlinksmartcontract.com": {
-		"id": 0,
-		"url": "chainlinksmartcontract.com",
-		"category": "Phishing"
-	},
-	"bitflyerjp.com": {
-		"id": 0,
-		"url": "bitflyerjp.com",
-		"category": "Phishing"
-	},
-	"elite888-ico.com": {
-		"id": 0,
-		"url": "elite888-ico.com",
-		"category": "Phishing"
-	},
-	"walton-chain.org": {
-		"id": 0,
-		"url": "walton-chain.org",
-		"category": "Phishing"
-	},
-	"omisegoairdrop.net": {
-		"id": 0,
-		"url": "omisegoairdrop.net",
-		"category": "Phishing"
-	},
-	"golemairdrop.com": {
-		"id": 0,
-		"url": "golemairdrop.com",
-		"category": "Phishing"
-	},
-	"myetherwailetclient.com": {
-		"id": 0,
-		"url": "myetherwailetclient.com",
-		"category": "Phishing"
-	},
-	"quantstamp-ico.com": {
-		"id": 0,
-		"url": "quantstamp-ico.com",
-		"category": "Phishing"
-	},
-	"metalpayme.com": {
-		"id": 0,
-		"url": "metalpayme.com",
-		"category": "Phishing"
-	},
-	"raiden-network.com": {
-		"id": 0,
-		"url": "raiden-network.com",
-		"category": "Phishing"
-	},
-	"qauntstamp.com": {
-		"id": 0,
-		"url": "qauntstamp.com",
-		"category": "Phishing"
-	},
-	"simpletoken.live": {
-		"id": 0,
-		"url": "simpletoken.live",
-		"category": "Phishing"
-	},
-	"powerledgr.com": {
-		"id": 0,
-		"url": "powerledgr.com",
-		"category": "Phishing"
-	},
-	"spectre-ai.org": {
-		"id": 0,
-		"url": "spectre-ai.org",
-		"category": "Phishing"
-	},
-	"datum.sale": {
-		"id": 0,
-		"url": "datum.sale",
-		"category": "Phishing"
-	},
-	"myetherwalletfork.com": {
-		"id": 0,
-		"url": "myetherwalletfork.com",
-		"category": "Phishing"
-	},
-	"xn--zero-zxb.com": {
-		"id": 0,
-		"url": "xn--zero-zxb.com",
-		"category": "Phishing"
-	},
-	"t-zero.org": {
-		"id": 0,
-		"url": "t-zero.org",
-		"category": "Phishing"
-	},
-	"autcus.org": {
-		"id": 0,
-		"url": "autcus.org",
-		"category": "Phishing"
-	},
-	"bittrex.com11648724328774.cf": {
-		"id": 0,
-		"url": "bittrex.com11648724328774.cf",
-		"category": "Phishing"
-	},
-	"dmarket.pro": {
-		"id": 0,
-		"url": "dmarket.pro",
-		"category": "Phishing"
-	},
-	"xn--waxtokn-y8a.com": {
-		"id": 0,
-		"url": "xn--waxtokn-y8a.com",
-		"category": "Phishing"
-	},
-	"spectre-ai.net": {
-		"id": 0,
-		"url": "spectre-ai.net",
-		"category": "Phishing"
-	},
-	"tzero.pw": {
-		"id": 0,
-		"url": "tzero.pw",
-		"category": "Phishing"
-	},
-	"spectre.site": {
-		"id": 0,
-		"url": "spectre.site",
-		"category": "Phishing"
-	},
-	"ico-tzero.com": {
-		"id": 0,
-		"url": "ico-tzero.com",
-		"category": "Phishing"
-	},
-	"blockstack.network": {
-		"id": 0,
-		"url": "blockstack.network",
-		"category": "Phishing"
-	},
-	"tzero.website": {
-		"id": 0,
-		"url": "tzero.website",
-		"category": "Phishing"
-	},
-	"tzero.su": {
-		"id": 0,
-		"url": "tzero.su",
-		"category": "Phishing"
-	},
-	"tzero-ico.com": {
-		"id": 0,
-		"url": "tzero-ico.com",
-		"category": "Phishing"
-	},
-	"xn--metherwalet-ns8ez1g.com": {
-		"id": 0,
-		"url": "xn--metherwalet-ns8ez1g.com",
 		"category": "Phishing"
 	},
 	"0-ico.com": {
@@ -12254,424 +16549,9 @@ const badList = {
 		"url": "0-ico.com",
 		"category": "Phishing"
 	},
-	"bittrex.one": {
-		"id": 0,
-		"url": "bittrex.one",
-		"category": "Phishing"
-	},
-	"urtust.io": {
-		"id": 0,
-		"url": "urtust.io",
-		"category": "Phishing"
-	},
-	"blockstack.one": {
-		"id": 0,
-		"url": "blockstack.one",
-		"category": "Phishing"
-	},
-	"oracles-network.org": {
-		"id": 0,
-		"url": "oracles-network.org",
-		"category": "Phishing"
-	},
-	"shape-shift.io": {
-		"id": 0,
-		"url": "shape-shift.io",
-		"category": "Phishing"
-	},
-	"sirinlabs.website": {
-		"id": 0,
-		"url": "sirinlabs.website",
-		"category": "Phishing"
-	},
-	"oracls.network": {
-		"id": 0,
-		"url": "oracls.network",
-		"category": "Phishing"
-	},
-	"requestt.network": {
-		"id": 0,
-		"url": "requestt.network",
-		"category": "Phishing"
-	},
-	"xn--coinbas-pya.com": {
-		"id": 0,
-		"url": "xn--coinbas-pya.com",
-		"category": "Phishing"
-	},
-	"bitstannp.net": {
-		"id": 0,
-		"url": "bitstannp.net",
-		"category": "Phishing"
-	},
-	"envoin.org": {
-		"id": 0,
-		"url": "envoin.org",
-		"category": "Phishing"
-	},
-	"coinbasenews.co.uk": {
-		"id": 0,
-		"url": "coinbasenews.co.uk",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-hmb.com": {
-		"id": 0,
-		"url": "xn--metherwallet-hmb.com",
-		"category": "Phishing"
-	},
-	"shapeshlft.com": {
-		"id": 0,
-		"url": "shapeshlft.com",
-		"category": "Phishing"
-	},
-	"xn--changely-j59c.com": {
-		"id": 0,
-		"url": "xn--changely-j59c.com",
-		"category": "Phishing"
-	},
-	"quamtstamp.com": {
-		"id": 0,
-		"url": "quamtstamp.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwallet-4j5f.com": {
-		"id": 0,
-		"url": "xn--myeherwallet-4j5f.com",
-		"category": "Phishing"
-	},
-	"powerledgerr.com": {
-		"id": 0,
-		"url": "powerledgerr.com",
-		"category": "Phishing"
-	},
-	"ethereumstorage.net": {
-		"id": 0,
-		"url": "ethereumstorage.net",
-		"category": "Phishing"
-	},
-	"gladius.im": {
-		"id": 0,
-		"url": "gladius.im",
-		"category": "Phishing"
-	},
-	"wabitoken.com": {
-		"id": 0,
-		"url": "wabitoken.com",
-		"category": "Phishing"
-	},
-	"tokensale.gizer.in": {
-		"id": 0,
-		"url": "tokensale.gizer.in",
-		"category": "Phishing"
-	},
-	"quanttstamp.com": {
-		"id": 0,
-		"url": "quanttstamp.com",
-		"category": "Phishing"
-	},
-	"t0zero.com": {
-		"id": 0,
-		"url": "t0zero.com",
-		"category": "Phishing"
-	},
-	"ico-wacoin.com": {
-		"id": 0,
-		"url": "ico-wacoin.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwalet-nl8enj.com": {
-		"id": 0,
-		"url": "xn--myeterwalet-nl8enj.com",
-		"category": "Phishing"
-	},
-	"nnyetherwallelt.ru.com": {
-		"id": 0,
-		"url": "nnyetherwallelt.ru.com",
-		"category": "Phishing"
-	},
-	"bitclaive.com": {
-		"id": 0,
-		"url": "bitclaive.com",
-		"category": "Phishing"
-	},
-	"qauntstanp.com": {
-		"id": 0,
-		"url": "qauntstanp.com",
-		"category": "Phishing"
-	},
-	"gladius.ws": {
-		"id": 0,
-		"url": "gladius.ws",
-		"category": "Phishing"
-	},
-	"myerherwalet.com": {
-		"id": 0,
-		"url": "myerherwalet.com",
-		"category": "Phishing"
-	},
-	"xn--cointeegraph-wz4f.com": {
-		"id": 0,
-		"url": "xn--cointeegraph-wz4f.com",
-		"category": "Phishing"
-	},
-	"powerrledger.com": {
-		"id": 0,
-		"url": "powerrledger.com",
-		"category": "Phishing"
-	},
-	"xn--btrex-b4a.com": {
-		"id": 0,
-		"url": "xn--btrex-b4a.com",
-		"category": "Phishing"
-	},
-	"myethlerwallet.eu": {
-		"id": 0,
-		"url": "myethlerwallet.eu",
-		"category": "Phishing"
-	},
-	"xn--myethrwllet-2kb3p.com": {
-		"id": 0,
-		"url": "xn--myethrwllet-2kb3p.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallt-79a30a.com": {
-		"id": 0,
-		"url": "xn--metherwallt-79a30a.com",
-		"category": "Phishing"
-	},
-	"raiden-network.org": {
-		"id": 0,
-		"url": "raiden-network.org",
-		"category": "Phishing"
-	},
-	"xn--birex-leba.com": {
-		"id": 0,
-		"url": "xn--birex-leba.com",
-		"category": "Phishing"
-	},
-	"xn--polonex-ffb.com": {
-		"id": 0,
-		"url": "xn--polonex-ffb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-39b.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-39b.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalle-vici.com": {
-		"id": 0,
-		"url": "xn--myeherwalle-vici.com",
-		"category": "Phishing"
-	},
-	"tokensale.gamefllp.com": {
-		"id": 0,
-		"url": "tokensale.gamefllp.com",
-		"category": "Phishing"
-	},
-	"qlink-ico.com": {
-		"id": 0,
-		"url": "qlink-ico.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalet-ms8eyy.com": {
-		"id": 0,
-		"url": "xn--myeherwalet-ms8eyy.com",
-		"category": "Phishing"
-	},
-	"powrrledger.com": {
-		"id": 0,
-		"url": "powrrledger.com",
-		"category": "Phishing"
-	},
-	"mobus.network": {
-		"id": 0,
-		"url": "mobus.network",
-		"category": "Phishing"
-	},
-	"hellobloom.me": {
-		"id": 0,
-		"url": "hellobloom.me",
-		"category": "Phishing"
-	},
-	"superbitcoin-blockchain.info": {
-		"id": 0,
-		"url": "superbitcoin-blockchain.info",
-		"category": "Phishing"
-	},
-	"powrerledger.com": {
-		"id": 0,
-		"url": "powrerledger.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwalet-nl8emj.com": {
-		"id": 0,
-		"url": "xn--myeterwalet-nl8emj.com",
-		"category": "Phishing"
-	},
-	"sirinlabs.pro": {
-		"id": 0,
-		"url": "sirinlabs.pro",
-		"category": "Phishing"
-	},
-	"sirintabs.com": {
-		"id": 0,
-		"url": "sirintabs.com",
-		"category": "Phishing"
-	},
-	"propsproject.tech": {
-		"id": 0,
-		"url": "propsproject.tech",
-		"category": "Phishing"
-	},
-	"redpulsetoken.co": {
-		"id": 0,
-		"url": "redpulsetoken.co",
-		"category": "Phishing"
-	},
-	"xn--metherwalet-ns8ep4b.com": {
-		"id": 0,
-		"url": "xn--metherwalet-ns8ep4b.com",
-		"category": "Phishing"
-	},
-	"decentralland.org": {
-		"id": 0,
-		"url": "decentralland.org",
-		"category": "Phishing"
-	},
-	"propsprojects.com": {
-		"id": 0,
-		"url": "propsprojects.com",
-		"category": "Phishing"
-	},
-	"propsproject.org": {
-		"id": 0,
-		"url": "propsproject.org",
-		"category": "Phishing"
-	},
-	"sirin-labs.com": {
-		"id": 0,
-		"url": "sirin-labs.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwllet-fnb.com": {
-		"id": 0,
-		"url": "xn--myetherwllet-fnb.com",
-		"category": "Phishing"
-	},
-	"sirinlabs.co": {
-		"id": 0,
-		"url": "sirinlabs.co",
-		"category": "Phishing"
-	},
-	"envlon.org": {
-		"id": 0,
-		"url": "envlon.org",
-		"category": "Phishing"
-	},
-	"sirnlabs.com": {
-		"id": 0,
-		"url": "sirnlabs.com",
-		"category": "Phishing"
-	},
-	"spectivvr.org": {
-		"id": 0,
-		"url": "spectivvr.org",
-		"category": "Phishing"
-	},
-	"xn--envon-1sa.org": {
-		"id": 0,
-		"url": "xn--envon-1sa.org",
-		"category": "Phishing"
-	},
-	"ethereumchain.info": {
-		"id": 0,
-		"url": "ethereumchain.info",
-		"category": "Phishing"
-	},
-	"xn--btstamp-rfb.net": {
-		"id": 0,
-		"url": "xn--btstamp-rfb.net",
-		"category": "Phishing"
-	},
-	"sirinlbs.com": {
-		"id": 0,
-		"url": "sirinlbs.com",
-		"category": "Phishing"
-	},
-	"envion.cc": {
-		"id": 0,
-		"url": "envion.cc",
-		"category": "Phishing"
-	},
-	"envion.site": {
-		"id": 0,
-		"url": "envion.site",
-		"category": "Phishing"
-	},
-	"envion.co": {
-		"id": 0,
-		"url": "envion.co",
-		"category": "Phishing"
-	},
 	"xn--plonex-6va6c.comt": {
 		"id": 2549,
 		"url": "xn--plonex-6va6c.comt",
-		"category": "Phishing"
-	},
-	"ethereum-code.com": {
-		"id": 0,
-		"url": "ethereum-code.com",
-		"category": "Phishing"
-	},
-	"changellyli.com": {
-		"id": 0,
-		"url": "changellyli.com",
-		"category": "Phishing"
-	},
-	"gatcoin.in": {
-		"id": 0,
-		"url": "gatcoin.in",
-		"category": "Phishing"
-	},
-	"xn--nvion-hza.org": {
-		"id": 0,
-		"url": "xn--nvion-hza.org",
-		"category": "Phishing"
-	},
-	"envion-ico.org": {
-		"id": 0,
-		"url": "envion-ico.org",
-		"category": "Phishing"
-	},
-	"paxful.com.ng": {
-		"id": 0,
-		"url": "paxful.com.ng",
-		"category": "Phishing"
-	},
-	"tronlab.co": {
-		"id": 0,
-		"url": "tronlab.co",
-		"category": "Phishing"
-	},
-	"envion.live": {
-		"id": 0,
-		"url": "envion.live",
-		"category": "Phishing"
-	},
-	"sirin-labs.org": {
-		"id": 0,
-		"url": "sirin-labs.org",
-		"category": "Phishing"
-	},
-	"sirinslabs.com": {
-		"id": 0,
-		"url": "sirinslabs.com",
-		"category": "Phishing"
-	},
-	"wabicoin.co": {
-		"id": 0,
-		"url": "wabicoin.co",
 		"category": "Phishing"
 	},
 	"ethtools.com": {
@@ -12679,314 +16559,9 @@ const badList = {
 		"url": "ethtools.com",
 		"category": "Phishing"
 	},
-	"canay.io": {
-		"id": 0,
-		"url": "canay.io",
-		"category": "Phishing"
-	},
-	"singularitynet.in": {
-		"id": 0,
-		"url": "singularitynet.in",
-		"category": "Phishing"
-	},
-	"kittystat.com": {
-		"id": 0,
-		"url": "kittystat.com",
-		"category": "Phishing"
-	},
-	"singularty.net": {
-		"id": 0,
-		"url": "singularty.net",
-		"category": "Phishing"
-	},
-	"iconfoundation.io": {
-		"id": 0,
-		"url": "iconfoundation.io",
-		"category": "Phishing"
-	},
-	"envion.top": {
-		"id": 0,
-		"url": "envion.top",
-		"category": "Phishing"
-	},
-	"envion.one": {
-		"id": 0,
-		"url": "envion.one",
-		"category": "Phishing"
-	},
-	"xn--yeterwallet-bm8ewn.com": {
-		"id": 0,
-		"url": "xn--yeterwallet-bm8ewn.com",
-		"category": "Phishing"
-	},
-	"myltherwallet.ru.com": {
-		"id": 0,
-		"url": "myltherwallet.ru.com",
-		"category": "Phishing"
-	},
-	"xn--yeterwallet-ml8euo.com": {
-		"id": 0,
-		"url": "xn--yeterwallet-ml8euo.com",
-		"category": "Phishing"
-	},
-	"ripiocreditnetwork.in": {
-		"id": 0,
-		"url": "ripiocreditnetwork.in",
-		"category": "Phishing"
-	},
-	"myetherwalletet.com": {
-		"id": 0,
-		"url": "myetherwalletet.com",
-		"category": "Phishing"
-	},
-	"envione.org": {
-		"id": 0,
-		"url": "envione.org",
-		"category": "Phishing"
-	},
-	"gatscoin.io": {
-		"id": 0,
-		"url": "gatscoin.io",
-		"category": "Phishing"
-	},
-	"xn--myetewallet-cm8e5y.com": {
-		"id": 0,
-		"url": "xn--myetewallet-cm8e5y.com",
-		"category": "Phishing"
-	},
-	"iconmainnet.ml": {
-		"id": 0,
-		"url": "iconmainnet.ml",
-		"category": "Phishing"
-	},
-	"mytlherwaliet.info": {
-		"id": 0,
-		"url": "mytlherwaliet.info",
-		"category": "Phishing"
-	},
-	"singularitynet.info": {
-		"id": 0,
-		"url": "singularitynet.info",
-		"category": "Phishing"
-	},
-	"tenxwallet.co": {
-		"id": 0,
-		"url": "tenxwallet.co",
-		"category": "Phishing"
-	},
-	"claimbcd.com": {
-		"id": 0,
-		"url": "claimbcd.com",
-		"category": "Phishing"
-	},
-	"xn--hapeshit-ez9c2y.com": {
-		"id": 0,
-		"url": "xn--hapeshit-ez9c2y.com",
-		"category": "Phishing"
-	},
-	"elherdelta.io": {
-		"id": 0,
-		"url": "elherdelta.io",
-		"category": "Phishing"
-	},
-	"blnance.org": {
-		"id": 0,
-		"url": "blnance.org",
-		"category": "Phishing"
-	},
-	"binancc.com": {
-		"id": 0,
-		"url": "binancc.com",
-		"category": "Phishing"
-	},
-	"mysimpletoken.org": {
-		"id": 0,
-		"url": "mysimpletoken.org",
-		"category": "Phishing"
-	},
-	"ethereum-giveaway.org": {
-		"id": 0,
-		"url": "ethereum-giveaway.org",
-		"category": "Phishing"
-	},
-	"etherdelta.pw": {
-		"id": 0,
-		"url": "etherdelta.pw",
-		"category": "Phishing"
-	},
-	"reqestnetwork.com": {
-		"id": 0,
-		"url": "reqestnetwork.com",
-		"category": "Phishing"
-	},
-	"props-project.com": {
-		"id": 0,
-		"url": "props-project.com",
-		"category": "Phishing"
-	},
-	"zilliaq.com": {
-		"id": 0,
-		"url": "zilliaq.com",
-		"category": "Phishing"
-	},
-	"wanchain.tech": {
-		"id": 0,
-		"url": "wanchain.tech",
-		"category": "Phishing"
-	},
 	"myetterrwallet.com": {
 		"id": 2593,
 		"url": "myetterrwallet.com",
-		"category": "Phishing"
-	},
-	"xn--inance-hrb.com": {
-		"id": 0,
-		"url": "xn--inance-hrb.com",
-		"category": "Phishing"
-	},
-	"cashaa.co": {
-		"id": 0,
-		"url": "cashaa.co",
-		"category": "Phishing"
-	},
-	"tokensale.bluzelle.promo": {
-		"id": 0,
-		"url": "tokensale.bluzelle.promo",
-		"category": "Phishing"
-	},
-	"cloudpetstore.com": {
-		"id": 0,
-		"url": "cloudpetstore.com",
-		"category": "Phishing"
-	},
-	"breadtokenapp.com": {
-		"id": 0,
-		"url": "breadtokenapp.com",
-		"category": "Phishing"
-	},
-	"funfairtoken.org": {
-		"id": 0,
-		"url": "funfairtoken.org",
-		"category": "Phishing"
-	},
-	"bittrex.com1987465798.ga": {
-		"id": 0,
-		"url": "bittrex.com1987465798.ga",
-		"category": "Phishing"
-	},
-	"0x-project.com": {
-		"id": 0,
-		"url": "0x-project.com",
-		"category": "Phishing"
-	},
-	"tronlab.tech": {
-		"id": 0,
-		"url": "tronlab.tech",
-		"category": "Phishing"
-	},
-	"nucleusico.com": {
-		"id": 0,
-		"url": "nucleusico.com",
-		"category": "Phishing"
-	},
-	"myehterumswallet.com": {
-		"id": 0,
-		"url": "myehterumswallet.com",
-		"category": "Phishing"
-	},
-	"xn--bittrx-th8b.com": {
-		"id": 0,
-		"url": "xn--bittrx-th8b.com",
-		"category": "Phishing"
-	},
-	"selfkeys.org": {
-		"id": 0,
-		"url": "selfkeys.org",
-		"category": "Phishing"
-	},
-	"tokenselfkey.org": {
-		"id": 0,
-		"url": "tokenselfkey.org",
-		"category": "Phishing"
-	},
-	"xn--polniex-n0a.com": {
-		"id": 0,
-		"url": "xn--polniex-n0a.com",
-		"category": "Phishing"
-	},
-	"myehvterwallet.com": {
-		"id": 0,
-		"url": "myehvterwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwalililet.info": {
-		"id": 0,
-		"url": "myetherwalililet.info",
-		"category": "Phishing"
-	},
-	"deepbrainchain.co": {
-		"id": 0,
-		"url": "deepbrainchain.co",
-		"category": "Phishing"
-	},
-	"venchain.org": {
-		"id": 0,
-		"url": "venchain.org",
-		"category": "Phishing"
-	},
-	"eos-token.org": {
-		"id": 0,
-		"url": "eos-token.org",
-		"category": "Phishing"
-	},
-	"dai-stablecoin.com": {
-		"id": 0,
-		"url": "dai-stablecoin.com",
-		"category": "Phishing"
-	},
-	"xn--os-g7s.com": {
-		"id": 0,
-		"url": "xn--os-g7s.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalet-ns8exy.com": {
-		"id": 0,
-		"url": "xn--myeherwalet-ns8exy.com",
-		"category": "Phishing"
-	},
-	"gifto.tech": {
-		"id": 0,
-		"url": "gifto.tech",
-		"category": "Phishing"
-	},
-	"bluzelle.site": {
-		"id": 0,
-		"url": "bluzelle.site",
-		"category": "Phishing"
-	},
-	"bluzelle.eu": {
-		"id": 0,
-		"url": "bluzelle.eu",
-		"category": "Phishing"
-	},
-	"xn--ttrex-ysa9423c.com": {
-		"id": 0,
-		"url": "xn--ttrex-ysa9423c.com",
-		"category": "Phishing"
-	},
-	"sether.in": {
-		"id": 0,
-		"url": "sether.in",
-		"category": "Phishing"
-	},
-	"xn--etherdlta-0f7d.com": {
-		"id": 0,
-		"url": "xn--etherdlta-0f7d.com",
-		"category": "Phishing"
-	},
-	"bluzelle.pro": {
-		"id": 0,
-		"url": "bluzelle.pro",
 		"category": "Phishing"
 	},
 	"etherzero.org": {
@@ -12994,899 +16569,9 @@ const badList = {
 		"url": "etherzero.org",
 		"category": "Scam"
 	},
-	"selfkey.co": {
-		"id": 0,
-		"url": "selfkey.co",
-		"category": "Phishing"
-	},
-	"token-selfkey.org": {
-		"id": 0,
-		"url": "token-selfkey.org",
-		"category": "Phishing"
-	},
-	"gatcoins.io": {
-		"id": 0,
-		"url": "gatcoins.io",
-		"category": "Phishing"
-	},
-	"ethzero-wallet.org": {
-		"id": 0,
-		"url": "ethzero-wallet.org",
-		"category": "Phishing"
-	},
-	"digitexftures.com": {
-		"id": 0,
-		"url": "digitexftures.com",
-		"category": "Phishing"
-	},
-	"thekey-vip.com": {
-		"id": 0,
-		"url": "thekey-vip.com",
-		"category": "Phishing"
-	},
-	"thekey.vin": {
-		"id": 0,
-		"url": "thekey.vin",
-		"category": "Phishing"
-	},
-	"icoselfkey.org": {
-		"id": 0,
-		"url": "icoselfkey.org",
-		"category": "Phishing"
-	},
-	"etherzeroclaim.com": {
-		"id": 0,
-		"url": "etherzeroclaim.com",
-		"category": "Phishing"
-	},
-	"waltontoken.org": {
-		"id": 0,
-		"url": "waltontoken.org",
-		"category": "Phishing"
-	},
-	"ethpaperwallet.net": {
-		"id": 0,
-		"url": "ethpaperwallet.net",
-		"category": "Phishing"
-	},
-	"ethblender.com": {
-		"id": 0,
-		"url": "ethblender.com",
-		"category": "Phishing"
-	},
-	"bluzelle.cc": {
-		"id": 0,
-		"url": "bluzelle.cc",
-		"category": "Phishing"
-	},
-	"tronlabs.network": {
-		"id": 0,
-		"url": "tronlabs.network",
-		"category": "Phishing"
-	},
-	"tronlab.site": {
-		"id": 0,
-		"url": "tronlab.site",
-		"category": "Phishing"
-	},
-	"vechain.foundation": {
-		"id": 0,
-		"url": "vechain.foundation",
-		"category": "Phishing"
-	},
-	"appcoinsproject.com": {
-		"id": 0,
-		"url": "appcoinsproject.com",
-		"category": "Phishing"
-	},
-	"xn--coinelegraph-wk5f.com": {
-		"id": 0,
-		"url": "xn--coinelegraph-wk5f.com",
-		"category": "Phishing"
-	},
-	"tron-wallet.info": {
-		"id": 0,
-		"url": "tron-wallet.info",
-		"category": "Phishing"
-	},
-	"ether-wallet.org": {
-		"id": 0,
-		"url": "ether-wallet.org",
-		"category": "Phishing"
-	},
-	"bluzelle.network": {
-		"id": 0,
-		"url": "bluzelle.network",
-		"category": "Phishing"
-	},
-	"quanstamptoken.tk": {
-		"id": 0,
-		"url": "quanstamptoken.tk",
-		"category": "Phishing"
-	},
-	"ethereum-zero.com": {
-		"id": 0,
-		"url": "ethereum-zero.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.applytoken.tk": {
-		"id": 0,
-		"url": "myetherwallet.applytoken.tk",
-		"category": "Phishing"
-	},
-	"sether.ws": {
-		"id": 0,
-		"url": "sether.ws",
-		"category": "Phishing"
-	},
-	"bluzele.co": {
-		"id": 0,
-		"url": "bluzele.co",
-		"category": "Phishing"
-	},
-	"bluzele.sale": {
-		"id": 0,
-		"url": "bluzele.sale",
-		"category": "Phishing"
-	},
-	"bluzelle.one": {
-		"id": 0,
-		"url": "bluzelle.one",
-		"category": "Phishing"
-	},
-	"bluzelle.im": {
-		"id": 0,
-		"url": "bluzelle.im",
-		"category": "Phishing"
-	},
-	"ico-bluzelle.com": {
-		"id": 0,
-		"url": "ico-bluzelle.com",
-		"category": "Phishing"
-	},
-	"myeherwalllet.com": {
-		"id": 0,
-		"url": "myeherwalllet.com",
-		"category": "Phishing"
-	},
-	"myehntersvvailct.com": {
-		"id": 0,
-		"url": "myehntersvvailct.com",
-		"category": "Phishing"
-	},
-	"xn--quanstamp-8s6d.com": {
-		"id": 0,
-		"url": "xn--quanstamp-8s6d.com",
-		"category": "Phishing"
-	},
-	"appcoinstoken.org": {
-		"id": 0,
-		"url": "appcoinstoken.org",
-		"category": "Phishing"
-	},
 	"vechainfoundation.com": {
 		"id": 2659,
 		"url": "vechainfoundation.com",
-		"category": "Phishing"
-	},
-	"bleuzelle.com": {
-		"id": 0,
-		"url": "bleuzelle.com",
-		"category": "Phishing"
-	},
-	"bluzelle-ico.eu": {
-		"id": 0,
-		"url": "bluzelle-ico.eu",
-		"category": "Phishing"
-	},
-	"eterzero.org": {
-		"id": 0,
-		"url": "eterzero.org",
-		"category": "Phishing"
-	},
-	"ether0.org": {
-		"id": 0,
-		"url": "ether0.org",
-		"category": "Phishing"
-	},
-	"telcointoken.com": {
-		"id": 0,
-		"url": "telcointoken.com",
-		"category": "Phishing"
-	},
-	"nastoken.org": {
-		"id": 0,
-		"url": "nastoken.org",
-		"category": "Phishing"
-	},
-	"ins.foundation": {
-		"id": 0,
-		"url": "ins.foundation",
-		"category": "Phishing"
-	},
-	"zeepln.io": {
-		"id": 0,
-		"url": "zeepln.io",
-		"category": "Phishing"
-	},
-	"ether-zero.net": {
-		"id": 0,
-		"url": "ether-zero.net",
-		"category": "Phishing"
-	},
-	"myenhtersvvailot.com": {
-		"id": 0,
-		"url": "myenhtersvvailot.com",
-		"category": "Phishing"
-	},
-	"venchainfoundation.com": {
-		"id": 0,
-		"url": "venchainfoundation.com",
-		"category": "Phishing"
-	},
-	"xn--metherwalle-jb9et7d.com": {
-		"id": 0,
-		"url": "xn--metherwalle-jb9et7d.com",
-		"category": "Phishing"
-	},
-	"xn--coinesk-jo3c.com": {
-		"id": 0,
-		"url": "xn--coinesk-jo3c.com",
-		"category": "Phishing"
-	},
-	"ethzero-wallet.com": {
-		"id": 0,
-		"url": "ethzero-wallet.com",
-		"category": "Phishing"
-	},
-	"bluzelle-ico.com": {
-		"id": 0,
-		"url": "bluzelle-ico.com",
-		"category": "Phishing"
-	},
-	"wanchain.cloud": {
-		"id": 0,
-		"url": "wanchain.cloud",
-		"category": "Phishing"
-	},
-	"intchain.network": {
-		"id": 0,
-		"url": "intchain.network",
-		"category": "Phishing"
-	},
-	"nucleus-vision.eu": {
-		"id": 0,
-		"url": "nucleus-vision.eu",
-		"category": "Phishing"
-	},
-	"wepowers.network": {
-		"id": 0,
-		"url": "wepowers.network",
-		"category": "Phishing"
-	},
-	"wepower.vision": {
-		"id": 0,
-		"url": "wepower.vision",
-		"category": "Phishing"
-	},
-	"tongramico.com": {
-		"id": 0,
-		"url": "tongramico.com",
-		"category": "Phishing"
-	},
-	"iexecplatform.com": {
-		"id": 0,
-		"url": "iexecplatform.com",
-		"category": "Phishing"
-	},
-	"xn--condesk-0ya.com": {
-		"id": 0,
-		"url": "xn--condesk-0ya.com",
-		"category": "Phishing"
-	},
-	"xn--condesk-sfb.com": {
-		"id": 0,
-		"url": "xn--condesk-sfb.com",
-		"category": "Phishing"
-	},
-	"xn--coindsk-vs4c.com": {
-		"id": 0,
-		"url": "xn--coindsk-vs4c.com",
-		"category": "Phishing"
-	},
-	"etlherdelta.com": {
-		"id": 0,
-		"url": "etlherdelta.com",
-		"category": "Phishing"
-	},
-	"etlherzero.com": {
-		"id": 0,
-		"url": "etlherzero.com",
-		"category": "Phishing"
-	},
-	"omisegonetwork.site": {
-		"id": 0,
-		"url": "omisegonetwork.site",
-		"category": "Phishing"
-	},
-	"nucleus-vision.org": {
-		"id": 0,
-		"url": "nucleus-vision.org",
-		"category": "Phishing"
-	},
-	"bluzelie.com": {
-		"id": 0,
-		"url": "bluzelie.com",
-		"category": "Phishing"
-	},
-	"wwwbluzelle.com": {
-		"id": 0,
-		"url": "wwwbluzelle.com",
-		"category": "Phishing"
-	},
-	"xn--bnance-bwa.com": {
-		"id": 0,
-		"url": "xn--bnance-bwa.com",
-		"category": "Phishing"
-	},
-	"xn--bttrx-esay.com": {
-		"id": 0,
-		"url": "xn--bttrx-esay.com",
-		"category": "Phishing"
-	},
-	"xn--bttrex-w8a.com": {
-		"id": 0,
-		"url": "xn--bttrex-w8a.com",
-		"category": "Phishing"
-	},
-	"pundix.eu": {
-		"id": 0,
-		"url": "pundix.eu",
-		"category": "Phishing"
-	},
-	"iluminatto.com.br": {
-		"id": 0,
-		"url": "iluminatto.com.br",
-		"category": "Phishing"
-	},
-	"paywithlnk.com": {
-		"id": 0,
-		"url": "paywithlnk.com",
-		"category": "Phishing"
-	},
-	"paywithnk.com": {
-		"id": 0,
-		"url": "paywithnk.com",
-		"category": "Phishing"
-	},
-	"coniomi.com": {
-		"id": 0,
-		"url": "coniomi.com",
-		"category": "Phishing"
-	},
-	"ton-gramico.com": {
-		"id": 0,
-		"url": "ton-gramico.com",
-		"category": "Phishing"
-	},
-	"grampreico.com": {
-		"id": 0,
-		"url": "grampreico.com",
-		"category": "Phishing"
-	},
-	"tgram.cc": {
-		"id": 0,
-		"url": "tgram.cc",
-		"category": "Phishing"
-	},
-	"venchain.foundation": {
-		"id": 0,
-		"url": "venchain.foundation",
-		"category": "Phishing"
-	},
-	"login-kucoin.net": {
-		"id": 0,
-		"url": "login-kucoin.net",
-		"category": "Phishing"
-	},
-	"www-gemini.com": {
-		"id": 0,
-		"url": "www-gemini.com",
-		"category": "Phishing"
-	},
-	"dimnsions.network": {
-		"id": 0,
-		"url": "dimnsions.network",
-		"category": "Phishing"
-	},
-	"gramico.info": {
-		"id": 0,
-		"url": "gramico.info",
-		"category": "Phishing"
-	},
-	"xn--polniex-ex4c.com": {
-		"id": 0,
-		"url": "xn--polniex-ex4c.com",
-		"category": "Phishing"
-	},
-	"xn--polniex-s1a.com": {
-		"id": 0,
-		"url": "xn--polniex-s1a.com",
-		"category": "Phishing"
-	},
-	"xn--polonex-ieb.com": {
-		"id": 0,
-		"url": "xn--polonex-ieb.com",
-		"category": "Phishing"
-	},
-	"xn--polonex-sza.com": {
-		"id": 0,
-		"url": "xn--polonex-sza.com",
-		"category": "Phishing"
-	},
-	"xn--polonex-zw4c.com": {
-		"id": 0,
-		"url": "xn--polonex-zw4c.com",
-		"category": "Phishing"
-	},
-	"xn--polonix-ws4c.com": {
-		"id": 0,
-		"url": "xn--polonix-ws4c.com",
-		"category": "Phishing"
-	},
-	"xn--polonix-y8a.com": {
-		"id": 0,
-		"url": "xn--polonix-y8a.com",
-		"category": "Phishing"
-	},
-	"xn--pooniex-ojb.com": {
-		"id": 0,
-		"url": "xn--pooniex-ojb.com",
-		"category": "Phishing"
-	},
-	"wanchainfoundation.org": {
-		"id": 0,
-		"url": "wanchainfoundation.org",
-		"category": "Phishing"
-	},
-	"cobin-hood.com": {
-		"id": 0,
-		"url": "cobin-hood.com",
-		"category": "Phishing"
-	},
-	"myenhterswailct.com": {
-		"id": 0,
-		"url": "myenhterswailct.com",
-		"category": "Phishing"
-	},
-	"nucleuss.vision": {
-		"id": 0,
-		"url": "nucleuss.vision",
-		"category": "Phishing"
-	},
-	"nucleus-vision.net": {
-		"id": 0,
-		"url": "nucleus-vision.net",
-		"category": "Phishing"
-	},
-	"ledgerwallet.by": {
-		"id": 0,
-		"url": "ledgerwallet.by",
-		"category": "Phishing"
-	},
-	"wanchainalliance.org": {
-		"id": 0,
-		"url": "wanchainalliance.org",
-		"category": "Phishing"
-	},
-	"wanchainltd.org": {
-		"id": 0,
-		"url": "wanchainltd.org",
-		"category": "Phishing"
-	},
-	"wanchainetwork.org": {
-		"id": 0,
-		"url": "wanchainetwork.org",
-		"category": "Phishing"
-	},
-	"cindicator.network": {
-		"id": 0,
-		"url": "cindicator.network",
-		"category": "Phishing"
-	},
-	"beetoken-ico.eu": {
-		"id": 0,
-		"url": "beetoken-ico.eu",
-		"category": "Phishing"
-	},
-	"iost.co": {
-		"id": 0,
-		"url": "iost.co",
-		"category": "Phishing"
-	},
-	"iconfoundation.site": {
-		"id": 0,
-		"url": "iconfoundation.site",
-		"category": "Phishing"
-	},
-	"ico-telegram.io": {
-		"id": 0,
-		"url": "ico-telegram.io",
-		"category": "Phishing"
-	},
-	"wanchainfunding.org": {
-		"id": 0,
-		"url": "wanchainfunding.org",
-		"category": "Phishing"
-	},
-	"dadi-cloud.net": {
-		"id": 0,
-		"url": "dadi-cloud.net",
-		"category": "Phishing"
-	},
-	"blockarray.org": {
-		"id": 0,
-		"url": "blockarray.org",
-		"category": "Phishing"
-	},
-	"daditoken.com": {
-		"id": 0,
-		"url": "daditoken.com",
-		"category": "Phishing"
-	},
-	"daddi.cloud": {
-		"id": 0,
-		"url": "daddi.cloud",
-		"category": "Phishing"
-	},
-	"telegramcoin.us": {
-		"id": 0,
-		"url": "telegramcoin.us",
-		"category": "Phishing"
-	},
-	"nyeihitervvallat.com": {
-		"id": 0,
-		"url": "nyeihitervvallat.com",
-		"category": "Phishing"
-	},
-	"ico-telegram.org": {
-		"id": 0,
-		"url": "ico-telegram.org",
-		"category": "Phishing"
-	},
-	"aionfoundation.com": {
-		"id": 0,
-		"url": "aionfoundation.com",
-		"category": "Phishing"
-	},
-	"ocoin.tech": {
-		"id": 0,
-		"url": "ocoin.tech",
-		"category": "Phishing"
-	},
-	"tron-labs.com": {
-		"id": 0,
-		"url": "tron-labs.com",
-		"category": "Phishing"
-	},
-	"data-token.com": {
-		"id": 0,
-		"url": "data-token.com",
-		"category": "Phishing"
-	},
-	"beetoken-ico.com": {
-		"id": 0,
-		"url": "beetoken-ico.com",
-		"category": "Phishing"
-	},
-	"nucleus.foundation": {
-		"id": 0,
-		"url": "nucleus.foundation",
-		"category": "Phishing"
-	},
-	"xn--myeterwalet-cm8eoi.com": {
-		"id": 0,
-		"url": "xn--myeterwalet-cm8eoi.com",
-		"category": "Phishing"
-	},
-	"nyeihitervvallet.com": {
-		"id": 0,
-		"url": "nyeihitervvallet.com",
-		"category": "Phishing"
-	},
-	"kodakone.cc": {
-		"id": 0,
-		"url": "kodakone.cc",
-		"category": "Phishing"
-	},
-	"myetherwallet.uk.com": {
-		"id": 0,
-		"url": "myetherwallet.uk.com",
-		"category": "Phishing"
-	},
-	"wwwkodakcoin.com": {
-		"id": 2761,
-		"url": "wwwkodakcoin.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwalet-3qb08c.com": {
-		"id": 2762,
-		"url": "xn--mytherwalet-3qb08c.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwllet-cm8et1d.com": {
-		"id": 2763,
-		"url": "xn--myeterwllet-cm8et1d.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwllet-q7a01e.com": {
-		"id": 2764,
-		"url": "xn--mytherwllet-q7a01e.com",
-		"category": "Phishing"
-	},
-	"xn--biance-xt7b.com": {
-		"id": 2765,
-		"url": "xn--biance-xt7b.com",
-		"category": "Phishing"
-	},
-	"xn--bnance-wic.com": {
-		"id": 2766,
-		"url": "xn--bnance-wic.com",
-		"category": "Phishing"
-	},
-	"xn--biance-jeb.com": {
-		"id": 2767,
-		"url": "xn--biance-jeb.com",
-		"category": "Phishing"
-	},
-	"xn--bttrx-9za8334c.com": {
-		"id": 2768,
-		"url": "xn--bttrx-9za8334c.com",
-		"category": "Phishing"
-	},
-	"xn--myetherallet-nu5f.com": {
-		"id": 2769,
-		"url": "xn--myetherallet-nu5f.com",
-		"category": "Phishing"
-	},
-	"origintrail.in": {
-		"id": 2770,
-		"url": "origintrail.in",
-		"category": "Phishing"
-	},
-	"block.chaiins.in": {
-		"id": 2771,
-		"url": "block.chaiins.in",
-		"category": "Phishing"
-	},
-	"beetolen.com": {
-		"id": 2772,
-		"url": "beetolen.com",
-		"category": "Phishing"
-	},
-	"beetokem.com": {
-		"id": 2773,
-		"url": "beetokem.com",
-		"category": "Phishing"
-	},
-	"xn--shapshift-e4a.com": {
-		"id": 2774,
-		"url": "xn--shapshift-e4a.com",
-		"category": "Phishing"
-	},
-	"xn--shapshift-y4a.com": {
-		"id": 2775,
-		"url": "xn--shapshift-y4a.com",
-		"category": "Phishing"
-	},
-	"xn--shpeshift-c2a.com": {
-		"id": 2776,
-		"url": "xn--shpeshift-c2a.com",
-		"category": "Phishing"
-	},
-	"xn--shpeshift-r1a.com": {
-		"id": 2777,
-		"url": "xn--shpeshift-r1a.com",
-		"category": "Phishing"
-	},
-	"xn--shapshift-o4a.com": {
-		"id": 2778,
-		"url": "xn--shapshift-o4a.com",
-		"category": "Phishing"
-	},
-	"xn--shpeshift-w2a.com": {
-		"id": 2779,
-		"url": "xn--shpeshift-w2a.com",
-		"category": "Phishing"
-	},
-	"xn--shapeshft-w5a.com": {
-		"id": 2780,
-		"url": "xn--shapeshft-w5a.com",
-		"category": "Phishing"
-	},
-	"token-gram.org": {
-		"id": 2781,
-		"url": "token-gram.org",
-		"category": "Phishing"
-	},
-	"myetherwallet.import-tokens.com": {
-		"id": 2782,
-		"url": "myetherwallet.import-tokens.com",
-		"category": "Phishing"
-	},
-	"sparc.pro": {
-		"id": 0,
-		"url": "sparc.pro",
-		"category": "Phishing"
-	},
-	"trinity-token.com": {
-		"id": 2785,
-		"url": "trinity-token.com",
-		"category": "Phishing"
-	},
-	"xn--eo-yzs.com": {
-		"id": 2786,
-		"url": "xn--eo-yzs.com",
-		"category": "Phishing"
-	},
-	"zilliqa.in": {
-		"id": 2787,
-		"url": "zilliqa.in",
-		"category": "Phishing"
-	},
-	"myenhtersvvailct.com": {
-		"id": 2788,
-		"url": "myenhtersvvailct.com",
-		"category": "Phishing"
-	},
-	"myeahteirwaliet.com": {
-		"id": 2789,
-		"url": "myeahteirwaliet.com",
-		"category": "Phishing"
-	},
-	"medicalchian.com": {
-		"id": 2790,
-		"url": "medicalchian.com",
-		"category": "Phishing"
-	},
-	"fusion-ico.com": {
-		"id": 2791,
-		"url": "fusion-ico.com",
-		"category": "Phishing"
-	},
-	"myetherwalletjoin.com": {
-		"id": 2792,
-		"url": "myetherwalletjoin.com",
-		"category": "Phishing"
-	},
-	"republicprotocol.eu": {
-		"id": 2793,
-		"url": "republicprotocol.eu",
-		"category": "Phishing"
-	},
-	"arcblock.eu": {
-		"id": 2794,
-		"url": "arcblock.eu",
-		"category": "Phishing"
-	},
-	"nyeihitervvallatt.com": {
-		"id": 2795,
-		"url": "nyeihitervvallatt.com",
-		"category": "Phishing"
-	},
-	"republic-protocol.net": {
-		"id": 2796,
-		"url": "republic-protocol.net",
-		"category": "Phishing"
-	},
-	"rnyetherumwallet.com": {
-		"id": 2797,
-		"url": "rnyetherumwallet.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwallt-cbbv.com": {
-		"id": 2798,
-		"url": "xn--mytherwallt-cbbv.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwalle-cm8ev6a.com": {
-		"id": 2800,
-		"url": "xn--myeterwalle-cm8ev6a.com",
-		"category": "Phishing"
-	},
-	"xn--myeterwalet-cm8epi.com": {
-		"id": 2801,
-		"url": "xn--myeterwalet-cm8epi.com",
-		"category": "Phishing"
-	},
-	"xn--myeerhwallot-ooc.com": {
-		"id": 2802,
-		"url": "xn--myeerhwallot-ooc.com",
-		"category": "Phishing"
-	},
-	"data-wallet.co": {
-		"id": 2803,
-		"url": "data-wallet.co",
-		"category": "Phishing"
-	},
-	"xmoneta.co": {
-		"id": 2804,
-		"url": "xmoneta.co",
-		"category": "Phishing"
-	},
-	"fintrux.co": {
-		"id": 2805,
-		"url": "fintrux.co",
-		"category": "Phishing"
-	},
-	"ico-ton.org": {
-		"id": 2805,
-		"url": "ico-ton.org",
-		"category": "Phishing"
-	},
-	"refereum-token.com": {
-		"id": 2806,
-		"url": "refereum-token.com",
-		"category": "Phishing"
-	},
-	"refereum-ico.eu": {
-		"id": 2807,
-		"url": "refereum-ico.eu",
-		"category": "Phishing"
-	},
-	"fintrux.eu": {
-		"id": 2808,
-		"url": "fintrux.eu",
-		"category": "Phishing"
-	},
-	"tokensale-fusion.org": {
-		"id": 2809,
-		"url": "tokensale-fusion.org",
-		"category": "Phishing"
-	},
-	"xn--fuson-1sa.org": {
-		"id": 2810,
-		"url": "xn--fuson-1sa.org",
-		"category": "Phishing"
-	},
-	"tokensale-fusion.com": {
-		"id": 2811,
-		"url": "tokensale-fusion.com",
-		"category": "Phishing"
-	},
-	"cryptoexploite.com": {
-		"id": 2812,
-		"url": "cryptoexploite.com",
-		"category": "Scam"
-	},
-	"decentral.market": {
-		"id": 2813,
-		"url": "decentral.market",
-		"category": "Phishing"
-	},
-	"adhive.net": {
-		"id": 2814,
-		"url": "adhive.net",
-		"category": "Phishing"
-	},
-	"trx.foundation": {
-		"id": 2815,
-		"url": "trx.foundation",
-		"category": "Phishing"
-	},
-	"fusion.tokencrowdsale.online": {
-		"id": 2816,
-		"url": "fusion.tokencrowdsale.online",
-		"category": "Phishing"
-	},
-	"originprotocol.io": {
-		"id": 2817,
-		"url": "originprotocol.io",
-		"category": "Phishing"
-	},
-	"bankera.live": {
-		"id": 2818,
-		"url": "bankera.live",
 		"category": "Phishing"
 	},
 	"globitexico.online": {
@@ -13894,444 +16579,9 @@ const badList = {
 		"url": "globitexico.online",
 		"category": "Phishing"
 	},
-	"nucleus-vision.cc": {
-		"id": 2831,
-		"url": "nucleus-vision.cc",
-		"category": "Phishing"
-	},
-	"sale-earn.com": {
-		"id": 2821,
-		"url": "sale-earn.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.custom-token.com": {
-		"id": 2822,
-		"url": "myetherwallet.custom-token.com",
-		"category": "Phishing"
-	},
-	"xn--yethewalle-to2exkhi.com": {
-		"id": 2823,
-		"url": "xn--yethewalle-to2exkhi.com",
-		"category": "Phishing"
-	},
-	"nyeitthervvallet.com": {
-		"id": 2824,
-		"url": "nyeitthervvallet.com",
-		"category": "Phishing"
-	},
-	"xn--myeerhwailet-ooc.com": {
-		"id": 2825,
-		"url": "xn--myeerhwailet-ooc.com",
-		"category": "Phishing"
-	},
-	"myeterhwaliot.com": {
-		"id": 2826,
-		"url": "myeterhwaliot.com",
-		"category": "Phishing"
-	},
-	"ethexploit.org": {
-		"id": 2827,
-		"url": "ethexploit.org",
-		"category": "Scam"
-	},
-	"dock.promo": {
-		"id": 2852,
-		"url": "dock.promo",
-		"category": "Phishing"
-	},
-	"dock.so": {
-		"id": 2849,
-		"url": "dock.so",
-		"category": "Phishing"
-	},
-	"jibreltoken.in": {
-		"id": 2830,
-		"url": "jibreltoken.in",
-		"category": "Phishing"
-	},
-	"gonetwork.eu": {
-		"id": 2832,
-		"url": "gonetwork.eu",
-		"category": "Phishing"
-	},
-	"token.gonetwork.pro": {
-		"id": 2833,
-		"url": "token.gonetwork.pro",
-		"category": "Phishing"
-	},
-	"gonetwork.live": {
-		"id": 2834,
-		"url": "gonetwork.live",
-		"category": "Phishing"
-	},
-	"remme-ico.eu": {
-		"id": 2835,
-		"url": "remme-ico.eu",
-		"category": "Phishing"
-	},
-	"xn--myetherwale-os8e7x.com": {
-		"id": 2836,
-		"url": "xn--myetherwale-os8e7x.com",
-		"category": "Phishing"
-	},
-	"fundrequest.info": {
-		"id": 2837,
-		"url": "fundrequest.info",
-		"category": "Phishing"
-	},
-	"iconfoundation.co": {
-		"id": 2838,
-		"url": "iconfoundation.co",
-		"category": "Phishing"
-	},
-	"xn--myetheralle-7b9ezl.com": {
-		"id": 2839,
-		"url": "xn--myetheralle-7b9ezl.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwalle-jb9e19a.com": {
-		"id": 2840,
-		"url": "xn--myethrwalle-jb9e19a.com",
-		"category": "Phishing"
-	},
-	"icotoken-current.top": {
-		"id": 2841,
-		"url": "icotoken-current.top",
-		"category": "Phishing"
-	},
-	"remme.live": {
-		"id": 2842,
-		"url": "remme.live",
-		"category": "Phishing"
-	},
-	"vechain-foundation.com": {
-		"id": 2843,
-		"url": "vechain-foundation.com",
-		"category": "Phishing"
-	},
-	"nebulastoken.in": {
-		"id": 2844,
-		"url": "nebulastoken.in",
-		"category": "Phishing"
-	},
-	"waxtoken.in": {
-		"id": 2845,
-		"url": "waxtoken.in",
-		"category": "Phishing"
-	},
-	"rightmesh.in": {
-		"id": 2846,
-		"url": "rightmesh.in",
-		"category": "Phishing"
-	},
-	"openplatform.tech": {
-		"id": 2847,
-		"url": "openplatform.tech",
-		"category": "Phishing"
-	},
-	"metamaskgiveaway.xyz": {
-		"id": 2848,
-		"url": "metamaskgiveaway.xyz",
-		"category": "Phishing"
-	},
-	"dock-ico.site": {
-		"id": 2850,
-		"url": "dock-ico.site",
-		"category": "Phishing"
-	},
-	"tokensale-dock.io": {
-		"id": 2851,
-		"url": "tokensale-dock.io",
-		"category": "Phishing"
-	},
-	"dock.su": {
-		"id": 2853,
-		"url": "dock.su",
-		"category": "Phishing"
-	},
-	"dock-ico.eu": {
-		"id": 2854,
-		"url": "dock-ico.eu",
-		"category": "Phishing"
-	},
-	"dock-ico.pro": {
-		"id": 2855,
-		"url": "dock-ico.pro",
-		"category": "Phishing"
-	},
-	"docks.site": {
-		"id": 2856,
-		"url": "docks.site",
-		"category": "Phishing"
-	},
-	"dock.io-bonus.online": {
-		"id": 2857,
-		"url": "dock.io-bonus.online",
-		"category": "Phishing"
-	},
-	"ico-dock.org": {
-		"id": 2858,
-		"url": "ico-dock.org",
-		"category": "Phishing"
-	},
-	"xn--es-8bb.com": {
-		"id": 2859,
-		"url": "xn--es-8bb.com",
-		"category": "Phishing"
-	},
-	"xn--myetherallt-pl9elw.com": {
-		"id": 2860,
-		"url": "xn--myetherallt-pl9elw.com",
-		"category": "Phishing"
-	},
-	"telcoin.pro": {
-		"id": 2861,
-		"url": "telcoin.pro",
-		"category": "Phishing"
-	},
-	"finetrux.com": {
-		"id": 2862,
-		"url": "finetrux.com",
-		"category": "Phishing"
-	},
-	"fin-trux.com": {
-		"id": 2863,
-		"url": "fin-trux.com",
-		"category": "Phishing"
-	},
-	"myeithereiuwallet.com": {
-		"id": 2864,
-		"url": "myeithereiuwallet.com",
-		"category": "Phishing"
-	},
-	"myetlherewallet.org": {
-		"id": 2865,
-		"url": "myetlherewallet.org",
-		"category": "Phishing"
-	},
-	"xn--polonx-0va26t.com": {
-		"id": 2866,
-		"url": "xn--polonx-0va26t.com",
-		"category": "Phishing"
-	},
-	"jiocoins.io": {
-		"id": 2867,
-		"url": "jiocoins.io",
-		"category": "Scam"
-	},
-	"seele.promo": {
-		"id": 0,
-		"url": "seele.promo",
-		"category": "Phishing"
-	},
-	"seele-ico.eu": {
-		"id": 0,
-		"url": "seele-ico.eu",
-		"category": "Phishing"
-	},
-	"seele-ico.pro": {
-		"id": 0,
-		"url": "seele-ico.pro",
-		"category": "Phishing"
-	},
-	"xn--binnce-5nf.com": {
-		"id": 2871,
-		"url": "xn--binnce-5nf.com",
-		"category": "Phishing"
-	},
-	"xn--biace-4l1bb.com": {
-		"id": 2872,
-		"url": "xn--biace-4l1bb.com",
-		"category": "Phishing"
-	},
-	"syncfab.tech": {
-		"id": 0,
-		"url": "syncfab.tech",
-		"category": "Phishing"
-	},
-	"forkdeita.github.io": {
-		"id": 2874,
-		"url": "forkdeita.github.io",
-		"category": "Phishing"
-	},
-	"ton.fund": {
-		"id": 2875,
-		"url": "ton.fund",
-		"category": "Phishing"
-	},
-	"polyswarm.bid": {
-		"id": 2876,
-		"url": "polyswarm.bid",
-		"category": "Phishing"
-	},
-	"polyswarm.co": {
-		"id": 2877,
-		"url": "polyswarm.co",
-		"category": "Phishing"
-	},
-	"sale-dock.com": {
-		"id": 2878,
-		"url": "sale-dock.com",
-		"category": "Phishing"
-	},
-	"polyswarm.in": {
-		"id": 2879,
-		"url": "polyswarm.in",
-		"category": "Phishing"
-	},
-	"seele-token.pro": {
-		"id": 2880,
-		"url": "seele-token.pro",
-		"category": "Phishing"
-	},
-	"myetherzero.com": {
-		"id": 2881,
-		"url": "myetherzero.com",
-		"category": "Phishing"
-	},
-	"tokentelegram.com": {
-		"id": 2882,
-		"url": "tokentelegram.com",
-		"category": "Phishing"
-	},
-	"blocklancer.me": {
-		"id": 2883,
-		"url": "blocklancer.me",
-		"category": "Phishing"
-	},
 	"myethervallet.pro": {
 		"id": 2884,
 		"url": "myethervallet.pro",
-		"category": "Phishing"
-	},
-	"dock.network": {
-		"id": 2885,
-		"url": "dock.network",
-		"category": "Phishing"
-	},
-	"dock-io.org": {
-		"id": 2886,
-		"url": "dock-io.org",
-		"category": "Phishing"
-	},
-	"polyswarm.pw": {
-		"id": 2887,
-		"url": "polyswarm.pw",
-		"category": "Phishing"
-	},
-	"dock.click": {
-		"id": 2888,
-		"url": "dock.click",
-		"category": "Phishing"
-	},
-	"dock-tokensale.eu": {
-		"id": 2889,
-		"url": "dock-tokensale.eu",
-		"category": "Phishing"
-	},
-	"polyswarm.ru": {
-		"id": 2890,
-		"url": "polyswarm.ru",
-		"category": "Phishing"
-	},
-	"polyswarm.tech": {
-		"id": 2891,
-		"url": "polyswarm.tech",
-		"category": "Phishing"
-	},
-	"dflnlty.org": {
-		"id": 0,
-		"url": "dflnlty.org",
-		"category": "Phishing"
-	},
-	"tron-foundation.org": {
-		"id": 2893,
-		"url": "tron-foundation.org",
-		"category": "Phishing"
-	},
-	"electrify-asia.info": {
-		"id": 2894,
-		"url": "electrify-asia.info",
-		"category": "Phishing"
-	},
-	"sale-orchid.com": {
-		"id": 2895,
-		"url": "sale-orchid.com",
-		"category": "Phishing"
-	},
-	"xn--yeterwallet-bm8eym.com": {
-		"id": 2896,
-		"url": "xn--yeterwallet-bm8eym.com",
-		"category": "Phishing"
-	},
-	"el-petro-coin.com": {
-		"id": 2897,
-		"url": "el-petro-coin.com",
-		"category": "Phishing"
-	},
-	"xn--myethewalle-w48erh.com": {
-		"id": 2898,
-		"url": "xn--myethewalle-w48erh.com",
-		"category": "Phishing"
-	},
-	"myetherwallett.site": {
-		"id": 2899,
-		"url": "myetherwallett.site",
-		"category": "Phishing"
-	},
-	"havven.promo": {
-		"id": 2900,
-		"url": "havven.promo",
-		"category": "Phishing"
-	},
-	"havven-ico.com": {
-		"id": 2901,
-		"url": "havven-ico.com",
-		"category": "Phishing"
-	},
-	"havven-ico.eu": {
-		"id": 2902,
-		"url": "havven-ico.eu",
-		"category": "Phishing"
-	},
-	"havven.live": {
-		"id": 2903,
-		"url": "havven.live",
-		"category": "Phishing"
-	},
-	"havven.info": {
-		"id": 2904,
-		"url": "havven.info",
-		"category": "Phishing"
-	},
-	"havven.pro": {
-		"id": 2905,
-		"url": "havven.pro",
-		"category": "Phishing"
-	},
-	"tokensale-havven.com": {
-		"id": 2906,
-		"url": "tokensale-havven.com",
-		"category": "Phishing"
-	},
-	"xn--myetheralle-jb9exm.com": {
-		"id": 2907,
-		"url": "xn--myetheralle-jb9exm.com",
-		"category": "Phishing"
-	},
-	"localethereom.com": {
-		"id": 2908,
-		"url": "localethereom.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.tokenimport.com": {
-		"id": 2909,
-		"url": "myetherwallet.tokenimport.com",
-		"category": "Phishing"
-	},
-	"locaeltherum.com": {
-		"id": 2910,
-		"url": "locaeltherum.com",
 		"category": "Phishing"
 	},
 	"huobipro.com": {
@@ -14339,259 +16589,14 @@ const badList = {
 		"url": "huobipro.com",
 		"category": "Phishing"
 	},
-	"leadcoins.network": {
-		"id": 2912,
-		"url": "leadcoins.network",
-		"category": "Phishing"
-	},
-	"xn--metherwalle-jb9ejq.com": {
-		"id": 2913,
-		"url": "xn--metherwalle-jb9ejq.com",
-		"category": "Phishing"
-	},
-	"xn--coindek-s73c.com": {
-		"id": 2914,
-		"url": "xn--coindek-s73c.com",
-		"category": "Phishing"
-	},
 	"5chcoin.live": {
 		"id": 0,
 		"url": "5chcoin.live",
 		"category": "Scam"
 	},
-	"address-transfer-confirmation.droppages.com": {
-		"id": 2915,
-		"url": "address-transfer-confirmation.droppages.com",
-		"category": "Scam"
-	},
-	"akasha-world.com": {
-		"id": 2916,
-		"url": "akasha-world.com",
-		"category": "Scam"
-	},
-	"6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com": {
-		"id": 2917,
-		"url": "6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com",
-		"category": "Scam"
-	},
-	"eth-transact.secure.droppages.com": {
-		"id": 2918,
-		"url": "eth-transact.secure.droppages.com",
-		"category": "Scam"
-	},
-	"neonexchanges.org": {
-		"id": 2919,
-		"url": "neonexchanges.org",
-		"category": "Scam"
-	},
-	"secure-transaction-confirmation.droppages.com": {
-		"id": 2920,
-		"url": "secure-transaction-confirmation.droppages.com",
-		"category": "Scam"
-	},
-	"gonetwork-airdrop.co": {
-		"id": 2921,
-		"url": "gonetwork-airdrop.co",
-		"category": "Phishing"
-	},
-	"telegramtoken.io": {
-		"id": 2922,
-		"url": "telegramtoken.io",
-		"category": "Phishing"
-	},
-	"ico-telegram.online": {
-		"id": 2923,
-		"url": "ico-telegram.online",
-		"category": "Phishing"
-	},
-	"havven.cc": {
-		"id": 2924,
-		"url": "havven.cc",
-		"category": "Phishing"
-	},
-	"havventoken.com": {
-		"id": 2925,
-		"url": "havventoken.com",
-		"category": "Phishing"
-	},
-	"forkdelta.io": {
-		"id": 2926,
-		"url": "forkdelta.io",
-		"category": "Phishing"
-	},
-	"ton-sale.com": {
-		"id": 2927,
-		"url": "ton-sale.com",
-		"category": "Phishing"
-	},
-	"telegram.tokyo": {
-		"id": 0,
-		"url": "telegram.tokyo",
-		"category": "Phishing"
-	},
-	"vechain-foundation.org": {
-		"id": 2929,
-		"url": "vechain-foundation.org",
-		"category": "Phishing"
-	},
-	"secure.poloniex.work": {
-		"id": 2930,
-		"url": "secure.poloniex.work",
-		"category": "Phishing"
-	},
-	"dfinlty.org": {
-		"id": 0,
-		"url": "dfinlty.org",
-		"category": "Phishing"
-	},
-	"transfer-address-confirmation.droppages.com": {
-		"id": 2932,
-		"url": "transfer-address-confirmation.droppages.com",
-		"category": "Scam"
-	},
-	"ataritoken.ltd": {
-		"id": 2933,
-		"url": "ataritoken.ltd",
-		"category": "Phishing"
-	},
-	"hawen.io": {
-		"id": 2934,
-		"url": "hawen.io",
-		"category": "Phishing"
-	},
-	"havven.xyz": {
-		"id": 2935,
-		"url": "havven.xyz",
-		"category": "Phishing"
-	},
-	"tokensale.xn--havve-7l1b.com": {
-		"id": 2936,
-		"url": "tokensale.xn--havve-7l1b.com",
-		"category": "Phishing"
-	},
-	"havvens.win": {
-		"id": 2937,
-		"url": "havvens.win",
-		"category": "Phishing"
-	},
-	"heavven.io": {
-		"id": 2938,
-		"url": "heavven.io",
-		"category": "Phishing"
-	},
-	"tokensale-adhive.com": {
-		"id": 2939,
-		"url": "tokensale-adhive.com",
-		"category": "Phishing"
-	},
-	"ipsx.promo": {
-		"id": 2940,
-		"url": "ipsx.promo",
-		"category": "Phishing"
-	},
-	"dflinity.org": {
-		"id": 0,
-		"url": "dflinity.org",
-		"category": "Phishing"
-	},
-	"xn--coindek-873c.com": {
-		"id": 2942,
-		"url": "xn--coindek-873c.com",
-		"category": "Phishing"
-	},
-	"xn--yetherwalle-tv8ezt.com": {
-		"id": 2943,
-		"url": "xn--yetherwalle-tv8ezt.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.usermd.net": {
-		"id": 2944,
-		"url": "myetherwallet.usermd.net",
-		"category": "Phishing"
-	},
-	"myetherwallet-team.com": {
-		"id": 2945,
-		"url": "myetherwallet-team.com",
-		"category": "Phishing"
-	},
-	"myenthereumwallet.com": {
-		"id": 2946,
-		"url": "myenthereumwallet.com",
-		"category": "Phishing"
-	},
-	"havven.eu": {
-		"id": 2947,
-		"url": "havven.eu",
-		"category": "Phishing"
-	},
-	"havven.sale": {
-		"id": 2948,
-		"url": "havven.sale",
-		"category": "Phishing"
-	},
-	"tron-online.org": {
-		"id": 2949,
-		"url": "tron-online.org",
-		"category": "Phishing"
-	},
-	"tomo-coin.io": {
-		"id": 0,
-		"url": "tomo-coin.io",
-		"category": "Phishing"
-	},
-	"xn--yetherwalle-iw8e1s.com": {
-		"id": 2951,
-		"url": "xn--yetherwalle-iw8e1s.com",
-		"category": "Phishing"
-	},
-	"meganfoxloveyou.com": {
-		"id": 2952,
-		"url": "meganfoxloveyou.com",
-		"category": "Phishing"
-	},
 	"jsfiddle.net": {
 		"id": 2953,
 		"url": "jsfiddle.net",
-		"category": "Phishing"
-	},
-	"metronometoken.io": {
-		"id": 2954,
-		"url": "metronometoken.io",
-		"category": "Phishing"
-	},
-	"ico-havven.org": {
-		"id": 2955,
-		"url": "ico-havven.org",
-		"category": "Phishing"
-	},
-	"tokensale-havven.in": {
-		"id": 2956,
-		"url": "tokensale-havven.in",
-		"category": "Phishing"
-	},
-	"nucelus.vision": {
-		"id": 2957,
-		"url": "nucelus.vision",
-		"category": "Phishing"
-	},
-	"havven.top": {
-		"id": 2958,
-		"url": "havven.top",
-		"category": "Phishing"
-	},
-	"havvenio.com": {
-		"id": 2959,
-		"url": "havvenio.com",
-		"category": "Phishing"
-	},
-	"havven-sale.com": {
-		"id": 2960,
-		"url": "havven-sale.com",
-		"category": "Phishing"
-	},
-	"tomocoln.io": {
-		"id": 0,
-		"url": "tomocoln.io",
 		"category": "Phishing"
 	},
 	"masanchez.usermd.net": {
@@ -14599,1229 +16604,49 @@ const badList = {
 		"url": "masanchez.usermd.net",
 		"category": "Phishing"
 	},
-	"dftnity.org": {
-		"id": 0,
-		"url": "dftnity.org",
+	"tomocoin.network": {
+		"id": 2976,
+		"url": "tomocoin.network",
 		"category": "Phishing"
 	},
-	"ethereum-promo.bitballoon.com": {
-		"id": 2964,
-		"url": "ethereum-promo.bitballoon.com",
+	"secure-transactionssecure.com": {
+		"id": 2977,
+		"url": "secure-transactionssecure.com",
 		"category": "Scam"
 	},
-	"polymathnetwork.org": {
-		"id": 2965,
-		"url": "polymathnetwork.org",
-		"category": "Phishing"
-	},
-	"telegramfoundation.org": {
-		"id": 2966,
-		"url": "telegramfoundation.org",
-		"category": "Phishing"
-	},
-	"callisto-airdrop.com": {
-		"id": 2967,
-		"url": "callisto-airdrop.com",
-		"category": "Phishing"
-	},
-	"xn--thabyss-u8a.com": {
-		"id": 2968,
-		"url": "xn--thabyss-u8a.com",
-		"category": "Phishing"
-	},
-	"rnyertherwallet.com": {
-		"id": 2969,
-		"url": "rnyertherwallet.com",
-		"category": "Phishing"
-	},
-	"changlley.org": {
-		"id": 2970,
-		"url": "changlley.org",
-		"category": "Phishing"
-	},
-	"wamchain.org": {
-		"id": 0,
-		"url": "wamchain.org",
-		"category": "Phishing"
-	},
-	"wwwpaywithink.com": {
-		"id": 0,
-		"url": "wwwpaywithink.com",
-		"category": "Phishing"
-	},
-	"xn--shpeshift-11a.com": {
-		"id": 0,
-		"url": "xn--shpeshift-11a.com",
-		"category": "Phishing"
-	},
-	"xn--shapeshif-ts6d.com": {
-		"id": 0,
-		"url": "xn--shapeshif-ts6d.com",
-		"category": "Phishing"
-	},
-	"xn--shapshift-yf7d.com": {
-		"id": 0,
-		"url": "xn--shapshift-yf7d.com",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-6gf.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-6gf.com",
-		"category": "Phishing"
-	},
-	"xn--rnyethewaliet-om1g.com": {
-		"id": 0,
-		"url": "xn--rnyethewaliet-om1g.com",
-		"category": "Phishing"
-	},
-	"rnyethervailet.com": {
-		"id": 0,
-		"url": "rnyethervailet.com",
-		"category": "Phishing"
-	},
-	"mvetherwaliet.com": {
-		"id": 0,
-		"url": "mvetherwaliet.com",
-		"category": "Phishing"
-	},
-	"rnyetherwailet.com": {
-		"id": 0,
-		"url": "rnyetherwailet.com",
-		"category": "Phishing"
-	},
-	"myethervaliet.com": {
-		"id": 0,
-		"url": "myethervaliet.com",
-		"category": "Phishing"
-	},
-	"rnyethervaliet.com": {
-		"id": 0,
-		"url": "rnyethervaliet.com",
-		"category": "Phishing"
-	},
-	"mvetherwalilet.com": {
-		"id": 0,
-		"url": "mvetherwalilet.com",
-		"category": "Phishing"
-	},
-	"xn--myethewalie-3ic0947g.com": {
-		"id": 0,
-		"url": "xn--myethewalie-3ic0947g.com",
-		"category": "Phishing"
-	},
-	"xn--mthrwallet-z6ac3y.com": {
-		"id": 0,
-		"url": "xn--mthrwallet-z6ac3y.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalie-vici.com": {
-		"id": 0,
-		"url": "xn--myeherwalie-vici.com",
-		"category": "Phishing"
-	},
-	"xn--myethervvalie-8vc.com": {
-		"id": 0,
-		"url": "xn--myethervvalie-8vc.com",
-		"category": "Phishing"
-	},
-	"xn--mythrwallt-06acf.com": {
-		"id": 0,
-		"url": "xn--mythrwallt-06acf.com",
-		"category": "Phishing"
-	},
-	"xn--mtherwallet-y9a6y.com": {
-		"id": 0,
-		"url": "xn--mtherwallet-y9a6y.com",
-		"category": "Phishing"
-	},
-	"etherzero.promo": {
-		"id": 0,
-		"url": "etherzero.promo",
-		"category": "Phishing"
-	},
-	"gift-token-events.mywebcommunity.org": {
-		"id": 0,
-		"url": "gift-token-events.mywebcommunity.org",
-		"category": "Phishing"
-	},
-	"myethwalilet.com": {
-		"id": 0,
-		"url": "myethwalilet.com",
-		"category": "Phishing"
-	},
-	"wallet-ethereum.com": {
-		"id": 0,
-		"url": "wallet-ethereum.com",
-		"category": "Phishing"
-	},
-	"xn--methrwallt-26ar0z.com": {
-		"id": 0,
-		"url": "xn--methrwallt-26ar0z.com",
-		"category": "Phishing"
-	},
-	"xn--mytherwllet-r8a0c.com": {
-		"id": 0,
-		"url": "xn--mytherwllet-r8a0c.com",
-		"category": "Phishing"
-	},
-	"bluzelle.promo": {
-		"id": 0,
-		"url": "bluzelle.promo",
-		"category": "Phishing"
-	},
-	"cedarlake.org": {
-		"id": 0,
-		"url": "cedarlake.org",
-		"category": "Phishing"
-	},
-	"marketingleads4u.com": {
-		"id": 0,
-		"url": "marketingleads4u.com",
-		"category": "Phishing"
-	},
-	"zenprolocol.com": {
-		"id": 0,
-		"url": "zenprolocol.com",
-		"category": "Phishing"
-	},
-	"ethscan.io": {
-		"id": 0,
-		"url": "ethscan.io",
-		"category": "Phishing"
-	},
-	"etherscan.in": {
-		"id": 0,
-		"url": "etherscan.in",
-		"category": "Phishing"
-	},
-	"ethclassicwallet.info": {
-		"id": 0,
-		"url": "ethclassicwallet.info",
-		"category": "Phishing"
-	},
-	"etherdella.com": {
-		"id": 0,
-		"url": "etherdella.com",
-		"category": "Phishing"
-	},
-	"cloudkitties.co": {
-		"id": 0,
-		"url": "cloudkitties.co",
-		"category": "Phishing"
-	},
-	"sale.canay.io": {
-		"id": 0,
-		"url": "sale.canay.io",
-		"category": "Phishing"
-	},
-	"xn--plonex-6va6c.com": {
-		"id": 0,
-		"url": "xn--plonex-6va6c.com",
-		"category": "Phishing"
-	},
-	"ethereumdoubler.life": {
-		"id": 0,
-		"url": "ethereumdoubler.life",
-		"category": "Phishing"
-	},
-	"cryptokitties.com": {
-		"id": 0,
-		"url": "cryptokitties.com",
-		"category": "Phishing"
-	},
-	"gamefllp.com": {
-		"id": 0,
-		"url": "gamefllp.com",
-		"category": "Phishing"
-	},
-	"xn--myethewalet-ns8eqq.com": {
-		"id": 0,
-		"url": "xn--myethewalet-ns8eqq.com",
-		"category": "Phishing"
-	},
-	"bitcoinsilver.io": {
-		"id": 0,
-		"url": "bitcoinsilver.io",
-		"category": "Phishing"
-	},
-	"gizer.in": {
-		"id": 0,
-		"url": "gizer.in",
-		"category": "Phishing"
-	},
-	"xn--metherwallt-8bb4w.com": {
-		"id": 0,
-		"url": "xn--metherwallt-8bb4w.com",
-		"category": "Phishing"
-	},
-	"quntstamp.com": {
-		"id": 0,
-		"url": "quntstamp.com",
-		"category": "Phishing"
-	},
-	"powerledger.com": {
-		"id": 0,
-		"url": "powerledger.com",
-		"category": "Phishing"
-	},
-	"xn--myetherallet-4k5fwn.com": {
-		"id": 0,
-		"url": "xn--myetherallet-4k5fwn.com",
-		"category": "Phishing"
-	},
-	"powrledger.io": {
-		"id": 0,
-		"url": "powrledger.io",
-		"category": "Phishing"
-	},
-	"slackconfirm.com": {
-		"id": 0,
-		"url": "slackconfirm.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwalle-zb9eia.com": {
-		"id": 0,
-		"url": "xn--myeherwalle-zb9eia.com",
-		"category": "Phishing"
-	},
-	"t0-ico.com": {
-		"id": 0,
-		"url": "t0-ico.com",
-		"category": "Phishing"
-	},
-	"xn--cinbase-90a.com": {
-		"id": 0,
-		"url": "xn--cinbase-90a.com",
-		"category": "Phishing"
-	},
-	"blokclbain.info": {
-		"id": 0,
-		"url": "blokclbain.info",
-		"category": "Phishing"
-	},
-	"sale.simpletoken.live": {
-		"id": 0,
-		"url": "sale.simpletoken.live",
-		"category": "Phishing"
-	},
-	"biockchain.biz": {
-		"id": 0,
-		"url": "biockchain.biz",
-		"category": "Phishing"
-	},
-	"wallets-blockchain.com": {
-		"id": 0,
-		"url": "wallets-blockchain.com",
-		"category": "Phishing"
-	},
-	"blodkchainwallet.info": {
-		"id": 0,
-		"url": "blodkchainwallet.info",
-		"category": "Phishing"
-	},
-	"xn--myetherwalet-e9b.com": {
-		"id": 0,
-		"url": "xn--myetherwalet-e9b.com",
-		"category": "Phishing"
-	},
-	"myetherwalletaccess.com": {
-		"id": 0,
-		"url": "myetherwalletaccess.com",
-		"category": "Phishing"
-	},
-	"myetherwalletcheck.com": {
-		"id": 0,
-		"url": "myetherwalletcheck.com",
-		"category": "Phishing"
-	},
-	"myetherwalletcheck.info": {
-		"id": 0,
-		"url": "myetherwalletcheck.info",
-		"category": "Phishing"
-	},
-	"myetherwalletconf.com": {
-		"id": 0,
-		"url": "myetherwalletconf.com",
-		"category": "Phishing"
-	},
-	"myetherwalleteal.com": {
-		"id": 0,
-		"url": "myetherwalleteal.com",
-		"category": "Phishing"
-	},
-	"myetherwalletec.com": {
-		"id": 0,
-		"url": "myetherwalletec.com",
-		"category": "Phishing"
-	},
-	"myetherwalletgeth.com": {
-		"id": 0,
-		"url": "myetherwalletgeth.com",
-		"category": "Phishing"
-	},
-	"myetherwalletmetamask.com": {
-		"id": 0,
-		"url": "myetherwalletmetamask.com",
-		"category": "Phishing"
-	},
-	"myetherwalletmm.com": {
-		"id": 0,
-		"url": "myetherwalletmm.com",
-		"category": "Phishing"
-	},
-	"myetherwalletmy.com": {
-		"id": 0,
-		"url": "myetherwalletmy.com",
-		"category": "Phishing"
-	},
-	"myetherwalletnh.com": {
-		"id": 0,
-		"url": "myetherwalletnh.com",
-		"category": "Phishing"
-	},
-	"myetherwalletnod.com": {
-		"id": 0,
-		"url": "myetherwalletnod.com",
-		"category": "Phishing"
-	},
-	"myetherwalletrr.com": {
-		"id": 0,
-		"url": "myetherwalletrr.com",
-		"category": "Phishing"
-	},
-	"myetherwalletrty.com": {
-		"id": 0,
-		"url": "myetherwalletrty.com",
-		"category": "Phishing"
-	},
-	"myetherwalletsec.com": {
-		"id": 0,
-		"url": "myetherwalletsec.com",
-		"category": "Phishing"
-	},
-	"myetherwalletsecure.com": {
-		"id": 0,
-		"url": "myetherwalletsecure.com",
-		"category": "Phishing"
-	},
-	"myetherwalletutc.com": {
-		"id": 0,
-		"url": "myetherwalletutc.com",
-		"category": "Phishing"
-	},
-	"myetherwalletver.info": {
-		"id": 0,
-		"url": "myetherwalletver.info",
-		"category": "Phishing"
-	},
-	"myetherwalletview.com": {
-		"id": 0,
-		"url": "myetherwalletview.com",
-		"category": "Phishing"
-	},
-	"myetherwalletview.info": {
-		"id": 0,
-		"url": "myetherwalletview.info",
-		"category": "Phishing"
-	},
-	"myetherwalletvrf.com": {
-		"id": 0,
-		"url": "myetherwalletvrf.com",
-		"category": "Phishing"
-	},
-	"bricklblock.io": {
-		"id": 0,
-		"url": "bricklblock.io",
-		"category": "Phishing"
-	},
-	"mercuryprotocol.live": {
-		"id": 0,
-		"url": "mercuryprotocol.live",
-		"category": "Phishing"
-	},
-	"rdrtg.com": {
-		"id": 0,
-		"url": "rdrtg.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.rdrgh.com": {
-		"id": 0,
-		"url": "myetherwallet.com.rdrgh.com",
-		"category": "Phishing"
-	},
-	"rdrgh.com": {
-		"id": 0,
-		"url": "rdrgh.com",
-		"category": "Phishing"
-	},
-	"hydrominer.biz": {
-		"id": 0,
-		"url": "hydrominer.biz",
-		"category": "Phishing"
-	},
-	"rdrblock.com": {
-		"id": 0,
-		"url": "rdrblock.com",
-		"category": "Phishing"
-	},
-	"xn--metherwallet-c06f.com": {
-		"id": 0,
-		"url": "xn--metherwallet-c06f.com",
-		"category": "Phishing"
-	},
-	"ripiocredits.com": {
-		"id": 0,
-		"url": "ripiocredits.com",
-		"category": "Phishing"
-	},
-	"myetherwalletlgn.com": {
-		"id": 0,
-		"url": "myetherwalletlgn.com",
-		"category": "Phishing"
-	},
-	"etherblog.click": {
-		"id": 0,
-		"url": "etherblog.click",
-		"category": "Phishing"
-	},
-	"httpmyetherwallet.com": {
-		"id": 0,
-		"url": "httpmyetherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwalletverify.com": {
-		"id": 0,
-		"url": "myetherwalletverify.com",
-		"category": "Phishing"
-	},
-	"byzantiumfork.com": {
-		"id": 0,
-		"url": "byzantiumfork.com",
-		"category": "Phishing"
-	},
-	"www-myethervvallet.com": {
-		"id": 0,
-		"url": "www-myethervvallet.com",
-		"category": "Phishing"
-	},
-	"rnyetherwa11et.com": {
-		"id": 0,
-		"url": "rnyetherwa11et.com",
-		"category": "Phishing"
-	},
-	"claimether.com": {
-		"id": 0,
-		"url": "claimether.com",
-		"category": "Phishing"
-	},
-	"enigmatokensale.com": {
-		"id": 0,
-		"url": "enigmatokensale.com",
-		"category": "Phishing"
-	},
-	"ethereum-org.com": {
-		"id": 0,
-		"url": "ethereum-org.com",
-		"category": "Phishing"
-	},
-	"mvetnerwallet.com": {
-		"id": 0,
-		"url": "mvetnerwallet.com",
-		"category": "Phishing"
-	},
-	"myctherwallet.com": {
-		"id": 0,
-		"url": "myctherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwatlet.com": {
-		"id": 0,
-		"url": "myetherwatlet.com",
-		"category": "Phishing"
-	},
-	"myetherwalletcnf.com": {
-		"id": 0,
-		"url": "myetherwalletcnf.com",
-		"category": "Phishing"
-	},
-	"myetherwalletver.com": {
-		"id": 0,
-		"url": "myetherwalletver.com",
-		"category": "Phishing"
-	},
-	"privatex.io": {
-		"id": 0,
-		"url": "privatex.io",
-		"category": "Phishing"
-	},
-	"myetherwalletconf.info": {
-		"id": 0,
-		"url": "myetherwalletconf.info",
-		"category": "Phishing"
-	},
-	"ico.worldofbattles.io": {
-		"id": 0,
-		"url": "ico.worldofbattles.io",
-		"category": "Phishing"
-	},
-	"mymyetherwallet.com": {
-		"id": 0,
-		"url": "mymyetherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallets.net": {
-		"id": 0,
-		"url": "myetherwallets.net",
-		"category": "Phishing"
-	},
-	"xn--mytherwalet-cbb87i.com": {
-		"id": 0,
-		"url": "xn--mytherwalet-cbb87i.com",
-		"category": "Phishing"
-	},
-	"xn--myethrwallet-ivb.co": {
-		"id": 0,
-		"url": "xn--myethrwallet-ivb.co",
-		"category": "Phishing"
-	},
-	"xn--myeterwallet-f1b.com": {
-		"id": 0,
-		"url": "xn--myeterwallet-f1b.com",
-		"category": "Phishing"
-	},
-	"myetherwaiietw.com": {
-		"id": 0,
-		"url": "myetherwaiietw.com",
-		"category": "Phishing"
-	},
-	"air-swap.tech": {
-		"id": 0,
-		"url": "air-swap.tech",
-		"category": "Phishing"
-	},
-	"launch.airswap.cc": {
-		"id": 0,
-		"url": "launch.airswap.cc",
-		"category": "Phishing"
-	},
-	"launch.airswap.in": {
-		"id": 0,
-		"url": "launch.airswap.in",
-		"category": "Phishing"
-	},
-	"blockchalnwallet.com": {
-		"id": 0,
-		"url": "blockchalnwallet.com",
-		"category": "Phishing"
-	},
-	"blodkchainwallet.com": {
-		"id": 0,
-		"url": "blodkchainwallet.com",
-		"category": "Phishing"
-	},
-	"blodkchaln.com": {
-		"id": 0,
-		"url": "blodkchaln.com",
-		"category": "Phishing"
-	},
-	"myethereumwaiiet.com": {
-		"id": 0,
-		"url": "myethereumwaiiet.com",
-		"category": "Phishing"
-	},
-	"myethereumwalilet.com": {
-		"id": 0,
-		"url": "myethereumwalilet.com",
-		"category": "Phishing"
-	},
-	"myetherswailet.com": {
-		"id": 0,
-		"url": "myetherswailet.com",
-		"category": "Phishing"
-	},
-	"myetherswaliet.com": {
-		"id": 0,
-		"url": "myetherswaliet.com",
-		"category": "Phishing"
-	},
-	"myetherswalilet.com": {
-		"id": 0,
-		"url": "myetherswalilet.com",
-		"category": "Phishing"
-	},
-	"myetherwalilett.com": {
-		"id": 0,
-		"url": "myetherwalilett.com",
-		"category": "Phishing"
-	},
-	"myetherwaiieti.com": {
-		"id": 0,
-		"url": "myetherwaiieti.com",
-		"category": "Phishing"
-	},
-	"myetherwaiiete.com": {
-		"id": 0,
-		"url": "myetherwaiiete.com",
-		"category": "Phishing"
-	},
-	"myetherwaiict.com": {
-		"id": 0,
-		"url": "myetherwaiict.com",
-		"category": "Phishing"
-	},
-	"www-bankera.com": {
-		"id": 0,
-		"url": "www-bankera.com",
-		"category": "Phishing"
-	},
-	"suncontract.su": {
-		"id": 0,
-		"url": "suncontract.su",
-		"category": "Phishing"
-	},
-	"myetherwaiietr.com": {
-		"id": 0,
-		"url": "myetherwaiietr.com",
-		"category": "Phishing"
-	},
-	"myethwallett.com": {
-		"id": 0,
-		"url": "myethwallett.com",
-		"category": "Phishing"
-	},
-	"myethervvaliet.com": {
-		"id": 0,
-		"url": "myethervvaliet.com",
-		"category": "Phishing"
-	},
-	"invest.smartlands.tech": {
-		"id": 0,
-		"url": "invest.smartlands.tech",
-		"category": "Phishing"
-	},
-	"nimiq.su": {
-		"id": 0,
-		"url": "nimiq.su",
-		"category": "Phishing"
-	},
-	"omg-omise.com": {
-		"id": 0,
-		"url": "omg-omise.com",
-		"category": "Phishing"
-	},
-	"myethereumwalletntw.info": {
-		"id": 0,
-		"url": "myethereumwalletntw.info",
-		"category": "Phishing"
-	},
-	"coin.red-puise.com": {
-		"id": 0,
-		"url": "coin.red-puise.com",
-		"category": "Phishing"
-	},
-	"augurproject.co": {
-		"id": 0,
-		"url": "augurproject.co",
-		"category": "Phishing"
-	},
-	"ethereumus.one": {
-		"id": 0,
-		"url": "ethereumus.one",
-		"category": "Phishing"
-	},
-	"myetherumwalet.com": {
-		"id": 0,
-		"url": "myetherumwalet.com",
-		"category": "Phishing"
-	},
-	"tokensale.kybernet.network": {
-		"id": 0,
-		"url": "tokensale.kybernet.network",
-		"category": "Phishing"
-	},
-	"kyberr.network": {
-		"id": 0,
-		"url": "kyberr.network",
-		"category": "Phishing"
-	},
-	"kybernetwork.io": {
-		"id": 0,
-		"url": "kybernetwork.io",
-		"category": "Phishing"
-	},
-	"myethereumwallet.co.uk": {
-		"id": 0,
-		"url": "myethereumwallet.co.uk",
-		"category": "Phishing"
-	},
-	"tokensale.kyber-network.co": {
-		"id": 0,
-		"url": "tokensale.kyber-network.co",
-		"category": "Phishing"
-	},
-	"kyber.digital": {
-		"id": 0,
-		"url": "kyber.digital",
-		"category": "Phishing"
-	},
-	"my.etherwallet.com.de": {
-		"id": 0,
-		"url": "my.etherwallet.com.de",
-		"category": "Phishing"
-	},
-	"bepartof.change-bank.co": {
-		"id": 0,
-		"url": "bepartof.change-bank.co",
-		"category": "Phishing"
-	},
-	"swarm.credit": {
-		"id": 0,
-		"url": "swarm.credit",
-		"category": "Phishing"
-	},
-	"the-ether.pro": {
-		"id": 0,
-		"url": "the-ether.pro",
-		"category": "Phishing"
-	},
-	"bittirrex.com": {
-		"id": 0,
-		"url": "bittirrex.com",
-		"category": "Phishing"
-	},
-	"aventus.pro": {
-		"id": 0,
-		"url": "aventus.pro",
-		"category": "Phishing"
-	},
-	"metamak.io": {
-		"id": 0,
-		"url": "metamak.io",
-		"category": "Phishing"
-	},
-	"golem-network.com": {
-		"id": 0,
-		"url": "golem-network.com",
-		"category": "Phishing"
-	},
-	"aventus-crowdsale.com": {
-		"id": 0,
-		"url": "aventus-crowdsale.com",
-		"category": "Phishing"
-	},
-	"bilttrex.com": {
-		"id": 0,
-		"url": "bilttrex.com",
-		"category": "Phishing"
-	},
-	"metalpay.im": {
-		"id": 0,
-		"url": "metalpay.im",
-		"category": "Phishing"
-	},
-	"coindash.tech": {
-		"id": 0,
-		"url": "coindash.tech",
-		"category": "Phishing"
-	},
-	"0xproject.io": {
-		"id": 0,
-		"url": "0xproject.io",
-		"category": "Phishing"
-	},
-	"0xtoken.com": {
-		"id": 0,
-		"url": "0xtoken.com",
-		"category": "Phishing"
-	},
-	"decentraiand.org": {
-		"id": 0,
-		"url": "decentraiand.org",
-		"category": "Phishing"
-	},
-	"blockcrein.info": {
-		"id": 0,
-		"url": "blockcrein.info",
-		"category": "Phishing"
-	},
-	"blockchealn.info": {
-		"id": 0,
-		"url": "blockchealn.info",
-		"category": "Phishing"
-	},
-	"bllookchain.info": {
-		"id": 0,
-		"url": "bllookchain.info",
-		"category": "Phishing"
-	},
-	"blockcbhain.info": {
-		"id": 0,
-		"url": "blockcbhain.info",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.ethpromonodes.com": {
-		"id": 0,
-		"url": "myetherwallet.com.ethpromonodes.com",
-		"category": "Phishing"
-	},
-	"mettamask.io": {
-		"id": 0,
-		"url": "mettamask.io",
-		"category": "Phishing"
-	},
-	"tokenswap.org": {
-		"id": 0,
-		"url": "tokenswap.org",
-		"category": "Phishing"
-	},
-	"netherum.com": {
-		"id": 0,
-		"url": "netherum.com",
-		"category": "Phishing"
-	},
-	"etherexx.org": {
-		"id": 0,
-		"url": "etherexx.org",
-		"category": "Phishing"
-	},
-	"etherume.io": {
-		"id": 0,
-		"url": "etherume.io",
-		"category": "Phishing"
-	},
-	"ethereum.plus": {
-		"id": 0,
-		"url": "ethereum.plus",
-		"category": "Phishing"
-	},
-	"ehtereum.org": {
-		"id": 0,
-		"url": "ehtereum.org",
-		"category": "Phishing"
-	},
-	"etereurm.org": {
-		"id": 0,
-		"url": "etereurm.org",
-		"category": "Phishing"
-	},
-	"etheream.com": {
-		"id": 0,
-		"url": "etheream.com",
-		"category": "Phishing"
-	},
-	"ethererum.org": {
-		"id": 0,
-		"url": "ethererum.org",
-		"category": "Phishing"
-	},
-	"ethereum.io": {
-		"id": 0,
-		"url": "ethereum.io",
-		"category": "Phishing"
-	},
-	"cryptoalliance.herokuapp.com": {
-		"id": 0,
-		"url": "cryptoalliance.herokuapp.com",
-		"category": "Phishing"
-	},
-	"bitspark2.com": {
-		"id": 0,
-		"url": "bitspark2.com",
-		"category": "Phishing"
-	},
-	"iconexus.tk": {
-		"id": 0,
-		"url": "iconexus.tk",
-		"category": "Phishing"
-	},
-	"iconexus.ml": {
-		"id": 0,
-		"url": "iconexus.ml",
-		"category": "Phishing"
-	},
-	"iconexus.ga": {
-		"id": 0,
-		"url": "iconexus.ga",
-		"category": "Phishing"
-	},
-	"iconexus.cf": {
-		"id": 0,
-		"url": "iconexus.cf",
-		"category": "Phishing"
-	},
-	"bitsdigit.com": {
-		"id": 0,
-		"url": "bitsdigit.com",
-		"category": "Phishing"
-	},
-	"eos.ac": {
-		"id": 0,
-		"url": "eos.ac",
-		"category": "Phishing"
-	},
-	"uasfwallet.com": {
-		"id": 0,
-		"url": "uasfwallet.com",
-		"category": "Phishing"
-	},
-	"multiply-ethereum.info": {
-		"id": 0,
-		"url": "multiply-ethereum.info",
-		"category": "Phishing"
-	},
-	"bittrex.comze.com": {
-		"id": 0,
-		"url": "bittrex.comze.com",
-		"category": "Phishing"
-	},
-	"karbon.vacau.com": {
-		"id": 0,
-		"url": "karbon.vacau.com",
-		"category": "Phishing"
-	},
-	"etherdelta.gitlhub.io": {
-		"id": 0,
-		"url": "etherdelta.gitlhub.io",
-		"category": "Phishing"
-	},
-	"etherdelta.glthub.io": {
-		"id": 0,
-		"url": "etherdelta.glthub.io",
-		"category": "Phishing"
-	},
-	"digitaldevelopersfund.vacau.com": {
-		"id": 0,
-		"url": "digitaldevelopersfund.vacau.com",
-		"category": "Phishing"
-	},
-	"coin-dash.com": {
-		"id": 0,
-		"url": "coin-dash.com",
-		"category": "Phishing"
-	},
-	"coinswallet.info": {
-		"id": 0,
-		"url": "coinswallet.info",
-		"category": "Phishing"
-	},
-	"mycoinwallet.net": {
-		"id": 0,
-		"url": "mycoinwallet.net",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.pe": {
-		"id": 0,
-		"url": "myetherwallet.com.pe",
-		"category": "Phishing"
-	},
-	"myetherwallet.us.com": {
-		"id": 0,
-		"url": "myetherwallet.us.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.u0387831.cp.regruhosting.ru": {
-		"id": 0,
-		"url": "myetherwallet.com.u0387831.cp.regruhosting.ru",
-		"category": "Phishing"
-	},
-	"myeterwalet.com": {
-		"id": 0,
-		"url": "myeterwalet.com",
-		"category": "Phishing"
-	},
-	"myeatherwallet.com": {
-		"id": 0,
-		"url": "myeatherwallet.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.ru.com": {
-		"id": 0,
-		"url": "myetherwallet.ru.com",
-		"category": "Phishing"
-	},
-	"myetherwallet.com.ru": {
-		"id": 0,
-		"url": "myetherwallet.com.ru",
-		"category": "Phishing"
-	},
-	"myethterwallet.co": {
-		"id": 0,
-		"url": "myethterwallet.co",
-		"category": "Phishing"
-	},
-	"myehterwallet.co": {
-		"id": 0,
-		"url": "myehterwallet.co",
-		"category": "Phishing"
-	},
-	"myeteherwallet.com": {
-		"id": 0,
-		"url": "myeteherwallet.com",
-		"category": "Phishing"
-	},
-	"myethearwailet.com": {
-		"id": 0,
-		"url": "myethearwailet.com",
-		"category": "Phishing"
-	},
-	"myetherwallelt.com": {
-		"id": 0,
-		"url": "myetherwallelt.com",
-		"category": "Phishing"
-	},
-	"etherwallet.org": {
-		"id": 0,
-		"url": "etherwallet.org",
-		"category": "Phishing"
-	},
-	"myethearwaillet.com": {
-		"id": 0,
-		"url": "myethearwaillet.com",
-		"category": "Phishing"
-	},
-	"myethearwallet.com": {
-		"id": 0,
-		"url": "myethearwallet.com",
-		"category": "Phishing"
-	},
-	"etherwallet.io": {
-		"id": 0,
-		"url": "etherwallet.io",
-		"category": "Phishing"
-	},
-	"etherwallet.net": {
-		"id": 0,
-		"url": "etherwallet.net",
-		"category": "Phishing"
-	},
-	"meyetherwallet.com": {
-		"id": 0,
-		"url": "meyetherwallet.com",
-		"category": "Phishing"
-	},
-	"my.ether-wallet.pw": {
-		"id": 0,
-		"url": "my.ether-wallet.pw",
-		"category": "Phishing"
-	},
-	"myeitherwallet.com": {
-		"id": 0,
-		"url": "myeitherwallet.com",
-		"category": "Phishing"
-	},
-	"myeltherwallet.com": {
-		"id": 0,
-		"url": "myeltherwallet.com",
-		"category": "Phishing"
-	},
-	"myethearwalet.com": {
-		"id": 0,
-		"url": "myethearwalet.com",
-		"category": "Phishing"
-	},
-	"myetherewalle.com": {
-		"id": 0,
-		"url": "myetherewalle.com",
-		"category": "Phishing"
-	},
-	"myetherwallent.com": {
-		"id": 0,
-		"url": "myetherwallent.com",
-		"category": "Phishing"
-	},
-	"myetherwalltet.com": {
-		"id": 0,
-		"url": "myetherwalltet.com",
-		"category": "Phishing"
-	},
-	"myetlherwalet.com": {
-		"id": 0,
-		"url": "myetlherwalet.com",
-		"category": "Phishing"
-	},
-	"omise-go.com": {
-		"id": 0,
-		"url": "omise-go.com",
-		"category": "Phishing"
-	},
-	"omise-go.net": {
-		"id": 0,
-		"url": "omise-go.net",
-		"category": "Phishing"
-	},
-	"metamask.com": {
-		"id": 0,
-		"url": "metamask.com",
-		"category": "Phishing"
-	},
-	"ethtrade.io": {
-		"id": 0,
-		"url": "ethtrade.io",
-		"category": "Phishing"
-	},
-	"ether-wallet.net": {
-		"id": 0,
-		"url": "ether-wallet.net",
-		"category": "Phishing"
-	},
-	"ethereum-wallet.info": {
-		"id": 0,
-		"url": "ethereum-wallet.info",
-		"category": "Phishing"
-	},
-	"xn--myetherwallt-7db.com": {
-		"id": 0,
-		"url": "xn--myetherwallt-7db.com",
-		"category": "Phishing"
-	},
-	"xn--myeherwallet-fpc.com": {
-		"id": 0,
-		"url": "xn--myeherwallet-fpc.com",
-		"category": "Phishing"
-	},
-	"xn--myethewallt-crb.com": {
-		"id": 0,
-		"url": "xn--myethewallt-crb.com",
-		"category": "Phishing"
-	},
-	"tokensale.syncfab.tech": {
-		"id": 0,
-		"url": "tokensale.syncfab.tech",
-		"category": "Phishing"
-	},
-	"dfintty.org": {
-		"id": 0,
-		"url": "dfintty.org",
-		"category": "Phishing"
-	},
-	"docai.science": {
-		"id": 0,
-		"url": "docai.science",
-		"category": "Phishing"
-	},
-	"docai.science": {
-		"id": 2971,
-		"url": "docai.science",
-		"category": "Phishing"
-	},
-	"policypal.info": {
-		"id": 2972,
-		"url": "policypal.info",
-		"category": "Phishing"
-	},
-	"bittrex-give.com": {
-		"id": 2973,
-		"url": "bittrex-give.com",
+	"transfer-eth.neocities.org": {
+		"id": 2978,
+		"url": "transfer-eth.neocities.org",
 		"category": "Scam"
 	},
-	"odachi.neocities.org": {
-		"id": 2974,
-		"url": "odachi.neocities.org",
+	"reeveclancy.wixsite.com": {
+		"id": 2979,
+		"url": "reeveclancy.wixsite.com",
 		"category": "Scam"
 	},
-	"nnyiictehervvailiat.com": {
-		"id": 2975,
-		"url": "nnyiictehervvailiat.com",
+	"eth953883.htmlcomponentservice.com": {
+		"id": 2980,
+		"url": "eth953883.htmlcomponentservice.com",
+		"category": "Scam"
+	},
+	"data-token.org": {
+		"id": 2981,
+		"url": "data-token.org",
 		"category": "Phishing"
+	},
+	"online-eos.org": {
+		"id": 2983,
+		"url": "online-eos.org",
+		"category": "Scam"
+	},
+	"eth-transactions.neocities.org": {
+		"id": 2984,
+		"url": "eth-transactions.neocities.org",
+		"category": "Scam"
+	},
+	"miroskii.com" :{
+		"id": 2985,
+		"url": "miroskii.com",
+		"category": "Scam"
 	}
 };
